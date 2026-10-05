@@ -1,4 +1,4 @@
-# POTS Measurement research data — public reviewer subset
+# POTS research data — public reviewer subset
 
 Creator: JianPeng Chen. Version: v041-public-reviewer.
 
