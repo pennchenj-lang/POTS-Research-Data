@@ -1,0 +1,15 @@
+{
+  "new_fits": 0,
+  "optimization_wall_seconds": null,
+  "same_scope_old_timing": "NA",
+  "source": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/analytic_extension_v2/smooth_wave/BT_Q_W",
+  "byte_identical_sha256": {
+    "L0.json": "7290a9394813786d3c0c7545f90320d04a8bca367a8f08072ddff2e97119a556",
+    "L0.obj": "621b8ae9b7bf6e830d6c3435c908e3938738073f86761415438c4b694f1a08d6",
+    "L1.json": "c4178bfc24a0f431ab330b9da675a21a2ce5403fe0a8dcafd2d7046c405ec916",
+    "L1.obj": "9cf4ce643d3288ef479c57daef145590af3b32b6139ac8fc04b12a902297e908",
+    "L2.json": "c2099a47dbeb4c0f49eb9bd4bcfab328eb2cbdaa5bd0188c64c748233b1c48be",
+    "L2.obj": "c57f7759bd8ed838c9247752d0008fb678571172af70002545d8437c858f33d6",
+    "result.json": "54ca995216d630512bd114ed751472e4e3769678eeee4b2ad25786523e80502a"
+  }
+}

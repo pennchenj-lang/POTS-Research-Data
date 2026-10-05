@@ -1,0 +1,332 @@
+{
+  "schema": "measurement-v038.frozen-replay.protocol.v1",
+  "frozen_utc": "2026-10-05T03:57:41.270304+00:00",
+  "scope": "Post-hoc descriptive measurement of existing frozen models. No new optimization or model selection.",
+  "selection": "All six frozen synthetic conditions (four unique targets), plus all p00/p01/p02 pilot leaves, both methods and L0/L2.",
+  "case_count": 9,
+  "synthetic_target_count": 4,
+  "synthetic_condition_count": 6,
+  "real_plant_count": 3,
+  "leaves_per_real_plant": 1,
+  "levels": [
+    0,
+    2
+  ],
+  "methods": [
+    "POTS33",
+    "symmetric24"
+  ],
+  "cases": [
+    {
+      "case_id": "curved_complementary",
+      "kind": "core_synthetic",
+      "data_type": "synthetic",
+      "target": "curved",
+      "regime": "complementary",
+      "initial_path": "inputs/synthetic/curved/initial_xyz.json",
+      "observations_path": "inputs/synthetic/curved/observations_complementary.json",
+      "reference_path": "inputs/synthetic/curved/reference_evaluation_only.json",
+      "pots_directory": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/curved/complementary/BT_Q_W",
+      "pots_mesh_name": "L0.json",
+      "initial_station_symmetry_max_abs": 1.3769367590565906e-17,
+      "plant_id": "synthetic:curved",
+      "reference_kind": "finite_12_triangle_target",
+      "models": {
+        "POTS33": {
+          "0": "frozen_models/curved_complementary/POTS33/L0.json",
+          "2": "frozen_models/curved_complementary/POTS33/L2.json"
+        },
+        "symmetric24": {
+          "0": "frozen_models/curved_complementary/symmetric24/L0.json",
+          "2": "frozen_models/curved_complementary/symmetric24/L2.json"
+        }
+      },
+      "reuse_receipt": "provenance/model_reuse/curved_complementary_POTS_reuse_receipt.json",
+      "camera_path": "inputs/synthetic/curved/cameras_train.json"
+    },
+    {
+      "case_id": "curved_common_gap",
+      "kind": "core_synthetic",
+      "data_type": "synthetic",
+      "target": "curved",
+      "regime": "common_gap",
+      "initial_path": "inputs/synthetic/curved/initial_xyz.json",
+      "observations_path": "inputs/synthetic/curved/observations_common_gap.json",
+      "reference_path": "inputs/synthetic/curved/reference_evaluation_only.json",
+      "pots_directory": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/curved/common_gap/BT_Q_W",
+      "pots_mesh_name": "L0.json",
+      "initial_station_symmetry_max_abs": 1.3769367590565906e-17,
+      "plant_id": "synthetic:curved",
+      "reference_kind": "finite_12_triangle_target",
+      "models": {
+        "POTS33": {
+          "0": "frozen_models/curved_common_gap/POTS33/L0.json",
+          "2": "frozen_models/curved_common_gap/POTS33/L2.json"
+        },
+        "symmetric24": {
+          "0": "frozen_models/curved_common_gap/symmetric24/L0.json",
+          "2": "frozen_models/curved_common_gap/symmetric24/L2.json"
+        }
+      },
+      "reuse_receipt": "provenance/model_reuse/curved_common_gap_POTS_reuse_receipt.json",
+      "camera_path": "inputs/synthetic/curved/cameras_train.json"
+    },
+    {
+      "case_id": "twisted_complementary",
+      "kind": "core_synthetic",
+      "data_type": "synthetic",
+      "target": "twisted",
+      "regime": "complementary",
+      "initial_path": "inputs/synthetic/twisted/initial_xyz.json",
+      "observations_path": "inputs/synthetic/twisted/observations_complementary.json",
+      "reference_path": "inputs/synthetic/twisted/reference_evaluation_only.json",
+      "pots_directory": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/twisted/complementary/BT_Q_W",
+      "pots_mesh_name": "L0.json",
+      "initial_station_symmetry_max_abs": 1.2685165418080402e-17,
+      "plant_id": "synthetic:twisted",
+      "reference_kind": "finite_12_triangle_target",
+      "models": {
+        "POTS33": {
+          "0": "frozen_models/twisted_complementary/POTS33/L0.json",
+          "2": "frozen_models/twisted_complementary/POTS33/L2.json"
+        },
+        "symmetric24": {
+          "0": "frozen_models/twisted_complementary/symmetric24/L0.json",
+          "2": "frozen_models/twisted_complementary/symmetric24/L2.json"
+        }
+      },
+      "reuse_receipt": "provenance/model_reuse/twisted_complementary_POTS_reuse_receipt.json",
+      "camera_path": "inputs/synthetic/curved/cameras_train.json"
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "kind": "core_synthetic",
+      "data_type": "synthetic",
+      "target": "twisted",
+      "regime": "common_gap",
+      "initial_path": "inputs/synthetic/twisted/initial_xyz.json",
+      "observations_path": "inputs/synthetic/twisted/observations_common_gap.json",
+      "reference_path": "inputs/synthetic/twisted/reference_evaluation_only.json",
+      "pots_directory": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/twisted/common_gap/BT_Q_W",
+      "pots_mesh_name": "L0.json",
+      "initial_station_symmetry_max_abs": 1.2685165418080402e-17,
+      "plant_id": "synthetic:twisted",
+      "reference_kind": "finite_12_triangle_target",
+      "models": {
+        "POTS33": {
+          "0": "frozen_models/twisted_common_gap/POTS33/L0.json",
+          "2": "frozen_models/twisted_common_gap/POTS33/L2.json"
+        },
+        "symmetric24": {
+          "0": "frozen_models/twisted_common_gap/symmetric24/L0.json",
+          "2": "frozen_models/twisted_common_gap/symmetric24/L2.json"
+        }
+      },
+      "reuse_receipt": "provenance/model_reuse/twisted_common_gap_POTS_reuse_receipt.json",
+      "camera_path": "inputs/synthetic/curved/cameras_train.json"
+    },
+    {
+      "case_id": "smooth_wave_common_gap",
+      "kind": "analytic_synthetic",
+      "data_type": "synthetic",
+      "target": "smooth_wave",
+      "regime": "common_gap",
+      "initial_path": "inputs/synthetic/smooth_wave/initial_xyz.json",
+      "observations_path": "inputs/synthetic/smooth_wave/observations_train.json",
+      "reference_path": "inputs/synthetic/smooth_wave/reference_dense_evaluation_only.npz",
+      "pots_directory": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/analytic_extension_v2/smooth_wave/BT_Q_W",
+      "pots_mesh_name": "L0.json",
+      "initial_station_symmetry_max_abs": 9.107298248878237e-18,
+      "plant_id": "synthetic:smooth_wave",
+      "reference_kind": "frozen_L4_analytic_sampled_triangulation",
+      "models": {
+        "POTS33": {
+          "0": "frozen_models/smooth_wave_common_gap/POTS33/L0.json",
+          "2": "frozen_models/smooth_wave_common_gap/POTS33/L2.json"
+        },
+        "symmetric24": {
+          "0": "frozen_models/smooth_wave_common_gap/symmetric24/L0.json",
+          "2": "frozen_models/smooth_wave_common_gap/symmetric24/L2.json"
+        }
+      },
+      "reuse_receipt": "provenance/model_reuse/smooth_wave_common_gap_POTS_reuse_receipt.json",
+      "camera_path": "inputs/synthetic/curved/cameras_train.json"
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "kind": "analytic_synthetic",
+      "data_type": "synthetic",
+      "target": "smooth_twist",
+      "regime": "common_gap",
+      "initial_path": "inputs/synthetic/smooth_twist/initial_xyz.json",
+      "observations_path": "inputs/synthetic/smooth_twist/observations_train.json",
+      "reference_path": "inputs/synthetic/smooth_twist/reference_dense_evaluation_only.npz",
+      "pots_directory": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/analytic_extension_v2/smooth_twist/BT_Q_W",
+      "pots_mesh_name": "L0.json",
+      "initial_station_symmetry_max_abs": 6.830473686658678e-18,
+      "plant_id": "synthetic:smooth_twist",
+      "reference_kind": "frozen_L4_analytic_sampled_triangulation",
+      "models": {
+        "POTS33": {
+          "0": "frozen_models/smooth_twist_common_gap/POTS33/L0.json",
+          "2": "frozen_models/smooth_twist_common_gap/POTS33/L2.json"
+        },
+        "symmetric24": {
+          "0": "frozen_models/smooth_twist_common_gap/symmetric24/L0.json",
+          "2": "frozen_models/smooth_twist_common_gap/symmetric24/L2.json"
+        }
+      },
+      "reuse_receipt": "provenance/model_reuse/smooth_twist_common_gap_POTS_reuse_receipt.json",
+      "camera_path": "inputs/synthetic/curved/cameras_train.json"
+    },
+    {
+      "case_id": "real_known_pilot",
+      "kind": "real",
+      "data_type": "real",
+      "target": "komatsuna_p00_d009_t00_leaf04",
+      "regime": "known_pilot",
+      "prepared_path": "inputs/real/real_known_pilot/prepared_training.json",
+      "pots_directory": "source_archive/POTS-GS/work/same_leaf_real_20261001_v1/fit",
+      "pots_mesh_name": "estimated_L0.json",
+      "initial_station_symmetry_max_abs": 0.0,
+      "plant_id": "p00",
+      "reference_kind": "none",
+      "models": {
+        "POTS33": {
+          "0": "frozen_models/real_known_pilot/POTS33/L0.json",
+          "2": "frozen_models/real_known_pilot/POTS33/L2.json"
+        },
+        "symmetric24": {
+          "0": "frozen_models/real_known_pilot/symmetric24/L0.json",
+          "2": "frozen_models/real_known_pilot/symmetric24/L2.json"
+        }
+      },
+      "reuse_receipt": "provenance/model_reuse/real_known_pilot_POTS_reuse_receipt.json"
+    },
+    {
+      "case_id": "real_p01",
+      "plant_id": "p01",
+      "target": "komatsuna_p01_d009_t00_leaf04",
+      "kind": "real",
+      "data_type": "real",
+      "regime": "frozen_reviewed_pilot",
+      "reference_kind": "none",
+      "prepared_path": "inputs/real/real_p01/prepared_training.json",
+      "models": {
+        "POTS33": {
+          "0": "frozen_models/real_p01/POTS33/L0.json",
+          "2": "frozen_models/real_p01/POTS33/L2.json"
+        },
+        "symmetric24": {
+          "0": "frozen_models/real_p01/symmetric24/L0.json",
+          "2": "frozen_models/real_p01/symmetric24/L2.json"
+        }
+      }
+    },
+    {
+      "case_id": "real_p02",
+      "plant_id": "p02",
+      "target": "komatsuna_p02_d009_t00_leaf04",
+      "kind": "real",
+      "data_type": "real",
+      "regime": "frozen_reviewed_pilot",
+      "reference_kind": "none",
+      "prepared_path": "inputs/real/real_p02/prepared_training.json",
+      "models": {
+        "POTS33": {
+          "0": "frozen_models/real_p02/POTS33/L0.json",
+          "2": "frozen_models/real_p02/POTS33/L2.json"
+        },
+        "symmetric24": {
+          "0": "frozen_models/real_p02/symmetric24/L0.json",
+          "2": "frozen_models/real_p02/symmetric24/L2.json"
+        }
+      }
+    }
+  ],
+  "quantities": [
+    "lamina_area",
+    "midrib_arc_length",
+    "half_arc_section_chord_width"
+  ],
+  "area": "Sum of one selected lamina-side Euclidean triangle areas, excluding petiole/opposite side/sidewalls. Curved and twisted reference is the exact frozen 12-triangle target; analytic references use the existing L4 3072-triangle sampled surfaces, not exact continuous integrals.",
+  "midrib": "Euclidean polyline arc B to T. Saved models and core targets use original B,C1,C2,C3,T. Analytic frozen reference uses all existing UV vertices on v=0, ordered by u, including B/T; do not downgrade the reference to five controls.",
+  "width": "Chord between exactly two unique topological-boundary intersections with the plane normal to the local midrib tangent at half cumulative arc. At an interior vertex use normalized adjacent-unit-tangent bisector. Reversing cusp, coplanar boundary or ambiguous/missing intersections is N/A, never maximum width.",
+  "coordinate_policy": "Unchanged coordinates; same frozen world per case; no alignment, centering, free scale, smoothing or registration. Synthetic numerical units retained, no physical-unit assertion inferred from default mesh metadata.",
+  "real_scale_policy": "Unknown checkerboard-square scale; model units only, no independent leaf reference; no physical errors, no pooled cross-plant measurement.",
+  "reference_policy": "Synthetic generator targets are evaluation-only numerical references, not biological or metrological validation. Core targets share model family; analytic sampled references are outside that family. Four targets/six correlated conditions are not six independent plants.",
+  "error": "signed = model-reference; absolute = abs(signed); signed percent = 100*signed/reference and absolute percent = 100*abs(signed)/abs(reference), only if both defined and reference nonzero.",
+  "subdivision_check": "Replay unchanged pure midpoint subdivision twice in memory from each L0; compare saved L2 coordinates/topology/organ IDs. Compare all three L0/L2 quantities with rtol=1e-10, atol=1e-12; N/A stays N/A and is not an accuracy pass.",
+  "failure_policy": "Retain every requested condition and every rejected/unavailable quantity, reasons and core QC; no revised definition or outcome selection.",
+  "comparison": "Descriptive paired absolute errors per condition at L0; L2 is invariance verification, not an independent observation. No p-values or universal superiority. Tie tolerance = 1e-12 + 1e-10*abs(reference).",
+  "core": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/measurement_reporting_v2.py",
+  "source_sha256_manifest": "input_sha256.json",
+  "historical_hash_audit": "historical_hash_audit.json",
+  "source_data_summary_copy_identical": true,
+  "new_solver_or_training": false,
+  "new_independent_biological_observations": 0,
+  "self_intersection_policy": "Existing v2 quantity core plus unchanged floating-point L0 triangle-pair audit (length eps1e-8, area eps1e-12 after initial-bbox normalization). L2 same-surface inheritance requires bitwise midpoint replay; L2 pairwise intersections are not separately enumerated.",
+  "environment": {
+    "utc": "2026-10-05T03:57:41.066559+00:00",
+    "executable": "source_archive/POTS-GS/.venv-batch50/Scripts/python.exe",
+    "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "environment": {
+      "TEMP": "source_archive/previous_revision/cache/temp",
+      "TMP": "source_archive/previous_revision/cache/temp",
+      "TMPDIR": "source_archive/previous_revision/cache/temp",
+      "PIP_CACHE_DIR": "source_archive/previous_revision/cache/pip",
+      "TORCH_HOME": "source_archive/previous_revision/cache/torch",
+      "HF_HOME": "source_archive/previous_revision/cache/huggingface",
+      "MPLCONFIGDIR": "source_archive/previous_revision/cache/matplotlib",
+      "XDG_CACHE_HOME": "source_archive/previous_revision/cache/xdg",
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    }
+  },
+  "prior_protocol": "source_archive/POTS-GS/work/measurement_validation_20261005_v1/frozen_quantity_comparison/protocol_before_run.json",
+  "prior_protocol_sha256": "fe9c5e6a47ff093bc539d269f328f543557512216e9d915a3f32f5b3577aa80b",
+  "retrospective": true,
+  "freeze_scope": "Before this replay; old outcomes already existed. This is not prospective preregistration or an independent experiment.",
+  "statistics": {
+    "unit": "target for synthetic, plant for real; leaf within plant; levels/conditions are not independent biological samples",
+    "L0_only": true,
+    "grouping": [
+      "all_four_targets",
+      "core_finite_two_targets",
+      "analytic_sampled_two_targets"
+    ],
+    "target_equal_bias": "average over targets of within-target mean signed error",
+    "target_equal_MAE": "average over targets of within-target mean absolute error",
+    "target_equal_RMSE": "sqrt(average over targets of within-target mean squared error)",
+    "target_equal_ARE_percent": "average over targets of within-target mean absolute percent error",
+    "CI": null,
+    "p_values": null,
+    "bootstrap": false,
+    "reason": "four hand-designed targets and no real quantitative references; no population inference"
+  },
+  "future_E1_E6": {
+    "status": "recommended_future_designs_not_executed",
+    "new_acquisitions": 0,
+    "new_reference_measurements": 0,
+    "new_reannotations": 0,
+    "E1": "135 length checks and54 rigid samples recommended",
+    "E2": "12development+36test plants/108leaves recommended",
+    "E3": "24leaves x4conditions recommended",
+    "E4": "paired same-input/component comparisons recommended; this replay only remeasures frozen two-model outputs",
+    "E5": "72independent reannotations and36recaptures recommended",
+    "E6": "24leafconditions with justified joint input uncertainty simulations recommended; no calibrated distribution available here"
+  },
+  "actual_operations": [
+    "36 saved-model quantity reports",
+    "4 frozen numerical-reference reports",
+    "18 L0 geometry audits",
+    "54 L0/L2 quantity invariance checks",
+    "18 bitwise midpoint mesh checks",
+    "descriptive target-equal summaries",
+    "real unknown-interface replay when interface available"
+  ]
+}

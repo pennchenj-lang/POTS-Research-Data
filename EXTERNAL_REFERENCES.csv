@@ -1,0 +1,91 @@
+reference,packaged,exists_in_original_local_archive,record_type,referenced_by
+source_archive/POTS-GS/.venv-batch50/Scripts/python.exe,False,True,file,results/frozen_replay/summary.json; results/software_validation/protocol_before_tests.json; protocol/frozen_protocol.yaml
+source_archive/POTS-GS/reports/shape_guard_20260927_v1/real_pilot_candidate.md,False,True,file,provenance/real/scale_binding_audit.json
+source_archive/POTS-GS/src/pots_gs/geometry.py,False,True,file,results/frozen_replay/reference_reports.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/POTS33/evaluation/initial_projection_mask.png,False,True,file,results/real/projection/p01/POTS33/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/POTS33/evaluation/label_01_01_009_00.png,False,True,file,results/real/projection/p01/POTS33/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/POTS33/evaluation/protocol_identification_corrected.json,False,True,file,provenance/real/evaluation_identification_corrections.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/POTS33/evaluation/rgb_01_01_009_00.png,False,True,file,results/real/projection/p01/POTS33/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/symmetric24/evaluation/initial_projection_mask.png,False,True,file,results/real/projection/p01/symmetric24/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/symmetric24/evaluation/label_01_01_009_00.png,False,True,file,results/real/projection/p01/symmetric24/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/symmetric24/evaluation/protocol_identification_corrected.json,False,True,file,provenance/real/evaluation_identification_corrections.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/symmetric24/evaluation/rgb_01_01_009_00.png,False,True,file,results/real/projection/p01/symmetric24/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/POTS33/evaluation/initial_projection_mask.png,False,True,file,results/real/projection/p02/POTS33/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/POTS33/evaluation/label_01_02_009_00.png,False,True,file,results/real/projection/p02/POTS33/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/POTS33/evaluation/protocol_identification_corrected.json,False,True,file,provenance/real/evaluation_identification_corrections.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/POTS33/evaluation/rgb_01_02_009_00.png,False,True,file,results/real/projection/p02/POTS33/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/symmetric24/evaluation/initial_projection_mask.png,False,True,file,results/real/projection/p02/symmetric24/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/symmetric24/evaluation/label_01_02_009_00.png,False,True,file,results/real/projection/p02/symmetric24/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/symmetric24/evaluation/protocol_identification_corrected.json,False,True,file,provenance/real/evaluation_identification_corrections.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/symmetric24/evaluation/rgb_01_02_009_00.png,False,True,file,results/real/projection/p02/symmetric24/projection_data.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/fits/p01/POTS33/estimated_L1.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/fits/p02/POTS33/estimated_L1.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-40-14.399Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-40-44.432Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-46-01.632Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-47-09.024Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-49-13.603Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-50-21.353Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/measurement_reporting_v2.py,False,True,file,results/software_validation/protocol_before_tests.json; protocol/frozen_protocol.yaml
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p00_L0_report.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p00_L1_report.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p00_L2_report.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p01_L0_report.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p01_L1_report.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p01_L2_report.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p02_L0_report.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p02_L1_report.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p02_L2_report.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/measurement_revision_20261003_v1/public_reference/unit_addendum_v1/UNIT_EVIDENCE_ADDENDUM.md,False,True,file,provenance/real/scale_binding_audit.json
+source_archive/POTS-GS/work/measurement_validation_20261005_v1/frozen_quantity_comparison/protocol_before_run.json,False,True,file,protocol/frozen_protocol.yaml
+source_archive/POTS-GS/work/measurement_validation_20261005_v1/scale_contract/scale_contract.py,False,True,file,results/software_validation/protocol_before_tests.json
+source_archive/POTS-GS/work/measurement_validation_20261005_v1/scale_contract/test_scale_contract.py,False,True,file,results/software_validation/protocol_before_tests.json
+source_archive/POTS-GS/work/metric_chain_20261004_v1/reference_audit/local_reference_matrix.json,False,True,file,protocol/real_evidence_eligibility.json
+source_archive/POTS-GS/work/metric_chain_20261004_v1/reference_audit/plantai_reference_semantics.json,False,True,file,protocol/real_evidence_eligibility.json
+source_archive/POTS-GS/work/multiview_real_audit_20261001_v1/audit.json,False,True,file,provenance/real/scale_binding_audit.json
+source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/analytic_extension_v2/smooth_twist/BT_Q_W,False,True,directory_or_unlocated_path,provenance/model_reuse/smooth_twist_common_gap_POTS_reuse_receipt.json; protocol/frozen_protocol.yaml
+source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/analytic_extension_v2/smooth_wave/BT_Q_W,False,True,directory_or_unlocated_path,provenance/model_reuse/smooth_wave_common_gap_POTS_reuse_receipt.json; protocol/frozen_protocol.yaml
+source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/curved/common_gap/BT_Q_W,False,True,directory_or_unlocated_path,provenance/model_reuse/curved_common_gap_POTS_reuse_receipt.json; protocol/frozen_protocol.yaml
+source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/curved/complementary/BT_Q_W,False,True,directory_or_unlocated_path,provenance/model_reuse/curved_complementary_POTS_reuse_receipt.json; protocol/frozen_protocol.yaml
+source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/twisted/common_gap/BT_Q_W,False,True,directory_or_unlocated_path,provenance/model_reuse/twisted_common_gap_POTS_reuse_receipt.json; protocol/frozen_protocol.yaml
+source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/twisted/complementary/BT_Q_W,False,True,directory_or_unlocated_path,provenance/model_reuse/twisted_complementary_POTS_reuse_receipt.json; protocol/frozen_protocol.yaml
+source_archive/POTS-GS/work/real_candidate_20260926_v1/cameras_distorted.json,False,True,file,inputs/real/annotations/p00_original_review.json
+source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/label_00_03_009_00.png,False,True,file,inputs/real/annotations/p01_p02_p03_review_export.json; provenance/real/source_manifest_received.json; provenance/real/p01_p02_p03_candidate_manifest.json
+source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/label_02_03_009_00.png,False,True,file,inputs/real/annotations/p01_p02_p03_review_export.json; provenance/real/source_manifest_received.json; provenance/real/p01_p02_p03_candidate_manifest.json
+source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/rgb_00_03_009_00.png,False,True,file,inputs/real/annotations/p01_p02_p03_review_export.json; provenance/real/source_manifest_received.json; inputs/real/cameras/additional_crop_mapping.json; provenance/real/p01_p02_p03_candidate_manifest.json
+source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/rgb_02_03_009_00.png,False,True,file,inputs/real/annotations/p01_p02_p03_review_export.json; provenance/real/source_manifest_received.json; inputs/real/cameras/additional_crop_mapping.json; provenance/real/p01_p02_p03_candidate_manifest.json
+source_archive/POTS-GS/work/real_review_20260928_v1/stem_candidate/manifest_DRAFT.json,False,True,file,inputs/real/annotations/p00_original_review.json
+source_archive/POTS-GS/work/ruler_audit_20261004_v1/实拍尺具提取与尺度计算.md,False,True,file,protocol/real_evidence_eligibility.json
+source_archive/POTS-GS/work/same_leaf_real_20261001_v1/evaluation/initial_projection_mask.png,False,True,file,results/real/projection/p00/POTS33/projection_data.json
+source_archive/POTS-GS/work/same_leaf_real_20261001_v1/fit,False,True,directory_or_unlocated_path,provenance/model_reuse/real_known_pilot_POTS_reuse_receipt.json; protocol/frozen_protocol.yaml
+source_archive/POTS-GS/work/same_leaf_real_20261001_v1/fit/estimated_L1.json,False,True,file,results/frozen_replay/unified_adapter_real9_v3.json
+source_archive/POTS-GS/work/same_leaf_real_20261001_v1/received_review.json,False,True,file,provenance/real/p00_input_audit.json; protocol/real_evidence_eligibility.json
+source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/calibrate_v3.py,False,True,file,provenance/real/scale_binding_audit.json; protocol/real_evidence_eligibility.json
+source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/calibration/00_000.png,False,True,file,provenance/real/scale_binding_audit.json
+source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/fetch_calibration_v2.json,False,True,file,provenance/real/scale_binding_audit.json
+source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/fetch_extra_boards.json,False,True,file,provenance/real/scale_binding_audit.json
+source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/fetch_originals.json,False,True,file,provenance/real/scale_binding_audit.json
+source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/fetch_probe.json,False,True,file,provenance/real/scale_binding_audit.json
+source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/review_static.html,False,True,file,provenance/real/p00_candidate_manifest.json
+source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png,False,True,file,inputs/real/cameras/additional_crop_mapping.json; provenance/real/p01_p02_p03_candidate_manifest.json; provenance/real/scale_binding_audit.json
+source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png,False,True,file,inputs/real/cameras/additional_crop_mapping.json; provenance/real/p01_p02_p03_candidate_manifest.json; provenance/real/scale_binding_audit.json
+source_archive/manuscript_archive/audit/bounded_evidence_search.json,False,True,file,protocol/real_evidence_eligibility.json
+source_archive/manuscript_archive/audit/independent_measurement_review_closeout_run03.md,False,True,file,results/software_validation/F01_resolution.json
+source_archive/other/16aa787f9138c1fb/pots_qw_followup_review_2026-10-02T07-49-13.603Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/other/7177cac23669003e/pots_qw_followup_review_2026-10-02T07-50-21.353Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/other/775ee0dc739f6df1/pots_qw_followup_review_2026-10-02T07-40-14.399Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/other/ae7be063b2cb699d/pots_qw_followup_review_2026-10-02T07-50-56.539Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/other/c2d276a74c17627b/pots_qw_followup_review_2026-10-02T07-40-44.432Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/other/e7d0ba869c5c7a97/pots_qw_followup_review_2026-10-02T07-47-09.024Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/other/f99d7dd72756d361/pots_qw_followup_review_2026-10-02T07-46-01.632Z.json,False,True,file,provenance/real/review_export_gate.json
+source_archive/previous_revision/cache/huggingface,False,True,directory_or_unlocated_path,results/frozen_replay/summary.json; protocol/frozen_protocol.yaml
+source_archive/previous_revision/cache/matplotlib,False,True,directory_or_unlocated_path,results/frozen_replay/summary.json; protocol/frozen_protocol.yaml
+source_archive/previous_revision/cache/pip,False,True,directory_or_unlocated_path,results/frozen_replay/summary.json; protocol/frozen_protocol.yaml
+source_archive/previous_revision/cache/temp,False,True,directory_or_unlocated_path,results/frozen_replay/summary.json; protocol/frozen_protocol.yaml
+source_archive/previous_revision/cache/torch,False,True,directory_or_unlocated_path,results/frozen_replay/summary.json; protocol/frozen_protocol.yaml
+source_archive/previous_revision/cache/xdg,False,True,directory_or_unlocated_path,protocol/frozen_protocol.yaml
+source_archive/previous_revision/code/frozen_replay/replay_v038.py,False,True,file,results/frozen_replay/summary.json
+source_archive/previous_revision/code/measurement/vendor/measurement_reporting_v2.py,False,True,file,results/software_validation/protocol_before_tests.json
+source_archive/previous_revision/code/measurement/vendor/scale_contract_v037.py,False,True,file,results/software_validation/protocol_before_tests.json
+source_archive/previous_revision/code/measurement/vendor/test_scale_contract_v037.py,False,True,file,results/software_validation/protocol_before_tests.json
+source_archive/previous_revision/logs/measurement_code/tests_run_03.log,False,True,file,results/software_validation/completion.json

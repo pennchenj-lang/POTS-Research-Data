@@ -1,0 +1,990 @@
+{
+  "schema": "pots-gs.real-review.additional-candidates.v1",
+  "created_utc": "2026-09-28T08:13:35.163822+00:00",
+  "data_type": "real",
+  "groups": [
+    {
+      "candidate_id": "komatsuna_p01_d009_t00_leaf04",
+      "plant_id": "01",
+      "day_id": "009",
+      "time_id": "00",
+      "leaf_id": "04",
+      "train_views": [
+        {
+          "view_id": "00",
+          "rgb_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_00_01_009_00.png",
+          "label_path": "excluded_materials/inputs/real/images_and_author_labels/label_00_01_009_00.png",
+          "source_sha256": "ad4df07548c1fb46a26cf5db5f9859edd2636a9b75dbc44b1ca4b7cb685fe9f5",
+          "label_sha256": "0f5493f8dc17d6626fa3a76f0b2bc2bab49371ce530a82d6004b9ece42907e75",
+          "width": 480,
+          "height": 480,
+          "crop_origin": [
+            990,
+            240
+          ],
+          "full_frame_reference_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png",
+          "full_frame_reference_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+          "full_frame_reference_only": true,
+          "camera": {
+            "view_id": "00",
+            "K": [
+              [
+                1447.1628464763269,
+                0.0,
+                46.33603746163794
+              ],
+              [
+                0.0,
+                1447.5154426605611,
+                556.9397572943669
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "K_full": [
+              [
+                1447.1628464763269,
+                0.0,
+                1036.336037461638
+              ],
+              [
+                0.0,
+                1447.5154426605611,
+                796.9397572943669
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "distortion": [
+              -0.06168626192123971,
+              0.13376213699133815,
+              0.0005512253582032307,
+              0.0001302007328168146,
+              -0.07217700516597145
+            ],
+            "R": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "t": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "width": 480,
+            "height": 480,
+            "crop_origin": [
+              990,
+              240
+            ],
+            "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+            "scale": "unknown-size checker-square units; no centimetre claim",
+            "source_path": "inputs/real/cameras/calibration_result.json",
+            "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+          },
+          "human_reviewed": false,
+          "points": {},
+          "author_target_pixels": 18352,
+          "author_target_bbox_xyxy": [
+            108,
+            25,
+            253,
+            258
+          ],
+          "label_semantics": "source leaf identity region includes petiole; not a reviewed blade mask; black is not automatically trusted target background",
+          "review_domain": {
+            "width": 480,
+            "height": 480,
+            "origin": "top-left",
+            "coordinate_system": "native crop pixels",
+            "pixel_convention": "OpenCV integer pixel centers",
+            "resize": null,
+            "full_frame_points_allowed": false,
+            "source_rgb_sha256": "ad4df07548c1fb46a26cf5db5f9859edd2636a9b75dbc44b1ca4b7cb685fe9f5",
+            "human_identity_verified": false,
+            "human_contour_verified": false,
+            "human_B_verified": false,
+            "human_T_verified": false,
+            "human_stem_verified": false,
+            "visible_blade_mask": null,
+            "trusted_background_mask": null,
+            "unknown_mask": null,
+            "points": {},
+            "stem_polyline": [],
+            "attachment_A": null
+          },
+          "assistant_visual_checked_rgb_and_source_label": true,
+          "camera_id": "00"
+        },
+        {
+          "view_id": "02",
+          "rgb_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_02_01_009_00.png",
+          "label_path": "excluded_materials/inputs/real/images_and_author_labels/label_02_01_009_00.png",
+          "source_sha256": "66d106536ec1daccf221d4fe514e42d7b826da8541849ceb8f79177a84e1dd46",
+          "label_sha256": "98e8da95e6ce97ab51e849d9331bebc31352fccfef583b01ed1676d82f8363dd",
+          "width": 480,
+          "height": 480,
+          "crop_origin": [
+            1568,
+            220
+          ],
+          "full_frame_reference_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png",
+          "full_frame_reference_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa",
+          "full_frame_reference_only": true,
+          "camera": {
+            "view_id": "02",
+            "K": [
+              [
+                1453.4040764517556,
+                0.0,
+                -550.1596071018226
+              ],
+              [
+                0.0,
+                1453.5452600273463,
+                575.0058773991259
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "K_full": [
+              [
+                1453.4040764517556,
+                0.0,
+                1017.8403928981774
+              ],
+              [
+                0.0,
+                1453.5452600273463,
+                795.0058773991259
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "distortion": [
+              -0.061210683781492824,
+              0.12799756131274442,
+              -0.00024925880578291644,
+              0.000887298472219975,
+              -0.06596303866314683
+            ],
+            "R": [
+              [
+                0.9994389216223825,
+                0.031550832370706126,
+                0.011242193869749775
+              ],
+              [
+                -0.03163458946951748,
+                0.9994724617475039,
+                0.00735193562808471
+              ],
+              [
+                -0.011004303493839603,
+                -0.007703452803776387,
+                0.999909776989662
+              ]
+            ],
+            "t": [
+              5.626379688547068,
+              -0.15777655844311966,
+              0.21642242211293486
+            ],
+            "width": 480,
+            "height": 480,
+            "crop_origin": [
+              1568,
+              220
+            ],
+            "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+            "scale": "unknown-size checker-square units; no centimetre claim",
+            "source_path": "inputs/real/cameras/calibration_result.json",
+            "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+          },
+          "human_reviewed": false,
+          "points": {},
+          "author_target_pixels": 17949,
+          "author_target_bbox_xyxy": [
+            116,
+            42,
+            270,
+            265
+          ],
+          "label_semantics": "source leaf identity region includes petiole; not a reviewed blade mask; black is not automatically trusted target background",
+          "review_domain": {
+            "width": 480,
+            "height": 480,
+            "origin": "top-left",
+            "coordinate_system": "native crop pixels",
+            "pixel_convention": "OpenCV integer pixel centers",
+            "resize": null,
+            "full_frame_points_allowed": false,
+            "source_rgb_sha256": "66d106536ec1daccf221d4fe514e42d7b826da8541849ceb8f79177a84e1dd46",
+            "human_identity_verified": false,
+            "human_contour_verified": false,
+            "human_B_verified": false,
+            "human_T_verified": false,
+            "human_stem_verified": false,
+            "visible_blade_mask": null,
+            "trusted_background_mask": null,
+            "unknown_mask": null,
+            "points": {},
+            "stem_polyline": [],
+            "attachment_A": null
+          },
+          "assistant_visual_checked_rgb_and_source_label": true,
+          "camera_id": "02"
+        }
+      ],
+      "evaluation_views": [
+        "01"
+      ],
+      "source": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/",
+      "readme": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_readme.pdf",
+      "data_type": "real",
+      "human_reviewed": false,
+      "same_plant_identity_basis": "author filenames; not project human review",
+      "status": "DRAFT_VISUALLY_INSPECTED_AWAITING_USER_IDENTITY_BLADE_MASK_AND_POINTS",
+      "reconstruction_run": false,
+      "leaf_id_scope": "author leaf index within this plant only; never shared identity across plants",
+      "proposed_target": "上方大叶，作者红色leaf04",
+      "author_label_color_rgb": [
+        255,
+        0,
+        0
+      ],
+      "assistant_visual_inspection": {
+        "target": "上方大叶，作者红色leaf04",
+        "notes": "两视图叶面与较长叶柄可分辨；cam02右侧紫色leaf05接近画框边缘，因此不选该侧叶。中心新叶、叶柄重叠与海绵托遮挡主茎。"
+      },
+      "assistant_is_not_human_review": true,
+      "main_stem_visibility": "UNKNOWN_OR_OCCLUDED_NOT_A_CONFIRMED_VISIBLE_STEM",
+      "petiole_visibility": "partly visible in both fitting views; not a stem",
+      "stem_attachment_A": {
+        "xy": null,
+        "status": "unreviewed",
+        "warning": "Do not infer a physical node from petiole convergence."
+      },
+      "review_required": [
+        "same leaf identity in both views",
+        "visible blade mask separately from petiole",
+        "B blade base and T tip only when actually visible",
+        "stem surface/physical node A only if visible; otherwise unknown/occluded"
+      ],
+      "physical_scale_known": false,
+      "ground_plane_known": false,
+      "evaluation_future_members": [
+        "multi_plant/rgb_01_01_009_00.png",
+        "multi_label/label_01_01_009_00.png"
+      ]
+    },
+    {
+      "candidate_id": "komatsuna_p02_d009_t00_leaf04",
+      "plant_id": "02",
+      "day_id": "009",
+      "time_id": "00",
+      "leaf_id": "04",
+      "train_views": [
+        {
+          "view_id": "00",
+          "rgb_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_00_02_009_00.png",
+          "label_path": "excluded_materials/inputs/real/images_and_author_labels/label_00_02_009_00.png",
+          "source_sha256": "696386b63983d0cd21cecbbeb20fc11969dc6bdaecd4f950fc9dcd7e113108f9",
+          "label_sha256": "c7e50ddbb423ceaed3907aae0bf662f9c565b25dba3c0a9f1e7ae15424a1c075",
+          "width": 480,
+          "height": 480,
+          "crop_origin": [
+            510,
+            460
+          ],
+          "full_frame_reference_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png",
+          "full_frame_reference_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+          "full_frame_reference_only": true,
+          "camera": {
+            "view_id": "00",
+            "K": [
+              [
+                1447.1628464763269,
+                0.0,
+                526.3360374616379
+              ],
+              [
+                0.0,
+                1447.5154426605611,
+                336.9397572943669
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "K_full": [
+              [
+                1447.1628464763269,
+                0.0,
+                1036.336037461638
+              ],
+              [
+                0.0,
+                1447.5154426605611,
+                796.9397572943669
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "distortion": [
+              -0.06168626192123971,
+              0.13376213699133815,
+              0.0005512253582032307,
+              0.0001302007328168146,
+              -0.07217700516597145
+            ],
+            "R": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "t": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "width": 480,
+            "height": 480,
+            "crop_origin": [
+              510,
+              460
+            ],
+            "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+            "scale": "unknown-size checker-square units; no centimetre claim",
+            "source_path": "inputs/real/cameras/calibration_result.json",
+            "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+          },
+          "human_reviewed": false,
+          "points": {},
+          "author_target_pixels": 14112,
+          "author_target_bbox_xyxy": [
+            81,
+            293,
+            228,
+            439
+          ],
+          "label_semantics": "source leaf identity region includes petiole; not a reviewed blade mask; black is not automatically trusted target background",
+          "review_domain": {
+            "width": 480,
+            "height": 480,
+            "origin": "top-left",
+            "coordinate_system": "native crop pixels",
+            "pixel_convention": "OpenCV integer pixel centers",
+            "resize": null,
+            "full_frame_points_allowed": false,
+            "source_rgb_sha256": "696386b63983d0cd21cecbbeb20fc11969dc6bdaecd4f950fc9dcd7e113108f9",
+            "human_identity_verified": false,
+            "human_contour_verified": false,
+            "human_B_verified": false,
+            "human_T_verified": false,
+            "human_stem_verified": false,
+            "visible_blade_mask": null,
+            "trusted_background_mask": null,
+            "unknown_mask": null,
+            "points": {},
+            "stem_polyline": [],
+            "attachment_A": null
+          },
+          "assistant_visual_checked_rgb_and_source_label": true,
+          "camera_id": "00"
+        },
+        {
+          "view_id": "02",
+          "rgb_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_02_02_009_00.png",
+          "label_path": "excluded_materials/inputs/real/images_and_author_labels/label_02_02_009_00.png",
+          "source_sha256": "4e99336cd522a517da5371932bc54017ffc3da001e884ee9ec0b340f4636ab54",
+          "label_sha256": "b664840831723525d519b0078092e94c1e08ecadd030a4542d7733a8ef441602",
+          "width": 480,
+          "height": 480,
+          "crop_origin": [
+            1110,
+            460
+          ],
+          "full_frame_reference_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png",
+          "full_frame_reference_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa",
+          "full_frame_reference_only": true,
+          "camera": {
+            "view_id": "02",
+            "K": [
+              [
+                1453.4040764517556,
+                0.0,
+                -92.15960710182264
+              ],
+              [
+                0.0,
+                1453.5452600273463,
+                335.0058773991259
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "K_full": [
+              [
+                1453.4040764517556,
+                0.0,
+                1017.8403928981774
+              ],
+              [
+                0.0,
+                1453.5452600273463,
+                795.0058773991259
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "distortion": [
+              -0.061210683781492824,
+              0.12799756131274442,
+              -0.00024925880578291644,
+              0.000887298472219975,
+              -0.06596303866314683
+            ],
+            "R": [
+              [
+                0.9994389216223825,
+                0.031550832370706126,
+                0.011242193869749775
+              ],
+              [
+                -0.03163458946951748,
+                0.9994724617475039,
+                0.00735193562808471
+              ],
+              [
+                -0.011004303493839603,
+                -0.007703452803776387,
+                0.999909776989662
+              ]
+            ],
+            "t": [
+              5.626379688547068,
+              -0.15777655844311966,
+              0.21642242211293486
+            ],
+            "width": 480,
+            "height": 480,
+            "crop_origin": [
+              1110,
+              460
+            ],
+            "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+            "scale": "unknown-size checker-square units; no centimetre claim",
+            "source_path": "inputs/real/cameras/calibration_result.json",
+            "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+          },
+          "human_reviewed": false,
+          "points": {},
+          "author_target_pixels": 13956,
+          "author_target_bbox_xyxy": [
+            67,
+            270,
+            209,
+            443
+          ],
+          "label_semantics": "source leaf identity region includes petiole; not a reviewed blade mask; black is not automatically trusted target background",
+          "review_domain": {
+            "width": 480,
+            "height": 480,
+            "origin": "top-left",
+            "coordinate_system": "native crop pixels",
+            "pixel_convention": "OpenCV integer pixel centers",
+            "resize": null,
+            "full_frame_points_allowed": false,
+            "source_rgb_sha256": "4e99336cd522a517da5371932bc54017ffc3da001e884ee9ec0b340f4636ab54",
+            "human_identity_verified": false,
+            "human_contour_verified": false,
+            "human_B_verified": false,
+            "human_T_verified": false,
+            "human_stem_verified": false,
+            "visible_blade_mask": null,
+            "trusted_background_mask": null,
+            "unknown_mask": null,
+            "points": {},
+            "stem_polyline": [],
+            "attachment_A": null
+          },
+          "assistant_visual_checked_rgb_and_source_label": true,
+          "camera_id": "02"
+        }
+      ],
+      "evaluation_views": [
+        "01"
+      ],
+      "source": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/",
+      "readme": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_readme.pdf",
+      "data_type": "real",
+      "human_reviewed": false,
+      "same_plant_identity_basis": "author filenames; not project human review",
+      "status": "DRAFT_VISUALLY_INSPECTED_AWAITING_USER_IDENTITY_BLADE_MASK_AND_POINTS",
+      "reconstruction_run": false,
+      "leaf_id_scope": "author leaf index within this plant only; never shared identity across plants",
+      "proposed_target": "左下叶，作者红色leaf04",
+      "author_label_color_rgb": [
+        255,
+        0,
+        0
+      ],
+      "assistant_visual_inspection": {
+        "target": "左下叶，作者红色leaf04",
+        "notes": "两视图左下叶及斜向中心的叶柄可辨，叶缘仍有柔化；上方大叶leaf05基部邻近重叠中心。没有可可靠辨认的连续主茎段或物理节位A。"
+      },
+      "assistant_is_not_human_review": true,
+      "main_stem_visibility": "UNKNOWN_OR_OCCLUDED_NOT_A_CONFIRMED_VISIBLE_STEM",
+      "petiole_visibility": "partly visible in both fitting views; not a stem",
+      "stem_attachment_A": {
+        "xy": null,
+        "status": "unreviewed",
+        "warning": "Do not infer a physical node from petiole convergence."
+      },
+      "review_required": [
+        "same leaf identity in both views",
+        "visible blade mask separately from petiole",
+        "B blade base and T tip only when actually visible",
+        "stem surface/physical node A only if visible; otherwise unknown/occluded"
+      ],
+      "physical_scale_known": false,
+      "ground_plane_known": false,
+      "evaluation_future_members": [
+        "multi_plant/rgb_01_02_009_00.png",
+        "multi_label/label_01_02_009_00.png"
+      ]
+    },
+    {
+      "candidate_id": "komatsuna_p03_d009_t00_leaf04",
+      "plant_id": "03",
+      "day_id": "009",
+      "time_id": "00",
+      "leaf_id": "04",
+      "train_views": [
+        {
+          "view_id": "00",
+          "rgb_path": "source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/rgb_00_03_009_00.png",
+          "label_path": "source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/label_00_03_009_00.png",
+          "source_sha256": "f055f08d241268595ec71b66a1dc706b08d2f335e1ff5eb1db4d6ba753c1ba5a",
+          "label_sha256": "9684cc18004f8b5dc1413f66ffc4fb25a68d3ff15da2e6a9236f5b473bfdb5db",
+          "width": 480,
+          "height": 480,
+          "crop_origin": [
+            960,
+            710
+          ],
+          "full_frame_reference_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png",
+          "full_frame_reference_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+          "full_frame_reference_only": true,
+          "camera": {
+            "view_id": "00",
+            "K": [
+              [
+                1447.1628464763269,
+                0.0,
+                76.33603746163794
+              ],
+              [
+                0.0,
+                1447.5154426605611,
+                86.93975729436693
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "K_full": [
+              [
+                1447.1628464763269,
+                0.0,
+                1036.336037461638
+              ],
+              [
+                0.0,
+                1447.5154426605611,
+                796.9397572943669
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "distortion": [
+              -0.06168626192123971,
+              0.13376213699133815,
+              0.0005512253582032307,
+              0.0001302007328168146,
+              -0.07217700516597145
+            ],
+            "R": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "t": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "width": 480,
+            "height": 480,
+            "crop_origin": [
+              960,
+              710
+            ],
+            "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+            "scale": "unknown-size checker-square units; no centimetre claim",
+            "source_path": "inputs/real/cameras/calibration_result.json",
+            "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+          },
+          "human_reviewed": false,
+          "points": {},
+          "author_target_pixels": 8945,
+          "author_target_bbox_xyxy": [
+            65,
+            61,
+            215,
+            195
+          ],
+          "label_semantics": "source leaf identity region includes petiole; not a reviewed blade mask; black is not automatically trusted target background",
+          "review_domain": {
+            "width": 480,
+            "height": 480,
+            "origin": "top-left",
+            "coordinate_system": "native crop pixels",
+            "pixel_convention": "OpenCV integer pixel centers",
+            "resize": null,
+            "full_frame_points_allowed": false,
+            "source_rgb_sha256": "f055f08d241268595ec71b66a1dc706b08d2f335e1ff5eb1db4d6ba753c1ba5a",
+            "human_identity_verified": false,
+            "human_contour_verified": false,
+            "human_B_verified": false,
+            "human_T_verified": false,
+            "human_stem_verified": false,
+            "visible_blade_mask": null,
+            "trusted_background_mask": null,
+            "unknown_mask": null,
+            "points": {},
+            "stem_polyline": [],
+            "attachment_A": null
+          },
+          "assistant_visual_checked_rgb_and_source_label": true,
+          "camera_id": "00"
+        },
+        {
+          "view_id": "02",
+          "rgb_path": "source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/rgb_02_03_009_00.png",
+          "label_path": "source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/label_02_03_009_00.png",
+          "source_sha256": "d97dcffe7352c945eb65bafce7c938364ba37273feb7623a1c63d44963b66354",
+          "label_sha256": "f6a771f2c95fd9146d68cee0f19a1cc8df0a8fe500d021c04d485602ffe1473e",
+          "width": 480,
+          "height": 480,
+          "crop_origin": [
+            1540,
+            710
+          ],
+          "full_frame_reference_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png",
+          "full_frame_reference_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa",
+          "full_frame_reference_only": true,
+          "camera": {
+            "view_id": "02",
+            "K": [
+              [
+                1453.4040764517556,
+                0.0,
+                -522.1596071018226
+              ],
+              [
+                0.0,
+                1453.5452600273463,
+                85.0058773991259
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "K_full": [
+              [
+                1453.4040764517556,
+                0.0,
+                1017.8403928981774
+              ],
+              [
+                0.0,
+                1453.5452600273463,
+                795.0058773991259
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "distortion": [
+              -0.061210683781492824,
+              0.12799756131274442,
+              -0.00024925880578291644,
+              0.000887298472219975,
+              -0.06596303866314683
+            ],
+            "R": [
+              [
+                0.9994389216223825,
+                0.031550832370706126,
+                0.011242193869749775
+              ],
+              [
+                -0.03163458946951748,
+                0.9994724617475039,
+                0.00735193562808471
+              ],
+              [
+                -0.011004303493839603,
+                -0.007703452803776387,
+                0.999909776989662
+              ]
+            ],
+            "t": [
+              5.626379688547068,
+              -0.15777655844311966,
+              0.21642242211293486
+            ],
+            "width": 480,
+            "height": 480,
+            "crop_origin": [
+              1540,
+              710
+            ],
+            "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+            "scale": "unknown-size checker-square units; no centimetre claim",
+            "source_path": "inputs/real/cameras/calibration_result.json",
+            "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+          },
+          "human_reviewed": false,
+          "points": {},
+          "author_target_pixels": 10100,
+          "author_target_bbox_xyxy": [
+            72,
+            51,
+            218,
+            189
+          ],
+          "label_semantics": "source leaf identity region includes petiole; not a reviewed blade mask; black is not automatically trusted target background",
+          "review_domain": {
+            "width": 480,
+            "height": 480,
+            "origin": "top-left",
+            "coordinate_system": "native crop pixels",
+            "pixel_convention": "OpenCV integer pixel centers",
+            "resize": null,
+            "full_frame_points_allowed": false,
+            "source_rgb_sha256": "d97dcffe7352c945eb65bafce7c938364ba37273feb7623a1c63d44963b66354",
+            "human_identity_verified": false,
+            "human_contour_verified": false,
+            "human_B_verified": false,
+            "human_T_verified": false,
+            "human_stem_verified": false,
+            "visible_blade_mask": null,
+            "trusted_background_mask": null,
+            "unknown_mask": null,
+            "points": {},
+            "stem_polyline": [],
+            "attachment_A": null
+          },
+          "assistant_visual_checked_rgb_and_source_label": true,
+          "camera_id": "02"
+        }
+      ],
+      "evaluation_views": [
+        "01"
+      ],
+      "source": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/",
+      "readme": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_readme.pdf",
+      "data_type": "real",
+      "human_reviewed": false,
+      "same_plant_identity_basis": "author filenames; not project human review",
+      "status": "DRAFT_VISUALLY_INSPECTED_AWAITING_USER_IDENTITY_BLADE_MASK_AND_POINTS",
+      "reconstruction_run": false,
+      "leaf_id_scope": "author leaf index within this plant only; never shared identity across plants",
+      "proposed_target": "左上叶，作者红色leaf04",
+      "author_label_color_rgb": [
+        255,
+        0,
+        0
+      ],
+      "assistant_visual_inspection": {
+        "target": "左上叶，作者红色leaf04",
+        "notes": "两视图左上叶及向中心的叶柄可辨；所有候选图原样保留。中心叶柄汇聚处不是已确定的茎表面连接点，不能凭交汇补标A。"
+      },
+      "assistant_is_not_human_review": true,
+      "main_stem_visibility": "UNKNOWN_OR_OCCLUDED_NOT_A_CONFIRMED_VISIBLE_STEM",
+      "petiole_visibility": "partly visible in both fitting views; not a stem",
+      "stem_attachment_A": {
+        "xy": null,
+        "status": "unreviewed",
+        "warning": "Do not infer a physical node from petiole convergence."
+      },
+      "review_required": [
+        "same leaf identity in both views",
+        "visible blade mask separately from petiole",
+        "B blade base and T tip only when actually visible",
+        "stem surface/physical node A only if visible; otherwise unknown/occluded"
+      ],
+      "physical_scale_known": false,
+      "ground_plane_known": false,
+      "evaluation_future_members": [
+        "multi_plant/rgb_01_03_009_00.png",
+        "multi_label/label_01_03_009_00.png"
+      ]
+    }
+  ],
+  "source": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/",
+  "same_day_and_time": "009/00 within each plant; three plants remain three distinct identities",
+  "independent_plant_count": 3,
+  "training_photo_count": 6,
+  "author_label_count": 6,
+  "native_photo_resolution": [
+    480,
+    480
+  ],
+  "full_frame_resolution": [
+    2048,
+    1536
+  ],
+  "no_image_synthesis_or_resampling": true,
+  "evaluation_plant_camera_01_downloaded": false,
+  "evaluation_plant_camera_01_read": false,
+  "author_label_id_colors": {
+    "1": [
+      0,
+      0,
+      255
+    ],
+    "2": [
+      0,
+      255,
+      0
+    ],
+    "3": [
+      0,
+      255,
+      255
+    ],
+    "4": [
+      255,
+      0,
+      0
+    ],
+    "5": [
+      255,
+      0,
+      255
+    ],
+    "6": [
+      255,
+      255,
+      0
+    ],
+    "7": [
+      128,
+      128,
+      128
+    ],
+    "8": [
+      0,
+      0,
+      128
+    ]
+  },
+  "crop_camera_proof_path": "inputs/real/cameras/additional_crop_mapping.json",
+  "crop_camera_proof_sha256": "038d9e33d42a791e2f8e02844e2295e89360177730129baa629aa87b12cc2f9f",
+  "licensing": {
+    "local_use": "official public research download",
+    "redistribution_or_publication_permission": "No explicit image redistribution licence found in the official page or multi-view readme; not granted by this task.",
+    "photos_uploaded": false,
+    "retain_local_only": true
+  },
+  "human_reviewed": false,
+  "real_initialization_run": false,
+  "real_optimization_run": false,
+  "main_stem_ready": false,
+  "all_attempted_candidates_retained": true,
+  "source_documents": {
+    "official_page.html": "b562b4a45f73c7e2d4d0864e38ffe03ecd33d121033e3a48a93ca4a9e0cd0250",
+    "multi_readme.pdf": "b4b2b6606ab5371e71547c160f2aa4e6d8545c2fd226efae224f850be7d1bdc1"
+  },
+  "limitations": [
+    "Native 480x480 plant crops are not newly acquired high-resolution close-ups.",
+    "Original 2048x1536 frames contain multiple plants and do not add pixels to the selected crop.",
+    "All three rosette centers hide the main stem; visible petioles must not be relabeled as stems.",
+    "Author identities/regions do not replace project human review of blade base, tip, masks or physical attachment.",
+    "Checkerboard-derived camera calibration transfers to the crop; plant-point calibration has not been tested here.",
+    "No known square size or reference ground plane, so no centimetre heights."
+  ]
+}

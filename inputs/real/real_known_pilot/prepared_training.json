@@ -1,0 +1,749 @@
+{
+  "schema": "pots-gs.reviewed-multiview-training.v1",
+  "data_type": "real",
+  "candidate_id": "komatsuna_p00_d009_t00_leaf04",
+  "organ_id": "plant00:leaf_04",
+  "preprocessing_validation_passed": true,
+  "source_review_sha256": "8f4e2b02a69bc3e9afdb94b073314ec5fa60fae9788d6686e4b7dee32a2ef6d3",
+  "source_annotation_sha256": "81a49731fdc87f4e15d0c7aecf012d25f5ffcda4b2880fa0e10594abe89473e6",
+  "train_views": [
+    "00",
+    "02"
+  ],
+  "evaluation_views": [
+    "01"
+  ],
+  "evaluation_used": false,
+  "cameras": {
+    "00": {
+      "K": [
+        [
+          1447.1628464763269,
+          0.0,
+          1006.3360374616379
+        ],
+        [
+          0.0,
+          1447.5154426605611,
+          586.9397572943669
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t": [
+        0,
+        0,
+        0
+      ],
+      "view_id": "00",
+      "unit": "unknown_checkerboard_square"
+    },
+    "02": {
+      "K": [
+        [
+          1453.4040764517556,
+          0.0,
+          377.84039289817736
+        ],
+        [
+          0.0,
+          1453.5452600273463,
+          575.0058773991259
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          0.9994389216223825,
+          0.031550832370706126,
+          0.011242193869749775
+        ],
+        [
+          -0.03163458946951748,
+          0.9994724617475039,
+          0.00735193562808471
+        ],
+        [
+          -0.011004303493839603,
+          -0.007703452803776387,
+          0.999909776989662
+        ]
+      ],
+      "t": [
+        5.626379688547068,
+        -0.15777655844311966,
+        0.21642242211293486
+      ],
+      "view_id": "02",
+      "unit": "unknown_checkerboard_square"
+    }
+  },
+  "observations": [
+    {
+      "view_id": "00",
+      "split": "train",
+      "organ_id": "plant00:leaf_04",
+      "coordinate_domain": "undistorted_pixels",
+      "reviewed": true,
+      "same_leaf_confirmed": true,
+      "material": [
+        {
+          "label": "B",
+          "status": "visible",
+          "xy": [
+            192.1793437694589,
+            201.9137212504362
+          ],
+          "reviewed": true,
+          "correspondence_id": "plant00:leaf_04:B",
+          "source": "human_reviewed_material_endpoint"
+        },
+        {
+          "label": "T",
+          "status": "visible",
+          "xy": [
+            87.66432942022675,
+            116.524010970522
+          ],
+          "reviewed": true,
+          "correspondence_id": "plant00:leaf_04:T",
+          "source": "human_reviewed_material_endpoint"
+        }
+      ],
+      "Q": {
+        "xy": [
+          [
+            192.1793437694589,
+            201.9137212504362
+          ],
+          [
+            177.88127826210598,
+            186.47875429096638
+          ],
+          [
+            143.00268472008588,
+            156.40583400555767
+          ],
+          [
+            114.86889816486041,
+            136.43928025897696
+          ],
+          [
+            87.66432942022675,
+            116.524010970522
+          ]
+        ],
+        "order": "B_to_T",
+        "closed": false,
+        "reviewed": true,
+        "point_status": [
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "segment_visibility": [
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "original_labels": [
+          "B",
+          "Q1",
+          "Q2",
+          "Q3",
+          "T"
+        ]
+      },
+      "W": [
+        {
+          "stroke_id": "w-stroke-1",
+          "xy": [
+            [
+              205.4526613960503,
+              183.05172793311192
+            ],
+            [
+              211.34388227184297,
+              165.40412614804478
+            ],
+            [
+              211.41126418117005,
+              139.3800160437234
+            ],
+            [
+              194.78862291100018,
+              118.46185360325978
+            ],
+            [
+              174.8580691150189,
+              103.45887924443787
+            ],
+            [
+              155.795831076862,
+              90.99458591563058
+            ],
+            [
+              140.9310628885362,
+              77.69354229122553
+            ],
+            [
+              116.8531397180144,
+              83.70836147646264
+            ],
+            [
+              98.57867639041842,
+              93.03397269696262
+            ],
+            [
+              86.05049576933231,
+              110.6811645906356
+            ],
+            [
+              75.96650435749257,
+              135.00478143764616
+            ],
+            [
+              64.28866348904444,
+              151.8135671948238
+            ],
+            [
+              64.98071957945331,
+              173.56796290410296
+            ],
+            [
+              79.76509945518512,
+              192.74561941093953
+            ],
+            [
+              107.89906903848293,
+              204.34533750513236
+            ],
+            [
+              130.29948611477266,
+              214.3226101074086
+            ],
+            [
+              154.43094953023842,
+              220.96051222833427
+            ],
+            [
+              176.9999522376827,
+              204.11050427748017
+            ],
+            [
+              193.74307507617664,
+              187.27694309575867
+            ]
+          ],
+          "closed": false,
+          "reviewed": true,
+          "point_status": [
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "segment_kind": [
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin"
+          ],
+          "original_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "source_review_sha256": "8f4e2b02a69bc3e9afdb94b073314ec5fa60fae9788d6686e4b7dee32a2ef6d3"
+    },
+    {
+      "view_id": "02",
+      "split": "train",
+      "organ_id": "plant00:leaf_04",
+      "coordinate_domain": "undistorted_pixels",
+      "reviewed": true,
+      "same_leaf_confirmed": true,
+      "material": [
+        {
+          "label": "B",
+          "status": "visible",
+          "xy": [
+            189.49934605420725,
+            218.13653129680426
+          ],
+          "reviewed": true,
+          "correspondence_id": "plant00:leaf_04:B",
+          "source": "human_reviewed_material_endpoint"
+        },
+        {
+          "label": "T",
+          "status": "visible",
+          "xy": [
+            70.81820097388419,
+            133.82965607529098
+          ],
+          "reviewed": true,
+          "correspondence_id": "plant00:leaf_04:T",
+          "source": "human_reviewed_material_endpoint"
+        }
+      ],
+      "Q": {
+        "xy": [
+          [
+            189.49934605420725,
+            218.13653129680426
+          ],
+          [
+            170.4456537102233,
+            198.65626068490076
+          ],
+          [
+            139.2840350310051,
+            169.91916353852713
+          ],
+          [
+            103.0686197620999,
+            149.55397792272333
+          ],
+          [
+            70.81820097388419,
+            133.82965607529098
+          ]
+        ],
+        "order": "B_to_T",
+        "closed": false,
+        "reviewed": true,
+        "point_status": [
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "segment_visibility": [
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "original_labels": [
+          "B",
+          "Q1",
+          "Q2",
+          "Q3",
+          "T"
+        ]
+      },
+      "W": [
+        {
+          "stroke_id": "w-stroke-1",
+          "xy": [
+            [
+              190.60716733240372,
+              208.81808716215613
+            ],
+            [
+              205.65111680686667,
+              193.720205932128
+            ],
+            [
+              207.25933957874676,
+              170.99540561454114
+            ],
+            [
+              203.86102086779007,
+              156.66519477764365
+            ],
+            [
+              189.54267932537954,
+              138.9212348617218
+            ],
+            [
+              172.70368548571702,
+              123.68685892746362
+            ],
+            [
+              149.96909933565544,
+              107.57798739090339
+            ],
+            [
+              123.88670293015628,
+              99.88442283508539
+            ],
+            [
+              106.25241962785589,
+              105.71947359912741
+            ],
+            [
+              81.04698199779142,
+              113.20640692845893
+            ],
+            [
+              69.30472075879283,
+              122.43328975779372
+            ],
+            [
+              60.14089997776915,
+              144.31395681301882
+            ],
+            [
+              57.681876875512614,
+              159.4728271979755
+            ],
+            [
+              53.52082402121323,
+              170.40720221053493
+            ],
+            [
+              56.13056037031379,
+              189.78926963326364
+            ],
+            [
+              73.04564271209495,
+              210.06354401819692
+            ],
+            [
+              93.26895639772738,
+              220.24263107151137
+            ],
+            [
+              114.28777477003769,
+              222.84851957320927
+            ],
+            [
+              139.51408200759522,
+              232.19171775279602
+            ],
+            [
+              157.1537720992453,
+              237.29660355722223
+            ],
+            [
+              172.21296371178542,
+              225.57805061399387
+            ],
+            [
+              180.5772778024116,
+              218.87857136946695
+            ]
+          ],
+          "closed": false,
+          "reviewed": true,
+          "point_status": [
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "segment_kind": [
+            "true_margin",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown"
+          ],
+          "original_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "source_review_sha256": "8f4e2b02a69bc3e9afdb94b073314ec5fa60fae9788d6686e4b7dee32a2ef6d3"
+    }
+  ],
+  "initial_xyz": [
+    [
+      -7.419417929797915,
+      -3.5004579320453306,
+      13.18779465368447
+    ],
+    [
+      -7.863180146820749,
+      -3.526319834739953,
+      13.262962904984636
+    ],
+    [
+      -7.706415236806065,
+      -3.7255308230328334,
+      13.264960093826549
+    ],
+    [
+      -7.549650326791381,
+      -3.9247418113257138,
+      13.26695728266846
+    ],
+    [
+      -8.22394917618875,
+      -3.6576463782955124,
+      13.339188491554049
+    ],
+    [
+      -7.993412543814216,
+      -3.9506037140203363,
+      13.342125533968627
+    ],
+    [
+      -7.762875911439681,
+      -4.24356104974516,
+      13.345062576383205
+    ],
+    [
+      -8.437174760837049,
+      -3.9764656167149584,
+      13.417293785268793
+    ],
+    [
+      -8.280409850822366,
+      -4.175676605007839,
+      13.419290974110705
+    ],
+    [
+      -8.123644940807683,
+      -4.374887593300719,
+      13.421288162952617
+    ],
+    [
+      -8.567407157830516,
+      -4.400749495995342,
+      13.496456414252783
+    ]
+  ],
+  "initialization": {
+    "method": "B/T axis with planar camera-facing lateral initialization",
+    "axis_length_unknown_board_units": 1.4911996010714241,
+    "station_u": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "half_width_over_BT": [
+      0.17,
+      0.25,
+      0.17
+    ],
+    "half_width_is_fixed_prior_not_measured": true,
+    "normal_is_camera_facing_prior": true,
+    "Q_W_cross_view_triangulation": false,
+    "reference_geometry_used": false
+  },
+  "endpoint_geometry_checks": {
+    "B": {
+      "xyz": [
+        -7.419417929797915,
+        -3.5004579320453306,
+        13.18779465368447
+      ],
+      "method": "undistorted linear DLT triangulation; no nonlinear fitting",
+      "world_frame": "camera00",
+      "unit": "unknown-size checkerboard square",
+      "distorted_reprojection_px": [
+        [
+          199.12851485352894,
+          206.28336645381188
+        ],
+        [
+          190.35783707505914,
+          218.78203488544017
+        ]
+      ],
+      "reprojection_errors_px": [
+        0.8034485470145258,
+        0.7880589816164744
+      ],
+      "camera_depths": [
+        13.18779465368447,
+        13.511638372382277
+      ],
+      "ray_angle_deg": 21.18700214335549,
+      "acute_line_angle_deg": 21.18700214335549,
+      "checks": {
+        "finite_point": true,
+        "positive_depth_both": true,
+        "reprojection_max_le_3px": true,
+        "ray_angle_ge_5deg": true
+      },
+      "passed": true
+    },
+    "T": {
+      "xyz": [
+        -8.567407157830516,
+        -4.400749495995342,
+        13.496456414252783
+      ],
+      "method": "undistorted linear DLT triangulation; no nonlinear fitting",
+      "world_frame": "camera00",
+      "unit": "unknown-size checkerboard square",
+      "distorted_reprojection_px": [
+        [
+          94.01762090597776,
+          118.55954294167543
+        ],
+        [
+          72.96823056482651,
+          138.11373426910689
+        ]
+      ],
+      "reprojection_errors_px": [
+        1.5655562299032444,
+        1.523843324080457
+      ],
+      "camera_depths": [
+        13.496456414252783,
+        13.839840460002831
+      ],
+      "ray_angle_deg": 19.624430263615192,
+      "acute_line_angle_deg": 19.624430263615192,
+      "checks": {
+        "finite_point": true,
+        "positive_depth_both": true,
+        "reprojection_max_le_3px": true,
+        "ray_angle_ge_5deg": true
+      },
+      "passed": true
+    }
+  },
+  "source_hashes": {
+    "work/shape_guard_20260927_v1/real_pilot/candidate_p00_d009_t00/rgb_00_00_009_00.png": "53ff7013172f2bc58a29da67539f9d92e76ac7af9c73ff4ba3a05e71e98dea8d",
+    "work/shape_guard_20260927_v1/real_pilot/candidate_p00_d009_t00/label_00_00_009_00.png": "198ca282940383f67fa671e4cdc94079fa1f9f851bbb0c208c9a108232a9e671",
+    "work/shape_guard_20260927_v1/real_pilot/candidate_p00_d009_t00/rgb_02_00_009_00.png": "bec5b40593e95a7c599b903edd42cd03558ba3ea86488ff117ef818dc0082b20",
+    "work/shape_guard_20260927_v1/real_pilot/candidate_p00_d009_t00/label_02_00_009_00.png": "b6ae119851a5643e6c7c21427cc03c033a8bb58466df3f0a2391e36a1c0e8f77"
+  },
+  "calibration_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702",
+  "no_mesh_created_by_preprocessor": true,
+  "semantics": "One same-leaf scaffold. Q/W ordered per view, never cross-view same-index physical points. All interior shape is estimated, not direct XYZ observation.",
+  "limitations": [
+    "Unknown physical scale; no centimeter lengths/heights",
+    "No independent3D truth or heldout image used",
+    "No whole-plant occlusion rendering; supplied visibility only",
+    "S/A retained in source review but excluded from leaf-only fit"
+  ],
+  "created_utc": "2026-10-01T01:41:22.284553+00:00"
+}

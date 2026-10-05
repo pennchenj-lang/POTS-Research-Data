@@ -1,0 +1,1140 @@
+{
+  "quantity_checks": [
+    {
+      "case_id": "curved_complementary",
+      "method": "POTS33",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.35029062590660437,
+        0.3502906259066043
+      ],
+      "status": "pass",
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "case_id": "curved_complementary",
+      "method": "POTS33",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.0263886167146834,
+        1.0263886167146834
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "curved_complementary",
+      "method": "POTS33",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5795187159434236,
+        0.5795187159434236
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "curved_complementary",
+      "method": "symmetric24",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.3577790004712229,
+        0.3577790004712229
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "curved_complementary",
+      "method": "symmetric24",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.0257579805230033,
+        1.0257579805230033
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "curved_complementary",
+      "method": "symmetric24",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5668310027605037,
+        0.5668310027605037
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "curved_common_gap",
+      "method": "POTS33",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.3488282817500759,
+        0.34882828175007596
+      ],
+      "status": "pass",
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "case_id": "curved_common_gap",
+      "method": "POTS33",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.025348080082267,
+        1.025348080082267
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "curved_common_gap",
+      "method": "POTS33",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5739336006579006,
+        0.5739336006579006
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "curved_common_gap",
+      "method": "symmetric24",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.3581951415866842,
+        0.3581951415866842
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "curved_common_gap",
+      "method": "symmetric24",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.0245001580117936,
+        1.0245001580117936
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "curved_common_gap",
+      "method": "symmetric24",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.570318365625284,
+        0.570318365625284
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "twisted_complementary",
+      "method": "POTS33",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.3548921814330456,
+        0.3548921814330456
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "twisted_complementary",
+      "method": "POTS33",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.0219042318785179,
+        1.0219042318785179
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "twisted_complementary",
+      "method": "POTS33",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5426288013703351,
+        0.5426288013703351
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "twisted_complementary",
+      "method": "symmetric24",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.38133939674559303,
+        0.3813393967455929
+      ],
+      "status": "pass",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "case_id": "twisted_complementary",
+      "method": "symmetric24",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.022258821048389,
+        1.022258821048389
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "twisted_complementary",
+      "method": "symmetric24",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5686573745406334,
+        0.5686573745406334
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "method": "POTS33",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.3542074826832782,
+        0.3542074826832782
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "method": "POTS33",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.021668987699705,
+        1.021668987699705
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "method": "POTS33",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5379067637568671,
+        0.537906763756867
+      ],
+      "status": "pass",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "method": "symmetric24",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5076193569126407,
+        0.5076193569126406
+      ],
+      "status": "pass",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "method": "symmetric24",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.0649865332958108,
+        1.0649865332958108
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "method": "symmetric24",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5871101701323049,
+        0.5871101701323049
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "smooth_wave_common_gap",
+      "method": "POTS33",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.4899782920425628,
+        0.48997829204256277
+      ],
+      "status": "pass",
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "case_id": "smooth_wave_common_gap",
+      "method": "POTS33",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.050407758116425,
+        1.050407758116425
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "smooth_wave_common_gap",
+      "method": "POTS33",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.6393648776880415,
+        0.6393648776880415
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "smooth_wave_common_gap",
+      "method": "symmetric24",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.4228646876540917,
+        0.4228646876540917
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "smooth_wave_common_gap",
+      "method": "symmetric24",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.056646902534138,
+        1.056646902534138
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "smooth_wave_common_gap",
+      "method": "symmetric24",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5620732456637518,
+        0.5620732456637518
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "POTS33",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.4904863226536089,
+        0.490486322653609
+      ],
+      "status": "pass",
+      "absolute_difference": 5.551115123125783e-17
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "POTS33",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.1559900602272508,
+        1.1559900602272508
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "POTS33",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.5962998313207242,
+        0.5962998313207243
+      ],
+      "status": "pass",
+      "absolute_difference": 1.1102230246251565e-16
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "symmetric24",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.3864069774179135,
+        0.3864069774179135
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "symmetric24",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.0292038177912066,
+        1.0292038177912066
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "symmetric24",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        0.6202343340903059,
+        0.6202343340903059
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "POTS33",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.509278566684103,
+        1.5092785666841029
+      ],
+      "status": "pass",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "POTS33",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.5825375307482565,
+        1.5825375307482565
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "POTS33",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.1307712711940874,
+        1.130771271194087
+      ],
+      "status": "pass",
+      "absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "symmetric24",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        2.008478621437496,
+        2.008478621437496
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "symmetric24",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.5973298228137063,
+        1.5973298228137063
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "symmetric24",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.1170359679619888,
+        1.1170359679619888
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_p01",
+      "method": "POTS33",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.642789328321987,
+        1.6427893283219865
+      ],
+      "status": "pass",
+      "absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "case_id": "real_p01",
+      "method": "POTS33",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.6753862919916438,
+        1.6753862919916438
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_p01",
+      "method": "POTS33",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.2500490374872977,
+        1.2500490374872975
+      ],
+      "status": "pass",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "case_id": "real_p01",
+      "method": "symmetric24",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.6804102123823186,
+        1.6804102123823184
+      ],
+      "status": "pass",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "case_id": "real_p01",
+      "method": "symmetric24",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.7350380879583414,
+        1.7350380879583414
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_p01",
+      "method": "symmetric24",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.2858218582058374,
+        1.2858218582058372
+      ],
+      "status": "pass",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "case_id": "real_p02",
+      "method": "POTS33",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.4939314505910286,
+        1.4939314505910293
+      ],
+      "status": "pass",
+      "absolute_difference": 6.661338147750939e-16
+    },
+    {
+      "case_id": "real_p02",
+      "method": "POTS33",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.7676378323816386,
+        1.7676378323816386
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_p02",
+      "method": "POTS33",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.2360573394710914,
+        1.2360573394710914
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_p02",
+      "method": "symmetric24",
+      "quantity": "lamina_area",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.4032785305856268,
+        1.4032785305856268
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_p02",
+      "method": "symmetric24",
+      "quantity": "midrib_arc_length",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.6515356438470088,
+        1.6515356438470088
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    },
+    {
+      "case_id": "real_p02",
+      "method": "symmetric24",
+      "quantity": "half_arc_section_chord_width",
+      "levels": [
+        0,
+        2
+      ],
+      "values": [
+        1.2769072937913468,
+        1.2769072937913468
+      ],
+      "status": "pass",
+      "absolute_difference": 0.0
+    }
+  ],
+  "geometry_replay_checks": [
+    {
+      "case_id": "curved_complementary",
+      "method": "POTS33",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "curved_complementary",
+      "method": "symmetric24",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "curved_common_gap",
+      "method": "POTS33",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "curved_common_gap",
+      "method": "symmetric24",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "twisted_complementary",
+      "method": "POTS33",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "twisted_complementary",
+      "method": "symmetric24",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "method": "POTS33",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "method": "symmetric24",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "smooth_wave_common_gap",
+      "method": "POTS33",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "smooth_wave_common_gap",
+      "method": "symmetric24",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "POTS33",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "symmetric24",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "POTS33",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "symmetric24",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "real_p01",
+      "method": "POTS33",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "real_p01",
+      "method": "symmetric24",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "real_p02",
+      "method": "POTS33",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    },
+    {
+      "case_id": "real_p02",
+      "method": "symmetric24",
+      "L0_VF": [
+        11,
+        12
+      ],
+      "L2_VF": [
+        113,
+        192
+      ],
+      "coordinate_replay_bitwise_equal": true,
+      "max_replay_coordinate_difference": 0.0,
+      "face_indices_identical": true,
+      "vertex_organ_ids_identical": true,
+      "face_organ_ids_identical": true,
+      "pass": true
+    }
+  ]
+}

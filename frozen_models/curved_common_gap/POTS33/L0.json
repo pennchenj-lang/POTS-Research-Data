@@ -1,0 +1,1226 @@
+{
+  "schema_version": "pots-gs-mesh-1.0",
+  "vertices": [
+    {
+      "vertex_id": "leaf01:v0",
+      "organ_id": "leaf01",
+      "xyz": [
+        -0.000326690663083962,
+        -0.0004912836903857202,
+        0.0007983056776322774
+      ],
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "B"
+    },
+    {
+      "vertex_id": "leaf01:v1",
+      "organ_id": "leaf01",
+      "xyz": [
+        -0.17384650864973578,
+        0.25239792908992126,
+        0.11516378121609701
+      ],
+      "uv": [
+        0.25,
+        -1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "L1"
+    },
+    {
+      "vertex_id": "leaf01:v2",
+      "organ_id": "leaf01",
+      "xyz": [
+        0.01604739242146415,
+        0.2689680223982035,
+        0.08227602396846029
+      ],
+      "uv": [
+        0.25,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "C1"
+    },
+    {
+      "vertex_id": "leaf01:v3",
+      "organ_id": "leaf01",
+      "xyz": [
+        0.20666556905479233,
+        0.25139068278802496,
+        0.10788616903792517
+      ],
+      "uv": [
+        0.25,
+        1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "R1"
+    },
+    {
+      "vertex_id": "leaf01:v4",
+      "organ_id": "leaf01",
+      "xyz": [
+        -0.2701081533126976,
+        0.4836223922141959,
+        0.07993333273577866
+      ],
+      "uv": [
+        0.5,
+        -1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "L2"
+    },
+    {
+      "vertex_id": "leaf01:v5",
+      "organ_id": "leaf01",
+      "xyz": [
+        0.018067415073168783,
+        0.6808889705800698,
+        0.08101861631380894
+      ],
+      "uv": [
+        0.5,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "C2"
+    },
+    {
+      "vertex_id": "leaf01:v6",
+      "organ_id": "leaf01",
+      "xyz": [
+        0.31007863816335496,
+        0.49646144811341375,
+        0.07677204330025014
+      ],
+      "uv": [
+        0.5,
+        1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "R2"
+    },
+    {
+      "vertex_id": "leaf01:v7",
+      "organ_id": "leaf01",
+      "xyz": [
+        -0.18425620324774528,
+        0.7495691718353502,
+        0.11688719345754706
+      ],
+      "uv": [
+        0.75,
+        -1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "L3"
+    },
+    {
+      "vertex_id": "leaf01:v8",
+      "organ_id": "leaf01",
+      "xyz": [
+        0.014908664966340728,
+        0.7499146219737437,
+        0.07735004289648258
+      ],
+      "uv": [
+        0.75,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "C3"
+    },
+    {
+      "vertex_id": "leaf01:v9",
+      "organ_id": "leaf01",
+      "xyz": [
+        0.21353561526574957,
+        0.7505942743663356,
+        0.11064950458214053
+      ],
+      "uv": [
+        0.75,
+        1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "R3"
+    },
+    {
+      "vertex_id": "leaf01:v10",
+      "organ_id": "leaf01",
+      "xyz": [
+        -0.0003794070073865222,
+        1.0000214657371955,
+        -7.533153176639176e-07
+      ],
+      "uv": [
+        1.0,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "input00",
+          "input02"
+        ],
+        "contributors": [
+          "input00:training_annotation",
+          "input02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "T"
+    }
+  ],
+  "faces": [
+    {
+      "face_id": "leaf01:L0:f0",
+      "organ_id": "leaf01",
+      "vertices": [
+        0,
+        2,
+        1
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f1",
+      "organ_id": "leaf01",
+      "vertices": [
+        0,
+        3,
+        2
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f2",
+      "organ_id": "leaf01",
+      "vertices": [
+        1,
+        2,
+        5
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f3",
+      "organ_id": "leaf01",
+      "vertices": [
+        1,
+        5,
+        4
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f4",
+      "organ_id": "leaf01",
+      "vertices": [
+        2,
+        3,
+        6
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f5",
+      "organ_id": "leaf01",
+      "vertices": [
+        2,
+        6,
+        5
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f6",
+      "organ_id": "leaf01",
+      "vertices": [
+        4,
+        5,
+        8
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f7",
+      "organ_id": "leaf01",
+      "vertices": [
+        4,
+        8,
+        7
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f8",
+      "organ_id": "leaf01",
+      "vertices": [
+        5,
+        6,
+        9
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f9",
+      "organ_id": "leaf01",
+      "vertices": [
+        5,
+        9,
+        8
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f10",
+      "organ_id": "leaf01",
+      "vertices": [
+        7,
+        8,
+        10
+      ],
+      "level": 0,
+      "parent_face_id": null
+    },
+    {
+      "face_id": "leaf01:L0:f11",
+      "organ_id": "leaf01",
+      "vertices": [
+        8,
+        9,
+        10
+      ],
+      "level": 0,
+      "parent_face_id": null
+    }
+  ],
+  "level": 0,
+  "data_type": "synthetic",
+  "coordinate_system": "world coordinates of supplied calibrated cameras; unit=synthetic_world_unit",
+  "lineage": {},
+  "petiole_controls": [],
+  "petiole_edges": [],
+  "metadata": {
+    "topology_source": "taskbook 2026-09-05 section 7; fixed connection table verified",
+    "surface_controls": 11,
+    "geometry_optimized": true,
+    "uv_semantics": "u in [0,1] longitudinal; v in [-1,1] lateral; endpoints v=0",
+    "algorithm": "POTS multi-view scaffold fitting",
+    "fit_diagnostics": {
+      "schema": "pots-gs.multiview-scaffold-fit.v1",
+      "data_type": "synthetic",
+      "organ_id": "leaf01",
+      "status": "reviewed_input_fit",
+      "review_warnings": [],
+      "optimizer_success": true,
+      "optimizer_status": 2,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "nfev": 32,
+      "training_views": [
+        "input00",
+        "input02"
+      ],
+      "evaluation_used": false,
+      "gs_optimized": false,
+      "parameters": 33,
+      "regularization": 0.1,
+      "differential_weight": 1.0,
+      "initial_scale": 1.1186439944890445,
+      "sigma_px": 2.0,
+      "max_displacement_in_initial_scale": 1.0,
+      "initial_residual_norm": 9.253961300351731,
+      "final_residual_norm": 0.16635147112763446,
+      "initial": [
+        {
+          "view_id": "input00",
+          "material_rms_px": 0.03627406118948961,
+          "Q_rms_px": 8.963076062637523,
+          "Q_within_view_parameters": [
+            0.3216390457615517,
+            0.637336671437908,
+            0.9767966426443505,
+            1.311068371705172,
+            2.6845687703094034,
+            3.0305291978538484,
+            3.358077891835153,
+            3.6851129149541464
+          ],
+          "W_rms_px": 13.641265097561991,
+          "min_camera_depth": 2.415675161195939
+        },
+        {
+          "view_id": "input02",
+          "material_rms_px": 0.03468294118417611,
+          "Q_rms_px": 1.6076883263131394,
+          "Q_within_view_parameters": [
+            0.23629217581904133,
+            0.4787404954186581,
+            0.7182081672314863,
+            0.9688794285657386,
+            1.217889906292324,
+            2.770037892448286,
+            3.0247986161697673,
+            3.277301414383495,
+            3.519350960584633,
+            3.766642643695323
+          ],
+          "W_rms_px": 8.575265159664363,
+          "min_camera_depth": 2.5434199673190734
+        }
+      ],
+      "final": [
+        {
+          "view_id": "input00",
+          "material_rms_px": 0.04760900601615879,
+          "Q_rms_px": 0.14189509344724824,
+          "Q_within_view_parameters": [
+            0.30697577668259,
+            0.6075566020952136,
+            0.9315505841174258,
+            1.1546175951449973,
+            1.9638402634507397,
+            3.0013750962528896,
+            3.339169918892897,
+            3.675073953392334
+          ],
+          "W_rms_px": 0.14927591730159948,
+          "min_camera_depth": 2.325473327138435
+        },
+        {
+          "view_id": "input02",
+          "material_rms_px": 0.03794340811463781,
+          "Q_rms_px": 0.18924661758647568,
+          "Q_within_view_parameters": [
+            0.22716512576969003,
+            0.4600090747211433,
+            0.6901488814922593,
+            0.9311911243359033,
+            1.1042545829360806,
+            2.102736624163624,
+            3.0,
+            3.2590828973352126,
+            3.507188052903671,
+            3.760624489576416
+          ],
+          "W_rms_px": 0.1448313055312301,
+          "min_camera_depth": 2.438444546401966
+        }
+      ],
+      "observation_audit": [
+        {
+          "view_id": "input00",
+          "material_points": 2,
+          "Q": {
+            "points": 8,
+            "visible_segments": 0,
+            "ignored_segments": 7
+          },
+          "W": [
+            {
+              "points": 15,
+              "visible_segments": 3,
+              "ignored_segments": 0
+            },
+            {
+              "points": 65,
+              "visible_segments": 13,
+              "ignored_segments": 0
+            },
+            {
+              "points": 55,
+              "visible_segments": 11,
+              "ignored_segments": 0
+            }
+          ]
+        },
+        {
+          "view_id": "input02",
+          "material_points": 2,
+          "Q": {
+            "points": 10,
+            "visible_segments": 0,
+            "ignored_segments": 9
+          },
+          "W": [
+            {
+              "points": 55,
+              "visible_segments": 11,
+              "ignored_segments": 0
+            },
+            {
+              "points": 60,
+              "visible_segments": 12,
+              "ignored_segments": 0
+            },
+            {
+              "points": 10,
+              "visible_segments": 2,
+              "ignored_segments": 0
+            }
+          ]
+        }
+      ],
+      "max_vertex_displacement": 0.19912345214782826,
+      "min_triangle_area": 0.0069590963679042215,
+      "all_positive_depth": true,
+      "box_boundary_hits": 0,
+      "confidence_semantics": "all vertex confidence=0: uncertainty not calibrated",
+      "Q_assignment": "within-view monotone finite-candidate curve match, no cross-view index correspondence",
+      "W_assignment": "one-way true-margin sample to projected organ boundary; no occluder cut or auto-closing",
+      "limitations": [
+        "11 controls approximate the leaf; regularization contributes shape",
+        "visible path/boundary fit does not prove unique 3D depth or unseen curvature",
+        "no whole-plant occlusion renderer; input visibility is supplied",
+        "positive depth and nondegenerate triangles do not prove no self-intersection",
+        "optimizer convergence and box non-contact do not prove reconstruction accuracy"
+      ]
+    },
+    "training_observations": [
+      {
+        "view_id": "input00",
+        "organ_id": "leaf01",
+        "split": "train",
+        "coordinate_domain": "undistorted_pixels",
+        "reviewed": true,
+        "same_leaf_confirmed": true,
+        "material": [
+          {
+            "label": "B",
+            "xy": [
+              319.97252659099746,
+              391.0015546495995
+            ],
+            "status": "visible",
+            "reviewed": true,
+            "correspondence_id": "leaf01:B"
+          },
+          {
+            "label": "T",
+            "xy": [
+              319.8445430242491,
+              89.21847232734096
+            ],
+            "status": "visible",
+            "reviewed": true,
+            "correspondence_id": "leaf01:T"
+          }
+        ],
+        "W": [
+          {
+            "xy": [
+              [
+                319.6266499124872,
+                390.9076623329204
+              ],
+              [
+                314.65741051575014,
+                382.79545580499456
+              ],
+              [
+                309.46722881028865,
+                374.12960984727164
+              ],
+              [
+                304.31219897027955,
+                365.4962716556169
+              ]
+            ],
+            "point_status": [
+              "visible",
+              "visible",
+              "visible",
+              "visible"
+            ],
+            "segment_kind": [
+              "true_margin",
+              "true_margin",
+              "true_margin"
+            ],
+            "reviewed": true,
+            "closed": false
+          },
+          {
+            "xy": [
+              [
+                303.12134465282384,
+                114.38240376536645
+              ],
+              [
+                308.2885582828846,
+                106.05157599745118
+              ],
+              [
+                314.5373329581588,
+                97.37036335204708
+              ],
+              [
+                320.1870616772217,
+                88.7029397576892
+              ],
+              [
+                328.7142030657293,
+                98.30847515363739
+              ],
+              [
+                337.50041008316714,
+                107.08943042665321
+              ],
+              [
+                346.6598626175611,
+                116.57749360791499
+              ],
+              [
+                355.89934590467277,
+                125.50832080801446
+              ],
+              [
+                364.78161015574904,
+                135.05303727486657
+              ],
+              [
+                374.18382558581425,
+                144.0087908607441
+              ],
+              [
+                382.9369597354911,
+                153.26931099912198
+              ],
+              [
+                392.43228573574015,
+                163.20121965731056
+              ],
+              [
+                395.52276363102067,
+                172.9166314560306
+              ],
+              [
+                398.32037888656686,
+                182.78077487462105
+              ]
+            ],
+            "point_status": [
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible"
+            ],
+            "segment_kind": [
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin"
+            ],
+            "reviewed": true,
+            "closed": false
+          },
+          {
+            "xy": [
+              [
+                399.60749633894994,
+                288.0003090138374
+              ],
+              [
+                396.6696731514825,
+                298.0593587332583
+              ],
+              [
+                393.0853651551723,
+                307.8517129742106
+              ],
+              [
+                389.62502327621735,
+                317.0985236905131
+              ],
+              [
+                380.8440045604781,
+                326.53501560845666
+              ],
+              [
+                372.2039064994444,
+                335.509806116493
+              ],
+              [
+                363.10068946173675,
+                344.7798358844601
+              ],
+              [
+                354.7837644196212,
+                354.18996178530494
+              ],
+              [
+                346.0115063946337,
+                363.40243851524576
+              ],
+              [
+                337.1181317841382,
+                372.8575905351677
+              ],
+              [
+                328.3302775511045,
+                381.8521535468232
+              ],
+              [
+                319.7848515646915,
+                390.5166328440168
+              ]
+            ],
+            "point_status": [
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible"
+            ],
+            "segment_kind": [
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin"
+            ],
+            "reviewed": true,
+            "closed": false
+          }
+        ],
+        "Q": {
+          "xy": [
+            [
+              323.68648206520413,
+              366.7435161671918
+            ],
+            [
+              326.8844107062285,
+              342.9112785690631
+            ],
+            [
+              330.7590567368379,
+              317.2850174954903
+            ],
+            [
+              331.5433585586878,
+              292.0565743230532
+            ],
+            [
+              331.9920885427578,
+              188.40791887536065
+            ],
+            [
+              330.7585627325761,
+              162.30441638683075
+            ],
+            [
+              326.8819552604873,
+              137.5959371278351
+            ],
+            [
+              323.7006758930024,
+              112.92591051628403
+            ]
+          ],
+          "point_status": [
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "segment_visibility": [
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown"
+          ],
+          "order": "B_to_T",
+          "reviewed": true
+        }
+      },
+      {
+        "view_id": "input02",
+        "organ_id": "leaf01",
+        "split": "train",
+        "coordinate_domain": "undistorted_pixels",
+        "reviewed": true,
+        "same_leaf_confirmed": true,
+        "material": [
+          {
+            "label": "B",
+            "xy": [
+              319.8334879506335,
+              383.30585716065514
+            ],
+            "status": "visible",
+            "reviewed": true,
+            "correspondence_id": "leaf01:B"
+          },
+          {
+            "label": "T",
+            "xy": [
+              319.8797571444246,
+              95.80842986426424
+            ],
+            "status": "visible",
+            "reviewed": true,
+            "correspondence_id": "leaf01:T"
+          }
+        ],
+        "W": [
+          {
+            "xy": [
+              [
+                320.27804028843923,
+                382.68946773362194
+              ],
+              [
+                312.9199943074334,
+                375.0671503416434
+              ],
+              [
+                305.59938166278556,
+                366.08753016498366
+              ],
+              [
+                298.0837802491047,
+                357.1745561806127
+              ],
+              [
+                291.1704080440528,
+                348.12272270290725
+              ],
+              [
+                283.6689483988253,
+                339.61357808549036
+              ],
+              [
+                276.2838380060356,
+                331.3033132305058
+              ],
+              [
+                268.97358912431594,
+                322.15541368228713
+              ],
+              [
+                261.96363260558843,
+                313.8136729766862
+              ],
+              [
+                258.36269444490495,
+                304.0251697657656
+              ],
+              [
+                255.63679537429906,
+                295.37345845298034
+              ],
+              [
+                252.7300441915855,
+                286.19168966988104
+              ]
+            ],
+            "point_status": [
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible"
+            ],
+            "segment_kind": [
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin"
+            ],
+            "reviewed": true,
+            "closed": false
+          },
+          {
+            "xy": [
+              [
+                253.6176376356484,
+                185.43183849008435
+              ],
+              [
+                255.88324780906257,
+                175.99836975202928
+              ],
+              [
+                258.30441888293757,
+                166.24721616663354
+              ],
+              [
+                266.1104563298117,
+                157.5882197551383
+              ],
+              [
+                273.8018838211706,
+                148.9992492615673
+              ],
+              [
+                281.5739550294224,
+                139.93749245263504
+              ],
+              [
+                289.51111646695045,
+                131.05055871001997
+              ],
+              [
+                297.31039336608234,
+                122.03790589027945
+              ],
+              [
+                304.5392418845241,
+                113.36686386652514
+              ],
+              [
+                312.3892645867672,
+                104.81531549825336
+              ],
+              [
+                319.7438026151755,
+                95.77743010309679
+              ],
+              [
+                326.1569856645608,
+                103.66915708683803
+              ],
+              [
+                332.451604701382,
+                112.11532430459717
+              ]
+            ],
+            "point_status": [
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible"
+            ],
+            "segment_kind": [
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin"
+            ],
+            "reviewed": true,
+            "closed": false
+          },
+          {
+            "xy": [
+              [
+                331.8041838428272,
+                367.33632914200524
+              ],
+              [
+                326.11044354173805,
+                375.5099846066262
+              ],
+              [
+                320.14980889175627,
+                383.1410276602514
+              ]
+            ],
+            "point_status": [
+              "visible",
+              "visible",
+              "visible"
+            ],
+            "segment_kind": [
+              "true_margin",
+              "true_margin"
+            ],
+            "reviewed": true,
+            "closed": false
+          }
+        ],
+        "Q": {
+          "xy": [
+            [
+              318.9954624848399,
+              366.3923806038826
+            ],
+            [
+              318.93953964641565,
+              349.0607927437342
+            ],
+            [
+              318.5042801657419,
+              331.94221261483295
+            ],
+            [
+              317.7242236683109,
+              314.0226766461636
+            ],
+            [
+              317.4206279304899,
+              296.1680492998346
+            ],
+            [
+              318.18795217437383,
+              184.6364631669094
+            ],
+            [
+              317.4540855736863,
+              166.29203858038102
+            ],
+            [
+              318.4682826907208,
+              148.05353500050606
+            ],
+            [
+              318.8741095098422,
+              130.56998087902386
+            ],
+            [
+              319.1956124206275,
+              112.7077642158277
+            ]
+          ],
+          "point_status": [
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "segment_visibility": [
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown"
+          ],
+          "order": "B_to_T",
+          "reviewed": true
+        }
+      }
+    ],
+    "Q_W_indices_are_material_correspondences": false,
+    "observation_source_views_are_dependencies": true,
+    "gs_optimized": false
+  }
+}

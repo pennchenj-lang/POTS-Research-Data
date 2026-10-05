@@ -1,0 +1,936 @@
+{
+  "curved": {
+    "schema": "pots-gs.measurement-report.v2",
+    "plant_id": "synthetic:curved",
+    "organ_id": "leaf01",
+    "coordinate_frame_id": "synthetic:curved:frozen_camera_world:268942f186aa0a84",
+    "data_type": "synthetic",
+    "evidence_class": "model_derived_quantities_not_independent_accuracy",
+    "scale": {
+      "status": "unknown",
+      "coordinate_frame_id": "synthetic:curved:frozen_camera_world:268942f186aa0a84",
+      "model_to_meters": null,
+      "evidence_id": null,
+      "independent_check_id": null,
+      "metrological_traceability": "not_established",
+      "source": "Retained numerical synthetic generator units without physical conversion",
+      "standard_uncertainty_m_per_model_unit": null,
+      "evidence_authenticity_checked_by_module": false,
+      "validation_data_type": "synthetic"
+    },
+    "provenance": {
+      "source_files": [
+        {
+          "path": "inputs/synthetic/curved/reference_evaluation_only.json",
+          "sha256": "2c9ea77b8792af7437bcef3685438a4c158e9f51d402751870b4d24d5b74c4aa"
+        },
+        {
+          "path": "source_archive/POTS-GS/src/pots_gs/geometry.py",
+          "sha256": "3f00dc5f76109944884985e7d8a08a48914844b113a9298b614967a91674a54a"
+        }
+      ],
+      "reference_role": true,
+      "vertices_or_faces_modified": false,
+      "new_optimization_performed": false,
+      "camera_content_sha256": "268942f186aa0a84ceaca527224066912922f5a6ec64f280b9afff36be4e9dcd",
+      "coordinate_alignment_or_scale_applied": false,
+      "reference_kind": "finite_12_triangle_target",
+      "midrib_point_count": 5,
+      "vertex_count": 11,
+      "face_count": 12
+    },
+    "observation_support": {
+      "status": "synthetic_generator_reference",
+      "inferred_surface_fraction": null,
+      "is_measurement_uncertainty": false
+    },
+    "physical_scale_available": false,
+    "physical_scale_evidence_status": "unknown",
+    "physical_measurement_validation": "not_performed_by_this_module",
+    "E1_E2_validation": "not_established_by_numerical_tests",
+    "quantities": {
+      "lamina_area": {
+        "status": "computed_model_quantity",
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "model_value": 0.33923213159858107,
+        "model_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null
+      },
+      "midrib_arc_length": {
+        "status": "computed_model_quantity",
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "model_value": 1.025411364518029,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null
+      },
+      "half_arc_section_chord_width": {
+        "status": "computed_model_quantity",
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "model_value": 0.54,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null,
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            0.02,
+            0.5,
+            0.1
+          ],
+          "plane_normal_model": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "tangent_rule": "normalized_bisector_of_adjacent_unit_tangents_at_vertex",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -0.25,
+              0.5,
+              0.135
+            ],
+            [
+              0.29000000000000004,
+              0.5,
+              0.135
+            ]
+          ]
+        }
+      },
+      "leaf_base_height": {
+        "status": "unavailable",
+        "definition": "Vertical B height above the specified horizontal reference plane.",
+        "model_value": null,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": "no_reference_plane_and_up_evidence"
+      },
+      "organ_max_height": {
+        "status": "unavailable",
+        "definition": "Highest supplied lamina vertex above the same verified horizontal plane; not whole-plant height.",
+        "model_value": null,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": "no_reference_plane_and_up_evidence"
+      }
+    },
+    "organ_type": "leaf",
+    "path_provenance": {
+      "plant_id": "synthetic:curved",
+      "organ_id": "leaf01",
+      "coordinate_frame_id": "synthetic:curved:frozen_camera_world:268942f186aa0a84",
+      "data_type": "synthetic",
+      "representation": "C3D",
+      "path_role": "leaf_midrib_B_to_T",
+      "start_label": "B",
+      "end_label": "T",
+      "source": "Frozen generator reference; canonical B,C1,C2,C3,T"
+    },
+    "height_reference": null,
+    "qc": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 12,
+      "included_face_count": 12,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 20.041664515783957,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "Frozen open leaf-lamina topology, with no petiole or sidewall faces supplied",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "physical_scale_available": false,
+      "physical_scale_independently_checked": false,
+      "independent_3d_accuracy_available": false,
+      "uncertainty_available": false,
+      "height_available": false
+    },
+    "status": "computed",
+    "case_id": "curved_complementary",
+    "target": "curved",
+    "kind": "core_synthetic",
+    "method": "reference",
+    "level": "reference"
+  },
+  "twisted": {
+    "schema": "pots-gs.measurement-report.v2",
+    "plant_id": "synthetic:twisted",
+    "organ_id": "leaf01",
+    "coordinate_frame_id": "synthetic:twisted:frozen_camera_world:268942f186aa0a84",
+    "data_type": "synthetic",
+    "evidence_class": "model_derived_quantities_not_independent_accuracy",
+    "scale": {
+      "status": "unknown",
+      "coordinate_frame_id": "synthetic:twisted:frozen_camera_world:268942f186aa0a84",
+      "model_to_meters": null,
+      "evidence_id": null,
+      "independent_check_id": null,
+      "metrological_traceability": "not_established",
+      "source": "Retained numerical synthetic generator units without physical conversion",
+      "standard_uncertainty_m_per_model_unit": null,
+      "evidence_authenticity_checked_by_module": false,
+      "validation_data_type": "synthetic"
+    },
+    "provenance": {
+      "source_files": [
+        {
+          "path": "inputs/synthetic/twisted/reference_evaluation_only.json",
+          "sha256": "b8f93c74c61fbc27e37f15e2b9f8c3a5fcd5ee736dce2b2c68980ce5ef45f15d"
+        },
+        {
+          "path": "source_archive/POTS-GS/src/pots_gs/geometry.py",
+          "sha256": "3f00dc5f76109944884985e7d8a08a48914844b113a9298b614967a91674a54a"
+        }
+      ],
+      "reference_role": true,
+      "vertices_or_faces_modified": false,
+      "new_optimization_performed": false,
+      "camera_content_sha256": "268942f186aa0a84ceaca527224066912922f5a6ec64f280b9afff36be4e9dcd",
+      "coordinate_alignment_or_scale_applied": false,
+      "reference_kind": "finite_12_triangle_target",
+      "midrib_point_count": 5,
+      "vertex_count": 11,
+      "face_count": 12
+    },
+    "observation_support": {
+      "status": "synthetic_generator_reference",
+      "inferred_surface_fraction": null,
+      "is_measurement_uncertainty": false
+    },
+    "physical_scale_available": false,
+    "physical_scale_evidence_status": "unknown",
+    "physical_measurement_validation": "not_performed_by_this_module",
+    "E1_E2_validation": "not_established_by_numerical_tests",
+    "quantities": {
+      "lamina_area": {
+        "status": "computed_model_quantity",
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "model_value": 0.3421780834699485,
+        "model_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null
+      },
+      "midrib_arc_length": {
+        "status": "computed_model_quantity",
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "model_value": 1.021767100844654,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null
+      },
+      "half_arc_section_chord_width": {
+        "status": "computed_model_quantity",
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "model_value": 0.5135097130690542,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null,
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            4.286263797015737e-18,
+            0.5,
+            0.07
+          ],
+          "plane_normal_model": [
+            -0.13864784453440626,
+            0.9903417466743302,
+            0.0
+          ],
+          "tangent_rule": "normalized_bisector_of_adjacent_unit_tangents_at_vertex",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -0.21205847174067738,
+              0.47031181395630517,
+              0.10267193674393255
+            ],
+            [
+              0.29649054308733097,
+              0.5415086760322263,
+              0.10373578084290037
+            ]
+          ]
+        }
+      },
+      "leaf_base_height": {
+        "status": "unavailable",
+        "definition": "Vertical B height above the specified horizontal reference plane.",
+        "model_value": null,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": "no_reference_plane_and_up_evidence"
+      },
+      "organ_max_height": {
+        "status": "unavailable",
+        "definition": "Highest supplied lamina vertex above the same verified horizontal plane; not whole-plant height.",
+        "model_value": null,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": "no_reference_plane_and_up_evidence"
+      }
+    },
+    "organ_type": "leaf",
+    "path_provenance": {
+      "plant_id": "synthetic:twisted",
+      "organ_id": "leaf01",
+      "coordinate_frame_id": "synthetic:twisted:frozen_camera_world:268942f186aa0a84",
+      "data_type": "synthetic",
+      "representation": "C3D",
+      "path_role": "leaf_midrib_B_to_T",
+      "start_label": "B",
+      "end_label": "T",
+      "source": "Frozen generator reference; canonical B,C1,C2,C3,T"
+    },
+    "height_reference": null,
+    "qc": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 12,
+      "included_face_count": 12,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 29.640856124199765,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "Frozen open leaf-lamina topology, with no petiole or sidewall faces supplied",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "physical_scale_available": false,
+      "physical_scale_independently_checked": false,
+      "independent_3d_accuracy_available": false,
+      "uncertainty_available": false,
+      "height_available": false
+    },
+    "status": "computed",
+    "case_id": "twisted_complementary",
+    "target": "twisted",
+    "kind": "core_synthetic",
+    "method": "reference",
+    "level": "reference"
+  },
+  "smooth_wave": {
+    "schema": "pots-gs.measurement-report.v2",
+    "plant_id": "synthetic:smooth_wave",
+    "organ_id": "leaf01",
+    "coordinate_frame_id": "synthetic:smooth_wave:frozen_camera_world:268942f186aa0a84",
+    "data_type": "synthetic",
+    "evidence_class": "model_derived_quantities_not_independent_accuracy",
+    "scale": {
+      "status": "unknown",
+      "coordinate_frame_id": "synthetic:smooth_wave:frozen_camera_world:268942f186aa0a84",
+      "model_to_meters": null,
+      "evidence_id": null,
+      "independent_check_id": null,
+      "metrological_traceability": "not_established",
+      "source": "Retained numerical synthetic generator units without physical conversion",
+      "standard_uncertainty_m_per_model_unit": null,
+      "evidence_authenticity_checked_by_module": false,
+      "validation_data_type": "synthetic"
+    },
+    "provenance": {
+      "source_files": [
+        {
+          "path": "inputs/synthetic/smooth_wave/reference_dense_evaluation_only.npz",
+          "sha256": "851271b90dce388bb8eb9af457a5f4329661eb8d29020e3dd12342679aee89ef"
+        }
+      ],
+      "reference_role": true,
+      "vertices_or_faces_modified": false,
+      "new_optimization_performed": false,
+      "camera_content_sha256": "268942f186aa0a84ceaca527224066912922f5a6ec64f280b9afff36be4e9dcd",
+      "coordinate_alignment_or_scale_applied": false,
+      "reference_uv_midrib_indices": [
+        0,
+        417,
+        113,
+        420,
+        33,
+        426,
+        116,
+        429,
+        11,
+        447,
+        122,
+        450,
+        36,
+        456,
+        125,
+        459,
+        2,
+        660,
+        178,
+        663,
+        51,
+        669,
+        181,
+        672,
+        16,
+        690,
+        187,
+        693,
+        54,
+        699,
+        190,
+        702,
+        5,
+        1052,
+        278,
+        1055,
+        77,
+        1061,
+        281,
+        1064,
+        23,
+        1082,
+        287,
+        1085,
+        80,
+        1091,
+        290,
+        1094,
+        8,
+        1444,
+        378,
+        1447,
+        103,
+        1453,
+        381,
+        1456,
+        30,
+        1474,
+        387,
+        1477,
+        106,
+        1483,
+        390,
+        1486,
+        10
+      ],
+      "reference_kind": "frozen_L4_analytic_sampled_triangulation",
+      "midrib_point_count": 65,
+      "vertex_count": 1601,
+      "face_count": 3072
+    },
+    "observation_support": {
+      "status": "synthetic_generator_reference",
+      "inferred_surface_fraction": null,
+      "is_measurement_uncertainty": false
+    },
+    "physical_scale_available": false,
+    "physical_scale_evidence_status": "unknown",
+    "physical_measurement_validation": "not_performed_by_this_module",
+    "E1_E2_validation": "not_established_by_numerical_tests",
+    "quantities": {
+      "lamina_area": {
+        "status": "computed_model_quantity",
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "model_value": 0.39089468126385396,
+        "model_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null
+      },
+      "midrib_arc_length": {
+        "status": "computed_model_quantity",
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "model_value": 1.0598587544596798,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null
+      },
+      "half_arc_section_chord_width": {
+        "status": "computed_model_quantity",
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "model_value": 0.4761018013673596,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null,
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            4.286263797015737e-18,
+            0.5,
+            0.065
+          ],
+          "plane_normal_model": [
+            -0.21445034463080084,
+            0.9767348922239497,
+            -1.735288069377195e-18
+          ],
+          "tangent_rule": "normalized_bisector_of_adjacent_unit_tangents_at_vertex",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -0.23251262082308816,
+              0.44894990230871235,
+              0.15790949135390936
+            ],
+            [
+              0.23251262082308813,
+              0.5510500976912877,
+              0.15790949135390936
+            ]
+          ]
+        }
+      },
+      "leaf_base_height": {
+        "status": "unavailable",
+        "definition": "Vertical B height above the specified horizontal reference plane.",
+        "model_value": null,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": "no_reference_plane_and_up_evidence"
+      },
+      "organ_max_height": {
+        "status": "unavailable",
+        "definition": "Highest supplied lamina vertex above the same verified horizontal plane; not whole-plant height.",
+        "model_value": null,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": "no_reference_plane_and_up_evidence"
+      }
+    },
+    "organ_type": "leaf",
+    "path_provenance": {
+      "plant_id": "synthetic:smooth_wave",
+      "organ_id": "leaf01",
+      "coordinate_frame_id": "synthetic:smooth_wave:frozen_camera_world:268942f186aa0a84",
+      "data_type": "synthetic",
+      "representation": "C3D",
+      "path_role": "leaf_midrib_B_to_T",
+      "start_label": "B",
+      "end_label": "T",
+      "source": "Frozen dense reference UV v=0 line ordered by u, all existing points retained"
+    },
+    "height_reference": null,
+    "qc": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 3072,
+      "included_face_count": 3072,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 9.502094595885104,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "Frozen open leaf-lamina topology, with no petiole or sidewall faces supplied",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "physical_scale_available": false,
+      "physical_scale_independently_checked": false,
+      "independent_3d_accuracy_available": false,
+      "uncertainty_available": false,
+      "height_available": false
+    },
+    "status": "computed",
+    "case_id": "smooth_wave_common_gap",
+    "target": "smooth_wave",
+    "kind": "analytic_synthetic",
+    "method": "reference",
+    "level": "reference"
+  },
+  "smooth_twist": {
+    "schema": "pots-gs.measurement-report.v2",
+    "plant_id": "synthetic:smooth_twist",
+    "organ_id": "leaf01",
+    "coordinate_frame_id": "synthetic:smooth_twist:frozen_camera_world:268942f186aa0a84",
+    "data_type": "synthetic",
+    "evidence_class": "model_derived_quantities_not_independent_accuracy",
+    "scale": {
+      "status": "unknown",
+      "coordinate_frame_id": "synthetic:smooth_twist:frozen_camera_world:268942f186aa0a84",
+      "model_to_meters": null,
+      "evidence_id": null,
+      "independent_check_id": null,
+      "metrological_traceability": "not_established",
+      "source": "Retained numerical synthetic generator units without physical conversion",
+      "standard_uncertainty_m_per_model_unit": null,
+      "evidence_authenticity_checked_by_module": false,
+      "validation_data_type": "synthetic"
+    },
+    "provenance": {
+      "source_files": [
+        {
+          "path": "inputs/synthetic/smooth_twist/reference_dense_evaluation_only.npz",
+          "sha256": "6ec7f15a219071f4df3f0397e7459ee12899a479bd004cd8eb14c5546b6199ce"
+        }
+      ],
+      "reference_role": true,
+      "vertices_or_faces_modified": false,
+      "new_optimization_performed": false,
+      "camera_content_sha256": "268942f186aa0a84ceaca527224066912922f5a6ec64f280b9afff36be4e9dcd",
+      "coordinate_alignment_or_scale_applied": false,
+      "reference_uv_midrib_indices": [
+        0,
+        417,
+        113,
+        420,
+        33,
+        426,
+        116,
+        429,
+        11,
+        447,
+        122,
+        450,
+        36,
+        456,
+        125,
+        459,
+        2,
+        660,
+        178,
+        663,
+        51,
+        669,
+        181,
+        672,
+        16,
+        690,
+        187,
+        693,
+        54,
+        699,
+        190,
+        702,
+        5,
+        1052,
+        278,
+        1055,
+        77,
+        1061,
+        281,
+        1064,
+        23,
+        1082,
+        287,
+        1085,
+        80,
+        1091,
+        290,
+        1094,
+        8,
+        1444,
+        378,
+        1447,
+        103,
+        1453,
+        381,
+        1456,
+        30,
+        1474,
+        387,
+        1477,
+        106,
+        1483,
+        390,
+        1486,
+        10
+      ],
+      "reference_kind": "frozen_L4_analytic_sampled_triangulation",
+      "midrib_point_count": 65,
+      "vertex_count": 1601,
+      "face_count": 3072
+    },
+    "observation_support": {
+      "status": "synthetic_generator_reference",
+      "inferred_surface_fraction": null,
+      "is_measurement_uncertainty": false
+    },
+    "physical_scale_available": false,
+    "physical_scale_evidence_status": "unknown",
+    "physical_measurement_validation": "not_performed_by_this_module",
+    "E1_E2_validation": "not_established_by_numerical_tests",
+    "quantities": {
+      "lamina_area": {
+        "status": "computed_model_quantity",
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "model_value": 0.38214233566900035,
+        "model_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null
+      },
+      "midrib_arc_length": {
+        "status": "computed_model_quantity",
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "model_value": 1.0748037603981524,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null
+      },
+      "half_arc_section_chord_width": {
+        "status": "computed_model_quantity",
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "model_value": 0.5190958271218472,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null,
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            0.04999299238624239,
+            0.5018180155081594,
+            0.06589886381326295
+          ],
+          "plane_normal_model": [
+            -0.003455262132773933,
+            0.8964135809162714,
+            0.4432050914784951
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -0.2097319511557327,
+              0.5013443044255053,
+              0.0648321416037808
+            ],
+            [
+              0.30936068820203055,
+              0.5030868966757949,
+              0.06535451326752487
+            ]
+          ]
+        }
+      },
+      "leaf_base_height": {
+        "status": "unavailable",
+        "definition": "Vertical B height above the specified horizontal reference plane.",
+        "model_value": null,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": "no_reference_plane_and_up_evidence"
+      },
+      "organ_max_height": {
+        "status": "unavailable",
+        "definition": "Highest supplied lamina vertex above the same verified horizontal plane; not whole-plant height.",
+        "model_value": null,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": "no_reference_plane_and_up_evidence"
+      }
+    },
+    "organ_type": "leaf",
+    "path_provenance": {
+      "plant_id": "synthetic:smooth_twist",
+      "organ_id": "leaf01",
+      "coordinate_frame_id": "synthetic:smooth_twist:frozen_camera_world:268942f186aa0a84",
+      "data_type": "synthetic",
+      "representation": "C3D",
+      "path_role": "leaf_midrib_B_to_T",
+      "start_label": "B",
+      "end_label": "T",
+      "source": "Frozen dense reference UV v=0 line ordered by u, all existing points retained"
+    },
+    "height_reference": null,
+    "qc": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 3072,
+      "included_face_count": 3072,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 31.608467820665098,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "Frozen open leaf-lamina topology, with no petiole or sidewall faces supplied",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "physical_scale_available": false,
+      "physical_scale_independently_checked": false,
+      "independent_3d_accuracy_available": false,
+      "uncertainty_available": false,
+      "height_available": false
+    },
+    "status": "computed",
+    "case_id": "smooth_twist_common_gap",
+    "target": "smooth_twist",
+    "kind": "analytic_synthetic",
+    "method": "reference",
+    "level": "reference"
+  }
+}

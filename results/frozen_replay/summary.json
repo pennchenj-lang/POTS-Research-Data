@@ -1,0 +1,115 @@
+{
+  "schema": "pots.frozen-quantity-comparison.summary.v1",
+  "completed_utc": "2026-10-05T03:58:06.689478+00:00",
+  "environment": {
+    "utc": "2026-10-05T03:58:06.223408+00:00",
+    "executable": "source_archive/POTS-GS/.venv-batch50/Scripts/python.exe",
+    "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "environment": {
+      "TEMP": "source_archive/previous_revision/cache/temp",
+      "TMP": "source_archive/previous_revision/cache/temp",
+      "TMPDIR": "source_archive/previous_revision/cache/temp",
+      "PIP_CACHE_DIR": "source_archive/previous_revision/cache/pip",
+      "TORCH_HOME": "source_archive/previous_revision/cache/torch",
+      "HF_HOME": "source_archive/previous_revision/cache/huggingface",
+      "MPLCONFIGDIR": "source_archive/previous_revision/cache/matplotlib",
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "argv": [
+      "source_archive/previous_revision/code/frozen_replay/replay_v038.py",
+      "run"
+    ]
+  },
+  "protocol_sha256": "e0abb97622444bdb242f232be5f5e475bd93015eb3688f1263aa4ce4fa4d37ea",
+  "input_manifest_sha256": "4923a9494c56fb255acec54bda5d40791d4dc49dd85e2e3ccf5d4deb0ade1933",
+  "source_files_unchanged": true,
+  "historical_hash_checks": 140,
+  "historical_hash_checks_all_match": true,
+  "reference_target_count": 4,
+  "reference_reports_rejected": 0,
+  "model_report_count": 36,
+  "model_reports_rejected": 0,
+  "quantity_row_count": 108,
+  "quantity_unavailable_or_rejected": 0,
+  "subdivision_quantity_checks": {
+    "pass": 54
+  },
+  "all_geometry_replay_checks_pass": true,
+  "max_subdivision_quantity_difference": 6.661338147750939e-16,
+  "synthetic_descriptive_outcomes": {
+    "lamina_area": {
+      "POTS33_lower_absolute_error": 4,
+      "symmetric24_lower_absolute_error": 2
+    },
+    "midrib_arc_length": {
+      "symmetric24_lower_absolute_error": 3,
+      "POTS33_lower_absolute_error": 3
+    },
+    "half_arc_section_chord_width": {
+      "symmetric24_lower_absolute_error": 3,
+      "POTS33_lower_absolute_error": 3
+    }
+  },
+  "severe_fold_warnings": [
+    {
+      "case_id": "twisted_common_gap",
+      "method": "symmetric24",
+      "level": 0,
+      "angle_deg": 174.99081483923794
+    },
+    {
+      "case_id": "twisted_common_gap",
+      "method": "symmetric24",
+      "level": 2,
+      "angle_deg": 174.99081483923814
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "POTS33",
+      "level": 0,
+      "angle_deg": 85.35872558763555
+    },
+    {
+      "case_id": "smooth_twist_common_gap",
+      "method": "POTS33",
+      "level": 2,
+      "angle_deg": 85.35872558763556
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "symmetric24",
+      "level": 0,
+      "angle_deg": 91.01837193475566
+    },
+    {
+      "case_id": "real_known_pilot",
+      "method": "symmetric24",
+      "level": 2,
+      "angle_deg": 91.01837193475599
+    },
+    {
+      "case_id": "real_p02",
+      "method": "POTS33",
+      "level": 0,
+      "angle_deg": 93.74920930965409
+    },
+    {
+      "case_id": "real_p02",
+      "method": "POTS33",
+      "level": 2,
+      "angle_deg": 93.74920930965607
+    }
+  ],
+  "physical_scale_verified": false,
+  "real_reference_errors_computed": false,
+  "new_fits": 0,
+  "new_independent_sample_count": 0,
+  "uncertainty": "not estimated; null is not zero",
+  "scope": "Synthetic numerical target comparisons and real model quantities only. No independent physical or natural-occlusion validation."
+}

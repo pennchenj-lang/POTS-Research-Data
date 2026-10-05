@@ -1,0 +1,47 @@
+{
+  "source": "author multi_readme.pdf p3 and independently downloaded originals",
+  "comparisons": [
+    {
+      "camera": "00",
+      "original_size": [
+        2048,
+        1536
+      ],
+      "crop_origin": [
+        30,
+        210
+      ],
+      "crop_size": [
+        480,
+        480
+      ],
+      "pixel_exact": true,
+      "maximum_absolute_channel_difference": 0,
+      "original_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+      "crop_sha256": "53ff7013172f2bc58a29da67539f9d92e76ac7af9c73ff4ba3a05e71e98dea8d",
+      "projection_rule": "K_crop = translation(-origin) @ K_full, distortion unchanged; no resize",
+      "heldout_plant_image_read": false
+    },
+    {
+      "camera": "02",
+      "original_size": [
+        2048,
+        1536
+      ],
+      "crop_origin": [
+        640,
+        220
+      ],
+      "crop_size": [
+        480,
+        480
+      ],
+      "pixel_exact": true,
+      "maximum_absolute_channel_difference": 0,
+      "original_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa",
+      "crop_sha256": "bec5b40593e95a7c599b903edd42cd03558ba3ea86488ff117ef818dc0082b20",
+      "projection_rule": "K_crop = translation(-origin) @ K_full, distortion unchanged; no resize",
+      "heldout_plant_image_read": false
+    }
+  ]
+}

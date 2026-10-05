@@ -1,0 +1,18 @@
+{
+  "title": "POTS Measurement research data: public reviewer subset",
+  "version": "v041-public-reviewer",
+  "creator": "JianPeng Chen",
+  "publication_authorization": "author authorized public repository upload",
+  "selected_evidence_files": 167,
+  "excluded_local_evidence_files": 35,
+  "synthetic_targets": 4,
+  "synthetic_conditions": 6,
+  "real_plants": 3,
+  "real_leaves": 3,
+  "frozen_meshes": 36,
+  "completed_physical_validation_objects": 0,
+  "independent_repetition_records": 0,
+  "source_dataset": "KOMATSUNA multiview",
+  "source_url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/",
+  "licence": "No blanket third-party redistribution licence conveyed; see LICENCE_AND_ACCESS.md"
+}

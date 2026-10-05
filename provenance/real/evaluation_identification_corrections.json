@@ -1,0 +1,38 @@
+[
+  {
+    "group": "p01",
+    "method": "POTS33",
+    "corrected_protocol_path": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/POTS33/evaluation/protocol_identification_corrected.json",
+    "corrected_sha256": "26226156f4902272fe174c4ab418a6b82daee1071df06e4a60e38400db0609cd",
+    "actual_candidate_id": "komatsuna_p01_d009_t00_leaf04",
+    "original_retained": true,
+    "metric_or_fit_changed": false
+  },
+  {
+    "group": "p01",
+    "method": "symmetric24",
+    "corrected_protocol_path": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p01/symmetric24/evaluation/protocol_identification_corrected.json",
+    "corrected_sha256": "ed9a6b1f3c231275256fe0dec90c0260d381ef2549a264654ea565071071465c",
+    "actual_candidate_id": "komatsuna_p01_d009_t00_leaf04",
+    "original_retained": true,
+    "metric_or_fit_changed": false
+  },
+  {
+    "group": "p02",
+    "method": "POTS33",
+    "corrected_protocol_path": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/POTS33/evaluation/protocol_identification_corrected.json",
+    "corrected_sha256": "84f778780a738d4de98ae66206ed5227b437c5e12c0d326d4a8b1e4f27a232e5",
+    "actual_candidate_id": "komatsuna_p02_d009_t00_leaf04",
+    "original_retained": true,
+    "metric_or_fit_changed": false
+  },
+  {
+    "group": "p02",
+    "method": "symmetric24",
+    "corrected_protocol_path": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/evaluation/p02/symmetric24/evaluation/protocol_identification_corrected.json",
+    "corrected_sha256": "a922cc5e2f5f47c2cfaac019046255a0e0053bd38bc4c3a167825d2c1659880c",
+    "actual_candidate_id": "komatsuna_p02_d009_t00_leaf04",
+    "original_retained": true,
+    "metric_or_fit_changed": false
+  }
+]

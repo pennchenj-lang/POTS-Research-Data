@@ -1,0 +1,40 @@
+{
+  "data_type": "real_calibration_only",
+  "board_inner_corners": [
+    9,
+    6
+  ],
+  "square_side": 1.0,
+  "length_unit": "unknown physical checker square; no centimeters",
+  "training_capture_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    18,
+    20,
+    24,
+    28,
+    40,
+    44
+  ],
+  "heldout_capture_ids": [
+    12,
+    32,
+    48
+  ],
+  "camera_ids": [
+    "00",
+    "01",
+    "02"
+  ],
+  "pattern_source": "visually observed 10x7 printed squares; detected9x6 inner corners",
+  "point_order": "9-column row-major, reverse180 if first x+y > last x+y; validated by cross-camera heldout reprojection, no residual-based deletion",
+  "camera_model": "OpenCV PINHOLE with k1,k2,p1,p2,k3; per-camera calibrated on train boards, stereo fixed intrinsics",
+  "no_plant_image_access": true,
+  "frozen_before_fit": true,
+  "v3_extra_board_reason": "Camera02 lacked6 complete train boards; add next earliest available captures001002003 independently of residual; all prior failures retained",
+  "v2_amendment": "Retain all detection failures; fit only complete54-corner boards, at least6train and2heldout, no deletion based on residual. v1 stopped on physically cropped boards; source images unchanged."
+}

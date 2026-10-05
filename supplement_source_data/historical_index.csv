@@ -1,0 +1,13 @@
+﻿sections,content,scope
+S1–S3,"Algorithm, synthetic core, capacity and sensitivity",No new fit; numerical/representation evidence
+S4–S5,Reviewed real pilot and geometry checks,Three model leaves; unknown scale
+S6,References and reproducibility archive,Historical sources and versions retained
+S7–S9,Occlusion images and uncalibrated photo batches,Input/export evidence; no physical truth
+S10,Photo-only camera candidates,Camera-development diagnostics
+S11–S12,Quantity contract and public-reference interfaces,Mapped here; dataset units not interchangeable
+S13–S16,"Three-view camera, stereo leaf and local stems",Different inputs/models/reference conditions
+S17–S18,Full-input cases and leaf–petiole joint model,Examples and connection diagnostics
+S19–S21,"Match support, stability and camera sensitivity",Numerical stability did not validate organ position
+S22–S24,"Few-leaf contours, local support, source corrections","Image-constrained branch, not pure subdivision"
+S25–S27,"Scale, frozen quantities and physical eligibility",Mapped exactly in S1
+S28,Representation and perturbation full panels,Synthetic conditional diagnostics retained

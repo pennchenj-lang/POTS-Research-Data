@@ -1,0 +1,15 @@
+{
+  "new_fits": 0,
+  "optimization_wall_seconds": null,
+  "same_scope_old_timing": "NA",
+  "source": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/analytic_extension_v2/smooth_twist/BT_Q_W",
+  "byte_identical_sha256": {
+    "L0.json": "12fee727b37722af9b2f0b44f90b72ea4c5a14fc284387b4dbf5083de0742256",
+    "L0.obj": "42bf01076bb1cf2596dc0e9aa6d04dd55b0343fe139516995515d0b75c18492f",
+    "L1.json": "af3048eff32f9d1b4ea68da433eaf1be42a3b9b906489c0c8129fb5e83d959b2",
+    "L1.obj": "b45d523ffbe346924b1711da86ffafad8b62a63e18a7254c95121443a5526c43",
+    "L2.json": "8e9300c631a42b3c07baeea7e88aa8e49d8449efb9c39c88f95d7d2cd9b7428e",
+    "L2.obj": "8514dbae1b85f3dd6e73fbb3dfa1343e4c1f81eb46b8ee90a91c81279aa97926",
+    "result.json": "dccd7ce576cf8d20b8898da09c845ae47d49f569a8de3b39dc7b52c51bf1919c"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "schema": "pots-gs.independent-received-input-audit.v1",
+  "audited_utc": "2026-10-01T01:41:33.387347+00:00",
+  "review_path": "source_archive/POTS-GS/work/same_leaf_real_20261001_v1/received_review.json",
+  "review_sha256": "19202ba99b6e3f5a0dce86968f42555868177750847c2973fdd0eda17354c286",
+  "audit_script_sha256": "593045ecaf7431adf5464e9c1bf03e6e1eb8fcb2a44da0204f8a164d1eed88f0",
+  "data_type": "real",
+  "candidate_id": "komatsuna_p00_d009_t00_leaf04",
+  "read_only_review_audit": true,
+  "source_integrity": [
+    {
+      "path": "inputs/real/annotations/p00_original_review.json",
+      "expected": "81a49731fdc87f4e15d0c7aecf012d25f5ffcda4b2880fa0e10594abe89473e6",
+      "actual": "81a49731fdc87f4e15d0c7aecf012d25f5ffcda4b2880fa0e10594abe89473e6",
+      "match": true
+    },
+    {
+      "path": "provenance/real/p00_candidate_manifest.json",
+      "expected": "d31e7465357784e00c5653b9c0aafecd0e3001d5b81cfe656241672ed03f385f",
+      "actual": "d31e7465357784e00c5653b9c0aafecd0e3001d5b81cfe656241672ed03f385f",
+      "match": true
+    },
+    {
+      "path": "inputs/real/cameras/calibration_result.json",
+      "expected": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702",
+      "actual": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702",
+      "match": true
+    },
+    {
+      "path": "inputs/real/cameras/p00_crop_mapping.json",
+      "expected": "5c8395ce0b54df835e2c18e6ef7e04749d252a38280d45752590f41e9dfafa5d",
+      "actual": "5c8395ce0b54df835e2c18e6ef7e04749d252a38280d45752590f41e9dfafa5d",
+      "match": true
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/rgb_00_00_009_00.png",
+      "expected": "53ff7013172f2bc58a29da67539f9d92e76ac7af9c73ff4ba3a05e71e98dea8d",
+      "actual": "53ff7013172f2bc58a29da67539f9d92e76ac7af9c73ff4ba3a05e71e98dea8d",
+      "match": true
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/label_00_00_009_00.png",
+      "expected": "198ca282940383f67fa671e4cdc94079fa1f9f851bbb0c208c9a108232a9e671",
+      "actual": "198ca282940383f67fa671e4cdc94079fa1f9f851bbb0c208c9a108232a9e671",
+      "match": true
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/rgb_02_00_009_00.png",
+      "expected": "bec5b40593e95a7c599b903edd42cd03558ba3ea86488ff117ef818dc0082b20",
+      "actual": "bec5b40593e95a7c599b903edd42cd03558ba3ea86488ff117ef818dc0082b20",
+      "match": true
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/label_02_00_009_00.png",
+      "expected": "b6ae119851a5643e6c7c21427cc03c033a8bb58466df3f0a2391e36a1c0e8f77",
+      "actual": "b6ae119851a5643e6c7c21427cc03c033a8bb58466df3f0a2391e36a1c0e8f77",
+      "match": true
+    }
+  ],
+  "all_source_hashes_match": true,
+  "source_dictionary_matches_original": true,
+  "camera_and_coordinate_contract_unchanged": true,
+  "train_views": [
+    "00",
+    "02"
+  ],
+  "evaluation_views": [
+    "01"
+  ],
+  "evaluation_image_or_annotation_loaded": false,
+  "mesh_created": false,
+  "geometry_fitting_run": false,
+  "views": {
+    "00": {
+      "identity_reviewed": true,
+      "leaf_semantics_review": {
+        "reviewed": true,
+        "source": "current_user_click"
+      },
+      "original_leaf_snapshot_valid": false,
+      "all_original_fields_unchanged": true,
+      "original_field_mismatches": [],
+      "Q_point_labels_B_to_T": [
+        "B",
+        "Q1",
+        "Q2",
+        "Q3",
+        "T"
+      ],
+      "Q_point_status": {
+        "B": "visible",
+        "Q1": "visible",
+        "Q2": "visible",
+        "Q3": "visible",
+        "T": "visible"
+      },
+      "Q_segment_visibility": [
+        "visible",
+        "visible",
+        "visible",
+        "visible"
+      ],
+      "Q_segments_reviewed": true,
+      "Q_dense_segment_supervision_authorized": true,
+      "W_stroke_count": 1,
+      "W_point_count": 19,
+      "W_all_strokes_open": true,
+      "W_kind_counts": {
+        "true_margin": 18
+      },
+      "W_segments_reviewed": true,
+      "W_edge_order_and_count_preserved": true,
+      "W_native_polyline_length_by_kind_px": {
+        "true_margin": 430.19818702975624
+      },
+      "W_true_margin_fraction_of_drawn_polyline_length": 1.0,
+      "W_fraction_interpretation": "Fraction of supplied open polyline only; not fraction of anatomical perimeter or observed surface area",
+      "legacy_unknown_pixel_transform_labels": [
+        "B"
+      ],
+      "original_camera_matches_manifest": true
+    },
+    "02": {
+      "identity_reviewed": true,
+      "leaf_semantics_review": {
+        "reviewed": true,
+        "source": "original_v3_valid_snapshot"
+      },
+      "original_leaf_snapshot_valid": true,
+      "all_original_fields_unchanged": true,
+      "original_field_mismatches": [],
+      "Q_point_labels_B_to_T": [
+        "B",
+        "Q1",
+        "Q2",
+        "Q3",
+        "T"
+      ],
+      "Q_point_status": {
+        "B": "visible",
+        "Q1": "visible",
+        "Q2": "visible",
+        "Q3": "visible",
+        "T": "visible"
+      },
+      "Q_segment_visibility": [
+        "visible",
+        "visible",
+        "visible",
+        "visible"
+      ],
+      "Q_segments_reviewed": false,
+      "Q_dense_segment_supervision_authorized": false,
+      "W_stroke_count": 1,
+      "W_point_count": 22,
+      "W_all_strokes_open": true,
+      "W_kind_counts": {
+        "true_margin": 1,
+        "unknown": 20
+      },
+      "W_segments_reviewed": true,
+      "W_edge_order_and_count_preserved": true,
+      "W_native_polyline_length_by_kind_px": {
+        "true_margin": 21.213203435596427,
+        "unknown": 409.3996263439841
+      },
+      "W_true_margin_fraction_of_drawn_polyline_length": 0.04926282258346764,
+      "W_fraction_interpretation": "Fraction of supplied open polyline only; not fraction of anatomical perimeter or observed surface area",
+      "legacy_unknown_pixel_transform_labels": [
+        "B",
+        "T"
+      ],
+      "original_camera_matches_manifest": true
+    }
+  },
+  "current_review_gates": {
+    "same_plant_same_leaf_static_confirmed": false,
+    "human_leaf_review_complete": false,
+    "missing_review_items": [
+      "02 路径分段",
+      "同株同叶确认"
+    ],
+    "real_gate_passed": false,
+    "geometry_validation_run": false
+  },
+  "current_eligible_to_pass_existing_importer": false,
+  "missing_human_confirmations": [
+    "same_plant_same_leaf_static_confirmed",
+    "views.02.path_segments_reviewed"
+  ],
+  "limitations": [
+    "View02 provides only one confirmed true-margin segment; remaining20unknown segments must not constrain the margin or be closed.",
+    "Both views supply four visible Q segments, but view02 segment review is missing; visible labels alone do not certify review.",
+    "True-margin constraints are asymmetric between views; width/depth/unsupported curvature can remain regularization dependent.",
+    "Q/W indices must not become cross-view physical point correspondences.",
+    "S/A are retained as source provenance but excluded from the leaf-only inference.",
+    "Physical scale and an independent3D surface reference are absent; no centimeter accuracy or 3D recovery claim follows.",
+    "Page elapsed67.297s and17interactions are prospective review-session measures, not total annotation effort or active annotation duration."
+  ],
+  "future_chat_confirmation_receipt_contract": {
+    "create_new_derived_file_only": true,
+    "required_fields": [
+      "schema",
+      "created_utc",
+      "source_review_path",
+      "source_review_sha256",
+      "exact_question_text",
+      "verbatim_user_answer",
+      "user_message_or_question_id_if_available",
+      "confirmed_facts",
+      "json_patch_with_old_and_new_values",
+      "derived_review_sha256"
+    ],
+    "allow_patch_only_after_explicit_answer": [
+      "/same_plant_same_leaf_static_confirmed",
+      "/views/02/path_segments_reviewed",
+      "/human_leaf_review_complete",
+      "/missing_review_items"
+    ],
+    "human_leaf_review_complete_is_recomputed": true,
+    "keep_original_export_utc_and_timing": true,
+    "keep_all_point_coordinates_and_W_kinds_unchanged": true,
+    "do_not_patch": [
+      "real_gate_passed",
+      "geometry_validation_run"
+    ],
+    "rerun_frozen_importer_after_derivation": true,
+    "gate_scope": "Human confirmation permits validation; geometric success still requires frozen endpoint tests and actual computation."
+  }
+}

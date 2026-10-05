@@ -1,0 +1,401 @@
+[
+  {
+    "record_id": "synthetic_good",
+    "mesh": {
+      "plant_id": "synthetic_plant",
+      "organ_id": "synthetic_leaf",
+      "coordinate_frame_id": "synthetic_frame",
+      "data_type": "synthetic",
+      "vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          4,
+          -1,
+          0
+        ],
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ]
+      ],
+      "point_organ_ids": [
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf"
+      ],
+      "surface_semantics": "single_sided_lamina",
+      "landmark_vertex_indices": {
+        "B": 0,
+        "T": 3
+      }
+    },
+    "midrib": {
+      "plant_id": "synthetic_plant",
+      "organ_id": "synthetic_leaf",
+      "coordinate_frame_id": "synthetic_frame",
+      "data_type": "synthetic",
+      "points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0
+        ]
+      ],
+      "point_organ_ids": [
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf"
+      ],
+      "representation": "C3D",
+      "path_role": "leaf_midrib_B_to_T",
+      "start_label": "B",
+      "end_label": "T",
+      "source": "synthetic exact path"
+    },
+    "acquisition": {
+      "capture_id": "synthetic_capture",
+      "source": "synthetic fixture",
+      "captured_at": "2026-10-05T02:00:00+08:00",
+      "state_id": "synthetic_static_state",
+      "state_evidence_id": "synthetic_known_state"
+    },
+    "coordinates": {
+      "capture_id": "synthetic_capture",
+      "coordinate_frame_id": "synthetic_frame",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "status": "reported",
+      "scope": {
+        "capture_id": "synthetic_capture",
+        "coordinate_frame_id": "synthetic_frame",
+        "state_id": "synthetic_static_state",
+        "captured_at": "2026-10-05T02:00:00+08:00"
+      },
+      "data_type": "synthetic",
+      "source": "synthetic scale fixture",
+      "kappa_mm_per_model_unit": 10.0,
+      "application": "apply_to_model",
+      "scale_id": "synthetic_scale",
+      "evidence_id": "synthetic_scale_evidence",
+      "source_kind": "documented_calibration"
+    },
+    "provenance": {
+      "source_files": [
+        "synthetic://rectangle-fixture"
+      ]
+    },
+    "support": {
+      "status": "synthetic_exact_fixture",
+      "inferred_surface_fraction": 0.0
+    },
+    "reference": {
+      "plant_id": "synthetic_plant",
+      "organ_id": "synthetic_leaf",
+      "coordinate_frame_id": "synthetic_frame",
+      "target_capture_id": "synthetic_capture",
+      "data_type": "synthetic",
+      "state_id": "synthetic_static_state",
+      "captured_at": "2026-10-05T02:00:00+08:00",
+      "recorded_at": "2026-10-05T02:10:00+08:00",
+      "reference_id": "synthetic_independent_ref",
+      "source": "synthetic exact reference",
+      "evidence_id": "synthetic_reference_evidence",
+      "method": "analytic rectangle",
+      "same_state_evidence_id": "synthetic_state_pair",
+      "anatomical_scope_evidence_id": "synthetic_same_scope",
+      "independent_of_prediction_and_input_annotations": true,
+      "independent_of_scale_estimation": true,
+      "quantities": {
+        "area_model": {
+          "value": 800.0,
+          "unit": "mm^2",
+          "definition_id": "single_lamina_side_triangle_area",
+          "anatomical_scope": "single_lamina_side_excluding_petiole",
+          "source_role": "synthetic_fixture"
+        },
+        "midrib_length_model": {
+          "value": 40.0,
+          "unit": "mm",
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "anatomical_scope": "same_leaf_B_T_original_posture",
+          "source_role": "synthetic_fixture"
+        },
+        "section_chord_model": {
+          "value": 20.0,
+          "unit": "mm",
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "anatomical_scope": "same_leaf_B_T_original_posture",
+          "source_role": "synthetic_fixture"
+        }
+      }
+    },
+    "covariance": {
+      "plant_id": "synthetic_plant",
+      "organ_id": "synthetic_leaf",
+      "coordinate_frame_id": "synthetic_frame",
+      "capture_id": "synthetic_capture",
+      "data_type": "synthetic",
+      "scope_level": "organ",
+      "source": "synthetic covariance",
+      "source_kind": "synthetic_fixture",
+      "evidence_id": "synthetic_covariance",
+      "assumptions": "All supplied matrix entries including cross terms are explicit synthetic assumptions; no real covariance inferred.",
+      "variables": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "variable_units": {
+        "area_model": "model_unit^2",
+        "midrib_length_model": "model_unit",
+        "section_chord_model": "model_unit",
+        "kappa": "mm/model_unit"
+      },
+      "matrix": [
+        [
+          0.0025010000000000006,
+          -1e-06,
+          5e-07,
+          1e-06
+        ],
+        [
+          -1e-06,
+          0.00040100000000000004,
+          -5e-07,
+          -1e-06
+        ],
+        [
+          5e-07,
+          -5e-07,
+          0.00010025000000000001,
+          5e-07
+        ],
+        [
+          1e-06,
+          -1e-06,
+          5e-07,
+          1e-06
+        ]
+      ]
+    }
+  },
+  {
+    "record_id": "synthetic_bad",
+    "mesh": {
+      "plant_id": "synthetic_plant",
+      "organ_id": "synthetic_leaf",
+      "coordinate_frame_id": "synthetic_frame",
+      "data_type": "synthetic",
+      "vertices": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          4,
+          -1,
+          0
+        ],
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "faces": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ]
+      ],
+      "point_organ_ids": [
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf"
+      ],
+      "surface_semantics": "single_sided_lamina",
+      "landmark_vertex_indices": {
+        "B": 0,
+        "T": 3
+      }
+    },
+    "midrib": {
+      "plant_id": "synthetic_plant",
+      "organ_id": "wrong_organ",
+      "coordinate_frame_id": "synthetic_frame",
+      "data_type": "synthetic",
+      "points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0
+        ]
+      ],
+      "point_organ_ids": [
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf",
+        "synthetic_leaf"
+      ],
+      "representation": "C3D",
+      "path_role": "leaf_midrib_B_to_T",
+      "start_label": "B",
+      "end_label": "T",
+      "source": "synthetic exact path"
+    },
+    "acquisition": {
+      "capture_id": "synthetic_capture",
+      "source": "synthetic fixture",
+      "captured_at": "2026-10-05T02:00:00+08:00",
+      "state_id": "synthetic_static_state",
+      "state_evidence_id": "synthetic_known_state"
+    },
+    "coordinates": {
+      "capture_id": "synthetic_capture",
+      "coordinate_frame_id": "synthetic_frame",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "status": "reported",
+      "scope": {
+        "capture_id": "synthetic_capture",
+        "coordinate_frame_id": "synthetic_frame",
+        "state_id": "synthetic_static_state",
+        "captured_at": "2026-10-05T02:00:00+08:00"
+      },
+      "data_type": "synthetic",
+      "source": "synthetic scale fixture",
+      "kappa_mm_per_model_unit": 10.0,
+      "application": "apply_to_model",
+      "scale_id": "synthetic_scale",
+      "evidence_id": "synthetic_scale_evidence",
+      "source_kind": "documented_calibration"
+    },
+    "provenance": {
+      "source_files": [
+        "synthetic://rectangle-fixture"
+      ]
+    },
+    "support": {
+      "status": "synthetic_exact_fixture",
+      "inferred_surface_fraction": 0.0
+    }
+  }
+]

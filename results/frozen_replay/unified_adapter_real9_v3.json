@@ -1,0 +1,3632 @@
+[
+  {
+    "schema": "pots.unified-leaf-measurement.v038",
+    "identity": {
+      "plant_id": "p00",
+      "organ_id": "plant00:leaf_04",
+      "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7",
+      "capture_id": "komatsuna:p00:d009:t00:views00_02"
+    },
+    "data_type": "real",
+    "acquisition": {
+      "capture_id": "komatsuna:p00:d009:t00:views00_02",
+      "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+      "captured_at": null,
+      "state_id": null,
+      "state_evidence_id": null
+    },
+    "coordinates": {
+      "capture_id": "komatsuna:p00:d009:t00:views00_02",
+      "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p00:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "model_to_meters": null
+      },
+      "status": "unknown",
+      "conversion_multiplier_to_m": null,
+      "scale_check": {
+        "status": "not_independently_checked",
+        "reference": null,
+        "checkpoints": null
+      },
+      "evidence_authenticity_checked": false,
+      "metrological_traceability": "not_established_by_module",
+      "verification_scope": "supplied_real_evidence_numerically_checked",
+      "geometry_validation_implied": false,
+      "conversion_multiplier_to_mm": null,
+      "external_contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p00:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "kappa_mm_per_model_unit": null
+      },
+      "acquisition": {
+        "capture_id": "komatsuna:p00:d009:t00:views00_02",
+        "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+        "captured_at": null,
+        "state_id": null,
+        "state_evidence_id": null
+      },
+      "scale_status": "unknown",
+      "reference_status_implied": false
+    },
+    "quantities": {
+      "area_model": {
+        "dimension": 2,
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.509278566684103,
+        "coordinate_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": "mm^2",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "midrib_length_model": {
+        "dimension": 1,
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.5825375307482565,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "section_chord_model": {
+        "dimension": 1,
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            -7.99145950985521,
+            -4.018975439815523,
+            13.13396966990543
+          ],
+          "plane_normal_model": [
+            -0.8038480164793498,
+            -0.5334051149153155,
+            0.26326289101275596
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -8.308574648066479,
+              -3.534573783378813,
+              13.147150207263888
+            ],
+            [
+              -7.6582371382859655,
+              -4.450419683560151,
+              13.277269684097327
+            ]
+          ]
+        },
+        "reason": null,
+        "coordinate_value": 1.1307712711940874,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      }
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "observation_support": {
+      "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+      "inferred_surface_fraction": null,
+      "known_source_views": [
+        "00",
+        "02"
+      ],
+      "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+      "is_measurement_uncertainty": false
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 12,
+      "included_face_count": 12,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 60.07414132328338,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+    },
+    "geometry": {
+      "schema": "pots.measurement-geometry.legacy-replay.v038",
+      "identity": {
+        "plant_id": "p00",
+        "organ_id": "plant00:leaf_04",
+        "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7"
+      },
+      "data_type": "real",
+      "quantities": {
+        "area_model": {
+          "value": 1.509278566684103,
+          "dimension": 2,
+          "definition_id": "single_lamina_side_triangle_area",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "midrib_length_model": {
+          "value": 1.5825375307482565,
+          "dimension": 1,
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "section_chord_model": {
+          "value": 1.1307712711940874,
+          "dimension": 1,
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": {
+            "midrib_arc_fraction": 0.5,
+            "plane_point_model": [
+              -7.99145950985521,
+              -4.018975439815523,
+              13.13396966990543
+            ],
+            "plane_normal_model": [
+              -0.8038480164793498,
+              -0.5334051149153155,
+              0.26326289101275596
+            ],
+            "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+            "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+            "unique_boundary_intersection_count": 2,
+            "boundary_intersections_model": [
+              [
+                -8.308574648066479,
+                -3.534573783378813,
+                13.147150207263888
+              ],
+              [
+                -7.6582371382859655,
+                -4.450419683560151,
+                13.277269684097327
+              ]
+            ]
+          }
+        }
+      },
+      "quality_diagnostics": {
+        "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+        "source_face_count": 12,
+        "included_face_count": 12,
+        "excluded_face_count": 0,
+        "max_adjacent_normal_angle_deg": 60.07414132328338,
+        "severe_fold_warning_threshold_deg": 85.0,
+        "severe_fold_warning": false,
+        "self_intersection_check": "not_performed_no_certification",
+        "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+        "status": "computed_with_limitations",
+        "width_status": "computed_model_quantity",
+        "physical_scale_available": false,
+        "independent_3d_accuracy_available": false,
+        "uncertainty_available": false,
+        "height_available": false
+      },
+      "observation_support": {
+        "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+        "inferred_surface_fraction": null,
+        "known_source_views": [
+          "00",
+          "02"
+        ],
+        "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+        "is_measurement_uncertainty": false
+      },
+      "provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p00_L0_report.json",
+            "sha256": "83c61316703f87f9fd23d731c5d10240b01960de9e079a20079b197edb66e96b"
+          }
+        ],
+        "legacy_provenance": {
+          "source_files": [
+            {
+              "path": "frozen_models/real_known_pilot/POTS33/L0.json",
+              "sha256": "d161b6426d89dc383e21bed98393700726dd6599cf38feaddaa9a7b902cd0c53"
+            },
+            {
+              "path": "inputs/real/real_known_pilot/prepared_training.json",
+              "sha256": "04008c725c0a81c2b9a97f5390383628040adcc765dfaccf6ee19ea495b35fa4"
+            }
+          ],
+          "camera_content_sha256": "ed0ced87a73da2c7b33ab7805a0a1a2b1be547f90c707e68db709a763d866520",
+          "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+          "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+          "mesh_level": 0,
+          "vertex_provenance_counts": {
+            "estimated": 11
+          },
+          "vertices_or_faces_modified": false,
+          "new_optimization_performed": false
+        }
+      },
+      "runtime_seconds": null,
+      "geometry_recomputed": false,
+      "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+      "actual_input_coordinate_domain": "model",
+      "actual_input_coordinate_unit": "model_unit",
+      "legacy_model_unit_label_is_generic_coordinate_label": true
+    },
+    "geometry_runtime_seconds": null,
+    "physical_accuracy_validated": false,
+    "real_E6_completed": false,
+    "provenance": {
+      "source_files": [
+        {
+          "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p00_L0_report.json",
+          "sha256": "83c61316703f87f9fd23d731c5d10240b01960de9e079a20079b197edb66e96b"
+        }
+      ],
+      "legacy_provenance": {
+        "source_files": [
+          {
+            "path": "frozen_models/real_known_pilot/POTS33/L0.json",
+            "sha256": "d161b6426d89dc383e21bed98393700726dd6599cf38feaddaa9a7b902cd0c53"
+          },
+          {
+            "path": "inputs/real/real_known_pilot/prepared_training.json",
+            "sha256": "04008c725c0a81c2b9a97f5390383628040adcc765dfaccf6ee19ea495b35fa4"
+          }
+        ],
+        "camera_content_sha256": "ed0ced87a73da2c7b33ab7805a0a1a2b1be547f90c707e68db709a763d866520",
+        "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+        "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+        "mesh_level": 0,
+        "vertex_provenance_counts": {
+          "estimated": 11
+        },
+        "vertices_or_faces_modified": false,
+        "new_optimization_performed": false
+      }
+    },
+    "uncertainty": {
+      "status": "not_provided",
+      "input_order": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "outputs": {},
+      "joint_output_covariance_provided_components": null,
+      "total_uncertainty": null,
+      "coverage_interval": null,
+      "confidence_interval_95": null,
+      "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+      "not_real_E6_validation": true,
+      "model_missing_shape_bias_assessed": false
+    },
+    "reference": {
+      "reference_status": "missing",
+      "pairs": {},
+      "reasons": [
+        "no independent same-state quantity reference supplied"
+      ],
+      "evidence_authenticity_checked": false
+    },
+    "difference_uncertainty": {
+      "difference": [
+        null,
+        null,
+        null
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "units": [
+        "mm^2",
+        "mm",
+        "mm"
+      ],
+      "covariance": null,
+      "standard_uncertainty": null,
+      "total_uncertainty": null,
+      "confidence_interval_95": null,
+      "status": "missing_joint_covariance",
+      "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+    },
+    "validity": {
+      "geometry_report_available": true,
+      "all_three_coordinate_quantities_available": true,
+      "physical_scale_available": false,
+      "eligible_reference_quantity_count": 0,
+      "measurement_accuracy_claimed": false
+    },
+    "runtime_seconds": 0.00018749991431832314,
+    "input_mode": "legacy_unknown_scale_replay",
+    "legacy_physical_outputs_used_as_input": false
+  },
+  {
+    "schema": "pots.unified-leaf-measurement.v038",
+    "identity": {
+      "plant_id": "p00",
+      "organ_id": "plant00:leaf_04",
+      "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7",
+      "capture_id": "komatsuna:p00:d009:t00:views00_02"
+    },
+    "data_type": "real",
+    "acquisition": {
+      "capture_id": "komatsuna:p00:d009:t00:views00_02",
+      "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+      "captured_at": null,
+      "state_id": null,
+      "state_evidence_id": null
+    },
+    "coordinates": {
+      "capture_id": "komatsuna:p00:d009:t00:views00_02",
+      "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p00:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "model_to_meters": null
+      },
+      "status": "unknown",
+      "conversion_multiplier_to_m": null,
+      "scale_check": {
+        "status": "not_independently_checked",
+        "reference": null,
+        "checkpoints": null
+      },
+      "evidence_authenticity_checked": false,
+      "metrological_traceability": "not_established_by_module",
+      "verification_scope": "supplied_real_evidence_numerically_checked",
+      "geometry_validation_implied": false,
+      "conversion_multiplier_to_mm": null,
+      "external_contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p00:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "kappa_mm_per_model_unit": null
+      },
+      "acquisition": {
+        "capture_id": "komatsuna:p00:d009:t00:views00_02",
+        "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+        "captured_at": null,
+        "state_id": null,
+        "state_evidence_id": null
+      },
+      "scale_status": "unknown",
+      "reference_status_implied": false
+    },
+    "quantities": {
+      "area_model": {
+        "dimension": 2,
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.5092785666841029,
+        "coordinate_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": "mm^2",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "midrib_length_model": {
+        "dimension": 1,
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.5825375307482565,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "section_chord_model": {
+        "dimension": 1,
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            -7.99145950985521,
+            -4.018975439815523,
+            13.13396966990543
+          ],
+          "plane_normal_model": [
+            -0.8038480164793498,
+            -0.5334051149153155,
+            0.26326289101275596
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -8.308574648066479,
+              -3.534573783378813,
+              13.147150207263888
+            ],
+            [
+              -7.6582371382859655,
+              -4.450419683560151,
+              13.277269684097327
+            ]
+          ]
+        },
+        "reason": null,
+        "coordinate_value": 1.1307712711940874,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      }
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "observation_support": {
+      "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+      "inferred_surface_fraction": null,
+      "known_source_views": [
+        "00",
+        "02"
+      ],
+      "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+      "is_measurement_uncertainty": false
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 48,
+      "included_face_count": 48,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 60.07414132328367,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+    },
+    "geometry": {
+      "schema": "pots.measurement-geometry.legacy-replay.v038",
+      "identity": {
+        "plant_id": "p00",
+        "organ_id": "plant00:leaf_04",
+        "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7"
+      },
+      "data_type": "real",
+      "quantities": {
+        "area_model": {
+          "value": 1.5092785666841029,
+          "dimension": 2,
+          "definition_id": "single_lamina_side_triangle_area",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "midrib_length_model": {
+          "value": 1.5825375307482565,
+          "dimension": 1,
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "section_chord_model": {
+          "value": 1.1307712711940874,
+          "dimension": 1,
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": {
+            "midrib_arc_fraction": 0.5,
+            "plane_point_model": [
+              -7.99145950985521,
+              -4.018975439815523,
+              13.13396966990543
+            ],
+            "plane_normal_model": [
+              -0.8038480164793498,
+              -0.5334051149153155,
+              0.26326289101275596
+            ],
+            "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+            "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+            "unique_boundary_intersection_count": 2,
+            "boundary_intersections_model": [
+              [
+                -8.308574648066479,
+                -3.534573783378813,
+                13.147150207263888
+              ],
+              [
+                -7.6582371382859655,
+                -4.450419683560151,
+                13.277269684097327
+              ]
+            ]
+          }
+        }
+      },
+      "quality_diagnostics": {
+        "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+        "source_face_count": 48,
+        "included_face_count": 48,
+        "excluded_face_count": 0,
+        "max_adjacent_normal_angle_deg": 60.07414132328367,
+        "severe_fold_warning_threshold_deg": 85.0,
+        "severe_fold_warning": false,
+        "self_intersection_check": "not_performed_no_certification",
+        "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+        "status": "computed_with_limitations",
+        "width_status": "computed_model_quantity",
+        "physical_scale_available": false,
+        "independent_3d_accuracy_available": false,
+        "uncertainty_available": false,
+        "height_available": false
+      },
+      "observation_support": {
+        "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+        "inferred_surface_fraction": null,
+        "known_source_views": [
+          "00",
+          "02"
+        ],
+        "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+        "is_measurement_uncertainty": false
+      },
+      "provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p00_L1_report.json",
+            "sha256": "cf91f336ab40fa98065aa79d4747c1bf1fe2b5f60486bcd070a07dd5158163a7"
+          }
+        ],
+        "legacy_provenance": {
+          "source_files": [
+            {
+              "path": "source_archive/POTS-GS/work/same_leaf_real_20261001_v1/fit/estimated_L1.json",
+              "sha256": "615cd0dcbcb1834ba3a4277760d543e0782f13c84348567c85e1811c17e41b5e"
+            },
+            {
+              "path": "inputs/real/real_known_pilot/prepared_training.json",
+              "sha256": "04008c725c0a81c2b9a97f5390383628040adcc765dfaccf6ee19ea495b35fa4"
+            }
+          ],
+          "camera_content_sha256": "ed0ced87a73da2c7b33ab7805a0a1a2b1be547f90c707e68db709a763d866520",
+          "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+          "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+          "mesh_level": 1,
+          "vertex_provenance_counts": {
+            "estimated": 11,
+            "interpolated": 22
+          },
+          "vertices_or_faces_modified": false,
+          "new_optimization_performed": false
+        }
+      },
+      "runtime_seconds": null,
+      "geometry_recomputed": false,
+      "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+      "actual_input_coordinate_domain": "model",
+      "actual_input_coordinate_unit": "model_unit",
+      "legacy_model_unit_label_is_generic_coordinate_label": true
+    },
+    "geometry_runtime_seconds": null,
+    "physical_accuracy_validated": false,
+    "real_E6_completed": false,
+    "provenance": {
+      "source_files": [
+        {
+          "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p00_L1_report.json",
+          "sha256": "cf91f336ab40fa98065aa79d4747c1bf1fe2b5f60486bcd070a07dd5158163a7"
+        }
+      ],
+      "legacy_provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/same_leaf_real_20261001_v1/fit/estimated_L1.json",
+            "sha256": "615cd0dcbcb1834ba3a4277760d543e0782f13c84348567c85e1811c17e41b5e"
+          },
+          {
+            "path": "inputs/real/real_known_pilot/prepared_training.json",
+            "sha256": "04008c725c0a81c2b9a97f5390383628040adcc765dfaccf6ee19ea495b35fa4"
+          }
+        ],
+        "camera_content_sha256": "ed0ced87a73da2c7b33ab7805a0a1a2b1be547f90c707e68db709a763d866520",
+        "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+        "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+        "mesh_level": 1,
+        "vertex_provenance_counts": {
+          "estimated": 11,
+          "interpolated": 22
+        },
+        "vertices_or_faces_modified": false,
+        "new_optimization_performed": false
+      }
+    },
+    "uncertainty": {
+      "status": "not_provided",
+      "input_order": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "outputs": {},
+      "joint_output_covariance_provided_components": null,
+      "total_uncertainty": null,
+      "coverage_interval": null,
+      "confidence_interval_95": null,
+      "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+      "not_real_E6_validation": true,
+      "model_missing_shape_bias_assessed": false
+    },
+    "reference": {
+      "reference_status": "missing",
+      "pairs": {},
+      "reasons": [
+        "no independent same-state quantity reference supplied"
+      ],
+      "evidence_authenticity_checked": false
+    },
+    "difference_uncertainty": {
+      "difference": [
+        null,
+        null,
+        null
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "units": [
+        "mm^2",
+        "mm",
+        "mm"
+      ],
+      "covariance": null,
+      "standard_uncertainty": null,
+      "total_uncertainty": null,
+      "confidence_interval_95": null,
+      "status": "missing_joint_covariance",
+      "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+    },
+    "validity": {
+      "geometry_report_available": true,
+      "all_three_coordinate_quantities_available": true,
+      "physical_scale_available": false,
+      "eligible_reference_quantity_count": 0,
+      "measurement_accuracy_claimed": false
+    },
+    "runtime_seconds": 0.00017100002150982618,
+    "input_mode": "legacy_unknown_scale_replay",
+    "legacy_physical_outputs_used_as_input": false
+  },
+  {
+    "schema": "pots.unified-leaf-measurement.v038",
+    "identity": {
+      "plant_id": "p00",
+      "organ_id": "plant00:leaf_04",
+      "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7",
+      "capture_id": "komatsuna:p00:d009:t00:views00_02"
+    },
+    "data_type": "real",
+    "acquisition": {
+      "capture_id": "komatsuna:p00:d009:t00:views00_02",
+      "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+      "captured_at": null,
+      "state_id": null,
+      "state_evidence_id": null
+    },
+    "coordinates": {
+      "capture_id": "komatsuna:p00:d009:t00:views00_02",
+      "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p00:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "model_to_meters": null
+      },
+      "status": "unknown",
+      "conversion_multiplier_to_m": null,
+      "scale_check": {
+        "status": "not_independently_checked",
+        "reference": null,
+        "checkpoints": null
+      },
+      "evidence_authenticity_checked": false,
+      "metrological_traceability": "not_established_by_module",
+      "verification_scope": "supplied_real_evidence_numerically_checked",
+      "geometry_validation_implied": false,
+      "conversion_multiplier_to_mm": null,
+      "external_contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p00:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "kappa_mm_per_model_unit": null
+      },
+      "acquisition": {
+        "capture_id": "komatsuna:p00:d009:t00:views00_02",
+        "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+        "captured_at": null,
+        "state_id": null,
+        "state_evidence_id": null
+      },
+      "scale_status": "unknown",
+      "reference_status_implied": false
+    },
+    "quantities": {
+      "area_model": {
+        "dimension": 2,
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.5092785666841029,
+        "coordinate_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": "mm^2",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "midrib_length_model": {
+        "dimension": 1,
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.5825375307482565,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "section_chord_model": {
+        "dimension": 1,
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            -7.99145950985521,
+            -4.018975439815523,
+            13.13396966990543
+          ],
+          "plane_normal_model": [
+            -0.8038480164793498,
+            -0.5334051149153155,
+            0.26326289101275596
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -8.308574648066479,
+              -3.5345737833788133,
+              13.147150207263888
+            ],
+            [
+              -7.6582371382859655,
+              -4.450419683560151,
+              13.277269684097327
+            ]
+          ]
+        },
+        "reason": null,
+        "coordinate_value": 1.130771271194087,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      }
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "observation_support": {
+      "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+      "inferred_surface_fraction": null,
+      "known_source_views": [
+        "00",
+        "02"
+      ],
+      "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+      "is_measurement_uncertainty": false
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 192,
+      "included_face_count": 192,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 60.074141323284074,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+    },
+    "geometry": {
+      "schema": "pots.measurement-geometry.legacy-replay.v038",
+      "identity": {
+        "plant_id": "p00",
+        "organ_id": "plant00:leaf_04",
+        "coordinate_frame_id": "komatsuna:p00:supplied_camera_world:ed0ced87a73da2c7"
+      },
+      "data_type": "real",
+      "quantities": {
+        "area_model": {
+          "value": 1.5092785666841029,
+          "dimension": 2,
+          "definition_id": "single_lamina_side_triangle_area",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "midrib_length_model": {
+          "value": 1.5825375307482565,
+          "dimension": 1,
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "section_chord_model": {
+          "value": 1.130771271194087,
+          "dimension": 1,
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": {
+            "midrib_arc_fraction": 0.5,
+            "plane_point_model": [
+              -7.99145950985521,
+              -4.018975439815523,
+              13.13396966990543
+            ],
+            "plane_normal_model": [
+              -0.8038480164793498,
+              -0.5334051149153155,
+              0.26326289101275596
+            ],
+            "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+            "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+            "unique_boundary_intersection_count": 2,
+            "boundary_intersections_model": [
+              [
+                -8.308574648066479,
+                -3.5345737833788133,
+                13.147150207263888
+              ],
+              [
+                -7.6582371382859655,
+                -4.450419683560151,
+                13.277269684097327
+              ]
+            ]
+          }
+        }
+      },
+      "quality_diagnostics": {
+        "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+        "source_face_count": 192,
+        "included_face_count": 192,
+        "excluded_face_count": 0,
+        "max_adjacent_normal_angle_deg": 60.074141323284074,
+        "severe_fold_warning_threshold_deg": 85.0,
+        "severe_fold_warning": false,
+        "self_intersection_check": "not_performed_no_certification",
+        "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+        "status": "computed_with_limitations",
+        "width_status": "computed_model_quantity",
+        "physical_scale_available": false,
+        "independent_3d_accuracy_available": false,
+        "uncertainty_available": false,
+        "height_available": false
+      },
+      "observation_support": {
+        "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+        "inferred_surface_fraction": null,
+        "known_source_views": [
+          "00",
+          "02"
+        ],
+        "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+        "is_measurement_uncertainty": false
+      },
+      "provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p00_L2_report.json",
+            "sha256": "b23712d7195abb300bdf6b66c7c8af943b94bb06d1c442c0bf49b4b5e91fa947"
+          }
+        ],
+        "legacy_provenance": {
+          "source_files": [
+            {
+              "path": "frozen_models/real_known_pilot/POTS33/L2.json",
+              "sha256": "bb530ccc185e8edc97e35ea1ceba3fa79e85e3801a4101352aaa6aa79b80ff7a"
+            },
+            {
+              "path": "inputs/real/real_known_pilot/prepared_training.json",
+              "sha256": "04008c725c0a81c2b9a97f5390383628040adcc765dfaccf6ee19ea495b35fa4"
+            }
+          ],
+          "camera_content_sha256": "ed0ced87a73da2c7b33ab7805a0a1a2b1be547f90c707e68db709a763d866520",
+          "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+          "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+          "mesh_level": 2,
+          "vertex_provenance_counts": {
+            "estimated": 11,
+            "interpolated": 102
+          },
+          "vertices_or_faces_modified": false,
+          "new_optimization_performed": false
+        }
+      },
+      "runtime_seconds": null,
+      "geometry_recomputed": false,
+      "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+      "actual_input_coordinate_domain": "model",
+      "actual_input_coordinate_unit": "model_unit",
+      "legacy_model_unit_label_is_generic_coordinate_label": true
+    },
+    "geometry_runtime_seconds": null,
+    "physical_accuracy_validated": false,
+    "real_E6_completed": false,
+    "provenance": {
+      "source_files": [
+        {
+          "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p00_L2_report.json",
+          "sha256": "b23712d7195abb300bdf6b66c7c8af943b94bb06d1c442c0bf49b4b5e91fa947"
+        }
+      ],
+      "legacy_provenance": {
+        "source_files": [
+          {
+            "path": "frozen_models/real_known_pilot/POTS33/L2.json",
+            "sha256": "bb530ccc185e8edc97e35ea1ceba3fa79e85e3801a4101352aaa6aa79b80ff7a"
+          },
+          {
+            "path": "inputs/real/real_known_pilot/prepared_training.json",
+            "sha256": "04008c725c0a81c2b9a97f5390383628040adcc765dfaccf6ee19ea495b35fa4"
+          }
+        ],
+        "camera_content_sha256": "ed0ced87a73da2c7b33ab7805a0a1a2b1be547f90c707e68db709a763d866520",
+        "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+        "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+        "mesh_level": 2,
+        "vertex_provenance_counts": {
+          "estimated": 11,
+          "interpolated": 102
+        },
+        "vertices_or_faces_modified": false,
+        "new_optimization_performed": false
+      }
+    },
+    "uncertainty": {
+      "status": "not_provided",
+      "input_order": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "outputs": {},
+      "joint_output_covariance_provided_components": null,
+      "total_uncertainty": null,
+      "coverage_interval": null,
+      "confidence_interval_95": null,
+      "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+      "not_real_E6_validation": true,
+      "model_missing_shape_bias_assessed": false
+    },
+    "reference": {
+      "reference_status": "missing",
+      "pairs": {},
+      "reasons": [
+        "no independent same-state quantity reference supplied"
+      ],
+      "evidence_authenticity_checked": false
+    },
+    "difference_uncertainty": {
+      "difference": [
+        null,
+        null,
+        null
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "units": [
+        "mm^2",
+        "mm",
+        "mm"
+      ],
+      "covariance": null,
+      "standard_uncertainty": null,
+      "total_uncertainty": null,
+      "confidence_interval_95": null,
+      "status": "missing_joint_covariance",
+      "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+    },
+    "validity": {
+      "geometry_report_available": true,
+      "all_three_coordinate_quantities_available": true,
+      "physical_scale_available": false,
+      "eligible_reference_quantity_count": 0,
+      "measurement_accuracy_claimed": false
+    },
+    "runtime_seconds": 0.00018690002616494894,
+    "input_mode": "legacy_unknown_scale_replay",
+    "legacy_physical_outputs_used_as_input": false
+  },
+  {
+    "schema": "pots.unified-leaf-measurement.v038",
+    "identity": {
+      "plant_id": "p01",
+      "organ_id": "01:leaf_04",
+      "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007",
+      "capture_id": "komatsuna:p01:d009:t00:views00_02"
+    },
+    "data_type": "real",
+    "acquisition": {
+      "capture_id": "komatsuna:p01:d009:t00:views00_02",
+      "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+      "captured_at": null,
+      "state_id": null,
+      "state_evidence_id": null
+    },
+    "coordinates": {
+      "capture_id": "komatsuna:p01:d009:t00:views00_02",
+      "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p01:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "model_to_meters": null
+      },
+      "status": "unknown",
+      "conversion_multiplier_to_m": null,
+      "scale_check": {
+        "status": "not_independently_checked",
+        "reference": null,
+        "checkpoints": null
+      },
+      "evidence_authenticity_checked": false,
+      "metrological_traceability": "not_established_by_module",
+      "verification_scope": "supplied_real_evidence_numerically_checked",
+      "geometry_validation_implied": false,
+      "conversion_multiplier_to_mm": null,
+      "external_contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p01:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "kappa_mm_per_model_unit": null
+      },
+      "acquisition": {
+        "capture_id": "komatsuna:p01:d009:t00:views00_02",
+        "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+        "captured_at": null,
+        "state_id": null,
+        "state_evidence_id": null
+      },
+      "scale_status": "unknown",
+      "reference_status_implied": false
+    },
+    "quantities": {
+      "area_model": {
+        "dimension": 2,
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.642789328321987,
+        "coordinate_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": "mm^2",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "midrib_length_model": {
+        "dimension": 1,
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.6753862919916438,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "section_chord_model": {
+        "dimension": 1,
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            1.2191700706899482,
+            -4.173556758872928,
+            13.119865633152113
+          ],
+          "plane_normal_model": [
+            -0.3280566088980437,
+            -0.8587021773728147,
+            0.3937123720858958
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              0.6255420072637996,
+              -3.9603368703485087,
+              13.090272387612332
+            ],
+            [
+              1.7982424424353662,
+              -4.391704240700224,
+              13.126583229893715
+            ]
+          ]
+        },
+        "reason": null,
+        "coordinate_value": 1.2500490374872977,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      }
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "observation_support": {
+      "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+      "inferred_surface_fraction": null,
+      "known_source_views": [
+        "00",
+        "02"
+      ],
+      "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+      "is_measurement_uncertainty": false
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 12,
+      "included_face_count": 12,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 40.48408268222024,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+    },
+    "geometry": {
+      "schema": "pots.measurement-geometry.legacy-replay.v038",
+      "identity": {
+        "plant_id": "p01",
+        "organ_id": "01:leaf_04",
+        "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007"
+      },
+      "data_type": "real",
+      "quantities": {
+        "area_model": {
+          "value": 1.642789328321987,
+          "dimension": 2,
+          "definition_id": "single_lamina_side_triangle_area",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "midrib_length_model": {
+          "value": 1.6753862919916438,
+          "dimension": 1,
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "section_chord_model": {
+          "value": 1.2500490374872977,
+          "dimension": 1,
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": {
+            "midrib_arc_fraction": 0.5,
+            "plane_point_model": [
+              1.2191700706899482,
+              -4.173556758872928,
+              13.119865633152113
+            ],
+            "plane_normal_model": [
+              -0.3280566088980437,
+              -0.8587021773728147,
+              0.3937123720858958
+            ],
+            "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+            "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+            "unique_boundary_intersection_count": 2,
+            "boundary_intersections_model": [
+              [
+                0.6255420072637996,
+                -3.9603368703485087,
+                13.090272387612332
+              ],
+              [
+                1.7982424424353662,
+                -4.391704240700224,
+                13.126583229893715
+              ]
+            ]
+          }
+        }
+      },
+      "quality_diagnostics": {
+        "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+        "source_face_count": 12,
+        "included_face_count": 12,
+        "excluded_face_count": 0,
+        "max_adjacent_normal_angle_deg": 40.48408268222024,
+        "severe_fold_warning_threshold_deg": 85.0,
+        "severe_fold_warning": false,
+        "self_intersection_check": "not_performed_no_certification",
+        "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+        "status": "computed_with_limitations",
+        "width_status": "computed_model_quantity",
+        "physical_scale_available": false,
+        "independent_3d_accuracy_available": false,
+        "uncertainty_available": false,
+        "height_available": false
+      },
+      "observation_support": {
+        "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+        "inferred_surface_fraction": null,
+        "known_source_views": [
+          "00",
+          "02"
+        ],
+        "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+        "is_measurement_uncertainty": false
+      },
+      "provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p01_L0_report.json",
+            "sha256": "7a0ae8354b8e817b3427c56f7725ba29162831d8e6d222ec13b9e01208f2f239"
+          }
+        ],
+        "legacy_provenance": {
+          "source_files": [
+            {
+              "path": "frozen_models/real_p01/POTS33/L0.json",
+              "sha256": "b24fab7798ef64660ead1f5a3ee2b14f7a3e0e2317e573357a6f6949c128c268"
+            },
+            {
+              "path": "inputs/real/real_p01/prepared_training.json",
+              "sha256": "aabedd357d70d99f6163c734282f5369814707e4b8ef1e48935f370a01a9b758"
+            }
+          ],
+          "camera_content_sha256": "1a209b35c8e4b007a6697e4da49583879ea52e53ce55de2aeb191e5b129a546c",
+          "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+          "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+          "mesh_level": 0,
+          "vertex_provenance_counts": {
+            "estimated": 11
+          },
+          "vertices_or_faces_modified": false,
+          "new_optimization_performed": false
+        }
+      },
+      "runtime_seconds": null,
+      "geometry_recomputed": false,
+      "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+      "actual_input_coordinate_domain": "model",
+      "actual_input_coordinate_unit": "model_unit",
+      "legacy_model_unit_label_is_generic_coordinate_label": true
+    },
+    "geometry_runtime_seconds": null,
+    "physical_accuracy_validated": false,
+    "real_E6_completed": false,
+    "provenance": {
+      "source_files": [
+        {
+          "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p01_L0_report.json",
+          "sha256": "7a0ae8354b8e817b3427c56f7725ba29162831d8e6d222ec13b9e01208f2f239"
+        }
+      ],
+      "legacy_provenance": {
+        "source_files": [
+          {
+            "path": "frozen_models/real_p01/POTS33/L0.json",
+            "sha256": "b24fab7798ef64660ead1f5a3ee2b14f7a3e0e2317e573357a6f6949c128c268"
+          },
+          {
+            "path": "inputs/real/real_p01/prepared_training.json",
+            "sha256": "aabedd357d70d99f6163c734282f5369814707e4b8ef1e48935f370a01a9b758"
+          }
+        ],
+        "camera_content_sha256": "1a209b35c8e4b007a6697e4da49583879ea52e53ce55de2aeb191e5b129a546c",
+        "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+        "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+        "mesh_level": 0,
+        "vertex_provenance_counts": {
+          "estimated": 11
+        },
+        "vertices_or_faces_modified": false,
+        "new_optimization_performed": false
+      }
+    },
+    "uncertainty": {
+      "status": "not_provided",
+      "input_order": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "outputs": {},
+      "joint_output_covariance_provided_components": null,
+      "total_uncertainty": null,
+      "coverage_interval": null,
+      "confidence_interval_95": null,
+      "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+      "not_real_E6_validation": true,
+      "model_missing_shape_bias_assessed": false
+    },
+    "reference": {
+      "reference_status": "missing",
+      "pairs": {},
+      "reasons": [
+        "no independent same-state quantity reference supplied"
+      ],
+      "evidence_authenticity_checked": false
+    },
+    "difference_uncertainty": {
+      "difference": [
+        null,
+        null,
+        null
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "units": [
+        "mm^2",
+        "mm",
+        "mm"
+      ],
+      "covariance": null,
+      "standard_uncertainty": null,
+      "total_uncertainty": null,
+      "confidence_interval_95": null,
+      "status": "missing_joint_covariance",
+      "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+    },
+    "validity": {
+      "geometry_report_available": true,
+      "all_three_coordinate_quantities_available": true,
+      "physical_scale_available": false,
+      "eligible_reference_quantity_count": 0,
+      "measurement_accuracy_claimed": false
+    },
+    "runtime_seconds": 0.00018309999722987413,
+    "input_mode": "legacy_unknown_scale_replay",
+    "legacy_physical_outputs_used_as_input": false
+  },
+  {
+    "schema": "pots.unified-leaf-measurement.v038",
+    "identity": {
+      "plant_id": "p01",
+      "organ_id": "01:leaf_04",
+      "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007",
+      "capture_id": "komatsuna:p01:d009:t00:views00_02"
+    },
+    "data_type": "real",
+    "acquisition": {
+      "capture_id": "komatsuna:p01:d009:t00:views00_02",
+      "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+      "captured_at": null,
+      "state_id": null,
+      "state_evidence_id": null
+    },
+    "coordinates": {
+      "capture_id": "komatsuna:p01:d009:t00:views00_02",
+      "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p01:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "model_to_meters": null
+      },
+      "status": "unknown",
+      "conversion_multiplier_to_m": null,
+      "scale_check": {
+        "status": "not_independently_checked",
+        "reference": null,
+        "checkpoints": null
+      },
+      "evidence_authenticity_checked": false,
+      "metrological_traceability": "not_established_by_module",
+      "verification_scope": "supplied_real_evidence_numerically_checked",
+      "geometry_validation_implied": false,
+      "conversion_multiplier_to_mm": null,
+      "external_contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p01:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "kappa_mm_per_model_unit": null
+      },
+      "acquisition": {
+        "capture_id": "komatsuna:p01:d009:t00:views00_02",
+        "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+        "captured_at": null,
+        "state_id": null,
+        "state_evidence_id": null
+      },
+      "scale_status": "unknown",
+      "reference_status_implied": false
+    },
+    "quantities": {
+      "area_model": {
+        "dimension": 2,
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.6427893283219865,
+        "coordinate_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": "mm^2",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "midrib_length_model": {
+        "dimension": 1,
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.6753862919916438,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "section_chord_model": {
+        "dimension": 1,
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            1.2191700706899482,
+            -4.173556758872928,
+            13.119865633152113
+          ],
+          "plane_normal_model": [
+            -0.3280566088980437,
+            -0.8587021773728147,
+            0.3937123720858958
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              0.6255420072637995,
+              -3.9603368703485087,
+              13.09027238761233
+            ],
+            [
+              1.7982424424353662,
+              -4.391704240700224,
+              13.126583229893715
+            ]
+          ]
+        },
+        "reason": null,
+        "coordinate_value": 1.2500490374872977,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      }
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "observation_support": {
+      "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+      "inferred_surface_fraction": null,
+      "known_source_views": [
+        "00",
+        "02"
+      ],
+      "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+      "is_measurement_uncertainty": false
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 48,
+      "included_face_count": 48,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 40.48408268222061,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+    },
+    "geometry": {
+      "schema": "pots.measurement-geometry.legacy-replay.v038",
+      "identity": {
+        "plant_id": "p01",
+        "organ_id": "01:leaf_04",
+        "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007"
+      },
+      "data_type": "real",
+      "quantities": {
+        "area_model": {
+          "value": 1.6427893283219865,
+          "dimension": 2,
+          "definition_id": "single_lamina_side_triangle_area",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "midrib_length_model": {
+          "value": 1.6753862919916438,
+          "dimension": 1,
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "section_chord_model": {
+          "value": 1.2500490374872977,
+          "dimension": 1,
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": {
+            "midrib_arc_fraction": 0.5,
+            "plane_point_model": [
+              1.2191700706899482,
+              -4.173556758872928,
+              13.119865633152113
+            ],
+            "plane_normal_model": [
+              -0.3280566088980437,
+              -0.8587021773728147,
+              0.3937123720858958
+            ],
+            "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+            "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+            "unique_boundary_intersection_count": 2,
+            "boundary_intersections_model": [
+              [
+                0.6255420072637995,
+                -3.9603368703485087,
+                13.09027238761233
+              ],
+              [
+                1.7982424424353662,
+                -4.391704240700224,
+                13.126583229893715
+              ]
+            ]
+          }
+        }
+      },
+      "quality_diagnostics": {
+        "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+        "source_face_count": 48,
+        "included_face_count": 48,
+        "excluded_face_count": 0,
+        "max_adjacent_normal_angle_deg": 40.48408268222061,
+        "severe_fold_warning_threshold_deg": 85.0,
+        "severe_fold_warning": false,
+        "self_intersection_check": "not_performed_no_certification",
+        "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+        "status": "computed_with_limitations",
+        "width_status": "computed_model_quantity",
+        "physical_scale_available": false,
+        "independent_3d_accuracy_available": false,
+        "uncertainty_available": false,
+        "height_available": false
+      },
+      "observation_support": {
+        "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+        "inferred_surface_fraction": null,
+        "known_source_views": [
+          "00",
+          "02"
+        ],
+        "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+        "is_measurement_uncertainty": false
+      },
+      "provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p01_L1_report.json",
+            "sha256": "4a079fd5bfdc18d19910993054a0303c8778a1ec736b24c58edbd964fecd235b"
+          }
+        ],
+        "legacy_provenance": {
+          "source_files": [
+            {
+              "path": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/fits/p01/POTS33/estimated_L1.json",
+              "sha256": "6e7957fc9a378624f92abdf4b0edbbd3391fb93c3dc87c8fe27341b3b38535da"
+            },
+            {
+              "path": "inputs/real/real_p01/prepared_training.json",
+              "sha256": "aabedd357d70d99f6163c734282f5369814707e4b8ef1e48935f370a01a9b758"
+            }
+          ],
+          "camera_content_sha256": "1a209b35c8e4b007a6697e4da49583879ea52e53ce55de2aeb191e5b129a546c",
+          "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+          "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+          "mesh_level": 1,
+          "vertex_provenance_counts": {
+            "estimated": 11,
+            "interpolated": 22
+          },
+          "vertices_or_faces_modified": false,
+          "new_optimization_performed": false
+        }
+      },
+      "runtime_seconds": null,
+      "geometry_recomputed": false,
+      "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+      "actual_input_coordinate_domain": "model",
+      "actual_input_coordinate_unit": "model_unit",
+      "legacy_model_unit_label_is_generic_coordinate_label": true
+    },
+    "geometry_runtime_seconds": null,
+    "physical_accuracy_validated": false,
+    "real_E6_completed": false,
+    "provenance": {
+      "source_files": [
+        {
+          "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p01_L1_report.json",
+          "sha256": "4a079fd5bfdc18d19910993054a0303c8778a1ec736b24c58edbd964fecd235b"
+        }
+      ],
+      "legacy_provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/fits/p01/POTS33/estimated_L1.json",
+            "sha256": "6e7957fc9a378624f92abdf4b0edbbd3391fb93c3dc87c8fe27341b3b38535da"
+          },
+          {
+            "path": "inputs/real/real_p01/prepared_training.json",
+            "sha256": "aabedd357d70d99f6163c734282f5369814707e4b8ef1e48935f370a01a9b758"
+          }
+        ],
+        "camera_content_sha256": "1a209b35c8e4b007a6697e4da49583879ea52e53ce55de2aeb191e5b129a546c",
+        "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+        "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+        "mesh_level": 1,
+        "vertex_provenance_counts": {
+          "estimated": 11,
+          "interpolated": 22
+        },
+        "vertices_or_faces_modified": false,
+        "new_optimization_performed": false
+      }
+    },
+    "uncertainty": {
+      "status": "not_provided",
+      "input_order": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "outputs": {},
+      "joint_output_covariance_provided_components": null,
+      "total_uncertainty": null,
+      "coverage_interval": null,
+      "confidence_interval_95": null,
+      "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+      "not_real_E6_validation": true,
+      "model_missing_shape_bias_assessed": false
+    },
+    "reference": {
+      "reference_status": "missing",
+      "pairs": {},
+      "reasons": [
+        "no independent same-state quantity reference supplied"
+      ],
+      "evidence_authenticity_checked": false
+    },
+    "difference_uncertainty": {
+      "difference": [
+        null,
+        null,
+        null
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "units": [
+        "mm^2",
+        "mm",
+        "mm"
+      ],
+      "covariance": null,
+      "standard_uncertainty": null,
+      "total_uncertainty": null,
+      "confidence_interval_95": null,
+      "status": "missing_joint_covariance",
+      "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+    },
+    "validity": {
+      "geometry_report_available": true,
+      "all_three_coordinate_quantities_available": true,
+      "physical_scale_available": false,
+      "eligible_reference_quantity_count": 0,
+      "measurement_accuracy_claimed": false
+    },
+    "runtime_seconds": 0.0002133999951183796,
+    "input_mode": "legacy_unknown_scale_replay",
+    "legacy_physical_outputs_used_as_input": false
+  },
+  {
+    "schema": "pots.unified-leaf-measurement.v038",
+    "identity": {
+      "plant_id": "p01",
+      "organ_id": "01:leaf_04",
+      "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007",
+      "capture_id": "komatsuna:p01:d009:t00:views00_02"
+    },
+    "data_type": "real",
+    "acquisition": {
+      "capture_id": "komatsuna:p01:d009:t00:views00_02",
+      "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+      "captured_at": null,
+      "state_id": null,
+      "state_evidence_id": null
+    },
+    "coordinates": {
+      "capture_id": "komatsuna:p01:d009:t00:views00_02",
+      "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p01:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "model_to_meters": null
+      },
+      "status": "unknown",
+      "conversion_multiplier_to_m": null,
+      "scale_check": {
+        "status": "not_independently_checked",
+        "reference": null,
+        "checkpoints": null
+      },
+      "evidence_authenticity_checked": false,
+      "metrological_traceability": "not_established_by_module",
+      "verification_scope": "supplied_real_evidence_numerically_checked",
+      "geometry_validation_implied": false,
+      "conversion_multiplier_to_mm": null,
+      "external_contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p01:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "kappa_mm_per_model_unit": null
+      },
+      "acquisition": {
+        "capture_id": "komatsuna:p01:d009:t00:views00_02",
+        "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+        "captured_at": null,
+        "state_id": null,
+        "state_evidence_id": null
+      },
+      "scale_status": "unknown",
+      "reference_status_implied": false
+    },
+    "quantities": {
+      "area_model": {
+        "dimension": 2,
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.6427893283219865,
+        "coordinate_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": "mm^2",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "midrib_length_model": {
+        "dimension": 1,
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.6753862919916438,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "section_chord_model": {
+        "dimension": 1,
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            1.2191700706899482,
+            -4.173556758872928,
+            13.119865633152113
+          ],
+          "plane_normal_model": [
+            -0.3280566088980437,
+            -0.8587021773728147,
+            0.3937123720858958
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              0.6255420072637998,
+              -3.9603368703485087,
+              13.090272387612332
+            ],
+            [
+              1.7982424424353662,
+              -4.391704240700224,
+              13.126583229893715
+            ]
+          ]
+        },
+        "reason": null,
+        "coordinate_value": 1.2500490374872975,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      }
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "observation_support": {
+      "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+      "inferred_surface_fraction": null,
+      "known_source_views": [
+        "00",
+        "02"
+      ],
+      "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+      "is_measurement_uncertainty": false
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 192,
+      "included_face_count": 192,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 40.48408268222026,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+    },
+    "geometry": {
+      "schema": "pots.measurement-geometry.legacy-replay.v038",
+      "identity": {
+        "plant_id": "p01",
+        "organ_id": "01:leaf_04",
+        "coordinate_frame_id": "komatsuna:p01:supplied_camera_world:1a209b35c8e4b007"
+      },
+      "data_type": "real",
+      "quantities": {
+        "area_model": {
+          "value": 1.6427893283219865,
+          "dimension": 2,
+          "definition_id": "single_lamina_side_triangle_area",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "midrib_length_model": {
+          "value": 1.6753862919916438,
+          "dimension": 1,
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "section_chord_model": {
+          "value": 1.2500490374872975,
+          "dimension": 1,
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": {
+            "midrib_arc_fraction": 0.5,
+            "plane_point_model": [
+              1.2191700706899482,
+              -4.173556758872928,
+              13.119865633152113
+            ],
+            "plane_normal_model": [
+              -0.3280566088980437,
+              -0.8587021773728147,
+              0.3937123720858958
+            ],
+            "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+            "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+            "unique_boundary_intersection_count": 2,
+            "boundary_intersections_model": [
+              [
+                0.6255420072637998,
+                -3.9603368703485087,
+                13.090272387612332
+              ],
+              [
+                1.7982424424353662,
+                -4.391704240700224,
+                13.126583229893715
+              ]
+            ]
+          }
+        }
+      },
+      "quality_diagnostics": {
+        "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+        "source_face_count": 192,
+        "included_face_count": 192,
+        "excluded_face_count": 0,
+        "max_adjacent_normal_angle_deg": 40.48408268222026,
+        "severe_fold_warning_threshold_deg": 85.0,
+        "severe_fold_warning": false,
+        "self_intersection_check": "not_performed_no_certification",
+        "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+        "status": "computed_with_limitations",
+        "width_status": "computed_model_quantity",
+        "physical_scale_available": false,
+        "independent_3d_accuracy_available": false,
+        "uncertainty_available": false,
+        "height_available": false
+      },
+      "observation_support": {
+        "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+        "inferred_surface_fraction": null,
+        "known_source_views": [
+          "00",
+          "02"
+        ],
+        "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+        "is_measurement_uncertainty": false
+      },
+      "provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p01_L2_report.json",
+            "sha256": "ccbd39108aa54335ccd0a04258dedf26ac5ac29de404ae1510f67bd6afc3896c"
+          }
+        ],
+        "legacy_provenance": {
+          "source_files": [
+            {
+              "path": "frozen_models/real_p01/POTS33/L2.json",
+              "sha256": "e3111a39d98c7fb6991a377a565cc637c5bc35d9c7beed1d8a05aa5f49bd925a"
+            },
+            {
+              "path": "inputs/real/real_p01/prepared_training.json",
+              "sha256": "aabedd357d70d99f6163c734282f5369814707e4b8ef1e48935f370a01a9b758"
+            }
+          ],
+          "camera_content_sha256": "1a209b35c8e4b007a6697e4da49583879ea52e53ce55de2aeb191e5b129a546c",
+          "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+          "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+          "mesh_level": 2,
+          "vertex_provenance_counts": {
+            "estimated": 11,
+            "interpolated": 102
+          },
+          "vertices_or_faces_modified": false,
+          "new_optimization_performed": false
+        }
+      },
+      "runtime_seconds": null,
+      "geometry_recomputed": false,
+      "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+      "actual_input_coordinate_domain": "model",
+      "actual_input_coordinate_unit": "model_unit",
+      "legacy_model_unit_label_is_generic_coordinate_label": true
+    },
+    "geometry_runtime_seconds": null,
+    "physical_accuracy_validated": false,
+    "real_E6_completed": false,
+    "provenance": {
+      "source_files": [
+        {
+          "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p01_L2_report.json",
+          "sha256": "ccbd39108aa54335ccd0a04258dedf26ac5ac29de404ae1510f67bd6afc3896c"
+        }
+      ],
+      "legacy_provenance": {
+        "source_files": [
+          {
+            "path": "frozen_models/real_p01/POTS33/L2.json",
+            "sha256": "e3111a39d98c7fb6991a377a565cc637c5bc35d9c7beed1d8a05aa5f49bd925a"
+          },
+          {
+            "path": "inputs/real/real_p01/prepared_training.json",
+            "sha256": "aabedd357d70d99f6163c734282f5369814707e4b8ef1e48935f370a01a9b758"
+          }
+        ],
+        "camera_content_sha256": "1a209b35c8e4b007a6697e4da49583879ea52e53ce55de2aeb191e5b129a546c",
+        "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+        "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+        "mesh_level": 2,
+        "vertex_provenance_counts": {
+          "estimated": 11,
+          "interpolated": 102
+        },
+        "vertices_or_faces_modified": false,
+        "new_optimization_performed": false
+      }
+    },
+    "uncertainty": {
+      "status": "not_provided",
+      "input_order": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "outputs": {},
+      "joint_output_covariance_provided_components": null,
+      "total_uncertainty": null,
+      "coverage_interval": null,
+      "confidence_interval_95": null,
+      "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+      "not_real_E6_validation": true,
+      "model_missing_shape_bias_assessed": false
+    },
+    "reference": {
+      "reference_status": "missing",
+      "pairs": {},
+      "reasons": [
+        "no independent same-state quantity reference supplied"
+      ],
+      "evidence_authenticity_checked": false
+    },
+    "difference_uncertainty": {
+      "difference": [
+        null,
+        null,
+        null
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "units": [
+        "mm^2",
+        "mm",
+        "mm"
+      ],
+      "covariance": null,
+      "standard_uncertainty": null,
+      "total_uncertainty": null,
+      "confidence_interval_95": null,
+      "status": "missing_joint_covariance",
+      "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+    },
+    "validity": {
+      "geometry_report_available": true,
+      "all_three_coordinate_quantities_available": true,
+      "physical_scale_available": false,
+      "eligible_reference_quantity_count": 0,
+      "measurement_accuracy_claimed": false
+    },
+    "runtime_seconds": 0.0001740999286994338,
+    "input_mode": "legacy_unknown_scale_replay",
+    "legacy_physical_outputs_used_as_input": false
+  },
+  {
+    "schema": "pots.unified-leaf-measurement.v038",
+    "identity": {
+      "plant_id": "p02",
+      "organ_id": "02:leaf_04",
+      "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b",
+      "capture_id": "komatsuna:p02:d009:t00:views00_02"
+    },
+    "data_type": "real",
+    "acquisition": {
+      "capture_id": "komatsuna:p02:d009:t00:views00_02",
+      "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+      "captured_at": null,
+      "state_id": null,
+      "state_evidence_id": null
+    },
+    "coordinates": {
+      "capture_id": "komatsuna:p02:d009:t00:views00_02",
+      "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p02:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "model_to_meters": null
+      },
+      "status": "unknown",
+      "conversion_multiplier_to_m": null,
+      "scale_check": {
+        "status": "not_independently_checked",
+        "reference": null,
+        "checkpoints": null
+      },
+      "evidence_authenticity_checked": false,
+      "metrological_traceability": "not_established_by_module",
+      "verification_scope": "supplied_real_evidence_numerically_checked",
+      "geometry_validation_implied": false,
+      "conversion_multiplier_to_mm": null,
+      "external_contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p02:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "kappa_mm_per_model_unit": null
+      },
+      "acquisition": {
+        "capture_id": "komatsuna:p02:d009:t00:views00_02",
+        "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+        "captured_at": null,
+        "state_id": null,
+        "state_evidence_id": null
+      },
+      "scale_status": "unknown",
+      "reference_status_implied": false
+    },
+    "quantities": {
+      "area_model": {
+        "dimension": 2,
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.4939314505910286,
+        "coordinate_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": "mm^2",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "midrib_length_model": {
+        "dimension": 1,
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.7676378323816386,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "section_chord_model": {
+        "dimension": 1,
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            -3.5704007059842353,
+            0.40196491647466187,
+            13.895524679529162
+          ],
+          "plane_normal_model": [
+            -0.8203151692160858,
+            0.5696821933997274,
+            -0.05045019006168343
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -3.888576975397758,
+              -0.09338955516191763,
+              13.475510372310799
+            ],
+            [
+              -3.2375187532120964,
+              0.879288687201937,
+              13.872823818618322
+            ]
+          ]
+        },
+        "reason": null,
+        "coordinate_value": 1.2360573394710914,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      }
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "observation_support": {
+      "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+      "inferred_surface_fraction": null,
+      "known_source_views": [
+        "00",
+        "02"
+      ],
+      "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+      "is_measurement_uncertainty": false
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 12,
+      "included_face_count": 12,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 93.74920930965409,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": true,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+    },
+    "geometry": {
+      "schema": "pots.measurement-geometry.legacy-replay.v038",
+      "identity": {
+        "plant_id": "p02",
+        "organ_id": "02:leaf_04",
+        "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b"
+      },
+      "data_type": "real",
+      "quantities": {
+        "area_model": {
+          "value": 1.4939314505910286,
+          "dimension": 2,
+          "definition_id": "single_lamina_side_triangle_area",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "midrib_length_model": {
+          "value": 1.7676378323816386,
+          "dimension": 1,
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "section_chord_model": {
+          "value": 1.2360573394710914,
+          "dimension": 1,
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": {
+            "midrib_arc_fraction": 0.5,
+            "plane_point_model": [
+              -3.5704007059842353,
+              0.40196491647466187,
+              13.895524679529162
+            ],
+            "plane_normal_model": [
+              -0.8203151692160858,
+              0.5696821933997274,
+              -0.05045019006168343
+            ],
+            "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+            "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+            "unique_boundary_intersection_count": 2,
+            "boundary_intersections_model": [
+              [
+                -3.888576975397758,
+                -0.09338955516191763,
+                13.475510372310799
+              ],
+              [
+                -3.2375187532120964,
+                0.879288687201937,
+                13.872823818618322
+              ]
+            ]
+          }
+        }
+      },
+      "quality_diagnostics": {
+        "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+        "source_face_count": 12,
+        "included_face_count": 12,
+        "excluded_face_count": 0,
+        "max_adjacent_normal_angle_deg": 93.74920930965409,
+        "severe_fold_warning_threshold_deg": 85.0,
+        "severe_fold_warning": true,
+        "self_intersection_check": "not_performed_no_certification",
+        "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+        "status": "computed_with_limitations",
+        "width_status": "computed_model_quantity",
+        "physical_scale_available": false,
+        "independent_3d_accuracy_available": false,
+        "uncertainty_available": false,
+        "height_available": false
+      },
+      "observation_support": {
+        "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+        "inferred_surface_fraction": null,
+        "known_source_views": [
+          "00",
+          "02"
+        ],
+        "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+        "is_measurement_uncertainty": false
+      },
+      "provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p02_L0_report.json",
+            "sha256": "a92bb36bc7e6abd28adf14a28f16f2a31b3b374bdbc3e7489c257b7e37ee9396"
+          }
+        ],
+        "legacy_provenance": {
+          "source_files": [
+            {
+              "path": "frozen_models/real_p02/POTS33/L0.json",
+              "sha256": "ee4f13013381b17ba7c82a4ec64dfc98b2e38cc1d2ad90edee4730bdd4b3911f"
+            },
+            {
+              "path": "inputs/real/real_p02/prepared_training.json",
+              "sha256": "1af3f74f03865b778394cd293fd9f59fc2d4f47e56be83d720e1e7c948504d1f"
+            }
+          ],
+          "camera_content_sha256": "cacc204da99e2d1ba900077ad1ba90a0080a8d3bc454ebc75e63780450e4a016",
+          "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+          "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+          "mesh_level": 0,
+          "vertex_provenance_counts": {
+            "estimated": 11
+          },
+          "vertices_or_faces_modified": false,
+          "new_optimization_performed": false
+        }
+      },
+      "runtime_seconds": null,
+      "geometry_recomputed": false,
+      "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+      "actual_input_coordinate_domain": "model",
+      "actual_input_coordinate_unit": "model_unit",
+      "legacy_model_unit_label_is_generic_coordinate_label": true
+    },
+    "geometry_runtime_seconds": null,
+    "physical_accuracy_validated": false,
+    "real_E6_completed": false,
+    "provenance": {
+      "source_files": [
+        {
+          "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p02_L0_report.json",
+          "sha256": "a92bb36bc7e6abd28adf14a28f16f2a31b3b374bdbc3e7489c257b7e37ee9396"
+        }
+      ],
+      "legacy_provenance": {
+        "source_files": [
+          {
+            "path": "frozen_models/real_p02/POTS33/L0.json",
+            "sha256": "ee4f13013381b17ba7c82a4ec64dfc98b2e38cc1d2ad90edee4730bdd4b3911f"
+          },
+          {
+            "path": "inputs/real/real_p02/prepared_training.json",
+            "sha256": "1af3f74f03865b778394cd293fd9f59fc2d4f47e56be83d720e1e7c948504d1f"
+          }
+        ],
+        "camera_content_sha256": "cacc204da99e2d1ba900077ad1ba90a0080a8d3bc454ebc75e63780450e4a016",
+        "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+        "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+        "mesh_level": 0,
+        "vertex_provenance_counts": {
+          "estimated": 11
+        },
+        "vertices_or_faces_modified": false,
+        "new_optimization_performed": false
+      }
+    },
+    "uncertainty": {
+      "status": "not_provided",
+      "input_order": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "outputs": {},
+      "joint_output_covariance_provided_components": null,
+      "total_uncertainty": null,
+      "coverage_interval": null,
+      "confidence_interval_95": null,
+      "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+      "not_real_E6_validation": true,
+      "model_missing_shape_bias_assessed": false
+    },
+    "reference": {
+      "reference_status": "missing",
+      "pairs": {},
+      "reasons": [
+        "no independent same-state quantity reference supplied"
+      ],
+      "evidence_authenticity_checked": false
+    },
+    "difference_uncertainty": {
+      "difference": [
+        null,
+        null,
+        null
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "units": [
+        "mm^2",
+        "mm",
+        "mm"
+      ],
+      "covariance": null,
+      "standard_uncertainty": null,
+      "total_uncertainty": null,
+      "confidence_interval_95": null,
+      "status": "missing_joint_covariance",
+      "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+    },
+    "validity": {
+      "geometry_report_available": true,
+      "all_three_coordinate_quantities_available": true,
+      "physical_scale_available": false,
+      "eligible_reference_quantity_count": 0,
+      "measurement_accuracy_claimed": false
+    },
+    "runtime_seconds": 0.0001705000177025795,
+    "input_mode": "legacy_unknown_scale_replay",
+    "legacy_physical_outputs_used_as_input": false
+  },
+  {
+    "schema": "pots.unified-leaf-measurement.v038",
+    "identity": {
+      "plant_id": "p02",
+      "organ_id": "02:leaf_04",
+      "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b",
+      "capture_id": "komatsuna:p02:d009:t00:views00_02"
+    },
+    "data_type": "real",
+    "acquisition": {
+      "capture_id": "komatsuna:p02:d009:t00:views00_02",
+      "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+      "captured_at": null,
+      "state_id": null,
+      "state_evidence_id": null
+    },
+    "coordinates": {
+      "capture_id": "komatsuna:p02:d009:t00:views00_02",
+      "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p02:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "model_to_meters": null
+      },
+      "status": "unknown",
+      "conversion_multiplier_to_m": null,
+      "scale_check": {
+        "status": "not_independently_checked",
+        "reference": null,
+        "checkpoints": null
+      },
+      "evidence_authenticity_checked": false,
+      "metrological_traceability": "not_established_by_module",
+      "verification_scope": "supplied_real_evidence_numerically_checked",
+      "geometry_validation_implied": false,
+      "conversion_multiplier_to_mm": null,
+      "external_contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p02:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "kappa_mm_per_model_unit": null
+      },
+      "acquisition": {
+        "capture_id": "komatsuna:p02:d009:t00:views00_02",
+        "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+        "captured_at": null,
+        "state_id": null,
+        "state_evidence_id": null
+      },
+      "scale_status": "unknown",
+      "reference_status_implied": false
+    },
+    "quantities": {
+      "area_model": {
+        "dimension": 2,
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.493931450591029,
+        "coordinate_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": "mm^2",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "midrib_length_model": {
+        "dimension": 1,
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.7676378323816386,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "section_chord_model": {
+        "dimension": 1,
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            -3.5704007059842353,
+            0.40196491647466187,
+            13.895524679529162
+          ],
+          "plane_normal_model": [
+            -0.8203151692160858,
+            0.5696821933997274,
+            -0.05045019006168343
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -3.888576975397758,
+              -0.09338955516191765,
+              13.475510372310799
+            ],
+            [
+              -3.2375187532120964,
+              0.879288687201937,
+              13.872823818618322
+            ]
+          ]
+        },
+        "reason": null,
+        "coordinate_value": 1.2360573394710914,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      }
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "observation_support": {
+      "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+      "inferred_surface_fraction": null,
+      "known_source_views": [
+        "00",
+        "02"
+      ],
+      "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+      "is_measurement_uncertainty": false
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 48,
+      "included_face_count": 48,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 93.74920930965409,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": true,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+    },
+    "geometry": {
+      "schema": "pots.measurement-geometry.legacy-replay.v038",
+      "identity": {
+        "plant_id": "p02",
+        "organ_id": "02:leaf_04",
+        "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b"
+      },
+      "data_type": "real",
+      "quantities": {
+        "area_model": {
+          "value": 1.493931450591029,
+          "dimension": 2,
+          "definition_id": "single_lamina_side_triangle_area",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "midrib_length_model": {
+          "value": 1.7676378323816386,
+          "dimension": 1,
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "section_chord_model": {
+          "value": 1.2360573394710914,
+          "dimension": 1,
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": {
+            "midrib_arc_fraction": 0.5,
+            "plane_point_model": [
+              -3.5704007059842353,
+              0.40196491647466187,
+              13.895524679529162
+            ],
+            "plane_normal_model": [
+              -0.8203151692160858,
+              0.5696821933997274,
+              -0.05045019006168343
+            ],
+            "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+            "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+            "unique_boundary_intersection_count": 2,
+            "boundary_intersections_model": [
+              [
+                -3.888576975397758,
+                -0.09338955516191765,
+                13.475510372310799
+              ],
+              [
+                -3.2375187532120964,
+                0.879288687201937,
+                13.872823818618322
+              ]
+            ]
+          }
+        }
+      },
+      "quality_diagnostics": {
+        "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+        "source_face_count": 48,
+        "included_face_count": 48,
+        "excluded_face_count": 0,
+        "max_adjacent_normal_angle_deg": 93.74920930965409,
+        "severe_fold_warning_threshold_deg": 85.0,
+        "severe_fold_warning": true,
+        "self_intersection_check": "not_performed_no_certification",
+        "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+        "status": "computed_with_limitations",
+        "width_status": "computed_model_quantity",
+        "physical_scale_available": false,
+        "independent_3d_accuracy_available": false,
+        "uncertainty_available": false,
+        "height_available": false
+      },
+      "observation_support": {
+        "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+        "inferred_surface_fraction": null,
+        "known_source_views": [
+          "00",
+          "02"
+        ],
+        "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+        "is_measurement_uncertainty": false
+      },
+      "provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p02_L1_report.json",
+            "sha256": "e3bb0c482b947a333bfcf3351cc2b6f9bd855863dda505ea7a77964522b2953c"
+          }
+        ],
+        "legacy_provenance": {
+          "source_files": [
+            {
+              "path": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/fits/p02/POTS33/estimated_L1.json",
+              "sha256": "d37f0a1f96b082946df358e19ca4f0093c1ec1f8b1e97f892199669b5e96f733"
+            },
+            {
+              "path": "inputs/real/real_p02/prepared_training.json",
+              "sha256": "1af3f74f03865b778394cd293fd9f59fc2d4f47e56be83d720e1e7c948504d1f"
+            }
+          ],
+          "camera_content_sha256": "cacc204da99e2d1ba900077ad1ba90a0080a8d3bc454ebc75e63780450e4a016",
+          "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+          "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+          "mesh_level": 1,
+          "vertex_provenance_counts": {
+            "estimated": 11,
+            "interpolated": 22
+          },
+          "vertices_or_faces_modified": false,
+          "new_optimization_performed": false
+        }
+      },
+      "runtime_seconds": null,
+      "geometry_recomputed": false,
+      "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+      "actual_input_coordinate_domain": "model",
+      "actual_input_coordinate_unit": "model_unit",
+      "legacy_model_unit_label_is_generic_coordinate_label": true
+    },
+    "geometry_runtime_seconds": null,
+    "physical_accuracy_validated": false,
+    "real_E6_completed": false,
+    "provenance": {
+      "source_files": [
+        {
+          "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p02_L1_report.json",
+          "sha256": "e3bb0c482b947a333bfcf3351cc2b6f9bd855863dda505ea7a77964522b2953c"
+        }
+      ],
+      "legacy_provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/fits/p02/POTS33/estimated_L1.json",
+            "sha256": "d37f0a1f96b082946df358e19ca4f0093c1ec1f8b1e97f892199669b5e96f733"
+          },
+          {
+            "path": "inputs/real/real_p02/prepared_training.json",
+            "sha256": "1af3f74f03865b778394cd293fd9f59fc2d4f47e56be83d720e1e7c948504d1f"
+          }
+        ],
+        "camera_content_sha256": "cacc204da99e2d1ba900077ad1ba90a0080a8d3bc454ebc75e63780450e4a016",
+        "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+        "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+        "mesh_level": 1,
+        "vertex_provenance_counts": {
+          "estimated": 11,
+          "interpolated": 22
+        },
+        "vertices_or_faces_modified": false,
+        "new_optimization_performed": false
+      }
+    },
+    "uncertainty": {
+      "status": "not_provided",
+      "input_order": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "outputs": {},
+      "joint_output_covariance_provided_components": null,
+      "total_uncertainty": null,
+      "coverage_interval": null,
+      "confidence_interval_95": null,
+      "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+      "not_real_E6_validation": true,
+      "model_missing_shape_bias_assessed": false
+    },
+    "reference": {
+      "reference_status": "missing",
+      "pairs": {},
+      "reasons": [
+        "no independent same-state quantity reference supplied"
+      ],
+      "evidence_authenticity_checked": false
+    },
+    "difference_uncertainty": {
+      "difference": [
+        null,
+        null,
+        null
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "units": [
+        "mm^2",
+        "mm",
+        "mm"
+      ],
+      "covariance": null,
+      "standard_uncertainty": null,
+      "total_uncertainty": null,
+      "confidence_interval_95": null,
+      "status": "missing_joint_covariance",
+      "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+    },
+    "validity": {
+      "geometry_report_available": true,
+      "all_three_coordinate_quantities_available": true,
+      "physical_scale_available": false,
+      "eligible_reference_quantity_count": 0,
+      "measurement_accuracy_claimed": false
+    },
+    "runtime_seconds": 0.0001764999469742179,
+    "input_mode": "legacy_unknown_scale_replay",
+    "legacy_physical_outputs_used_as_input": false
+  },
+  {
+    "schema": "pots.unified-leaf-measurement.v038",
+    "identity": {
+      "plant_id": "p02",
+      "organ_id": "02:leaf_04",
+      "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b",
+      "capture_id": "komatsuna:p02:d009:t00:views00_02"
+    },
+    "data_type": "real",
+    "acquisition": {
+      "capture_id": "komatsuna:p02:d009:t00:views00_02",
+      "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+      "captured_at": null,
+      "state_id": null,
+      "state_evidence_id": null
+    },
+    "coordinates": {
+      "capture_id": "komatsuna:p02:d009:t00:views00_02",
+      "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b",
+      "domain": "model",
+      "unit": "model_unit",
+      "prior_scale_applications": []
+    },
+    "scale": {
+      "contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p02:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "model_to_meters": null
+      },
+      "status": "unknown",
+      "conversion_multiplier_to_m": null,
+      "scale_check": {
+        "status": "not_independently_checked",
+        "reference": null,
+        "checkpoints": null
+      },
+      "evidence_authenticity_checked": false,
+      "metrological_traceability": "not_established_by_module",
+      "verification_scope": "supplied_real_evidence_numerically_checked",
+      "geometry_validation_implied": false,
+      "conversion_multiplier_to_mm": null,
+      "external_contract": {
+        "status": "unknown",
+        "scope": {
+          "capture_id": "komatsuna:p02:d009:t00:views00_02",
+          "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b"
+        },
+        "data_type": "real",
+        "source": "Saved cameras use unknown_checkerboard_square; no independently verified square length or scale check provided.",
+        "application": "apply_to_model",
+        "kappa_mm_per_model_unit": null
+      },
+      "acquisition": {
+        "capture_id": "komatsuna:p02:d009:t00:views00_02",
+        "source": "Existing dataset day/time labels only; absolute date and externally verified state are absent.",
+        "captured_at": null,
+        "state_id": null,
+        "state_evidence_id": null
+      },
+      "scale_status": "unknown",
+      "reference_status_implied": false
+    },
+    "quantities": {
+      "area_model": {
+        "dimension": 2,
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.4939314505910293,
+        "coordinate_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": "mm^2",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "midrib_length_model": {
+        "dimension": 1,
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": null,
+        "reason": null,
+        "coordinate_value": 1.7676378323816386,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      },
+      "section_chord_model": {
+        "dimension": 1,
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            -3.5704007059842353,
+            0.40196491647466187,
+            13.895524679529162
+          ],
+          "plane_normal_model": [
+            -0.8203151692160858,
+            0.5696821933997274,
+            -0.05045019006168343
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              -3.888576975397758,
+              -0.09338955516191762,
+              13.475510372310799
+            ],
+            [
+              -3.2375187532120964,
+              0.879288687201937,
+              13.872823818618322
+            ]
+          ]
+        },
+        "reason": null,
+        "coordinate_value": 1.2360573394710914,
+        "coordinate_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": "mm",
+        "scale_status": "unknown",
+        "physical_status": "unavailable_unknown_scale",
+        "value_state": "measurement_output",
+        "validity": "available_coordinate_quantity",
+        "physical_reason": "unknown_scale",
+        "conversion": "kappa^dimension times unscaled model quantity"
+      }
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "observation_support": {
+      "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+      "inferred_surface_fraction": null,
+      "known_source_views": [
+        "00",
+        "02"
+      ],
+      "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+      "is_measurement_uncertainty": false
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 192,
+      "included_face_count": 192,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 93.74920930965607,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": true,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+    },
+    "geometry": {
+      "schema": "pots.measurement-geometry.legacy-replay.v038",
+      "identity": {
+        "plant_id": "p02",
+        "organ_id": "02:leaf_04",
+        "coordinate_frame_id": "komatsuna:p02:supplied_camera_world:cacc204da99e2d1b"
+      },
+      "data_type": "real",
+      "quantities": {
+        "area_model": {
+          "value": 1.4939314505910293,
+          "dimension": 2,
+          "definition_id": "single_lamina_side_triangle_area",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "midrib_length_model": {
+          "value": 1.7676378323816386,
+          "dimension": 1,
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": null
+        },
+        "section_chord_model": {
+          "value": 1.2360573394710914,
+          "dimension": 1,
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+          "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+          "value_state": "coordinate_quantity",
+          "reason": null,
+          "details": {
+            "midrib_arc_fraction": 0.5,
+            "plane_point_model": [
+              -3.5704007059842353,
+              0.40196491647466187,
+              13.895524679529162
+            ],
+            "plane_normal_model": [
+              -0.8203151692160858,
+              0.5696821933997274,
+              -0.05045019006168343
+            ],
+            "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+            "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+            "unique_boundary_intersection_count": 2,
+            "boundary_intersections_model": [
+              [
+                -3.888576975397758,
+                -0.09338955516191762,
+                13.475510372310799
+              ],
+              [
+                -3.2375187532120964,
+                0.879288687201937,
+                13.872823818618322
+              ]
+            ]
+          }
+        }
+      },
+      "quality_diagnostics": {
+        "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+        "source_face_count": 192,
+        "included_face_count": 192,
+        "excluded_face_count": 0,
+        "max_adjacent_normal_angle_deg": 93.74920930965607,
+        "severe_fold_warning_threshold_deg": 85.0,
+        "severe_fold_warning": true,
+        "self_intersection_check": "not_performed_no_certification",
+        "surface_grouping_source": "POTS taskbook open lamina topology; preserved saved faces; no thickness/petiole faces in this mesh",
+        "status": "computed_with_limitations",
+        "width_status": "computed_model_quantity",
+        "physical_scale_available": false,
+        "independent_3d_accuracy_available": false,
+        "uncertainty_available": false,
+        "height_available": false
+      },
+      "observation_support": {
+        "status": "regularized_shape_estimate_with_reviewed_image_constraints",
+        "inferred_surface_fraction": null,
+        "known_source_views": [
+          "00",
+          "02"
+        ],
+        "note": "All original 3D controls are estimated; subdivision vertices are interpolated. Image support does not supply independent 3D truth or quantified uncertainty.",
+        "is_measurement_uncertainty": false
+      },
+      "provenance": {
+        "source_files": [
+          {
+            "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p02_L2_report.json",
+            "sha256": "ad04a8ad5aae1ed5ba2d3b6c2036bfb83fdfe9e03224e44bea980d2bc47f4398"
+          }
+        ],
+        "legacy_provenance": {
+          "source_files": [
+            {
+              "path": "frozen_models/real_p02/POTS33/L2.json",
+              "sha256": "911f4e2d29a40520497565a91cd75eefdd0708346eb1cc3af37bb6c113dbc6d8"
+            },
+            {
+              "path": "inputs/real/real_p02/prepared_training.json",
+              "sha256": "1af3f74f03865b778394cd293fd9f59fc2d4f47e56be83d720e1e7c948504d1f"
+            }
+          ],
+          "camera_content_sha256": "cacc204da99e2d1ba900077ad1ba90a0080a8d3bc454ebc75e63780450e4a016",
+          "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+          "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+          "mesh_level": 2,
+          "vertex_provenance_counts": {
+            "estimated": 11,
+            "interpolated": 102
+          },
+          "vertices_or_faces_modified": false,
+          "new_optimization_performed": false
+        }
+      },
+      "runtime_seconds": null,
+      "geometry_recomputed": false,
+      "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+      "actual_input_coordinate_domain": "model",
+      "actual_input_coordinate_unit": "model_unit",
+      "legacy_model_unit_label_is_generic_coordinate_label": true
+    },
+    "geometry_runtime_seconds": null,
+    "physical_accuracy_validated": false,
+    "real_E6_completed": false,
+    "provenance": {
+      "source_files": [
+        {
+          "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/real_run_01/p02_L2_report.json",
+          "sha256": "ad04a8ad5aae1ed5ba2d3b6c2036bfb83fdfe9e03224e44bea980d2bc47f4398"
+        }
+      ],
+      "legacy_provenance": {
+        "source_files": [
+          {
+            "path": "frozen_models/real_p02/POTS33/L2.json",
+            "sha256": "911f4e2d29a40520497565a91cd75eefdd0708346eb1cc3af37bb6c113dbc6d8"
+          },
+          {
+            "path": "inputs/real/real_p02/prepared_training.json",
+            "sha256": "1af3f74f03865b778394cd293fd9f59fc2d4f47e56be83d720e1e7c948504d1f"
+          }
+        ],
+        "camera_content_sha256": "cacc204da99e2d1ba900077ad1ba90a0080a8d3bc454ebc75e63780450e4a016",
+        "frame_assignment": "Adapter label for this plant's unchanged supplied-camera world; no cross-plant registration asserted.",
+        "saved_coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+        "mesh_level": 2,
+        "vertex_provenance_counts": {
+          "estimated": 11,
+          "interpolated": 102
+        },
+        "vertices_or_faces_modified": false,
+        "new_optimization_performed": false
+      }
+    },
+    "uncertainty": {
+      "status": "not_provided",
+      "input_order": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "outputs": {},
+      "joint_output_covariance_provided_components": null,
+      "total_uncertainty": null,
+      "coverage_interval": null,
+      "confidence_interval_95": null,
+      "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+      "not_real_E6_validation": true,
+      "model_missing_shape_bias_assessed": false
+    },
+    "reference": {
+      "reference_status": "missing",
+      "pairs": {},
+      "reasons": [
+        "no independent same-state quantity reference supplied"
+      ],
+      "evidence_authenticity_checked": false
+    },
+    "difference_uncertainty": {
+      "difference": [
+        null,
+        null,
+        null
+      ],
+      "output_order": [
+        "area",
+        "midrib_length",
+        "section_chord"
+      ],
+      "units": [
+        "mm^2",
+        "mm",
+        "mm"
+      ],
+      "covariance": null,
+      "standard_uncertainty": null,
+      "total_uncertainty": null,
+      "confidence_interval_95": null,
+      "status": "missing_joint_covariance",
+      "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+    },
+    "validity": {
+      "geometry_report_available": true,
+      "all_three_coordinate_quantities_available": true,
+      "physical_scale_available": false,
+      "eligible_reference_quantity_count": 0,
+      "measurement_accuracy_claimed": false
+    },
+    "runtime_seconds": 0.0001710999058559537,
+    "input_mode": "legacy_unknown_scale_replay",
+    "legacy_physical_outputs_used_as_input": false
+  }
+]

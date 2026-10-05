@@ -1,0 +1,891 @@
+{
+  "schema": "pots.reviewed-new-plant-prepared.v1",
+  "data_type": "real",
+  "group": "p01",
+  "candidate_id": "komatsuna_p01_d009_t00_leaf04",
+  "organ_id": "01:leaf_04",
+  "source_export_sha256": "cd6b72b9e9fc468aeeab201c29514ceef51eb92e43a5eec7ebf03a4015981bc5",
+  "source_case_ids": [
+    "p01_00",
+    "p01_02"
+  ],
+  "cameras": {
+    "00": {
+      "view_id": "00",
+      "K": [
+        [
+          1447.1628464763269,
+          0,
+          46.33603746163794
+        ],
+        [
+          0,
+          1447.5154426605611,
+          556.9397572943669
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "R": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "t": [
+        0,
+        0,
+        0
+      ],
+      "unit": "unknown_checkerboard_square"
+    },
+    "02": {
+      "view_id": "02",
+      "K": [
+        [
+          1453.4040764517556,
+          0,
+          -550.1596071018226
+        ],
+        [
+          0,
+          1453.5452600273463,
+          575.0058773991259
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "R": [
+        [
+          0.9994389216223825,
+          0.031550832370706126,
+          0.011242193869749775
+        ],
+        [
+          -0.03163458946951748,
+          0.9994724617475039,
+          0.00735193562808471
+        ],
+        [
+          -0.011004303493839603,
+          -0.007703452803776387,
+          0.999909776989662
+        ]
+      ],
+      "t": [
+        5.626379688547068,
+        -0.15777655844311966,
+        0.21642242211293486
+      ],
+      "unit": "unknown_checkerboard_square"
+    }
+  },
+  "distorted_camera_contracts": {
+    "00": {
+      "native_width": 480,
+      "native_height": 480,
+      "camera": {
+        "view_id": "00",
+        "K": [
+          [
+            1447.1628464763269,
+            0,
+            46.33603746163794
+          ],
+          [
+            0,
+            1447.5154426605611,
+            556.9397572943669
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "K_full": [
+          [
+            1447.1628464763269,
+            0,
+            1036.336037461638
+          ],
+          [
+            0,
+            1447.5154426605611,
+            796.9397572943669
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "distortion": [
+          -0.06168626192123971,
+          0.13376213699133815,
+          0.0005512253582032307,
+          0.0001302007328168146,
+          -0.07217700516597145
+        ],
+        "R": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "t": [
+          0,
+          0,
+          0
+        ],
+        "width": 480,
+        "height": 480,
+        "crop_origin": [
+          990,
+          240
+        ],
+        "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+        "scale": "unknown-size checker-square units; no centimetre claim",
+        "source_path": "inputs/real/cameras/calibration_result.json",
+        "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+      },
+      "crop_origin": [
+        990,
+        240
+      ],
+      "native_to_camera": null
+    },
+    "02": {
+      "native_width": 480,
+      "native_height": 480,
+      "camera": {
+        "view_id": "02",
+        "K": [
+          [
+            1453.4040764517556,
+            0,
+            -550.1596071018226
+          ],
+          [
+            0,
+            1453.5452600273463,
+            575.0058773991259
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "K_full": [
+          [
+            1453.4040764517556,
+            0,
+            1017.8403928981774
+          ],
+          [
+            0,
+            1453.5452600273463,
+            795.0058773991259
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "distortion": [
+          -0.061210683781492824,
+          0.12799756131274442,
+          -0.00024925880578291644,
+          0.000887298472219975,
+          -0.06596303866314683
+        ],
+        "R": [
+          [
+            0.9994389216223825,
+            0.031550832370706126,
+            0.011242193869749775
+          ],
+          [
+            -0.03163458946951748,
+            0.9994724617475039,
+            0.00735193562808471
+          ],
+          [
+            -0.011004303493839603,
+            -0.007703452803776387,
+            0.999909776989662
+          ]
+        ],
+        "t": [
+          5.626379688547068,
+          -0.15777655844311966,
+          0.21642242211293486
+        ],
+        "width": 480,
+        "height": 480,
+        "crop_origin": [
+          1568,
+          220
+        ],
+        "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+        "scale": "unknown-size checker-square units; no centimetre claim",
+        "source_path": "inputs/real/cameras/calibration_result.json",
+        "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+      },
+      "crop_origin": [
+        1568,
+        220
+      ],
+      "native_to_camera": null
+    }
+  },
+  "observations": [
+    {
+      "view_id": "00",
+      "organ_id": "01:leaf_04",
+      "split": "train",
+      "coordinate_domain": "undistorted_pixels",
+      "reviewed": true,
+      "same_leaf_confirmed": true,
+      "material": [
+        {
+          "label": "B",
+          "status": "visible",
+          "xy": [
+            199.02581437527047,
+            184.53202995262694
+          ],
+          "reviewed": true,
+          "correspondence_id": "01:leaf_04:B",
+          "source": "human_click_in_frozen_export"
+        },
+        {
+          "label": "T",
+          "status": "visible",
+          "xy": [
+            147.43506070760952,
+            28.82669971163648
+          ],
+          "reviewed": true,
+          "correspondence_id": "01:leaf_04:T",
+          "source": "human_click_in_frozen_export"
+        }
+      ],
+      "Q": {
+        "xy": [
+          [
+            199.02581437527047,
+            184.53202995262694
+          ],
+          [
+            192.41390647644747,
+            148.528952312096
+          ],
+          [
+            182.48368908723145,
+            99.67036990748733
+          ],
+          [
+            162.45446432932937,
+            60.051718707801115
+          ],
+          [
+            147.43506070760952,
+            28.82669971163648
+          ]
+        ],
+        "closed": false,
+        "order": "B_to_T",
+        "reviewed": true,
+        "point_status": [
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "segment_visibility": [
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "original_labels": [
+          "B",
+          "Q1",
+          "Q2",
+          "Q3",
+          "T"
+        ]
+      },
+      "W": [
+        {
+          "stroke_id": "W1",
+          "xy": [
+            [
+              215.7955995409914,
+              168.6705130102278
+            ],
+            [
+              231.7247089437489,
+              162.74151978389563
+            ],
+            [
+              241.81359661470248,
+              146.71824972636875
+            ],
+            [
+              249.39373330985347,
+              133.2138988971788
+            ],
+            [
+              254.48044719290826,
+              112.97579637131088
+            ],
+            [
+              252.86777984740573,
+              93.58799095991992
+            ],
+            [
+              238.69244306253486,
+              66.63127818356918
+            ],
+            [
+              226.16329690266807,
+              50.627957155017725
+            ],
+            [
+              199.3859409103097,
+              30.426321908165733
+            ],
+            [
+              170.9086019289109,
+              22.026515902890196
+            ],
+            [
+              155.822832726613,
+              22.051894083387424
+            ],
+            [
+              131.4984695216694,
+              36.45246431379064
+            ],
+            [
+              120.59797275823085,
+              54.20717715086238
+            ],
+            [
+              109.68966117321166,
+              76.16234901054531
+            ],
+            [
+              107.14896703913675,
+              104.01393579476706
+            ],
+            [
+              115.4972941665542,
+              119.17172860292021
+            ],
+            [
+              124.6860374001664,
+              134.32961936871692
+            ],
+            [
+              128.016236594335,
+              146.966536181023
+            ],
+            [
+              149.71518984976547,
+              169.66184261352163
+            ],
+            [
+              161.40216059518576,
+              179.72986543298202
+            ],
+            [
+              178.1318079531909,
+              179.69725356059138
+            ],
+            [
+              190.6723882125991,
+              180.50894617559055
+            ],
+            [
+              208.25077941708977,
+              173.74509968252755
+            ]
+          ],
+          "closed": false,
+          "reviewed": true,
+          "point_status": [
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "segment_kind": [
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin"
+          ],
+          "source": "human reviewed separate visible-edge stroke; no auto-closure"
+        }
+      ],
+      "source_export_sha256": "cd6b72b9e9fc468aeeab201c29514ceef51eb92e43a5eec7ebf03a4015981bc5"
+    },
+    {
+      "view_id": "02",
+      "organ_id": "01:leaf_04",
+      "split": "train",
+      "coordinate_domain": "undistorted_pixels",
+      "reviewed": true,
+      "same_leaf_confirmed": true,
+      "material": [
+        {
+          "label": "B",
+          "status": "visible",
+          "xy": [
+            207.8362930385582,
+            196.09145073279842
+          ],
+          "reviewed": true,
+          "correspondence_id": "01:leaf_04:B",
+          "source": "human_click_in_frozen_export"
+        },
+        {
+          "label": "T",
+          "status": "visible",
+          "xy": [
+            146.5541390139656,
+            49.39324760102784
+          ],
+          "reviewed": true,
+          "correspondence_id": "01:leaf_04:T",
+          "source": "human_click_in_frozen_export"
+        }
+      ],
+      "Q": {
+        "xy": [
+          [
+            207.8362930385582,
+            196.09145073279842
+          ],
+          [
+            209.45488380343693,
+            164.25101132232214
+          ],
+          [
+            199.31691613655335,
+            114.8293875074022
+          ],
+          [
+            168.3296296964014,
+            73.72329720654102
+          ],
+          [
+            146.5541390139656,
+            49.39324760102784
+          ]
+        ],
+        "closed": false,
+        "order": "B_to_T",
+        "reviewed": true,
+        "point_status": [
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "segment_visibility": [
+          "unknown",
+          "unknown",
+          "unknown",
+          "unknown"
+        ],
+        "original_labels": [
+          "B",
+          "Q1",
+          "Q2",
+          "Q3",
+          "T"
+        ]
+      },
+      "W": [
+        {
+          "stroke_id": "W1",
+          "xy": [
+            [
+              217.84737650942907,
+              186.8864248600433
+            ],
+            [
+              240.34693680873204,
+              176.05951293208653
+            ],
+            [
+              255.30481110296228,
+              164.3762849718574
+            ],
+            [
+              268.5184766207326,
+              141.00294052269118
+            ],
+            [
+              273.4004608725819,
+              119.29484323675905
+            ],
+            [
+              266.6404615744177,
+              94.18766984026615
+            ],
+            [
+              249.10913475932261,
+              76.55795574368625
+            ],
+            [
+              229.08459621219276,
+              59.74090863738343
+            ],
+            [
+              204.07103255770153,
+              47.92394371173839
+            ],
+            [
+              175.70928086120227,
+              36.101489656614035
+            ],
+            [
+              159.0550641613271,
+              41.05545811265597
+            ],
+            [
+              138.21494991901545,
+              53.55627642460422
+            ],
+            [
+              127.37514301562078,
+              66.09224000160543
+            ],
+            [
+              119.0461585466951,
+              89.54052232904411
+            ],
+            [
+              121.58173841674966,
+              112.17718782079123
+            ],
+            [
+              130.8017062271091,
+              131.46659656987845
+            ],
+            [
+              142.53267779588475,
+              144.88394091027016
+            ],
+            [
+              150.07527290907478,
+              154.95364596655162
+            ],
+            [
+              155.9525302782273,
+              172.5680504661554
+            ],
+            [
+              169.3526039894848,
+              186.82238699890513
+            ],
+            [
+              184.42103935589398,
+              191.87212413541283
+            ],
+            [
+              196.12913140536557,
+              191.88568564627224
+            ]
+          ],
+          "closed": false,
+          "reviewed": true,
+          "point_status": [
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "segment_kind": [
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin",
+            "true_margin"
+          ],
+          "source": "human reviewed separate visible-edge stroke; no auto-closure"
+        }
+      ],
+      "source_export_sha256": "cd6b72b9e9fc468aeeab201c29514ceef51eb92e43a5eec7ebf03a4015981bc5"
+    }
+  ],
+  "initial_xyz": [
+    [
+      1.4074027438720662,
+      -3.4327612262879303,
+      13.338925604564366
+    ],
+    [
+      1.0609960736326391,
+      -3.7150139629082206,
+      13.458189756318923
+    ],
+    [
+      1.2902889194231266,
+      -3.795827209891252,
+      13.365865088640659
+    ],
+    [
+      1.519581765213614,
+      -3.8766404568742834,
+      13.273540420962394
+    ],
+    [
+      0.835979733517588,
+      -4.04005018322541,
+      13.528576142832046
+    ],
+    [
+      1.173175094974187,
+      -4.158893193494574,
+      13.392804572716951
+    ],
+    [
+      1.510370456430786,
+      -4.277736203763738,
+      13.257033002601856
+    ],
+    [
+      0.8267684247347601,
+      -4.441145930114865,
+      13.512068724471508
+    ],
+    [
+      1.0560612705252475,
+      -4.521959177097896,
+      13.419744056793244
+    ],
+    [
+      1.285354116315735,
+      -4.602772424080928,
+      13.32741938911498
+    ],
+    [
+      0.9389474460763079,
+      -4.885025160701217,
+      13.446683540869536
+    ]
+  ],
+  "initialization": {
+    "method": "B/T axis with planar camera-facing lateral initialization",
+    "axis_length_unknown_board_units": 1.5297492193386542,
+    "station_u": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "half_width_over_BT": [
+      0.17,
+      0.25,
+      0.17
+    ],
+    "half_width_is_fixed_prior_not_measured": true,
+    "normal_is_camera_facing_prior": true,
+    "Q_W_cross_view_triangulation": false,
+    "reference_geometry_used": false
+  },
+  "endpoint_geometry_checks": {
+    "B": {
+      "xyz": [
+        1.4074027438720662,
+        -3.4327612262879303,
+        13.338925604564366
+      ],
+      "method": "undistorted linear DLT triangulation; no nonlinear fitting",
+      "world_frame": "camera00",
+      "unit": "unknown-size checkerboard square",
+      "distorted_reprojection_px": [
+        [
+          198.39148824345205,
+          186.0719943314017
+        ],
+        [
+          202.55181244476205,
+          198.9372272363347
+        ]
+      ],
+      "reprojection_errors_px": [
+        0.10801592159464482,
+        0.10724255297218432
+      ],
+      "camera_depths": [
+        13.338925604564366,
+        13.565101175816293
+      ],
+      "ray_angle_deg": 20.777798254516068,
+      "acute_line_angle_deg": 20.777798254516068,
+      "checks": {
+        "finite_point": true,
+        "positive_depth_both": true,
+        "reprojection_max_le_3px": true,
+        "ray_angle_ge_5deg": true
+      },
+      "passed": true
+    },
+    "T": {
+      "xyz": [
+        0.9389474460763079,
+        -4.885025160701217,
+        13.446683540869536
+      ],
+      "method": "undistorted linear DLT triangulation; no nonlinear fitting",
+      "world_frame": "camera00",
+      "unit": "unknown-size checkerboard square",
+      "distorted_reprojection_px": [
+        [
+          146.75624451129255,
+          34.60356660082891
+        ],
+        [
+          141.77430682740783,
+          50.98756898627062
+        ]
+      ],
+      "reprojection_errors_px": [
+        2.2139990151527376,
+        2.2125801973328536
+      ],
+      "camera_depths": [
+        13.446683540869536,
+        13.689191860823684
+      ],
+      "ray_angle_deg": 20.527972646622807,
+      "acute_line_angle_deg": 20.527972646622807,
+      "checks": {
+        "finite_point": true,
+        "positive_depth_both": true,
+        "reprojection_max_le_3px": true,
+        "ray_angle_ge_5deg": true
+      },
+      "passed": true
+    }
+  },
+  "train_views": [
+    "00",
+    "02"
+  ],
+  "evaluation_views": [
+    "01"
+  ],
+  "evaluation_used": false,
+  "preprocessing_validation_passed": true,
+  "gs_used": false
+}

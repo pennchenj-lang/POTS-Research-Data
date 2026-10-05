@@ -1,0 +1,376 @@
+{
+  "schema": "pots.komatsuna.rgb_multiview.scale_binding_audit.v1",
+  "utc": "2026-10-04T04:13:03.809548+00:00",
+  "data_type": "real_source_and_crop_audit",
+  "current_leaf_id": "komatsuna_p00_d009_t00_leaf04",
+  "scale": {
+    "status": "unknown",
+    "model_unit": "checkerboard_square",
+    "model_to_meters": null,
+    "source_square_side_in_model_units": 1.0,
+    "physical_square_side_m": null,
+    "reported_metric_eligible": false,
+    "verified_metric_eligible": false
+  },
+  "coordinate_frame": {
+    "world": "camera00",
+    "saved_projection": "X_camera = R X_world + t",
+    "gravity_or_ground_reference_verified": false,
+    "not_author_published_metric_extrinsics": true
+  },
+  "camera_source": "Project re-calibration of authors multi_calibration image archive, independent of plant fitting; not author-provided numeric K/R/t",
+  "crop_bindings": [
+    {
+      "plant_id": "00",
+      "view": "00",
+      "crop_origin_native_px": [
+        30,
+        210
+      ],
+      "original_size_wh": [
+        2048,
+        1536
+      ],
+      "crop_size_wh": [
+        480,
+        480
+      ],
+      "exact_pixel_match": true,
+      "max_absolute_channel_difference": 0,
+      "crop_sha256": "53ff7013172f2bc58a29da67539f9d92e76ac7af9c73ff4ba3a05e71e98dea8d",
+      "original_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3"
+    },
+    {
+      "plant_id": "00",
+      "view": "02",
+      "crop_origin_native_px": [
+        640,
+        220
+      ],
+      "original_size_wh": [
+        2048,
+        1536
+      ],
+      "crop_size_wh": [
+        480,
+        480
+      ],
+      "exact_pixel_match": true,
+      "max_absolute_channel_difference": 0,
+      "crop_sha256": "bec5b40593e95a7c599b903edd42cd03558ba3ea86488ff117ef818dc0082b20",
+      "original_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa"
+    },
+    {
+      "plant_id": "01",
+      "view": "00",
+      "crop_origin_native_px": [
+        990,
+        240
+      ],
+      "original_size_wh": [
+        2048,
+        1536
+      ],
+      "crop_size_wh": [
+        480,
+        480
+      ],
+      "exact_pixel_match": true,
+      "max_absolute_channel_difference": 0,
+      "crop_sha256": "ad4df07548c1fb46a26cf5db5f9859edd2636a9b75dbc44b1ca4b7cb685fe9f5",
+      "original_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3"
+    },
+    {
+      "plant_id": "01",
+      "view": "02",
+      "crop_origin_native_px": [
+        1568,
+        220
+      ],
+      "original_size_wh": [
+        2048,
+        1536
+      ],
+      "crop_size_wh": [
+        480,
+        480
+      ],
+      "exact_pixel_match": true,
+      "max_absolute_channel_difference": 0,
+      "crop_sha256": "66d106536ec1daccf221d4fe514e42d7b826da8541849ceb8f79177a84e1dd46",
+      "original_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa"
+    },
+    {
+      "plant_id": "02",
+      "view": "00",
+      "crop_origin_native_px": [
+        510,
+        460
+      ],
+      "original_size_wh": [
+        2048,
+        1536
+      ],
+      "crop_size_wh": [
+        480,
+        480
+      ],
+      "exact_pixel_match": true,
+      "max_absolute_channel_difference": 0,
+      "crop_sha256": "696386b63983d0cd21cecbbeb20fc11969dc6bdaecd4f950fc9dcd7e113108f9",
+      "original_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3"
+    },
+    {
+      "plant_id": "02",
+      "view": "02",
+      "crop_origin_native_px": [
+        1110,
+        460
+      ],
+      "original_size_wh": [
+        2048,
+        1536
+      ],
+      "crop_size_wh": [
+        480,
+        480
+      ],
+      "exact_pixel_match": true,
+      "max_absolute_channel_difference": 0,
+      "crop_sha256": "4e99336cd522a517da5371932bc54017ffc3da001e884ee9ec0b340f4636ab54",
+      "original_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa"
+    }
+  ],
+  "board_visual_check": {
+    "source": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/calibration/00_000.png",
+    "sha256": "43eb1140a5d2f4c2b9047c9857eed0f3f66d27cf39ffcccfe5c3eab81adb0d76",
+    "observation": "10 x 7 printed squares and x/y arrows; no legible square-side numeric unit on inspected image. No paper-format, vessel, plug, or equipment size was assumed.",
+    "scope": "One image inspected; not claiming every archive image lacks markings."
+  },
+  "checks": [
+    {
+      "name": "calibration_grid_side_is_one",
+      "passed": true,
+      "physical_length_reported": false
+    },
+    {
+      "name": "object_coordinates_have_no_metric_multiplier",
+      "passed": true
+    },
+    {
+      "name": "prepared_target_is_original_p00_leaf04",
+      "passed": true
+    },
+    {
+      "name": "p00_v00_crop_exact",
+      "passed": true
+    },
+    {
+      "name": "p00_v02_crop_exact",
+      "passed": true
+    },
+    {
+      "name": "p01_v00_crop_exact",
+      "passed": true
+    },
+    {
+      "name": "p01_v02_crop_exact",
+      "passed": true
+    },
+    {
+      "name": "p02_v00_crop_exact",
+      "passed": true
+    },
+    {
+      "name": "p02_v02_crop_exact",
+      "passed": true
+    },
+    {
+      "name": "p00_v00_K_subtract_crop_once",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "p00_v00_R_t_unchanged_from_board_calibration",
+      "passed": true
+    },
+    {
+      "name": "p00_v00_scale_not_promoted",
+      "passed": true
+    },
+    {
+      "name": "p00_v02_K_subtract_crop_once",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "p00_v02_R_t_unchanged_from_board_calibration",
+      "passed": true
+    },
+    {
+      "name": "p00_v02_scale_not_promoted",
+      "passed": true
+    },
+    {
+      "name": "camera00_is_the_saved_world_frame",
+      "passed": true
+    }
+  ],
+  "all_readonly_checks_passed": true,
+  "camera_baselines_in_grid_units": [
+    {
+      "camera": 1,
+      "baseline_checker_units": 2.717398000245923
+    },
+    {
+      "camera": 2,
+      "baseline_checker_units": 5.632750705195677
+    }
+  ],
+  "calibration_intrinsic_rms_px": {
+    "0": 0.18762284024422332,
+    "1": 0.2416430519950509,
+    "2": 0.13669670737802034
+  },
+  "allowed_joint_organ_use": "Existing p00 leaf and a newly fitted organ can share the unchanged camera00 frame and checkerboard-square model quantities, provided same-object identity/pose are maintained. No mm/cm conversion or physical height.",
+  "missing_for_reported_metric": "Documented physical edge length of the exact geometric checkerboard, or an independently documented length/baseline tied to this same fixed rig and captures.",
+  "excluded": "RGB-D subset nominal-metre depth belongs to different plants; no transfer of unit/GT to p00/p01/p02. No PlantAI reference table accessed.",
+  "source_integrity": [
+    {
+      "path": "excluded_materials/provenance/sources/komatsuna_source_verification.md",
+      "sha256": "c3d3f80cc35cb0a96afce95de5b08293e4f7b364b36bd2cd6165a160ccd00bec",
+      "bytes": 1530
+    },
+    {
+      "path": "source_archive/POTS-GS/reports/shape_guard_20260927_v1/real_pilot_candidate.md",
+      "sha256": "72ff34d63626ac875411d5c104c7ca8a9972f45adc5f9942be73dc38ceb14c51",
+      "bytes": 3635
+    },
+    {
+      "path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/public_reference/unit_addendum_v1/UNIT_EVIDENCE_ADDENDUM.md",
+      "sha256": "27beec2f8ea75891d162a963c090e4b5b031c88d01a91450f95fa36c69e121aa",
+      "bytes": 4752
+    },
+    {
+      "path": "source_archive/POTS-GS/work/multiview_real_audit_20261001_v1/audit.json",
+      "sha256": "1bb3fa6a8c7dae4ba0277607e11787266fba5ce6e87bf1fbd5f108702f19032c",
+      "bytes": 19897
+    },
+    {
+      "path": "inputs/real/cameras/additional_crop_mapping.json",
+      "sha256": "038d9e33d42a791e2f8e02844e2295e89360177730129baa629aa87b12cc2f9f",
+      "bytes": 6247
+    },
+    {
+      "path": "excluded_materials/provenance/sources/komatsuna_multiview_readme.pdf",
+      "sha256": "b4b2b6606ab5371e71547c160f2aa4e6d8545c2fd226efae224f850be7d1bdc1",
+      "bytes": 201682
+    },
+    {
+      "path": "excluded_materials/provenance/sources/komatsuna_official_page.html",
+      "sha256": "b562b4a45f73c7e2d4d0864e38ffe03ecd33d121033e3a48a93ca4a9e0cd0250",
+      "bytes": 4904
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/rgb_00_01_009_00.png",
+      "sha256": "ad4df07548c1fb46a26cf5db5f9859edd2636a9b75dbc44b1ca4b7cb685fe9f5",
+      "bytes": 186417
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/rgb_02_01_009_00.png",
+      "sha256": "66d106536ec1daccf221d4fe514e42d7b826da8541849ceb8f79177a84e1dd46",
+      "bytes": 242180
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/rgb_00_02_009_00.png",
+      "sha256": "696386b63983d0cd21cecbbeb20fc11969dc6bdaecd4f950fc9dcd7e113108f9",
+      "bytes": 165898
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/rgb_02_02_009_00.png",
+      "sha256": "4e99336cd522a517da5371932bc54017ffc3da001e884ee9ec0b340f4636ab54",
+      "bytes": 163277
+    },
+    {
+      "path": "provenance/real/p00_input_audit.json",
+      "sha256": "8db2bd7fb01d7f980ab066f1429cfa7626b185922c60e1a42e0b4ec795147eb0",
+      "bytes": 9565
+    },
+    {
+      "path": "inputs/real/real_known_pilot/prepared_training.json",
+      "sha256": "04008c725c0a81c2b9a97f5390383628040adcc765dfaccf6ee19ea495b35fa4",
+      "bytes": 18281
+    },
+    {
+      "path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/calibrate_v3.py",
+      "sha256": "e9a0e05a6290fb3be014f9c918207b91768cac7b497abf554522ba2c5029cee3",
+      "bytes": 5708
+    },
+    {
+      "path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/calibration/00_000.png",
+      "sha256": "43eb1140a5d2f4c2b9047c9857eed0f3f66d27cf39ffcccfe5c3eab81adb0d76",
+      "bytes": 2526756
+    },
+    {
+      "path": "inputs/real/cameras/calibration_protocol.json",
+      "sha256": "c321667b0248cdf233d645945eea54936612b5b6fadb2062b87067ff34dcbce2",
+      "bytes": 1250
+    },
+    {
+      "path": "inputs/real/cameras/calibration_result.json",
+      "sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702",
+      "bytes": 11462
+    },
+    {
+      "path": "provenance/real/p00_candidate_manifest.json",
+      "sha256": "d31e7465357784e00c5653b9c0aafecd0e3001d5b81cfe656241672ed03f385f",
+      "bytes": 8029
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/rgb_00_00_009_00.png",
+      "sha256": "53ff7013172f2bc58a29da67539f9d92e76ac7af9c73ff4ba3a05e71e98dea8d",
+      "bytes": 267781
+    },
+    {
+      "path": "excluded_materials/inputs/real/images_and_author_labels/rgb_02_00_009_00.png",
+      "sha256": "bec5b40593e95a7c599b903edd42cd03558ba3ea86488ff117ef818dc0082b20",
+      "bytes": 215641
+    },
+    {
+      "path": "inputs/real/cameras/p00_crop_mapping.json",
+      "sha256": "5c8395ce0b54df835e2c18e6ef7e04749d252a38280d45752590f41e9dfafa5d",
+      "bytes": 1361
+    },
+    {
+      "path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/fetch_calibration_v2.json",
+      "sha256": "6b9379caa49d29ab0003be195ed564f82a6be92ee1c7afbfed730ca148e7d582",
+      "bytes": 22398
+    },
+    {
+      "path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/fetch_extra_boards.json",
+      "sha256": "4c4bad0dd6d822a2a3efb361101b3caba7eeafd48580448d5ab8ee9538ba251b",
+      "bytes": 7653
+    },
+    {
+      "path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/fetch_originals.json",
+      "sha256": "cfa8ac13b83fa6a12615127a727eb37593491146adf23bde5b5b153cb966548b",
+      "bytes": 2192
+    },
+    {
+      "path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/fetch_probe.json",
+      "sha256": "d8a01c52dd84553de4c2937bec9bcee22dd00bcf4c7f1f0388e5547f7b3926d5",
+      "bytes": 6919
+    },
+    {
+      "path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png",
+      "sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+      "bytes": 2838344
+    },
+    {
+      "path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png",
+      "sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa",
+      "bytes": 2882194
+    }
+  ],
+  "old_inputs_unchanged": true
+}

@@ -1,0 +1,16 @@
+{
+  "new_fits": 0,
+  "optimization_wall_seconds": null,
+  "same_scope_old_timing": "NA",
+  "source": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/twisted/complementary/BT_Q_W",
+  "byte_identical_sha256": {
+    "L0.json": "3cba2763e0c5b0a05a11aaccf8e5fc2e1c0dfef12a6d8f114edfb41dc1d635b2",
+    "L0.obj": "de4351728645102d7bc0d1652e1c5b85e0f814d1bedd387da380d55a2e25b198",
+    "L1.json": "51629832dbccdb38557890100938b8ef643e331c7512c8cecc78373d2dd7a5da",
+    "L1.obj": "22c35484c339260bde69e92ae273713c0017de4490042dd6aa52003241b28fd7",
+    "L2.json": "34c1730f190b332c9cdc7a5a2b00d6725a43ab46f526184203d055d9338bf56c",
+    "L2.obj": "67853efd1ed15c3c16215884fba40cb2cdd5fb595011d5fdf581f2cd145b5374",
+    "observations_passed_to_solver.json": "000d96cc7d01eee2f6dd130b20e8c6895e7467bcac6dbe4c2c0352206b6d3837",
+    "result.json": "bf55eba3260f7dc42e593c2807bd52b6c8770ec86f7e47ab4eae097200e4b420"
+  }
+}

@@ -1,0 +1,4 @@
+﻿type,records,unit
+reference_insufficient,18,3 leaves × 2 models × 3 quantities
+input_not_met,1,1 historical candidate; no fit
+geometry_qc_not_passed,1,1 synthetic model; 3 intersecting pairs

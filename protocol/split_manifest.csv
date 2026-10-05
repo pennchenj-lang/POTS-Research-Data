@@ -1,0 +1,10 @@
+﻿case_id,target_id,plant_id,leaf_id,data_type,condition,role,reference_role,absolute_scale_status,physical_accuracy_eligible,new_independent_test,cluster_id,levels,methods
+curved_complementary,curved,synthetic:curved,leaf01,synthetic,complementary,frozen_development_replay,evaluation_only_numerical_target,unknown,False,False,synthetic:curved,0;2,POTS33;symmetric24
+curved_common_gap,curved,synthetic:curved,leaf01,synthetic,common_gap,frozen_development_replay,evaluation_only_numerical_target,unknown,False,False,synthetic:curved,0;2,POTS33;symmetric24
+twisted_complementary,twisted,synthetic:twisted,leaf01,synthetic,complementary,frozen_development_replay,evaluation_only_numerical_target,unknown,False,False,synthetic:twisted,0;2,POTS33;symmetric24
+twisted_common_gap,twisted,synthetic:twisted,leaf01,synthetic,common_gap,frozen_development_replay,evaluation_only_numerical_target,unknown,False,False,synthetic:twisted,0;2,POTS33;symmetric24
+smooth_wave_common_gap,smooth_wave,synthetic:smooth_wave,leaf01,synthetic,common_gap,frozen_development_replay,evaluation_only_numerical_target,unknown,False,False,synthetic:smooth_wave,0;2,POTS33;symmetric24
+smooth_twist_common_gap,smooth_twist,synthetic:smooth_twist,leaf01,synthetic,common_gap,frozen_development_replay,evaluation_only_numerical_target,unknown,False,False,synthetic:smooth_twist,0;2,POTS33;symmetric24
+real_known_pilot,komatsuna_p00_d009_t00_leaf04,p00,leaf04,real,known_pilot,frozen_development_replay,unavailable,unknown,False,False,p00,0;2,POTS33;symmetric24
+real_p01,komatsuna_p01_d009_t00_leaf04,p01,leaf04,real,frozen_reviewed_pilot,frozen_development_replay,unavailable,unknown,False,False,p01,0;2,POTS33;symmetric24
+real_p02,komatsuna_p02_d009_t00_leaf04,p02,leaf04,real,frozen_reviewed_pilot,frozen_development_replay,unavailable,unknown,False,False,p02,0;2,POTS33;symmetric24

@@ -1,0 +1,145 @@
+{
+  "calibration_source": "inputs/real/cameras/calibration_result.json",
+  "calibration_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702",
+  "comparisons": [
+    {
+      "plant": "01",
+      "view": "00",
+      "crop_origin": [
+        990,
+        240
+      ],
+      "crop_size": [
+        480,
+        480
+      ],
+      "original_size": [
+        2048,
+        1536
+      ],
+      "original_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png",
+      "original_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+      "rgb_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_00_01_009_00.png",
+      "rgb_sha256": "ad4df07548c1fb46a26cf5db5f9859edd2636a9b75dbc44b1ca4b7cb685fe9f5",
+      "pixel_exact": true,
+      "maximum_absolute_channel_difference": 0,
+      "source": "Official multi_readme.pdf page 3; no registration or guessed crop"
+    },
+    {
+      "plant": "01",
+      "view": "02",
+      "crop_origin": [
+        1568,
+        220
+      ],
+      "crop_size": [
+        480,
+        480
+      ],
+      "original_size": [
+        2048,
+        1536
+      ],
+      "original_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png",
+      "original_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa",
+      "rgb_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_02_01_009_00.png",
+      "rgb_sha256": "66d106536ec1daccf221d4fe514e42d7b826da8541849ceb8f79177a84e1dd46",
+      "pixel_exact": true,
+      "maximum_absolute_channel_difference": 0,
+      "source": "Official multi_readme.pdf page 3; no registration or guessed crop"
+    },
+    {
+      "plant": "02",
+      "view": "00",
+      "crop_origin": [
+        510,
+        460
+      ],
+      "crop_size": [
+        480,
+        480
+      ],
+      "original_size": [
+        2048,
+        1536
+      ],
+      "original_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png",
+      "original_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+      "rgb_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_00_02_009_00.png",
+      "rgb_sha256": "696386b63983d0cd21cecbbeb20fc11969dc6bdaecd4f950fc9dcd7e113108f9",
+      "pixel_exact": true,
+      "maximum_absolute_channel_difference": 0,
+      "source": "Official multi_readme.pdf page 3; no registration or guessed crop"
+    },
+    {
+      "plant": "02",
+      "view": "02",
+      "crop_origin": [
+        1110,
+        460
+      ],
+      "crop_size": [
+        480,
+        480
+      ],
+      "original_size": [
+        2048,
+        1536
+      ],
+      "original_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png",
+      "original_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa",
+      "rgb_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_02_02_009_00.png",
+      "rgb_sha256": "4e99336cd522a517da5371932bc54017ffc3da001e884ee9ec0b340f4636ab54",
+      "pixel_exact": true,
+      "maximum_absolute_channel_difference": 0,
+      "source": "Official multi_readme.pdf page 3; no registration or guessed crop"
+    },
+    {
+      "plant": "03",
+      "view": "00",
+      "crop_origin": [
+        960,
+        710
+      ],
+      "crop_size": [
+        480,
+        480
+      ],
+      "original_size": [
+        2048,
+        1536
+      ],
+      "original_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png",
+      "original_sha256": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+      "rgb_path": "source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/rgb_00_03_009_00.png",
+      "rgb_sha256": "f055f08d241268595ec71b66a1dc706b08d2f335e1ff5eb1db4d6ba753c1ba5a",
+      "pixel_exact": true,
+      "maximum_absolute_channel_difference": 0,
+      "source": "Official multi_readme.pdf page 3; no registration or guessed crop"
+    },
+    {
+      "plant": "03",
+      "view": "02",
+      "crop_origin": [
+        1540,
+        710
+      ],
+      "crop_size": [
+        480,
+        480
+      ],
+      "original_size": [
+        2048,
+        1536
+      ],
+      "original_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png",
+      "original_sha256": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa",
+      "rgb_path": "source_archive/POTS-GS/work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/rgb_02_03_009_00.png",
+      "rgb_sha256": "d97dcffe7352c945eb65bafce7c938364ba37273feb7623a1c63d44963b66354",
+      "pixel_exact": true,
+      "maximum_absolute_channel_difference": 0,
+      "source": "Official multi_readme.pdf page 3; no registration or guessed crop"
+    }
+  ],
+  "all_six_pixel_exact": true
+}

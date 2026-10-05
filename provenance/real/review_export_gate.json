@@ -1,0 +1,283 @@
+{
+  "schema": "pots.followup-review-receipt-gate.v1",
+  "utc": "2026-10-02T07:58:05.980141+00:00",
+  "received_exports": [
+    {
+      "source_path": "source_archive/other/775ee0dc739f6df1/pots_qw_followup_review_2026-10-02T07-40-14.399Z.json",
+      "archived_file": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-40-14.399Z.json",
+      "bytes": 23160,
+      "sha256": "2612933047f73c37b857c152823f431f74a3107d8d4b67795a2e82edda55e74e",
+      "exported_utc": "2026-10-02T07:40:14.398Z"
+    },
+    {
+      "source_path": "source_archive/other/c2d276a74c17627b/pots_qw_followup_review_2026-10-02T07-40-44.432Z.json",
+      "archived_file": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-40-44.432Z.json",
+      "bytes": 23594,
+      "sha256": "964948844d6ad64c145f7c71d551dc7bb44abc9abc5bd103ef5fcd2319751576",
+      "exported_utc": "2026-10-02T07:40:44.430Z"
+    },
+    {
+      "source_path": "source_archive/other/f99d7dd72756d361/pots_qw_followup_review_2026-10-02T07-46-01.632Z.json",
+      "archived_file": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-46-01.632Z.json",
+      "bytes": 28538,
+      "sha256": "e4da6c3c495ead219b3fc86bbb151a3fe7c518bf5363878f9cdbf35407266e45",
+      "exported_utc": "2026-10-02T07:46:01.630Z"
+    },
+    {
+      "source_path": "source_archive/other/e7d0ba869c5c7a97/pots_qw_followup_review_2026-10-02T07-47-09.024Z.json",
+      "archived_file": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-47-09.024Z.json",
+      "bytes": 33470,
+      "sha256": "4a6429386ae53cad4dd86043395f93d58492cfd6834c89065d9e4c5e66025f49",
+      "exported_utc": "2026-10-02T07:47:09.022Z"
+    },
+    {
+      "source_path": "source_archive/other/16aa787f9138c1fb/pots_qw_followup_review_2026-10-02T07-49-13.603Z.json",
+      "archived_file": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-49-13.603Z.json",
+      "bytes": 43627,
+      "sha256": "d44faa0969afe113635463f7d53c0c4b631774bb76de6344ffb5dc49b2677356",
+      "exported_utc": "2026-10-02T07:49:13.600Z"
+    },
+    {
+      "source_path": "source_archive/other/7177cac23669003e/pots_qw_followup_review_2026-10-02T07-50-21.353Z.json",
+      "archived_file": "source_archive/POTS-GS/work/evidence_revision_20261002_v1/real_extension/received_exports/pots_qw_followup_review_2026-10-02T07-50-21.353Z.json",
+      "bytes": 46829,
+      "sha256": "c3bc810957fd8a2ccea4ffc49dcb61a7fdac586062cc00fa127d9d4a843b877e",
+      "exported_utc": "2026-10-02T07:50:21.351Z"
+    },
+    {
+      "source_path": "source_archive/other/ae7be063b2cb699d/pots_qw_followup_review_2026-10-02T07-50-56.539Z.json",
+      "archived_file": "inputs/real/annotations/p01_p02_p03_review_export.json",
+      "bytes": 50078,
+      "sha256": "cd6b72b9e9fc468aeeab201c29514ceef51eb92e43a5eec7ebf03a4015981bc5",
+      "exported_utc": "2026-10-02T07:50:56.536Z"
+    }
+  ],
+  "selected_export": {
+    "source_path": "source_archive/other/ae7be063b2cb699d/pots_qw_followup_review_2026-10-02T07-50-56.539Z.json",
+    "archived_file": "inputs/real/annotations/p01_p02_p03_review_export.json",
+    "bytes": 50078,
+    "sha256": "cd6b72b9e9fc468aeeab201c29514ceef51eb92e43a5eec7ebf03a4015981bc5",
+    "exported_utc": "2026-10-02T07:50:56.536Z"
+  },
+  "source_manifest_sha256": "e0a7c342f3b489094c587b8c6ec29d67f0ba9d17c626cb23ffb13cdf0082c085",
+  "latest_aggregate_real_gate_passed": false,
+  "case_gates": [
+    {
+      "id": "p00_eval01",
+      "group": "p00_evaluation",
+      "kind": "evaluation_blade",
+      "gate_passed": false,
+      "missing_or_excluded": [
+        "missing_blade_polygon"
+      ],
+      "source_contract_unchanged": true,
+      "source_hashes_match": true,
+      "point_labels": [],
+      "W_stroke_point_counts": [
+        0
+      ],
+      "blade_polygon_count": 0,
+      "Q_visibility": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "reviewed": true,
+      "unusable": false,
+      "same_leaf_static_confirmed": true
+    },
+    {
+      "id": "p01_00",
+      "group": "p01",
+      "kind": "training_leaf",
+      "gate_passed": true,
+      "missing_or_excluded": [],
+      "source_contract_unchanged": true,
+      "source_hashes_match": true,
+      "point_labels": [
+        "B",
+        "T",
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "W_stroke_point_counts": [
+        23
+      ],
+      "blade_polygon_count": 0,
+      "Q_visibility": [
+        "visible",
+        "visible",
+        "visible",
+        "visible"
+      ],
+      "reviewed": true,
+      "unusable": false,
+      "same_leaf_static_confirmed": true
+    },
+    {
+      "id": "p01_02",
+      "group": "p01",
+      "kind": "training_leaf",
+      "gate_passed": true,
+      "missing_or_excluded": [],
+      "source_contract_unchanged": true,
+      "source_hashes_match": true,
+      "point_labels": [
+        "B",
+        "T",
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "W_stroke_point_counts": [
+        22
+      ],
+      "blade_polygon_count": 0,
+      "Q_visibility": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "reviewed": true,
+      "unusable": false,
+      "same_leaf_static_confirmed": true
+    },
+    {
+      "id": "p02_00",
+      "group": "p02",
+      "kind": "training_leaf",
+      "gate_passed": true,
+      "missing_or_excluded": [],
+      "source_contract_unchanged": true,
+      "source_hashes_match": true,
+      "point_labels": [
+        "B",
+        "T",
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "W_stroke_point_counts": [
+        24
+      ],
+      "blade_polygon_count": 0,
+      "Q_visibility": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "reviewed": true,
+      "unusable": false,
+      "same_leaf_static_confirmed": true
+    },
+    {
+      "id": "p02_02",
+      "group": "p02",
+      "kind": "training_leaf",
+      "gate_passed": true,
+      "missing_or_excluded": [],
+      "source_contract_unchanged": true,
+      "source_hashes_match": true,
+      "point_labels": [
+        "B",
+        "T",
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "W_stroke_point_counts": [
+        23
+      ],
+      "blade_polygon_count": 0,
+      "Q_visibility": [
+        "unknown",
+        "visible",
+        "visible",
+        "visible"
+      ],
+      "reviewed": true,
+      "unusable": false,
+      "same_leaf_static_confirmed": true
+    },
+    {
+      "id": "p03_00",
+      "group": "p03",
+      "kind": "training_leaf",
+      "gate_passed": false,
+      "missing_or_excluded": [
+        "human_marked_unusable",
+        "missing_point_T",
+        "missing_point_Q3"
+      ],
+      "source_contract_unchanged": true,
+      "source_hashes_match": true,
+      "point_labels": [
+        "B",
+        "Q1",
+        "Q2"
+      ],
+      "W_stroke_point_counts": [
+        5,
+        6
+      ],
+      "blade_polygon_count": 0,
+      "Q_visibility": [
+        "visible",
+        "visible",
+        "occluded",
+        "occluded"
+      ],
+      "reviewed": true,
+      "unusable": true,
+      "same_leaf_static_confirmed": true
+    },
+    {
+      "id": "p03_02",
+      "group": "p03",
+      "kind": "training_leaf",
+      "gate_passed": false,
+      "missing_or_excluded": [
+        "human_marked_unusable",
+        "missing_point_T",
+        "missing_point_Q3"
+      ],
+      "source_contract_unchanged": true,
+      "source_hashes_match": true,
+      "point_labels": [
+        "B",
+        "Q1",
+        "Q2"
+      ],
+      "W_stroke_point_counts": [
+        6,
+        6
+      ],
+      "blade_polygon_count": 0,
+      "Q_visibility": [
+        "visible",
+        "visible",
+        "occluded",
+        "occluded"
+      ],
+      "reviewed": true,
+      "unusable": true,
+      "same_leaf_static_confirmed": true
+    }
+  ],
+  "training_groups_ready": [
+    "p01",
+    "p02"
+  ],
+  "training_groups_excluded": [
+    "p03"
+  ],
+  "known_p00_blade_evaluation_ready": false,
+  "no_review_flags_changed": true,
+  "no_new_evaluation_view_read": true,
+  "no_fit_performed_by_this_script": true,
+  "human_annotation_time": "NA: event timestamps do not establish full continuous annotation effort"
+}

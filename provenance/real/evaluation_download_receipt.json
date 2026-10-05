@@ -1,0 +1,135 @@
+{
+  "utc": "2026-10-02T08:20:58.459832+00:00",
+  "complete": true,
+  "files": [
+    {
+      "group": "p01",
+      "file": "rgb_01_01_009_00.png",
+      "member": "multi_plant/rgb_01_01_009_00.png",
+      "source_archive": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "sha256": "0cf82bc5186d380a2a2e358c0c9133c94d8955e3d0c756f9f2e1c96b9308e99c",
+      "bytes": 203602,
+      "crc32": 3813488098
+    },
+    {
+      "group": "p02",
+      "file": "rgb_01_02_009_00.png",
+      "member": "multi_plant/rgb_01_02_009_00.png",
+      "source_archive": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "sha256": "7d1303239da951c0a57e28afe67aee27a376eada568947b94de48d5c2b2e819a",
+      "bytes": 169766,
+      "crc32": 2024939370
+    },
+    {
+      "group": "p01",
+      "file": "label_01_01_009_00.png",
+      "member": "multi_label/label_01_01_009_00.png",
+      "source_archive": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "sha256": "ad59d4101111cd3daffadaea57953398f6aa984b619d45529e34a9e254c64814",
+      "bytes": 4465,
+      "crc32": 129533070
+    },
+    {
+      "group": "p02",
+      "file": "label_01_02_009_00.png",
+      "member": "multi_label/label_01_02_009_00.png",
+      "source_archive": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "sha256": "96b517429eedf90d10e86e458072b2a4c1ec9a93bed9370a8843ca49a1a68b6b",
+      "bytes": 4112,
+      "crc32": 43577923
+    }
+  ],
+  "range_requests": [
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "start": 113255037,
+      "bytes": 22
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "start": 113255017,
+      "bytes": 20
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "start": 113184837,
+      "bytes": 70200
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "start": 72506921,
+      "bytes": 30
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "start": 72506951,
+      "bytes": 32
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "start": 72506983,
+      "bytes": 202032
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "start": 88985796,
+      "bytes": 30
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "start": 88985826,
+      "bytes": 32
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_plant.zip",
+      "start": 88985858,
+      "bytes": 167758
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "start": 2129846,
+      "bytes": 22
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "start": 2129826,
+      "bytes": 20
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "start": 2057846,
+      "bytes": 72000
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "start": 1094902,
+      "bytes": 30
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "start": 1094932,
+      "bytes": 34
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "start": 1094966,
+      "bytes": 4266
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "start": 1513956,
+      "bytes": 30
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "start": 1513986,
+      "bytes": 34
+    },
+    {
+      "url": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_label.zip",
+      "start": 1514020,
+      "bytes": 3914
+    }
+  ],
+  "fit_complete_before_fetch": true
+}

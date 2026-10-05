@@ -1,0 +1,16 @@
+{
+  "new_fits": 0,
+  "optimization_wall_seconds": null,
+  "same_scope_old_timing": "NA",
+  "source": "source_archive/POTS-GS/work/qw_followup_20261001_v1/synthetic_gap/results/curved/common_gap/BT_Q_W",
+  "byte_identical_sha256": {
+    "L0.json": "68b335957fd327f9dd7b45ada270c6a624fe32aa1f169700e5dd28206685b39b",
+    "L0.obj": "b80dd777cf6e975d61d8916100364ff0bba9068192d04f61b2d16ba9a8f2f03c",
+    "L1.json": "000cd7bca24b206ad6719975c5f9cc704cd44ae30a108801754162c0e7953e26",
+    "L1.obj": "1c1d778baab45ac5f99defe99c6d22261515941b40baad0657b568660496c33c",
+    "L2.json": "643297738a4f137f38d209aee0ee770545b428d49d73c62447b41df6a81df39a",
+    "L2.obj": "e6ee5ebb544b87407b11bc3f3ab09c974512f99f467d8cfa9cabc71130b9fa16",
+    "observations_passed_to_solver.json": "76cbc53cdeeb1c77f3613e75d6784cb7137be4c3226206d38d65f9aa02a7b072",
+    "result.json": "a3f6846a8d483f40b332dd44e27ddcced2d75cd58b4c4cd6fd97f5bdf8a24be7"
+  }
+}

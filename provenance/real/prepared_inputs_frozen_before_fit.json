@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-02T08:10:17.776658+00:00",
+  "protocol_sha256": "a797e5595fd267ad8fd3d895898f5741dffff368daaee3b685be57fee611d920",
+  "prepared_inputs": [
+    {
+      "group": "p01",
+      "status": "prepared",
+      "prepared_sha256": "aabedd357d70d99f6163c734282f5369814707e4b8ef1e48935f370a01a9b758",
+      "no_evaluation_read": true
+    },
+    {
+      "group": "p02",
+      "status": "prepared",
+      "prepared_sha256": "1af3f74f03865b778394cd293fd9f59fc2d4f47e56be83d720e1e7c948504d1f",
+      "no_evaluation_read": true
+    }
+  ],
+  "evaluation_used": false,
+  "source_export_sha256": "cd6b72b9e9fc468aeeab201c29514ceef51eb92e43a5eec7ebf03a4015981bc5"
+}

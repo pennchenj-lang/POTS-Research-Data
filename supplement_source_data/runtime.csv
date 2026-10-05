@@ -1,0 +1,3 @@
+﻿stage,seconds,scope
+replay_original_module_total,0.474943,"Includes source hash checks, quantity calls, subdivision replay, and file I/O; contains quantity rows above, do not sum nested timings."
+complete_replay_and_audit,1.090718,"End-to-end run phase through evidence postcheck; excludes preparation, software interface tests and original optimizations; nested timings are not additive."

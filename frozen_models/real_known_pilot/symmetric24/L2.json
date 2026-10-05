@@ -1,0 +1,6335 @@
+{
+  "schema_version": "pots-gs-mesh-1.0",
+  "vertices": [
+    {
+      "vertex_id": "plant00:leaf_04:v0",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.429760167575934,
+        -3.508995337979548,
+        13.202222771196658
+      ],
+      "uv": [
+        0.0,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "B"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v1",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.999299146325568,
+        -3.4014737537277675,
+        13.452313363333667
+      ],
+      "uv": [
+        0.25,
+        -1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "L1"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v2",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.552380839353547,
+        -3.643532424910838,
+        13.235688537052072
+      ],
+      "uv": [
+        0.25,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "C1"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v3",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.105462532381525,
+        -3.8855910960939086,
+        13.019063710770475
+      ],
+      "uv": [
+        0.25,
+        1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "R1"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v4",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.14069482641303,
+        -3.466053423186314,
+        12.695873763834156
+      ],
+      "uv": [
+        0.5,
+        -1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "L2"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v5",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.841080262033906,
+        -3.9184342883791814,
+        13.079172706928267
+      ],
+      "uv": [
+        0.5,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "C2"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v6",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.541465697654783,
+        -4.370815153572049,
+        13.462471650022378
+      ],
+      "uv": [
+        0.5,
+        1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "R2"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v7",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -9.002690455030104,
+        -4.017407582555572,
+        13.757357828153594
+      ],
+      "uv": [
+        0.75,
+        -1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "L3"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v8",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.409092118316849,
+        -4.296503004591264,
+        13.290159411568828
+      ],
+      "uv": [
+        0.75,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "C3"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v9",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.815493781603595,
+        -4.575598426626955,
+        12.82296099498406
+      ],
+      "uv": [
+        0.75,
+        1.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "R3"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:v10",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.56494497503145,
+        -4.399034279451053,
+        13.4850269610743
+      ],
+      "uv": [
+        1.0,
+        0.0
+      ],
+      "level": 0,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "estimated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "00:training_annotation",
+          "02:training_annotation"
+        ],
+        "note": "Regularized multi-view estimate; Q/W are view-dependent path/margin samples, not triangulated same-index points"
+      },
+      "label": "T"
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e0_2",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.491070503464741,
+        -3.5762638814451932,
+        13.218955654124365
+      ],
+      "uv": [
+        0.125,
+        0.0
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v0",
+          "plant00:leaf_04:v2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e1_2",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.775839992839558,
+        -3.5225030893193026,
+        13.34400095019287
+      ],
+      "uv": [
+        0.25,
+        -0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v2",
+          "plant00:leaf_04:v1"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e0_1",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.714529656950751,
+        -3.4552345458536577,
+        13.327268067265162
+      ],
+      "uv": [
+        0.125,
+        -0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v1",
+          "plant00:leaf_04:v0"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e0_3",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.267611349978729,
+        -3.6972932170367283,
+        13.110643240983567
+      ],
+      "uv": [
+        0.125,
+        0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v0",
+          "plant00:leaf_04:v3"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e2_3",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.328921685867536,
+        -3.7645617605023736,
+        13.127376123911272
+      ],
+      "uv": [
+        0.25,
+        0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v3",
+          "plant00:leaf_04:v2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e2_5",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.696730550693727,
+        -3.7809833566450095,
+        13.15743062199017
+      ],
+      "uv": [
+        0.375,
+        0.0
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v2",
+          "plant00:leaf_04:v5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e1_5",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.920189704179737,
+        -3.6599540210534744,
+        13.265743035130967
+      ],
+      "uv": [
+        0.375,
+        -0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v5",
+          "plant00:leaf_04:v1"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e4_5",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.990887544223469,
+        -3.6922438557827477,
+        12.887523235381211
+      ],
+      "uv": [
+        0.5,
+        -0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v5",
+          "plant00:leaf_04:v4"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e1_4",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.069996986369299,
+        -3.4337635884570408,
+        13.074093563583912
+      ],
+      "uv": [
+        0.375,
+        -1.0
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v4",
+          "plant00:leaf_04:v1"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e3_6",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.3234641150181545,
+        -4.128203124832979,
+        13.240767680396427
+      ],
+      "uv": [
+        0.375,
+        1.0
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v3",
+          "plant00:leaf_04:v6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e2_6",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.546923268504165,
+        -4.007173789241444,
+        13.349080093537225
+      ],
+      "uv": [
+        0.375,
+        0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v6",
+          "plant00:leaf_04:v2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e5_6",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.691272979844345,
+        -4.1446247209756155,
+        13.270822178475322
+      ],
+      "uv": [
+        0.5,
+        0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v6",
+          "plant00:leaf_04:v5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e5_8",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.125086190175377,
+        -4.107468646485223,
+        13.184666059248547
+      ],
+      "uv": [
+        0.625,
+        0.0
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v5",
+          "plant00:leaf_04:v8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e4_8",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.27489347236494,
+        -3.881278213888789,
+        12.993016587701492
+      ],
+      "uv": [
+        0.625,
+        -0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v8",
+          "plant00:leaf_04:v4"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e7_8",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.705891286673477,
+        -4.156955293573418,
+        13.523758619861212
+      ],
+      "uv": [
+        0.75,
+        -0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v8",
+          "plant00:leaf_04:v7"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e4_7",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.571692640721567,
+        -3.741730502870943,
+        13.226615795993876
+      ],
+      "uv": [
+        0.625,
+        -1.0
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v7",
+          "plant00:leaf_04:v4"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e6_9",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.678479739629189,
+        -4.473206790099502,
+        13.142716322503219
+      ],
+      "uv": [
+        0.625,
+        1.0
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v6",
+          "plant00:leaf_04:v9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e5_9",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.828287021818751,
+        -4.247016357503068,
+        12.951066850956163
+      ],
+      "uv": [
+        0.625,
+        0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v9",
+          "plant00:leaf_04:v5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e8_9",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.112292949960223,
+        -4.43605071560911,
+        13.056560203276444
+      ],
+      "uv": [
+        0.75,
+        0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v9",
+          "plant00:leaf_04:v8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e8_10",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.48701854667415,
+        -4.347768642021158,
+        13.387593186321563
+      ],
+      "uv": [
+        0.875,
+        0.0
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v8",
+          "plant00:leaf_04:v10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e7_10",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.783817715030777,
+        -4.2082209310033125,
+        13.621192394613947
+      ],
+      "uv": [
+        0.875,
+        -0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v10",
+          "plant00:leaf_04:v7"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L1:e9_10",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.190219378317522,
+        -4.487316353039004,
+        13.153993978029181
+      ],
+      "uv": [
+        0.875,
+        0.5
+      ],
+      "level": 1,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v9",
+          "plant00:leaf_04:v10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e0_11",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.460415335520338,
+        -3.5426296097123706,
+        13.210589212660512
+      ],
+      "uv": [
+        0.0625,
+        0.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v0",
+          "plant00:leaf_04:L1:e0_2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e11_13",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.6028000802077464,
+        -3.5157492136494257,
+        13.273111860694764
+      ],
+      "uv": [
+        0.125,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e0_2",
+          "plant00:leaf_04:L1:e0_1"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e0_13",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.572144912263343,
+        -3.4821149419166026,
+        13.264745419230909
+      ],
+      "uv": [
+        0.0625,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e0_1",
+          "plant00:leaf_04:v0"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e2_11",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.521725671409143,
+        -3.6098981531780154,
+        13.227322095588217
+      ],
+      "uv": [
+        0.1875,
+        0.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e0_2",
+          "plant00:leaf_04:v2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e2_12",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.664110416096552,
+        -3.58301775711507,
+        13.28984474362247
+      ],
+      "uv": [
+        0.25,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v2",
+          "plant00:leaf_04:L1:e1_2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e11_12",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.633455248152149,
+        -3.549383485382248,
+        13.281478302158618
+      ],
+      "uv": [
+        0.1875,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e1_2",
+          "plant00:leaf_04:L1:e0_2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e12_13",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.745184824895155,
+        -3.4888688175864804,
+        13.335634508729015
+      ],
+      "uv": [
+        0.1875,
+        -0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e0_1",
+          "plant00:leaf_04:L1:e1_2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e1_12",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.887569569582563,
+        -3.461988421523535,
+        13.398157156763268
+      ],
+      "uv": [
+        0.25,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e1_2",
+          "plant00:leaf_04:v1"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e1_13",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.85691440163816,
+        -3.428354149790713,
+        13.389790715299416
+      ],
+      "uv": [
+        0.1875,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v1",
+          "plant00:leaf_04:L1:e0_1"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e0_14",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.348685758777332,
+        -3.603144277508138,
+        13.156433006090111
+      ],
+      "uv": [
+        0.0625,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v0",
+          "plant00:leaf_04:L1:e0_3"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e11_14",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.379340926721735,
+        -3.636778549240961,
+        13.164799447553966
+      ],
+      "uv": [
+        0.125,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e0_3",
+          "plant00:leaf_04:L1:e0_2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e3_14",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.186536941180127,
+        -3.7914421565653185,
+        13.06485347587702
+      ],
+      "uv": [
+        0.1875,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e0_3",
+          "plant00:leaf_04:v3"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e3_15",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.217192109124531,
+        -3.825076428298141,
+        13.073219917340873
+      ],
+      "uv": [
+        0.25,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v3",
+          "plant00:leaf_04:L1:e2_3"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e14_15",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.298266517923133,
+        -3.730927488769551,
+        13.11900968244742
+      ],
+      "uv": [
+        0.1875,
+        0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e2_3",
+          "plant00:leaf_04:L1:e0_3"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e11_15",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.4099960946661385,
+        -3.6704128209737834,
+        13.173165889017818
+      ],
+      "uv": [
+        0.1875,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e0_2",
+          "plant00:leaf_04:L1:e2_3"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e2_15",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.440651262610542,
+        -3.704047092706606,
+        13.181532330481673
+      ],
+      "uv": [
+        0.25,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e2_3",
+          "plant00:leaf_04:v2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e12_17",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.8480148485096475,
+        -3.5912285551863885,
+        13.30487199266192
+      ],
+      "uv": [
+        0.3125,
+        -0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e1_2",
+          "plant00:leaf_04:L1:e1_5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e1_17",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.959744425252653,
+        -3.530713887390621,
+        13.359028199232316
+      ],
+      "uv": [
+        0.3125,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e1_5",
+          "plant00:leaf_04:v1"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e2_16",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.624555695023637,
+        -3.7122578907779236,
+        13.196559579521121
+      ],
+      "uv": [
+        0.3125,
+        0.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v2",
+          "plant00:leaf_04:L1:e2_5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e12_16",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.736285271766642,
+        -3.651743222982156,
+        13.250715786091519
+      ],
+      "uv": [
+        0.3125,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e2_5",
+          "plant00:leaf_04:L1:e1_2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e16_17",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.808460127436732,
+        -3.720468688849242,
+        13.211586828560568
+      ],
+      "uv": [
+        0.375,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e1_5",
+          "plant00:leaf_04:L1:e2_5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e5_16",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.7689054063638165,
+        -3.8497088225120955,
+        13.118301664459217
+      ],
+      "uv": [
+        0.4375,
+        0.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e2_5",
+          "plant00:leaf_04:v5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e5_17",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.880634983106821,
+        -3.789194154716328,
+        13.172457871029618
+      ],
+      "uv": [
+        0.4375,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v5",
+          "plant00:leaf_04:L1:e1_5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e17_19",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.995093345274518,
+        -3.5468588047552574,
+        13.16991829935744
+      ],
+      "uv": [
+        0.375,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e1_5",
+          "plant00:leaf_04:L1:e1_4"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e1_19",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.034648066347433,
+        -3.417618671092404,
+        13.26320346345879
+      ],
+      "uv": [
+        0.3125,
+        -1.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e1_4",
+          "plant00:leaf_04:v1"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e5_18",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.915983903128687,
+        -3.8053390720809643,
+        12.983347971154739
+      ],
+      "uv": [
+        0.5,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v5",
+          "plant00:leaf_04:L1:e4_5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e17_18",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.955538624201603,
+        -3.676098938418111,
+        13.076633135256088
+      ],
+      "uv": [
+        0.4375,
+        -0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e4_5",
+          "plant00:leaf_04:L1:e1_5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e18_19",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.030442265296383,
+        -3.5630037221198942,
+        12.980808399482562
+      ],
+      "uv": [
+        0.4375,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e1_4",
+          "plant00:leaf_04:L1:e4_5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e4_18",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.06579118531825,
+        -3.579148639484531,
+        12.791698499607683
+      ],
+      "uv": [
+        0.5,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e4_5",
+          "plant00:leaf_04:v4"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e4_19",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.105345906391165,
+        -3.4499085058216776,
+        12.884983663709033
+      ],
+      "uv": [
+        0.4375,
+        -1.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v4",
+          "plant00:leaf_04:L1:e1_4"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e15_21",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.43792247718585,
+        -3.8858677748719086,
+        13.238228108724249
+      ],
+      "uv": [
+        0.3125,
+        0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e2_3",
+          "plant00:leaf_04:L1:e2_6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e2_21",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.549652053928856,
+        -3.8253531070761406,
+        13.292384315294647
+      ],
+      "uv": [
+        0.3125,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e2_6",
+          "plant00:leaf_04:v2"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e3_20",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.21446332369984,
+        -4.006897110463443,
+        13.12991569558345
+      ],
+      "uv": [
+        0.3125,
+        1.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v3",
+          "plant00:leaf_04:L1:e3_6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e15_20",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.326192900442845,
+        -3.946382442667676,
+        13.18407190215385
+      ],
+      "uv": [
+        0.3125,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e3_6",
+          "plant00:leaf_04:L1:e2_3"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e20_21",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.43519369176116,
+        -4.067688457037211,
+        13.294923886966826
+      ],
+      "uv": [
+        0.375,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e2_6",
+          "plant00:leaf_04:L1:e3_6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e6_20",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.4324649063364685,
+        -4.249509139202514,
+        13.351619665209402
+      ],
+      "uv": [
+        0.4375,
+        1.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e3_6",
+          "plant00:leaf_04:v6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e6_21",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.544194483079474,
+        -4.188994471406746,
+        13.405775871779802
+      ],
+      "uv": [
+        0.4375,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v6",
+          "plant00:leaf_04:L1:e2_6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e16_21",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.621826909598946,
+        -3.8940785729432266,
+        13.253255357763697
+      ],
+      "uv": [
+        0.375,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e2_6",
+          "plant00:leaf_04:L1:e2_5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e6_22",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.616369338749564,
+        -4.257719937273832,
+        13.36664691424885
+      ],
+      "uv": [
+        0.5,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v6",
+          "plant00:leaf_04:L1:e5_6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e21_22",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.619098124174255,
+        -4.07589925510853,
+        13.309951136006273
+      ],
+      "uv": [
+        0.4375,
+        0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e5_6",
+          "plant00:leaf_04:L1:e2_6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e16_22",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.694001765269036,
+        -3.9628040388103125,
+        13.214126400232747
+      ],
+      "uv": [
+        0.4375,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e2_5",
+          "plant00:leaf_04:L1:e5_6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e5_22",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.766176620939126,
+        -4.0315295046773985,
+        13.174997442701795
+      ],
+      "uv": [
+        0.5,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e5_6",
+          "plant00:leaf_04:v5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e18_24",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.132890508294205,
+        -3.7867610348357683,
+        12.940269911541352
+      ],
+      "uv": [
+        0.5625,
+        -0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e4_5",
+          "plant00:leaf_04:L1:e4_8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e4_24",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.207794149388985,
+        -3.6736658185375513,
+        12.844445175767824
+      ],
+      "uv": [
+        0.5625,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e4_8",
+          "plant00:leaf_04:v4"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e5_23",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.983083226104641,
+        -4.012951467432202,
+        13.131919383088407
+      ],
+      "uv": [
+        0.5625,
+        0.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v5",
+          "plant00:leaf_04:L1:e5_8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e18_23",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.057986867199423,
+        -3.8998562511339854,
+        13.03609464731488
+      ],
+      "uv": [
+        0.5625,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e5_8",
+          "plant00:leaf_04:L1:e4_5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e23_24",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.199989831270159,
+        -3.9943734301870055,
+        13.08884132347502
+      ],
+      "uv": [
+        0.625,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e4_8",
+          "plant00:leaf_04:L1:e5_8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e8_23",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.267089154246113,
+        -4.201985825538243,
+        13.237412735408688
+      ],
+      "uv": [
+        0.6875,
+        0.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e5_8",
+          "plant00:leaf_04:v8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e8_24",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.341992795340895,
+        -4.088890609240027,
+        13.14158799963516
+      ],
+      "uv": [
+        0.6875,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v8",
+          "plant00:leaf_04:L1:e4_8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e24_26",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.423293056543255,
+        -3.811504358379866,
+        13.109816191847685
+      ],
+      "uv": [
+        0.625,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e4_8",
+          "plant00:leaf_04:L1:e4_7"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e4_26",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.356193733567299,
+        -3.6038919630286284,
+        12.961244779914015
+      ],
+      "uv": [
+        0.5625,
+        -1.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e4_7",
+          "plant00:leaf_04:v4"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e8_25",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.557491702495163,
+        -4.226729149082341,
+        13.406959015715021
+      ],
+      "uv": [
+        0.75,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v8",
+          "plant00:leaf_04:L1:e7_8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e24_25",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.490392379519209,
+        -4.019116753731104,
+        13.258387603781351
+      ],
+      "uv": [
+        0.6875,
+        -0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e7_8",
+          "plant00:leaf_04:L1:e4_8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e25_26",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.638791963697521,
+        -3.9493428982221808,
+        13.375187207927544
+      ],
+      "uv": [
+        0.6875,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e4_7",
+          "plant00:leaf_04:L1:e7_8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e7_25",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.854290870851791,
+        -4.087181438064495,
+        13.640558224007403
+      ],
+      "uv": [
+        0.75,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e7_8",
+          "plant00:leaf_04:v7"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e7_26",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.787191547875835,
+        -3.879569042713258,
+        13.491986812073735
+      ],
+      "uv": [
+        0.6875,
+        -1.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v7",
+          "plant00:leaf_04:L1:e4_7"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e22_28",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.759780000831547,
+        -4.195820539239342,
+        13.110944514715744
+      ],
+      "uv": [
+        0.5625,
+        0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e5_6",
+          "plant00:leaf_04:L1:e5_9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e5_28",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.834683641926329,
+        -4.0827253229411244,
+        13.015119778942214
+      ],
+      "uv": [
+        0.5625,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e5_9",
+          "plant00:leaf_04:v5"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e6_27",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.609972718641986,
+        -4.422010971835775,
+        13.3025939862628
+      ],
+      "uv": [
+        0.5625,
+        1.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v6",
+          "plant00:leaf_04:L1:e6_9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e22_27",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.6848763597367675,
+        -4.308915755537559,
+        13.20676925048927
+      ],
+      "uv": [
+        0.5625,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e6_9",
+          "plant00:leaf_04:L1:e5_6"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e27_28",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.75338338072397,
+        -4.3601115738012854,
+        13.046891586729691
+      ],
+      "uv": [
+        0.625,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e5_9",
+          "plant00:leaf_04:L1:e6_9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e9_27",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.746986760616393,
+        -4.5244026083632285,
+        12.982838658743638
+      ],
+      "uv": [
+        0.6875,
+        1.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e6_9",
+          "plant00:leaf_04:v9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e9_28",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.821890401711173,
+        -4.411307392065012,
+        12.887013922970112
+      ],
+      "uv": [
+        0.6875,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v9",
+          "plant00:leaf_04:L1:e5_9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e23_28",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.976686605997064,
+        -4.1772425019941455,
+        13.067866455102354
+      ],
+      "uv": [
+        0.625,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e5_9",
+          "plant00:leaf_04:L1:e5_8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e9_29",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.963893365781908,
+        -4.5058245711180325,
+        12.939760599130253
+      ],
+      "uv": [
+        0.75,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v9",
+          "plant00:leaf_04:L1:e8_9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e28_29",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -7.970289985889487,
+        -4.3415335365560885,
+        13.003813527116304
+      ],
+      "uv": [
+        0.6875,
+        0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e8_9",
+          "plant00:leaf_04:L1:e5_9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e23_29",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.1186895700678,
+        -4.2717596810471665,
+        13.120613131262495
+      ],
+      "uv": [
+        0.6875,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e5_8",
+          "plant00:leaf_04:L1:e8_9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e8_29",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.260692534138535,
+        -4.366276860100187,
+        13.173359807422635
+      ],
+      "uv": [
+        0.75,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e8_9",
+          "plant00:leaf_04:v8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e25_31",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.744854500852128,
+        -4.182588112288365,
+        13.57247550723758
+      ],
+      "uv": [
+        0.8125,
+        -0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e7_8",
+          "plant00:leaf_04:L1:e7_10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e7_31",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.89325408503044,
+        -4.112814256779442,
+        13.689275111383772
+      ],
+      "uv": [
+        0.8125,
+        -0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e7_10",
+          "plant00:leaf_04:v7"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e8_30",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.4480553324955,
+        -4.322135823306211,
+        13.338876298945195
+      ],
+      "uv": [
+        0.8125,
+        0.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v8",
+          "plant00:leaf_04:L1:e8_10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e25_30",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.596454916673814,
+        -4.252361967797288,
+        13.455675903091388
+      ],
+      "uv": [
+        0.8125,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e8_10",
+          "plant00:leaf_04:L1:e7_8"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e30_31",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.635418130852464,
+        -4.277994786512235,
+        13.504392790467755
+      ],
+      "uv": [
+        0.875,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e7_10",
+          "plant00:leaf_04:L1:e8_10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e10_30",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.525981760852801,
+        -4.373401460736106,
+        13.436310073697932
+      ],
+      "uv": [
+        0.9375,
+        0.0
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e8_10",
+          "plant00:leaf_04:v10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e10_31",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.674381345031113,
+        -4.303627605227183,
+        13.553109677844123
+      ],
+      "uv": [
+        0.9375,
+        -0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v10",
+          "plant00:leaf_04:L1:e7_10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e29_30",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.299655748317186,
+        -4.391909678815134,
+        13.222076694799004
+      ],
+      "uv": [
+        0.8125,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e8_9",
+          "plant00:leaf_04:L1:e8_10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e9_32",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.002856579960559,
+        -4.53145738983298,
+        12.988477486506621
+      ],
+      "uv": [
+        0.8125,
+        0.75
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:v9",
+          "plant00:leaf_04:L1:e9_10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e29_32",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.151256164138871,
+        -4.461683534324057,
+        13.105277090652812
+      ],
+      "uv": [
+        0.8125,
+        0.5
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e9_10",
+          "plant00:leaf_04:L1:e8_9"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e30_32",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.338618962495836,
+        -4.417542497530081,
+        13.270793582175372
+      ],
+      "uv": [
+        0.875,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e8_10",
+          "plant00:leaf_04:L1:e9_10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    },
+    {
+      "vertex_id": "plant00:leaf_04:L2:e10_32",
+      "organ_id": "plant00:leaf_04",
+      "xyz": [
+        -8.377582176674487,
+        -4.4431753162450285,
+        13.31951046955174
+      ],
+      "uv": [
+        0.9375,
+        0.25
+      ],
+      "level": 2,
+      "confidence": 0.0,
+      "provenance": {
+        "kind": "interpolated",
+        "source_views": [
+          "00",
+          "02"
+        ],
+        "contributors": [
+          "plant00:leaf_04:L1:e9_10",
+          "plant00:leaf_04:v10"
+        ],
+        "note": "3D edge midpoint; derived variable, not a new observation; source_views are inherited dependencies"
+      },
+      "label": ""
+    }
+  ],
+  "faces": [
+    {
+      "face_id": "plant00:leaf_04:L0:f0.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        0,
+        33,
+        35
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        33,
+        11,
+        34
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        35,
+        34,
+        13
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        33,
+        34,
+        35
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        11,
+        36,
+        38
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        36,
+        2,
+        37
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        38,
+        37,
+        12
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        36,
+        37,
+        38
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        13,
+        39,
+        41
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        39,
+        12,
+        40
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        41,
+        40,
+        1
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        39,
+        40,
+        41
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        11,
+        38,
+        34
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        38,
+        12,
+        39
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        34,
+        39,
+        13
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f0.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        38,
+        39,
+        34
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f0.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        0,
+        42,
+        33
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        42,
+        14,
+        43
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        33,
+        43,
+        11
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        42,
+        43,
+        33
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        14,
+        44,
+        46
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        44,
+        3,
+        45
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        46,
+        45,
+        15
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        44,
+        45,
+        46
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        11,
+        47,
+        36
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        47,
+        15,
+        48
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        36,
+        48,
+        2
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        47,
+        48,
+        36
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        14,
+        46,
+        43
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        46,
+        15,
+        47
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        43,
+        47,
+        11
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f1.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        46,
+        47,
+        43
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f1.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        1,
+        40,
+        50
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        40,
+        12,
+        49
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        50,
+        49,
+        17
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        40,
+        49,
+        50
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        12,
+        37,
+        52
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        37,
+        2,
+        51
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        52,
+        51,
+        16
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        37,
+        51,
+        52
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        17,
+        53,
+        55
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        53,
+        16,
+        54
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        55,
+        54,
+        5
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        53,
+        54,
+        55
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        12,
+        52,
+        49
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        52,
+        16,
+        53
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        49,
+        53,
+        17
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f2.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        52,
+        53,
+        49
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f2.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        1,
+        50,
+        57
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        50,
+        17,
+        56
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        57,
+        56,
+        19
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        50,
+        56,
+        57
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        17,
+        55,
+        59
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        55,
+        5,
+        58
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        59,
+        58,
+        18
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        55,
+        58,
+        59
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        19,
+        60,
+        62
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        60,
+        18,
+        61
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        62,
+        61,
+        4
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        60,
+        61,
+        62
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        17,
+        59,
+        56
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        59,
+        18,
+        60
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        56,
+        60,
+        19
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f3.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        59,
+        60,
+        56
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f3.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        2,
+        48,
+        64
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        48,
+        15,
+        63
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        64,
+        63,
+        21
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        48,
+        63,
+        64
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        15,
+        45,
+        66
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        45,
+        3,
+        65
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        66,
+        65,
+        20
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        45,
+        65,
+        66
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        21,
+        67,
+        69
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        67,
+        20,
+        68
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        69,
+        68,
+        6
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        67,
+        68,
+        69
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        15,
+        66,
+        63
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        66,
+        20,
+        67
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        63,
+        67,
+        21
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f4.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        66,
+        67,
+        63
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f4.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        2,
+        64,
+        51
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        64,
+        21,
+        70
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        51,
+        70,
+        16
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        64,
+        70,
+        51
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        21,
+        69,
+        72
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        69,
+        6,
+        71
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        72,
+        71,
+        22
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        69,
+        71,
+        72
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        16,
+        73,
+        54
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        73,
+        22,
+        74
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        54,
+        74,
+        5
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        73,
+        74,
+        54
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        21,
+        72,
+        70
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        72,
+        22,
+        73
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        70,
+        73,
+        16
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f5.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        72,
+        73,
+        70
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f5.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        4,
+        61,
+        76
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        61,
+        18,
+        75
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        76,
+        75,
+        24
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        61,
+        75,
+        76
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        18,
+        58,
+        78
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        58,
+        5,
+        77
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        78,
+        77,
+        23
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        58,
+        77,
+        78
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        24,
+        79,
+        81
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        79,
+        23,
+        80
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        81,
+        80,
+        8
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        79,
+        80,
+        81
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        18,
+        78,
+        75
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        78,
+        23,
+        79
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        75,
+        79,
+        24
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f6.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        78,
+        79,
+        75
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f6.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        4,
+        76,
+        83
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        76,
+        24,
+        82
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        83,
+        82,
+        26
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        76,
+        82,
+        83
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        24,
+        81,
+        85
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        81,
+        8,
+        84
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        85,
+        84,
+        25
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        81,
+        84,
+        85
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        26,
+        86,
+        88
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        86,
+        25,
+        87
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        88,
+        87,
+        7
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        86,
+        87,
+        88
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        24,
+        85,
+        82
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        85,
+        25,
+        86
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        82,
+        86,
+        26
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f7.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        85,
+        86,
+        82
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f7.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        5,
+        74,
+        90
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        74,
+        22,
+        89
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        90,
+        89,
+        28
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        74,
+        89,
+        90
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        22,
+        71,
+        92
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        71,
+        6,
+        91
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        92,
+        91,
+        27
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        71,
+        91,
+        92
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        28,
+        93,
+        95
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        93,
+        27,
+        94
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        95,
+        94,
+        9
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        93,
+        94,
+        95
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        22,
+        92,
+        89
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        92,
+        27,
+        93
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        89,
+        93,
+        28
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f8.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        92,
+        93,
+        89
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f8.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        5,
+        90,
+        77
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        90,
+        28,
+        96
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        77,
+        96,
+        23
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        90,
+        96,
+        77
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        28,
+        95,
+        98
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        95,
+        9,
+        97
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        98,
+        97,
+        29
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        95,
+        97,
+        98
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        23,
+        99,
+        80
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        99,
+        29,
+        100
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        80,
+        100,
+        8
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        99,
+        100,
+        80
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        28,
+        98,
+        96
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        98,
+        29,
+        99
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        96,
+        99,
+        23
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f9.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        98,
+        99,
+        96
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f9.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        7,
+        87,
+        102
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        87,
+        25,
+        101
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        102,
+        101,
+        31
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        87,
+        101,
+        102
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        25,
+        84,
+        104
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        84,
+        8,
+        103
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        104,
+        103,
+        30
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        84,
+        103,
+        104
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        31,
+        105,
+        107
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        105,
+        30,
+        106
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        107,
+        106,
+        10
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        105,
+        106,
+        107
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        25,
+        104,
+        101
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        104,
+        30,
+        105
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        101,
+        105,
+        31
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f10.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        104,
+        105,
+        101
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f10.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.0.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        8,
+        100,
+        103
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.0.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        100,
+        29,
+        108
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.0.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        103,
+        108,
+        30
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.0.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        100,
+        108,
+        103
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.0"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.1.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        29,
+        97,
+        110
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.1.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        97,
+        9,
+        109
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.1.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        110,
+        109,
+        32
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.1.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        97,
+        109,
+        110
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.1"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.2.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        30,
+        111,
+        106
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.2.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        111,
+        32,
+        112
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.2.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        106,
+        112,
+        10
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.2.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        111,
+        112,
+        106
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.2"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.3.0",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        29,
+        110,
+        108
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.3.1",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        110,
+        32,
+        111
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.3.2",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        108,
+        111,
+        30
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.3"
+    },
+    {
+      "face_id": "plant00:leaf_04:L0:f11.3.3",
+      "organ_id": "plant00:leaf_04",
+      "vertices": [
+        110,
+        111,
+        108
+      ],
+      "level": 2,
+      "parent_face_id": "plant00:leaf_04:L0:f11.3"
+    }
+  ],
+  "level": 2,
+  "data_type": "real",
+  "coordinate_system": "world coordinates of supplied calibrated cameras; unit=unknown_checkerboard_square",
+  "lineage": {
+    "plant00:leaf_04:L0:f0": [
+      "plant00:leaf_04:L0:f0.0",
+      "plant00:leaf_04:L0:f0.1",
+      "plant00:leaf_04:L0:f0.2",
+      "plant00:leaf_04:L0:f0.3"
+    ],
+    "plant00:leaf_04:L0:f1": [
+      "plant00:leaf_04:L0:f1.0",
+      "plant00:leaf_04:L0:f1.1",
+      "plant00:leaf_04:L0:f1.2",
+      "plant00:leaf_04:L0:f1.3"
+    ],
+    "plant00:leaf_04:L0:f2": [
+      "plant00:leaf_04:L0:f2.0",
+      "plant00:leaf_04:L0:f2.1",
+      "plant00:leaf_04:L0:f2.2",
+      "plant00:leaf_04:L0:f2.3"
+    ],
+    "plant00:leaf_04:L0:f3": [
+      "plant00:leaf_04:L0:f3.0",
+      "plant00:leaf_04:L0:f3.1",
+      "plant00:leaf_04:L0:f3.2",
+      "plant00:leaf_04:L0:f3.3"
+    ],
+    "plant00:leaf_04:L0:f4": [
+      "plant00:leaf_04:L0:f4.0",
+      "plant00:leaf_04:L0:f4.1",
+      "plant00:leaf_04:L0:f4.2",
+      "plant00:leaf_04:L0:f4.3"
+    ],
+    "plant00:leaf_04:L0:f5": [
+      "plant00:leaf_04:L0:f5.0",
+      "plant00:leaf_04:L0:f5.1",
+      "plant00:leaf_04:L0:f5.2",
+      "plant00:leaf_04:L0:f5.3"
+    ],
+    "plant00:leaf_04:L0:f6": [
+      "plant00:leaf_04:L0:f6.0",
+      "plant00:leaf_04:L0:f6.1",
+      "plant00:leaf_04:L0:f6.2",
+      "plant00:leaf_04:L0:f6.3"
+    ],
+    "plant00:leaf_04:L0:f7": [
+      "plant00:leaf_04:L0:f7.0",
+      "plant00:leaf_04:L0:f7.1",
+      "plant00:leaf_04:L0:f7.2",
+      "plant00:leaf_04:L0:f7.3"
+    ],
+    "plant00:leaf_04:L0:f8": [
+      "plant00:leaf_04:L0:f8.0",
+      "plant00:leaf_04:L0:f8.1",
+      "plant00:leaf_04:L0:f8.2",
+      "plant00:leaf_04:L0:f8.3"
+    ],
+    "plant00:leaf_04:L0:f9": [
+      "plant00:leaf_04:L0:f9.0",
+      "plant00:leaf_04:L0:f9.1",
+      "plant00:leaf_04:L0:f9.2",
+      "plant00:leaf_04:L0:f9.3"
+    ],
+    "plant00:leaf_04:L0:f10": [
+      "plant00:leaf_04:L0:f10.0",
+      "plant00:leaf_04:L0:f10.1",
+      "plant00:leaf_04:L0:f10.2",
+      "plant00:leaf_04:L0:f10.3"
+    ],
+    "plant00:leaf_04:L0:f11": [
+      "plant00:leaf_04:L0:f11.0",
+      "plant00:leaf_04:L0:f11.1",
+      "plant00:leaf_04:L0:f11.2",
+      "plant00:leaf_04:L0:f11.3"
+    ],
+    "plant00:leaf_04:L0:f0.0": [
+      "plant00:leaf_04:L0:f0.0.0",
+      "plant00:leaf_04:L0:f0.0.1",
+      "plant00:leaf_04:L0:f0.0.2",
+      "plant00:leaf_04:L0:f0.0.3"
+    ],
+    "plant00:leaf_04:L0:f0.1": [
+      "plant00:leaf_04:L0:f0.1.0",
+      "plant00:leaf_04:L0:f0.1.1",
+      "plant00:leaf_04:L0:f0.1.2",
+      "plant00:leaf_04:L0:f0.1.3"
+    ],
+    "plant00:leaf_04:L0:f0.2": [
+      "plant00:leaf_04:L0:f0.2.0",
+      "plant00:leaf_04:L0:f0.2.1",
+      "plant00:leaf_04:L0:f0.2.2",
+      "plant00:leaf_04:L0:f0.2.3"
+    ],
+    "plant00:leaf_04:L0:f0.3": [
+      "plant00:leaf_04:L0:f0.3.0",
+      "plant00:leaf_04:L0:f0.3.1",
+      "plant00:leaf_04:L0:f0.3.2",
+      "plant00:leaf_04:L0:f0.3.3"
+    ],
+    "plant00:leaf_04:L0:f1.0": [
+      "plant00:leaf_04:L0:f1.0.0",
+      "plant00:leaf_04:L0:f1.0.1",
+      "plant00:leaf_04:L0:f1.0.2",
+      "plant00:leaf_04:L0:f1.0.3"
+    ],
+    "plant00:leaf_04:L0:f1.1": [
+      "plant00:leaf_04:L0:f1.1.0",
+      "plant00:leaf_04:L0:f1.1.1",
+      "plant00:leaf_04:L0:f1.1.2",
+      "plant00:leaf_04:L0:f1.1.3"
+    ],
+    "plant00:leaf_04:L0:f1.2": [
+      "plant00:leaf_04:L0:f1.2.0",
+      "plant00:leaf_04:L0:f1.2.1",
+      "plant00:leaf_04:L0:f1.2.2",
+      "plant00:leaf_04:L0:f1.2.3"
+    ],
+    "plant00:leaf_04:L0:f1.3": [
+      "plant00:leaf_04:L0:f1.3.0",
+      "plant00:leaf_04:L0:f1.3.1",
+      "plant00:leaf_04:L0:f1.3.2",
+      "plant00:leaf_04:L0:f1.3.3"
+    ],
+    "plant00:leaf_04:L0:f2.0": [
+      "plant00:leaf_04:L0:f2.0.0",
+      "plant00:leaf_04:L0:f2.0.1",
+      "plant00:leaf_04:L0:f2.0.2",
+      "plant00:leaf_04:L0:f2.0.3"
+    ],
+    "plant00:leaf_04:L0:f2.1": [
+      "plant00:leaf_04:L0:f2.1.0",
+      "plant00:leaf_04:L0:f2.1.1",
+      "plant00:leaf_04:L0:f2.1.2",
+      "plant00:leaf_04:L0:f2.1.3"
+    ],
+    "plant00:leaf_04:L0:f2.2": [
+      "plant00:leaf_04:L0:f2.2.0",
+      "plant00:leaf_04:L0:f2.2.1",
+      "plant00:leaf_04:L0:f2.2.2",
+      "plant00:leaf_04:L0:f2.2.3"
+    ],
+    "plant00:leaf_04:L0:f2.3": [
+      "plant00:leaf_04:L0:f2.3.0",
+      "plant00:leaf_04:L0:f2.3.1",
+      "plant00:leaf_04:L0:f2.3.2",
+      "plant00:leaf_04:L0:f2.3.3"
+    ],
+    "plant00:leaf_04:L0:f3.0": [
+      "plant00:leaf_04:L0:f3.0.0",
+      "plant00:leaf_04:L0:f3.0.1",
+      "plant00:leaf_04:L0:f3.0.2",
+      "plant00:leaf_04:L0:f3.0.3"
+    ],
+    "plant00:leaf_04:L0:f3.1": [
+      "plant00:leaf_04:L0:f3.1.0",
+      "plant00:leaf_04:L0:f3.1.1",
+      "plant00:leaf_04:L0:f3.1.2",
+      "plant00:leaf_04:L0:f3.1.3"
+    ],
+    "plant00:leaf_04:L0:f3.2": [
+      "plant00:leaf_04:L0:f3.2.0",
+      "plant00:leaf_04:L0:f3.2.1",
+      "plant00:leaf_04:L0:f3.2.2",
+      "plant00:leaf_04:L0:f3.2.3"
+    ],
+    "plant00:leaf_04:L0:f3.3": [
+      "plant00:leaf_04:L0:f3.3.0",
+      "plant00:leaf_04:L0:f3.3.1",
+      "plant00:leaf_04:L0:f3.3.2",
+      "plant00:leaf_04:L0:f3.3.3"
+    ],
+    "plant00:leaf_04:L0:f4.0": [
+      "plant00:leaf_04:L0:f4.0.0",
+      "plant00:leaf_04:L0:f4.0.1",
+      "plant00:leaf_04:L0:f4.0.2",
+      "plant00:leaf_04:L0:f4.0.3"
+    ],
+    "plant00:leaf_04:L0:f4.1": [
+      "plant00:leaf_04:L0:f4.1.0",
+      "plant00:leaf_04:L0:f4.1.1",
+      "plant00:leaf_04:L0:f4.1.2",
+      "plant00:leaf_04:L0:f4.1.3"
+    ],
+    "plant00:leaf_04:L0:f4.2": [
+      "plant00:leaf_04:L0:f4.2.0",
+      "plant00:leaf_04:L0:f4.2.1",
+      "plant00:leaf_04:L0:f4.2.2",
+      "plant00:leaf_04:L0:f4.2.3"
+    ],
+    "plant00:leaf_04:L0:f4.3": [
+      "plant00:leaf_04:L0:f4.3.0",
+      "plant00:leaf_04:L0:f4.3.1",
+      "plant00:leaf_04:L0:f4.3.2",
+      "plant00:leaf_04:L0:f4.3.3"
+    ],
+    "plant00:leaf_04:L0:f5.0": [
+      "plant00:leaf_04:L0:f5.0.0",
+      "plant00:leaf_04:L0:f5.0.1",
+      "plant00:leaf_04:L0:f5.0.2",
+      "plant00:leaf_04:L0:f5.0.3"
+    ],
+    "plant00:leaf_04:L0:f5.1": [
+      "plant00:leaf_04:L0:f5.1.0",
+      "plant00:leaf_04:L0:f5.1.1",
+      "plant00:leaf_04:L0:f5.1.2",
+      "plant00:leaf_04:L0:f5.1.3"
+    ],
+    "plant00:leaf_04:L0:f5.2": [
+      "plant00:leaf_04:L0:f5.2.0",
+      "plant00:leaf_04:L0:f5.2.1",
+      "plant00:leaf_04:L0:f5.2.2",
+      "plant00:leaf_04:L0:f5.2.3"
+    ],
+    "plant00:leaf_04:L0:f5.3": [
+      "plant00:leaf_04:L0:f5.3.0",
+      "plant00:leaf_04:L0:f5.3.1",
+      "plant00:leaf_04:L0:f5.3.2",
+      "plant00:leaf_04:L0:f5.3.3"
+    ],
+    "plant00:leaf_04:L0:f6.0": [
+      "plant00:leaf_04:L0:f6.0.0",
+      "plant00:leaf_04:L0:f6.0.1",
+      "plant00:leaf_04:L0:f6.0.2",
+      "plant00:leaf_04:L0:f6.0.3"
+    ],
+    "plant00:leaf_04:L0:f6.1": [
+      "plant00:leaf_04:L0:f6.1.0",
+      "plant00:leaf_04:L0:f6.1.1",
+      "plant00:leaf_04:L0:f6.1.2",
+      "plant00:leaf_04:L0:f6.1.3"
+    ],
+    "plant00:leaf_04:L0:f6.2": [
+      "plant00:leaf_04:L0:f6.2.0",
+      "plant00:leaf_04:L0:f6.2.1",
+      "plant00:leaf_04:L0:f6.2.2",
+      "plant00:leaf_04:L0:f6.2.3"
+    ],
+    "plant00:leaf_04:L0:f6.3": [
+      "plant00:leaf_04:L0:f6.3.0",
+      "plant00:leaf_04:L0:f6.3.1",
+      "plant00:leaf_04:L0:f6.3.2",
+      "plant00:leaf_04:L0:f6.3.3"
+    ],
+    "plant00:leaf_04:L0:f7.0": [
+      "plant00:leaf_04:L0:f7.0.0",
+      "plant00:leaf_04:L0:f7.0.1",
+      "plant00:leaf_04:L0:f7.0.2",
+      "plant00:leaf_04:L0:f7.0.3"
+    ],
+    "plant00:leaf_04:L0:f7.1": [
+      "plant00:leaf_04:L0:f7.1.0",
+      "plant00:leaf_04:L0:f7.1.1",
+      "plant00:leaf_04:L0:f7.1.2",
+      "plant00:leaf_04:L0:f7.1.3"
+    ],
+    "plant00:leaf_04:L0:f7.2": [
+      "plant00:leaf_04:L0:f7.2.0",
+      "plant00:leaf_04:L0:f7.2.1",
+      "plant00:leaf_04:L0:f7.2.2",
+      "plant00:leaf_04:L0:f7.2.3"
+    ],
+    "plant00:leaf_04:L0:f7.3": [
+      "plant00:leaf_04:L0:f7.3.0",
+      "plant00:leaf_04:L0:f7.3.1",
+      "plant00:leaf_04:L0:f7.3.2",
+      "plant00:leaf_04:L0:f7.3.3"
+    ],
+    "plant00:leaf_04:L0:f8.0": [
+      "plant00:leaf_04:L0:f8.0.0",
+      "plant00:leaf_04:L0:f8.0.1",
+      "plant00:leaf_04:L0:f8.0.2",
+      "plant00:leaf_04:L0:f8.0.3"
+    ],
+    "plant00:leaf_04:L0:f8.1": [
+      "plant00:leaf_04:L0:f8.1.0",
+      "plant00:leaf_04:L0:f8.1.1",
+      "plant00:leaf_04:L0:f8.1.2",
+      "plant00:leaf_04:L0:f8.1.3"
+    ],
+    "plant00:leaf_04:L0:f8.2": [
+      "plant00:leaf_04:L0:f8.2.0",
+      "plant00:leaf_04:L0:f8.2.1",
+      "plant00:leaf_04:L0:f8.2.2",
+      "plant00:leaf_04:L0:f8.2.3"
+    ],
+    "plant00:leaf_04:L0:f8.3": [
+      "plant00:leaf_04:L0:f8.3.0",
+      "plant00:leaf_04:L0:f8.3.1",
+      "plant00:leaf_04:L0:f8.3.2",
+      "plant00:leaf_04:L0:f8.3.3"
+    ],
+    "plant00:leaf_04:L0:f9.0": [
+      "plant00:leaf_04:L0:f9.0.0",
+      "plant00:leaf_04:L0:f9.0.1",
+      "plant00:leaf_04:L0:f9.0.2",
+      "plant00:leaf_04:L0:f9.0.3"
+    ],
+    "plant00:leaf_04:L0:f9.1": [
+      "plant00:leaf_04:L0:f9.1.0",
+      "plant00:leaf_04:L0:f9.1.1",
+      "plant00:leaf_04:L0:f9.1.2",
+      "plant00:leaf_04:L0:f9.1.3"
+    ],
+    "plant00:leaf_04:L0:f9.2": [
+      "plant00:leaf_04:L0:f9.2.0",
+      "plant00:leaf_04:L0:f9.2.1",
+      "plant00:leaf_04:L0:f9.2.2",
+      "plant00:leaf_04:L0:f9.2.3"
+    ],
+    "plant00:leaf_04:L0:f9.3": [
+      "plant00:leaf_04:L0:f9.3.0",
+      "plant00:leaf_04:L0:f9.3.1",
+      "plant00:leaf_04:L0:f9.3.2",
+      "plant00:leaf_04:L0:f9.3.3"
+    ],
+    "plant00:leaf_04:L0:f10.0": [
+      "plant00:leaf_04:L0:f10.0.0",
+      "plant00:leaf_04:L0:f10.0.1",
+      "plant00:leaf_04:L0:f10.0.2",
+      "plant00:leaf_04:L0:f10.0.3"
+    ],
+    "plant00:leaf_04:L0:f10.1": [
+      "plant00:leaf_04:L0:f10.1.0",
+      "plant00:leaf_04:L0:f10.1.1",
+      "plant00:leaf_04:L0:f10.1.2",
+      "plant00:leaf_04:L0:f10.1.3"
+    ],
+    "plant00:leaf_04:L0:f10.2": [
+      "plant00:leaf_04:L0:f10.2.0",
+      "plant00:leaf_04:L0:f10.2.1",
+      "plant00:leaf_04:L0:f10.2.2",
+      "plant00:leaf_04:L0:f10.2.3"
+    ],
+    "plant00:leaf_04:L0:f10.3": [
+      "plant00:leaf_04:L0:f10.3.0",
+      "plant00:leaf_04:L0:f10.3.1",
+      "plant00:leaf_04:L0:f10.3.2",
+      "plant00:leaf_04:L0:f10.3.3"
+    ],
+    "plant00:leaf_04:L0:f11.0": [
+      "plant00:leaf_04:L0:f11.0.0",
+      "plant00:leaf_04:L0:f11.0.1",
+      "plant00:leaf_04:L0:f11.0.2",
+      "plant00:leaf_04:L0:f11.0.3"
+    ],
+    "plant00:leaf_04:L0:f11.1": [
+      "plant00:leaf_04:L0:f11.1.0",
+      "plant00:leaf_04:L0:f11.1.1",
+      "plant00:leaf_04:L0:f11.1.2",
+      "plant00:leaf_04:L0:f11.1.3"
+    ],
+    "plant00:leaf_04:L0:f11.2": [
+      "plant00:leaf_04:L0:f11.2.0",
+      "plant00:leaf_04:L0:f11.2.1",
+      "plant00:leaf_04:L0:f11.2.2",
+      "plant00:leaf_04:L0:f11.2.3"
+    ],
+    "plant00:leaf_04:L0:f11.3": [
+      "plant00:leaf_04:L0:f11.3.0",
+      "plant00:leaf_04:L0:f11.3.1",
+      "plant00:leaf_04:L0:f11.3.2",
+      "plant00:leaf_04:L0:f11.3.3"
+    ]
+  },
+  "petiole_controls": [],
+  "petiole_edges": [],
+  "metadata": {
+    "topology_source": "taskbook 2026-09-05 section 7; fixed connection table verified",
+    "surface_controls": 11,
+    "geometry_optimized": false,
+    "uv_semantics": "u in [0,1] longitudinal; v in [-1,1] lateral; endpoints v=0",
+    "algorithm": "Symmetric ribbon controlled baseline (24 parameters)",
+    "fit_diagnostics": {
+      "schema": "pots-gs.multiview-scaffold-fit.v1",
+      "data_type": "real",
+      "organ_id": "plant00:leaf_04",
+      "status": "reviewed_input_fit",
+      "review_warnings": [],
+      "optimizer_success": true,
+      "optimizer_status": 2,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "nfev": 11,
+      "training_views": [
+        "00",
+        "02"
+      ],
+      "evaluation_used": false,
+      "gs_optimized": false,
+      "parameters": 24,
+      "regularization": 0.1,
+      "differential_weight": 1.0,
+      "initial_scale": 1.4911996010714241,
+      "sigma_px": 2.0,
+      "max_displacement_in_initial_scale": 1.0,
+      "initial_residual_norm": 15.003867502932465,
+      "final_residual_norm": 1.8689373674972891,
+      "initial": [
+        {
+          "view_id": "00",
+          "material_rms_px": 1.25010562622492,
+          "Q_rms_px": 2.3952544663530184,
+          "Q_within_view_parameters": [
+            0.01471311984171833,
+            0.16508288535126603,
+            0.31545265086081326,
+            0.4658224163703604,
+            0.6161921818799081,
+            0.9478870150959884,
+            1.2828536700149806,
+            1.6184301799586887,
+            1.9540066899023967,
+            2.2069560199504883,
+            2.460440458131912,
+            2.713924896313336,
+            2.9674093344947607,
+            3.2178972353884925,
+            3.468762118651612,
+            3.719627001914732,
+            3.970491885177852
+          ],
+          "W_rms_px": 25.16459735721634,
+          "min_camera_depth": 13.18779465368447
+        },
+        {
+          "view_id": "02",
+          "material_rms_px": 1.2267573371512774,
+          "Q_rms_px": 6.129960565945072,
+          "Q_within_view_parameters": [
+            0.0,
+            0.16955197962866753,
+            0.35174835675845595,
+            0.5339447338882449,
+            0.7161411110180333,
+            1.002053050540249,
+            1.2914125023990846,
+            1.5807719542579208,
+            1.8701314061167564,
+            2.157223395877089,
+            2.4458831404963264,
+            2.7345428851155633,
+            3.023481048008412,
+            3.2739440409620353,
+            3.5244070339156592,
+            3.774870026869283,
+            4.0
+          ],
+          "W_rms_px": 14.860210021792847,
+          "min_camera_depth": 13.511638372382277
+        }
+      ],
+      "final": [
+        {
+          "view_id": "00",
+          "material_rms_px": 1.3384603066207206,
+          "Q_rms_px": 0.28217373585292166,
+          "Q_within_view_parameters": [
+            0.0035096769315637803,
+            0.2981885913751759,
+            0.5928675058187868,
+            0.8875464202623976,
+            1.061109226160372,
+            1.271722861403366,
+            1.4823364966463601,
+            1.6929501318893543,
+            1.903563767132348,
+            2.0566062873166167,
+            2.2026520958087765,
+            2.3486979043009364,
+            2.4947437127930967,
+            2.637460948558749,
+            2.7801781843244013,
+            2.9228954200900534,
+            3.6927462600703054
+          ],
+          "W_rms_px": 2.636784808080836,
+          "min_camera_depth": 12.695873763834156
+        },
+        {
+          "view_id": "02",
+          "material_rms_px": 1.4670985590720693,
+          "Q_rms_px": 0.5429284286903248,
+          "Q_within_view_parameters": [
+            0.0,
+            0.2846456502714361,
+            0.6541566100420293,
+            1.0090985932332448,
+            1.1511100720753056,
+            1.3721240876414433,
+            1.593138103207581,
+            1.8141521187737193,
+            2.0266232904452637,
+            2.1843652228342676,
+            2.3421071552232724,
+            2.4998490876122768,
+            2.6575910200012807,
+            2.793657658747713,
+            2.929724297494145,
+            3.343763892572916,
+            4.0
+          ],
+          "W_rms_px": 1.6163046772799485,
+          "min_camera_depth": 13.027433981478708
+        }
+      ],
+      "observation_audit": [
+        {
+          "view_id": "00",
+          "material_points": 2,
+          "Q": {
+            "points": 17,
+            "visible_segments": 4,
+            "ignored_segments": 0
+          },
+          "W": [
+            {
+              "points": 90,
+              "visible_segments": 18,
+              "ignored_segments": 0
+            }
+          ]
+        },
+        {
+          "view_id": "02",
+          "material_points": 2,
+          "Q": {
+            "points": 17,
+            "visible_segments": 4,
+            "ignored_segments": 0
+          },
+          "W": [
+            {
+              "points": 5,
+              "visible_segments": 1,
+              "ignored_segments": 20
+            }
+          ]
+        }
+      ],
+      "max_vertex_displacement": 0.7023086041496357,
+      "min_triangle_area": 0.048957735964826714,
+      "all_positive_depth": true,
+      "box_boundary_hits": 0,
+      "confidence_semantics": "all vertex confidence=0: uncertainty not calibrated",
+      "Q_assignment": "within-view monotone finite-candidate curve match, no cross-view index correspondence",
+      "W_assignment": "one-way true-margin sample to projected organ boundary; no occluder cut or auto-closing",
+      "limitations": [
+        "11 controls approximate the leaf; regularization contributes shape",
+        "visible path/boundary fit does not prove unique 3D depth or unseen curvature",
+        "no whole-plant occlusion renderer; input visibility is supplied",
+        "positive depth and nondegenerate triangles do not prove no self-intersection",
+        "optimizer convergence and box non-contact do not prove reconstruction accuracy"
+      ],
+      "representation": "section-midpoint symmetric ribbon",
+      "independent_vertex_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10
+      ],
+      "symmetry_max_abs": 1.7763568394002505e-15,
+      "initialization_preserved": true,
+      "prior_domain": "same full 11 XYZ displacements and 22 edge differences as POTS"
+    },
+    "training_observations": [
+      {
+        "view_id": "00",
+        "split": "train",
+        "organ_id": "plant00:leaf_04",
+        "coordinate_domain": "undistorted_pixels",
+        "reviewed": true,
+        "same_leaf_confirmed": true,
+        "material": [
+          {
+            "label": "B",
+            "status": "visible",
+            "xy": [
+              192.1793437694589,
+              201.9137212504362
+            ],
+            "reviewed": true,
+            "correspondence_id": "plant00:leaf_04:B",
+            "source": "human_reviewed_material_endpoint"
+          },
+          {
+            "label": "T",
+            "status": "visible",
+            "xy": [
+              87.66432942022675,
+              116.524010970522
+            ],
+            "reviewed": true,
+            "correspondence_id": "plant00:leaf_04:T",
+            "source": "human_reviewed_material_endpoint"
+          }
+        ],
+        "Q": {
+          "xy": [
+            [
+              192.1793437694589,
+              201.9137212504362
+            ],
+            [
+              177.88127826210598,
+              186.47875429096638
+            ],
+            [
+              143.00268472008588,
+              156.40583400555767
+            ],
+            [
+              114.86889816486041,
+              136.43928025897696
+            ],
+            [
+              87.66432942022675,
+              116.524010970522
+            ]
+          ],
+          "order": "B_to_T",
+          "closed": false,
+          "reviewed": true,
+          "point_status": [
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "segment_visibility": [
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "original_labels": [
+            "B",
+            "Q1",
+            "Q2",
+            "Q3",
+            "T"
+          ]
+        },
+        "W": [
+          {
+            "stroke_id": "w-stroke-1",
+            "xy": [
+              [
+                205.4526613960503,
+                183.05172793311192
+              ],
+              [
+                211.34388227184297,
+                165.40412614804478
+              ],
+              [
+                211.41126418117005,
+                139.3800160437234
+              ],
+              [
+                194.78862291100018,
+                118.46185360325978
+              ],
+              [
+                174.8580691150189,
+                103.45887924443787
+              ],
+              [
+                155.795831076862,
+                90.99458591563058
+              ],
+              [
+                140.9310628885362,
+                77.69354229122553
+              ],
+              [
+                116.8531397180144,
+                83.70836147646264
+              ],
+              [
+                98.57867639041842,
+                93.03397269696262
+              ],
+              [
+                86.05049576933231,
+                110.6811645906356
+              ],
+              [
+                75.96650435749257,
+                135.00478143764616
+              ],
+              [
+                64.28866348904444,
+                151.8135671948238
+              ],
+              [
+                64.98071957945331,
+                173.56796290410296
+              ],
+              [
+                79.76509945518512,
+                192.74561941093953
+              ],
+              [
+                107.89906903848293,
+                204.34533750513236
+              ],
+              [
+                130.29948611477266,
+                214.3226101074086
+              ],
+              [
+                154.43094953023842,
+                220.96051222833427
+              ],
+              [
+                176.9999522376827,
+                204.11050427748017
+              ],
+              [
+                193.74307507617664,
+                187.27694309575867
+              ]
+            ],
+            "closed": false,
+            "reviewed": true,
+            "point_status": [
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible"
+            ],
+            "segment_kind": [
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin",
+              "true_margin"
+            ],
+            "original_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          }
+        ],
+        "source_review_sha256": "8f4e2b02a69bc3e9afdb94b073314ec5fa60fae9788d6686e4b7dee32a2ef6d3"
+      },
+      {
+        "view_id": "02",
+        "split": "train",
+        "organ_id": "plant00:leaf_04",
+        "coordinate_domain": "undistorted_pixels",
+        "reviewed": true,
+        "same_leaf_confirmed": true,
+        "material": [
+          {
+            "label": "B",
+            "status": "visible",
+            "xy": [
+              189.49934605420725,
+              218.13653129680426
+            ],
+            "reviewed": true,
+            "correspondence_id": "plant00:leaf_04:B",
+            "source": "human_reviewed_material_endpoint"
+          },
+          {
+            "label": "T",
+            "status": "visible",
+            "xy": [
+              70.81820097388419,
+              133.82965607529098
+            ],
+            "reviewed": true,
+            "correspondence_id": "plant00:leaf_04:T",
+            "source": "human_reviewed_material_endpoint"
+          }
+        ],
+        "Q": {
+          "xy": [
+            [
+              189.49934605420725,
+              218.13653129680426
+            ],
+            [
+              170.4456537102233,
+              198.65626068490076
+            ],
+            [
+              139.2840350310051,
+              169.91916353852713
+            ],
+            [
+              103.0686197620999,
+              149.55397792272333
+            ],
+            [
+              70.81820097388419,
+              133.82965607529098
+            ]
+          ],
+          "order": "B_to_T",
+          "closed": false,
+          "reviewed": true,
+          "point_status": [
+            "visible",
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "segment_visibility": [
+            "visible",
+            "visible",
+            "visible",
+            "visible"
+          ],
+          "original_labels": [
+            "B",
+            "Q1",
+            "Q2",
+            "Q3",
+            "T"
+          ]
+        },
+        "W": [
+          {
+            "stroke_id": "w-stroke-1",
+            "xy": [
+              [
+                190.60716733240372,
+                208.81808716215613
+              ],
+              [
+                205.65111680686667,
+                193.720205932128
+              ],
+              [
+                207.25933957874676,
+                170.99540561454114
+              ],
+              [
+                203.86102086779007,
+                156.66519477764365
+              ],
+              [
+                189.54267932537954,
+                138.9212348617218
+              ],
+              [
+                172.70368548571702,
+                123.68685892746362
+              ],
+              [
+                149.96909933565544,
+                107.57798739090339
+              ],
+              [
+                123.88670293015628,
+                99.88442283508539
+              ],
+              [
+                106.25241962785589,
+                105.71947359912741
+              ],
+              [
+                81.04698199779142,
+                113.20640692845893
+              ],
+              [
+                69.30472075879283,
+                122.43328975779372
+              ],
+              [
+                60.14089997776915,
+                144.31395681301882
+              ],
+              [
+                57.681876875512614,
+                159.4728271979755
+              ],
+              [
+                53.52082402121323,
+                170.40720221053493
+              ],
+              [
+                56.13056037031379,
+                189.78926963326364
+              ],
+              [
+                73.04564271209495,
+                210.06354401819692
+              ],
+              [
+                93.26895639772738,
+                220.24263107151137
+              ],
+              [
+                114.28777477003769,
+                222.84851957320927
+              ],
+              [
+                139.51408200759522,
+                232.19171775279602
+              ],
+              [
+                157.1537720992453,
+                237.29660355722223
+              ],
+              [
+                172.21296371178542,
+                225.57805061399387
+              ],
+              [
+                180.5772778024116,
+                218.87857136946695
+              ]
+            ],
+            "closed": false,
+            "reviewed": true,
+            "point_status": [
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible",
+              "visible"
+            ],
+            "segment_kind": [
+              "true_margin",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown",
+              "unknown"
+            ],
+            "original_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ]
+          }
+        ],
+        "source_review_sha256": "8f4e2b02a69bc3e9afdb94b073314ec5fa60fae9788d6686e4b7dee32a2ef6d3"
+      }
+    ],
+    "Q_W_indices_are_material_correspondences": false,
+    "observation_source_views_are_dependencies": true,
+    "gs_optimized": false,
+    "operation": "pure_3d_midpoint_subdivision",
+    "new_vertices_are_observations": false,
+    "new_midpoints": 80
+  }
+}

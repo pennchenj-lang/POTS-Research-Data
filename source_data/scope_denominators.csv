@@ -1,0 +1,13 @@
+﻿scope,base_scope,subset,nominated_target_count,nominated_condition_count,retained_target_count,retained_condition_count,nominated_pair_failure_count,pair_failure_denominator,retained_pair_failure_count,excluded_paired_condition_count,excluded_target_count,excluded_case_ids,excluded_target_ids,conditions_per_retained_target,POTS33_failures_nominated,symmetric24_failures_nominated,per_method_failure_denominator,post_hoc_descriptive,independent_experimental_n
+all_conditions_all_targets__all_outputs,all_conditions_all_targets,all_outputs,4,6,4,6,1,6,1,0,0,,,"{""curved"": 2, ""smooth_twist"": 1, ""smooth_wave"": 1, ""twisted"": 2}",0,1,6,True,4
+all_conditions_all_targets__both_pass_saved_qc,all_conditions_all_targets,both_pass_saved_qc,4,6,4,5,1,6,0,1,0,twisted_common_gap,,"{""curved"": 2, ""smooth_twist"": 1, ""smooth_wave"": 1, ""twisted"": 1}",0,1,6,True,4
+all_conditions_core_finite__all_outputs,all_conditions_core_finite,all_outputs,2,4,2,4,1,4,1,0,0,,,"{""curved"": 2, ""twisted"": 2}",0,1,4,True,2
+all_conditions_core_finite__both_pass_saved_qc,all_conditions_core_finite,both_pass_saved_qc,2,4,2,3,1,4,0,1,0,twisted_common_gap,,"{""curved"": 2, ""twisted"": 1}",0,1,4,True,2
+all_conditions_analytic_sampled__all_outputs,all_conditions_analytic_sampled,all_outputs,2,2,2,2,0,2,0,0,0,,,"{""smooth_twist"": 1, ""smooth_wave"": 1}",0,0,2,True,2
+all_conditions_analytic_sampled__both_pass_saved_qc,all_conditions_analytic_sampled,both_pass_saved_qc,2,2,2,2,0,2,0,0,0,,,"{""smooth_twist"": 1, ""smooth_wave"": 1}",0,0,2,True,2
+common_gap_all_targets__all_outputs,common_gap_all_targets,all_outputs,4,4,4,4,1,4,1,0,0,,,"{""curved"": 1, ""smooth_twist"": 1, ""smooth_wave"": 1, ""twisted"": 1}",0,1,4,True,4
+common_gap_all_targets__both_pass_saved_qc,common_gap_all_targets,both_pass_saved_qc,4,4,3,3,1,4,0,1,1,twisted_common_gap,twisted,"{""curved"": 1, ""smooth_twist"": 1, ""smooth_wave"": 1}",0,1,4,True,3
+common_gap_core_finite__all_outputs,common_gap_core_finite,all_outputs,2,2,2,2,1,2,1,0,0,,,"{""curved"": 1, ""twisted"": 1}",0,1,2,True,2
+common_gap_core_finite__both_pass_saved_qc,common_gap_core_finite,both_pass_saved_qc,2,2,1,1,1,2,0,1,1,twisted_common_gap,twisted,"{""curved"": 1}",0,1,2,True,1
+common_gap_analytic_sampled__all_outputs,common_gap_analytic_sampled,all_outputs,2,2,2,2,0,2,0,0,0,,,"{""smooth_twist"": 1, ""smooth_wave"": 1}",0,0,2,True,2
+common_gap_analytic_sampled__both_pass_saved_qc,common_gap_analytic_sampled,both_pass_saved_qc,2,2,2,2,0,2,0,0,0,,,"{""smooth_twist"": 1, ""smooth_wave"": 1}",0,0,2,True,2

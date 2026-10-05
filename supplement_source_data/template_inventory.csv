@@ -1,0 +1,10 @@
+﻿file,rows,purpose
+capture_scopes.csv,0,"Bind identity, calendar time, pose state, capture protocol, frame, camera and native/work mapping before any fitting."
+scale_calibration_observations.csv,0,Record actual reference lengths and model lengths at scale-fitting positions; retain raw clicks and standard evidence.
+scale_check_observations.csv,0,Use positions or standards excluded from scale fitting; preserve signed residuals and tolerances fixed before reading them.
+quantity_references.csv,0,"Pair each quantity with the same leaf and acquisition state, anatomical scope, definition and independent device/method."
+reference_raw_files.csv,0,"Retain native scans, depth, images and instrument output; document sampling, coverage and every unit/frame transform."
+annotation_repeats.csv,0,"Retain each operator/round raw annotation independently, with order and blinding; interpolated points are separate."
+acquisition_repeats.csv,0,Record actual reacquisition and leaf-state checks; motion/growth is not silently called instrument noise.
+uncertainty_sources.csv,0,"Supply distributions and joint covariance with units, scope and evidence; blank entries are unestimated."
+raw_file_manifest.csv,0,Link all physical/raw records by content hash and explicit role; restrict reference access during estimation.

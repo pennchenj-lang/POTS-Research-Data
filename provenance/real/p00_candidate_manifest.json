@@ -1,0 +1,246 @@
+{
+  "schema": "pots-gs.real-pilot-draft.v1",
+  "candidate_id": "komatsuna_p00_d009_t00_leaf04",
+  "data_type": "real",
+  "status": "CAMERA_CANDIDATE_VALIDATED_ON_BOARD_AWAITING_HUMAN_LANDMARKS",
+  "source": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/",
+  "readme": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/multi_readme.pdf",
+  "capture": "same plant00 day009 time00, three fixed cameras per source",
+  "target": "upper-left fully expanded leaf; author leaf ID4 red255,0,0; target chosen using train00/02 only",
+  "train_views": [
+    "00",
+    "02"
+  ],
+  "evaluation_views": [
+    "01"
+  ],
+  "split_frozen_before_any_plant_fit": true,
+  "evaluation_image_downloaded": false,
+  "evaluation_image_used": false,
+  "evaluation_future_members": [
+    "multi_plant/rgb_01_00_009_00.png",
+    "multi_label/label_01_00_009_00.png"
+  ],
+  "images": [
+    {
+      "view_id": "00",
+      "split": "train",
+      "image_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_00_00_009_00.png",
+      "image_sha256": "53ff7013172f2bc58a29da67539f9d92e76ac7af9c73ff4ba3a05e71e98dea8d",
+      "source_labels_path": "excluded_materials/inputs/real/images_and_author_labels/label_00_00_009_00.png",
+      "source_labels_sha256": "198ca282940383f67fa671e4cdc94079fa1f9f851bbb0c208c9a108232a9e671",
+      "human_reviewed": false,
+      "points": {}
+    },
+    {
+      "view_id": "02",
+      "split": "train",
+      "image_path": "excluded_materials/inputs/real/images_and_author_labels/rgb_02_00_009_00.png",
+      "image_sha256": "bec5b40593e95a7c599b903edd42cd03558ba3ea86488ff117ef818dc0082b20",
+      "source_labels_path": "excluded_materials/inputs/real/images_and_author_labels/label_02_00_009_00.png",
+      "source_labels_sha256": "b6ae119851a5643e6c7c21427cc03c033a8bb58466df3f0a2391e36a1c0e8f77",
+      "human_reviewed": false,
+      "points": {}
+    }
+  ],
+  "cameras": [
+    {
+      "camera_id": "00",
+      "width": 480,
+      "height": 480,
+      "K": [
+        [
+          1447.1628464763269,
+          0.0,
+          1006.3360374616379
+        ],
+        [
+          0.0,
+          1447.5154426605611,
+          586.9397572943669
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "distortion": [
+        -0.06168626192123971,
+        0.13376213699133815,
+        0.0005512253582032307,
+        0.0001302007328168146,
+        -0.07217700516597145
+      ],
+      "R": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "t": [
+        0,
+        0,
+        0
+      ],
+      "crop_origin": [
+        30,
+        210
+      ],
+      "coordinate_convention": "Xcam=R Xworld+t; world=cam00",
+      "image_domain": "original distorted crop; undistort observations before triangulation"
+    },
+    {
+      "camera_id": "01",
+      "width": 480,
+      "height": 480,
+      "K": [
+        [
+          1446.6005945409115,
+          0.0,
+          719.4834613933423
+        ],
+        [
+          0.0,
+          1446.6945530849343,
+          565.3033914522898
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "distortion": [
+        -0.06269410735736683,
+        0.12597842675945212,
+        -0.0011593356580685784,
+        0.0010044930383481493,
+        -0.09068751637967161
+      ],
+      "R": [
+        [
+          0.9999728044568819,
+          0.0072602810738045176,
+          -0.0012956331919592352
+        ],
+        [
+          -0.007245851610588335,
+          0.9999152707372374,
+          0.010814295211182153
+        ],
+        [
+          0.0013740382367623484,
+          -0.010804613144699757,
+          0.9999406844176895
+        ]
+      ],
+      "t": [
+        2.7137855641215953,
+        0.08902181185713791,
+        0.10814305673249976
+      ],
+      "crop_origin": [
+        280,
+        210
+      ],
+      "coordinate_convention": "Xcam=R Xworld+t; world=cam00",
+      "image_domain": "original distorted crop; undistort observations before triangulation"
+    },
+    {
+      "camera_id": "02",
+      "width": 480,
+      "height": 480,
+      "K": [
+        [
+          1453.4040764517556,
+          0.0,
+          377.84039289817736
+        ],
+        [
+          0.0,
+          1453.5452600273463,
+          575.0058773991259
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "distortion": [
+        -0.061210683781492824,
+        0.12799756131274442,
+        -0.00024925880578291644,
+        0.000887298472219975,
+        -0.06596303866314683
+      ],
+      "R": [
+        [
+          0.9994389216223825,
+          0.031550832370706126,
+          0.011242193869749775
+        ],
+        [
+          -0.03163458946951748,
+          0.9994724617475039,
+          0.00735193562808471
+        ],
+        [
+          -0.011004303493839603,
+          -0.007703452803776387,
+          0.999909776989662
+        ]
+      ],
+      "t": [
+        5.626379688547068,
+        -0.15777655844311966,
+        0.21642242211293486
+      ],
+      "crop_origin": [
+        640,
+        220
+      ],
+      "coordinate_convention": "Xcam=R Xworld+t; world=cam00",
+      "image_domain": "original distorted crop; undistort observations before triangulation"
+    }
+  ],
+  "camera_result_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702",
+  "crop_proof_sha256": "5c8395ce0b54df835e2c18e6ef7e04749d252a38280d45752590f41e9dfafa5d",
+  "camera_source": "external checkerboard captures only; independent of plant points and reconstruction",
+  "scale": "one unknown-size checker square; no metric height or plane",
+  "human_identity_verified": false,
+  "human_landmarks_verified": false,
+  "real_initialization_run": false,
+  "real_optimization_run": false,
+  "calibration_fit_version": "v3",
+  "invalid_or_cropped_calibration_images_retained": true,
+  "point_roles": {
+    "B": "physical leaf blade base, not petiole-stem junction",
+    "T": "leaf tip",
+    "Q1_Q2_Q3": "optional same physical material points; no UV assignment and never silently treated as L1/C1/etc; can first be used as independent triangulation checks"
+  },
+  "source_label_role": "author identity suggestion, includes petiole; not project-reviewed blade mask or occluded surface",
+  "licensing": "author-provided public research download; no explicit redistribution license located. Keep all photos local; verify permission before publication/redistribution.",
+  "static_review_path": "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/review_static.html",
+  "no_server_running": true,
+  "server_start_attempt": "automatic approval rejected hidden local server Start-Process as blocked by policy; no detailed reason returned; not retried via another route",
+  "next_gate": [
+    "Actual user same-leaf and B/T review",
+    "undistort native points using saved K_crop/distortion then fixed3px reprojection,positive depth,5degree ray angle checks",
+    "Review visible blade mask separately from source petiole-containing labels",
+    "Keep evaluation cam01 excluded from initialization and fitting; obtain evaluation image after target/split fixed",
+    "Before claiming centimeter heights obtain metric square size and physical height datum"
+  ]
+}

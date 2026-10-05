@@ -1,0 +1,558 @@
+[
+  {
+    "view_id": "input00",
+    "organ_id": "leaf01",
+    "split": "train",
+    "coordinate_domain": "undistorted_pixels",
+    "reviewed": true,
+    "same_leaf_confirmed": true,
+    "material": [
+      {
+        "label": "B",
+        "xy": [
+          320.16329940959935,
+          391.06111487045894
+        ],
+        "status": "visible",
+        "reviewed": true,
+        "correspondence_id": "leaf01:B"
+      },
+      {
+        "label": "T",
+        "xy": [
+          320.3114054698949,
+          89.20189873239562
+        ],
+        "status": "visible",
+        "reviewed": true,
+        "correspondence_id": "leaf01:T"
+      }
+    ],
+    "Q": {
+      "xy": [
+        [
+          327.7637881263376,
+          368.2124053402508
+        ],
+        [
+          332.95570714818325,
+          342.90026435851246
+        ],
+        [
+          334.15192821818187,
+          316.0202065505646
+        ],
+        [
+          334.480383096699,
+          290.04981854803697
+        ],
+        [
+          340.79667281080793,
+          187.92925666276363
+        ],
+        [
+          334.2886446450241,
+          163.22364430597756
+        ],
+        [
+          326.5002878138834,
+          140.1112105262974
+        ],
+        [
+          322.24719957266217,
+          115.47556563463912
+        ]
+      ],
+      "point_status": [
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible"
+      ],
+      "segment_visibility": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "order": "B_to_T",
+      "reviewed": true
+    },
+    "W": [
+      {
+        "xy": [
+          [
+            320.5626983291546,
+            390.8154115944074
+          ],
+          [
+            309.2992093062879,
+            382.797435788139
+          ]
+        ],
+        "point_status": [
+          "visible",
+          "visible"
+        ],
+        "segment_kind": [
+          "true_margin"
+        ],
+        "reviewed": true,
+        "closed": false
+      },
+      {
+        "xy": [
+          [
+            308.7461174924921,
+            97.9510081363916
+          ],
+          [
+            319.60096288657724,
+            89.20376884642745
+          ],
+          [
+            334.7163079198098,
+            98.49516191461879
+          ],
+          [
+            345.39291693341977,
+            107.86061191006286
+          ],
+          [
+            354.5891019093166,
+            117.01008354622826
+          ],
+          [
+            362.6645909117426,
+            126.59415574488064
+          ],
+          [
+            369.7447129200648,
+            135.71984288211092
+          ],
+          [
+            375.89140548614927,
+            145.3568734009856
+          ],
+          [
+            382.1626538874199,
+            154.9028531047425
+          ],
+          [
+            387.51114888833945,
+            164.2652666961052
+          ],
+          [
+            392.54092551378216,
+            173.91425134222968
+          ],
+          [
+            397.2528002916614,
+            183.72672453531223
+          ]
+        ],
+        "point_status": [
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "segment_kind": [
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin"
+        ],
+        "reviewed": true,
+        "closed": false
+      },
+      {
+        "xy": [
+          [
+            409.68480488800907,
+            286.5345456397237
+          ],
+          [
+            406.1539169526816,
+            295.3310410200326
+          ],
+          [
+            402.30555199818235,
+            305.00805883498253
+          ],
+          [
+            395.68036979462414,
+            313.5221575211689
+          ],
+          [
+            389.4052018878257,
+            323.7779519259296
+          ],
+          [
+            381.6358300517262,
+            332.7031982407656
+          ],
+          [
+            373.4402373650538,
+            341.89380410570914
+          ],
+          [
+            364.8783834477751,
+            351.722777375507
+          ],
+          [
+            356.0842436553565,
+            360.72940627346924
+          ],
+          [
+            345.71239990151685,
+            370.8425534139992
+          ],
+          [
+            334.32703067103114,
+            380.51308263587606
+          ],
+          [
+            320.51297460707883,
+            391.18545577384396
+          ]
+        ],
+        "point_status": [
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "segment_kind": [
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin"
+        ],
+        "reviewed": true,
+        "closed": false
+      }
+    ]
+  },
+  {
+    "view_id": "input02",
+    "organ_id": "leaf01",
+    "split": "train",
+    "coordinate_domain": "undistorted_pixels",
+    "reviewed": true,
+    "same_leaf_confirmed": true,
+    "material": [
+      {
+        "label": "B",
+        "xy": [
+          320.2383430357804,
+          382.91457976808255
+        ],
+        "status": "visible",
+        "reviewed": true,
+        "correspondence_id": "leaf01:B"
+      },
+      {
+        "label": "T",
+        "xy": [
+          319.97057709545516,
+          96.27677596066265
+        ],
+        "status": "visible",
+        "reviewed": true,
+        "correspondence_id": "leaf01:T"
+      }
+    ],
+    "Q": {
+      "xy": [
+        [
+          319.33348124634483,
+          367.26364124695016
+        ],
+        [
+          320.489487479906,
+          350.83836623389686
+        ],
+        [
+          322.1584229501857,
+          332.4168362595862
+        ],
+        [
+          326.47642208739666,
+          313.7242881538845
+        ],
+        [
+          329.8047126976045,
+          295.24444740260486
+        ],
+        [
+          324.62590200704204,
+          184.81860017673753
+        ],
+        [
+          326.2705418880491,
+          166.816469669117
+        ],
+        [
+          326.93793753641654,
+          149.54408122120483
+        ],
+        [
+          326.56441918365203,
+          132.929166596781
+        ],
+        [
+          324.1579320515756,
+          114.890070972493
+        ]
+      ],
+      "point_status": [
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible",
+        "visible"
+      ],
+      "segment_visibility": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "order": "B_to_T",
+      "reviewed": true
+    },
+    "W": [
+      {
+        "xy": [
+          [
+            320.07635800162245,
+            383.2822618413878
+          ],
+          [
+            308.4097578154729,
+            374.0536134040385
+          ],
+          [
+            299.0709438852372,
+            365.30779802317954
+          ],
+          [
+            291.4915923764346,
+            356.333731923613
+          ],
+          [
+            284.1106025322959,
+            347.688399601259
+          ],
+          [
+            277.895567371682,
+            339.34873517022896
+          ],
+          [
+            272.2007955876158,
+            330.1255252875161
+          ],
+          [
+            267.41122349885205,
+            320.6069078649853
+          ],
+          [
+            262.60676988728284,
+            311.983163142141
+          ],
+          [
+            258.8582031301782,
+            302.5029302490603
+          ],
+          [
+            256.7532739948997,
+            294.1437806414835
+          ],
+          [
+            254.37017775541736,
+            284.928478241163
+          ]
+        ],
+        "point_status": [
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "segment_kind": [
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin"
+        ],
+        "reviewed": true,
+        "closed": false
+      },
+      {
+        "xy": [
+          [
+            273.3111811914025,
+            186.09306605491358
+          ],
+          [
+            276.42282346858536,
+            177.21807731956488
+          ],
+          [
+            279.45279854953395,
+            168.63719851011678
+          ],
+          [
+            282.4699448127196,
+            159.1069724321314
+          ],
+          [
+            285.525215857783,
+            150.4800000387987
+          ],
+          [
+            289.055118079683,
+            142.27540204513363
+          ],
+          [
+            293.1395119864214,
+            132.5018885900373
+          ],
+          [
+            297.68571503951733,
+            123.77116440429181
+          ],
+          [
+            302.88582439841616,
+            114.47186279592799
+          ],
+          [
+            309.0199594049749,
+            105.10538071033707
+          ],
+          [
+            320.209381574035,
+            95.6632126084927
+          ],
+          [
+            332.3592471243497,
+            103.57047912519388
+          ]
+        ],
+        "point_status": [
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible",
+          "visible"
+        ],
+        "segment_kind": [
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin",
+          "true_margin"
+        ],
+        "reviewed": true,
+        "closed": false
+      },
+      {
+        "xy": [
+          [
+            333.8074568061258,
+            374.87233198900947
+          ],
+          [
+            319.97940361816825,
+            383.1282047170016
+          ]
+        ],
+        "point_status": [
+          "visible",
+          "visible"
+        ],
+        "segment_kind": [
+          "true_margin"
+        ],
+        "reviewed": true,
+        "closed": false
+      }
+    ]
+  }
+]

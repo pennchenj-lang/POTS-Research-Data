@@ -1,0 +1,7 @@
+﻿stage,design,unit,status
+E1,3 lengths × 3 depths × 3 directions × 5 checks =135; 6 rigid leaf forms × 3 poses × 3 repeats =54,Standards and repeat checks,Not collected
+E2,2 leaf-shape types × 3 sizes; each cell 2 development+6 test plants =12+36 plants;3 leaves/test plant =108,Plant cluster; leaf subsample,Not collected
+E3,12 test plants × 2 leaves × 4 states =96 leaf conditions,24 paired leaves in 12 plants,Not collected
+E4,Both methods on all eligible inputs;12 leaves × 2 states × 4 components =96 conditions,Same-input paired leaf,Prospective component run not performed
+E5,12 leaves × 3 operators × 2 rounds =72 annotations;12 plants × 3 reacquisitions =36,Nested operator/round/capture,Not collected
+E6,12 leaves × 2 states;start 1000 attempts/condition and assess quantile stability,24 conditional propagations,No real propagation performed

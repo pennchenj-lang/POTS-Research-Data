@@ -1,0 +1,56 @@
+{
+  "schema": "pots.two-new-plants-training-protocol.v1",
+  "frozen_before_preparation_utc": "2026-10-02T08:09:30.632910+00:00",
+  "review_export_sha256": "cd6b72b9e9fc468aeeab201c29514ceef51eb92e43a5eec7ebf03a4015981bc5",
+  "groups": [
+    "p01",
+    "p02"
+  ],
+  "excluded_groups": {
+    "p03": "User explicitly marked both training views unusable; T missing; no invented point"
+  },
+  "known_p00_blade_evaluation": "not run: no human blade polygon supplied",
+  "models": [
+    "POTS33",
+    "symmetric24"
+  ],
+  "planned_new_fits": 4,
+  "solver": {
+    "regularization": 0.1,
+    "max_nfev": 160,
+    "sigma_px": 2.0,
+    "differential_weight": 1.0,
+    "max_displacement": 1.0
+  },
+  "train_views": [
+    "00",
+    "02"
+  ],
+  "evaluation_views": [
+    "01"
+  ],
+  "evaluation_images_read": false,
+  "initialization": "unchanged earlier initial_from_endpoints helper: DLT B/T, camera-facing plane, stations .25/.5/.75, half-width ratios .17/.25/.17; not from W or evaluation",
+  "endpoint_gate": {
+    "distorted_reprojection_max_px": 3.0,
+    "acute_ray_angle_min_deg": 5.0,
+    "positive_depth_both": true
+  },
+  "annotation_semantics": "Every reviewed supplied B/T/Q click visible; supplied Q_visibility intervals preserved, unknown intervals not densified. Each separately drawn W stroke is true visible physical leaf margin under original page instruction, never implicitly closed. No Q/W cross-view index triangulation.",
+  "coordinate_conversion": "Each exported K is ALREADY crop-adjusted. Use cv2.undistortPoints with K/distortion and P=K, do not subtract crop again. Native original distorted pixels retained in raw archived export.",
+  "statistical_scope": "two additional plants, one target leaf each, fixed models and parameters; independent biological targets but no independent 3D truth. Model evaluation01 not used for fitting or selecting parameters. No time inferred from event stamps.",
+  "sources_sha256": {
+    "work\\evidence_revision_20261002_v1\\real_extension\\received_exports\\pots_qw_followup_review_2026-10-02T07-50-56.539Z.json": "cd6b72b9e9fc468aeeab201c29514ceef51eb92e43a5eec7ebf03a4015981bc5",
+    "work\\evidence_revision_20261002_v1\\real_extension\\source_manifest_received.json": "e0a7c342f3b489094c587b8c6ec29d67f0ba9d17c626cb23ffb13cdf0082c085",
+    "work\\evidence_revision_20261002_v1\\real_extension\\export_gate_report.json": "b41e97407478cf5b7035f5ea589f6a59e1cc55afdefead9390c71399a206e37e",
+    "work\\evidence_revision_20261002_v1\\real_extension\\prepare_inputs.py": "75573959793dda977e32c21119a59e4070b2fc49f990a214e90e8713fcdb882f",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fit_inputs.py": "28f768c60a1093af1d9202f5bd31728ab39377df53a4aedb96b05f7034574618",
+    "work\\multiview_real_audit_20261001_v1\\prepare_reviewed_training.py": "d880054e6df9f284370c5b9b88f992d197343595a264732d2b4711834c887d0a",
+    "work\\shape_guard_20260927_v1\\real_pilot\\validate_review.py": "8494101000f4f24a127bb4132ee8c1f4fd52c67f2f25b0dc24c3010f79e6ac28",
+    "src\\pots_gs\\multiview_scaffold.py": "00c22acaba511dbc66802f2a40408c7db1e1e056a6568511bcae5e1c9bd2cfd1",
+    "src\\pots_gs\\geometry.py": "3f00dc5f76109944884985e7d8a08a48914844b113a9298b614967a91674a54a",
+    "src\\pots_gs\\subdivision.py": "1a9ac47338b99b091557592cbfd71603c04fa14f6b75c986f41e5e6d57bdf7ec",
+    "src\\pots_gs\\triangulation.py": "a6d0cb50a6e2660da24a9c29339dc2dc730b6b6ca8e36a7e19746e9534e92ae2",
+    "work\\evidence_revision_20261002_v1\\baseline\\symmetric_ribbon.py": "83f91f41122176c8b62ec6953ce37fef9e8a1c674534f1ebdef55d9628d8d4fe"
+  }
+}

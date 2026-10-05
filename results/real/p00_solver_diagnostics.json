@@ -1,0 +1,181 @@
+{
+  "schema": "pots-gs.multiview-scaffold-fit.v1",
+  "data_type": "real",
+  "organ_id": "plant00:leaf_04",
+  "status": "reviewed_input_fit",
+  "review_warnings": [],
+  "optimizer_success": true,
+  "optimizer_status": 2,
+  "optimizer_message": "`ftol` termination condition is satisfied.",
+  "nfev": 11,
+  "training_views": [
+    "00",
+    "02"
+  ],
+  "evaluation_used": false,
+  "gs_optimized": false,
+  "parameters": 33,
+  "regularization": 0.1,
+  "differential_weight": 1.0,
+  "initial_scale": 1.4911996010714241,
+  "sigma_px": 2.0,
+  "max_displacement_in_initial_scale": 1.0,
+  "initial_residual_norm": 15.003867502932465,
+  "final_residual_norm": 1.8613862865966007,
+  "initial": [
+    {
+      "view_id": "00",
+      "material_rms_px": 1.25010562622492,
+      "Q_rms_px": 2.3952544663530184,
+      "Q_within_view_parameters": [
+        0.01471311984171833,
+        0.16508288535126603,
+        0.31545265086081326,
+        0.4658224163703604,
+        0.6161921818799081,
+        0.9478870150959884,
+        1.2828536700149806,
+        1.6184301799586887,
+        1.9540066899023967,
+        2.2069560199504883,
+        2.460440458131912,
+        2.713924896313336,
+        2.9674093344947607,
+        3.2178972353884925,
+        3.468762118651612,
+        3.719627001914732,
+        3.970491885177852
+      ],
+      "W_rms_px": 25.16459735721634,
+      "min_camera_depth": 13.18779465368447
+    },
+    {
+      "view_id": "02",
+      "material_rms_px": 1.2267573371512774,
+      "Q_rms_px": 6.129960565945072,
+      "Q_within_view_parameters": [
+        0.0,
+        0.16955197962866753,
+        0.35174835675845595,
+        0.5339447338882449,
+        0.7161411110180333,
+        1.002053050540249,
+        1.2914125023990846,
+        1.5807719542579208,
+        1.8701314061167564,
+        2.157223395877089,
+        2.4458831404963264,
+        2.7345428851155633,
+        3.023481048008412,
+        3.2739440409620353,
+        3.5244070339156592,
+        3.774870026869283,
+        4.0
+      ],
+      "W_rms_px": 14.860210021792847,
+      "min_camera_depth": 13.511638372382277
+    }
+  ],
+  "final": [
+    {
+      "view_id": "00",
+      "material_rms_px": 1.336393461737478,
+      "Q_rms_px": 0.28325144955295495,
+      "Q_within_view_parameters": [
+        0.004374365396596742,
+        0.2602671654074593,
+        0.5161599654183209,
+        0.7720527654291824,
+        1.0114700344860508,
+        1.2315758492945503,
+        1.4516816641030497,
+        1.6717874789115492,
+        1.8918932937200488,
+        2.0568365194118234,
+        2.2219383790257354,
+        2.3870402386396474,
+        2.55214209825356,
+        2.713465942049147,
+        2.874789785844734,
+        3.1616614288803473,
+        3.865973675224534
+      ],
+      "W_rms_px": 2.628470029053492,
+      "min_camera_depth": 12.96985141275645
+    },
+    {
+      "view_id": "02",
+      "material_rms_px": 1.4655235049646111,
+      "Q_rms_px": 0.5350272785960999,
+      "Q_within_view_parameters": [
+        0.0,
+        0.25419304029482037,
+        0.583935857060043,
+        0.9136786738252666,
+        1.1083896211030715,
+        1.3369376390633791,
+        1.5654856570236866,
+        1.7940336749839947,
+        2.0189376585129333,
+        2.200536349948329,
+        2.3821350413837252,
+        2.563733732819121,
+        2.7453324242545167,
+        2.9019311164569666,
+        3.1645532517407564,
+        3.59460587034745,
+        4.0
+      ],
+      "W_rms_px": 1.6179190545316704,
+      "min_camera_depth": 13.293057670566832
+    }
+  ],
+  "observation_audit": [
+    {
+      "view_id": "00",
+      "material_points": 2,
+      "Q": {
+        "points": 17,
+        "visible_segments": 4,
+        "ignored_segments": 0
+      },
+      "W": [
+        {
+          "points": 90,
+          "visible_segments": 18,
+          "ignored_segments": 0
+        }
+      ]
+    },
+    {
+      "view_id": "02",
+      "material_points": 2,
+      "Q": {
+        "points": 17,
+        "visible_segments": 4,
+        "ignored_segments": 0
+      },
+      "W": [
+        {
+          "points": 5,
+          "visible_segments": 1,
+          "ignored_segments": 20
+        }
+      ]
+    }
+  ],
+  "max_vertex_displacement": 0.5616332674573195,
+  "min_triangle_area": 0.04187321340339489,
+  "all_positive_depth": true,
+  "box_boundary_hits": 0,
+  "confidence_semantics": "all vertex confidence=0: uncertainty not calibrated",
+  "Q_assignment": "within-view monotone finite-candidate curve match, no cross-view index correspondence",
+  "W_assignment": "one-way true-margin sample to projected organ boundary; no occluder cut or auto-closing",
+  "limitations": [
+    "11 controls approximate the leaf; regularization contributes shape",
+    "visible path/boundary fit does not prove unique 3D depth or unseen curvature",
+    "no whole-plant occlusion renderer; input visibility is supplied",
+    "positive depth and nondegenerate triangles do not prove no self-intersection",
+    "optimizer convergence and box non-contact do not prove reconstruction accuracy"
+  ]
+}

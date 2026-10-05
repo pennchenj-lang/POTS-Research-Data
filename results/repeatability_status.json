@@ -1,0 +1,5 @@
+{
+  "status": "not_estimable",
+  "valid_independent_repeat_rows": 0,
+  "reason": "No independent same-leaf reannotation or recapture groups in admitted evidence. L0/L2 and replay duplicates are not repeats."
+}

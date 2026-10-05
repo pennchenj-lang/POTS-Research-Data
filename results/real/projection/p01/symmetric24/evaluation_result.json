@@ -1,0 +1,45 @@
+{
+  "utc": "2026-10-02T08:20:58.778138+00:00",
+  "status": "completed",
+  "data_type": "real",
+  "evaluation_view": "01",
+  "protocol_sha256": "c210485d00556394e027206ee5e4e7dbb2d7bcb53cf97dc20ed4db89d29b1c72",
+  "download_receipt_sha256": "401f22e0c60544980c5b577a6923c097d1d6dc3e96ac7337cec6977c85115cf9",
+  "rows": [
+    {
+      "model": "initial",
+      "IoU": 0.45848822800495664,
+      "precision": 1.0,
+      "recall": 0.45848822800495664,
+      "mean_bidirectional_boundary_distance_px": 22.14447784423828,
+      "prediction_to_reference_boundary_px": 18.700950622558594,
+      "reference_to_prediction_boundary_px": 25.588003158569336,
+      "prediction_area_px": 8140,
+      "reference_area_px": 17754,
+      "intersection_px": 8140,
+      "union_px": 17754
+    },
+    {
+      "model": "final",
+      "IoU": 0.9114029255319149,
+      "precision": 0.9824404228632861,
+      "recall": 0.926495437647854,
+      "mean_bidirectional_boundary_distance_px": 5.473492622375488,
+      "prediction_to_reference_boundary_px": 1.747482180595398,
+      "reference_to_prediction_boundary_px": 9.199502944946289,
+      "prediction_area_px": 16743,
+      "reference_area_px": 17754,
+      "intersection_px": 16449,
+      "union_px": 18048
+    }
+  ],
+  "n_independent_plants": 1,
+  "n_target_leaves": 1,
+  "n_evaluation_views": 1,
+  "no_training_updates": true,
+  "fit_hashes_unchanged": true,
+  "independent_3D_accuracy": false,
+  "metric_scale_available": false,
+  "natural_occlusion_recovery_demonstrated": false,
+  "reference_limitation": "Author visible instance region may include petiole; projected model is leaf blade only. No blade-only human reference or amodal reference. Silhouette consistency is not depth accuracy."
+}

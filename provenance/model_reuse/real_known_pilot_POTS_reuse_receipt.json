@@ -1,0 +1,19 @@
+{
+  "new_fits": 0,
+  "optimization_wall_seconds": null,
+  "same_scope_old_timing": "NA",
+  "source": "source_archive/POTS-GS/work/same_leaf_real_20261001_v1/fit",
+  "byte_identical_sha256": {
+    "estimated_L0.json": "d161b6426d89dc383e21bed98393700726dd6599cf38feaddaa9a7b902cd0c53",
+    "estimated_L0.obj": "dce09500f83fa76e4841822c69b76c0a2eba85c3843ded45e23a097192369a51",
+    "estimated_L1.json": "615cd0dcbcb1834ba3a4277760d543e0782f13c84348567c85e1811c17e41b5e",
+    "estimated_L1.obj": "e641ad5ca3e1bdf5075d19d264a799cf84aa06b1fbe24f4022e10170fb1afba8",
+    "estimated_L2.json": "bb530ccc185e8edc97e35ea1ceba3fa79e85e3801a4101352aaa6aa79b80ff7a",
+    "estimated_L2.obj": "6f133269c14053611801c946e6f120b0e8cfc33f61ab96860934a259eaf5a441",
+    "initial_L0.json": "44e702bc967c54633f6acb6f6302cee7394410fcb9c7a38687df4b3bc95e2cd0",
+    "initial_L0.obj": "cb2fb76df5abb0097d3db04b289b2fddd7de556512b1dfdaddce2bc274da3830",
+    "protocol_before_fit.json": "f25838d88a4d16dfa0cf5ca4db75ced691c20e06198cc0d49c9864fec1a94700",
+    "run_report.json": "9e67862c444c6da76bcf0aebe7349043391bd7b3f06f4dfd8b07da16a5409891",
+    "solver_diagnostics.json": "102b4f2b220a285a427028572fb6ee77c7763d3084cac9adfde341c61cfbaa37"
+  }
+}

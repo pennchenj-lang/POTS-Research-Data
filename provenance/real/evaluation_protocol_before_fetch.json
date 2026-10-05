@@ -1,0 +1,218 @@
+{
+  "schema": "pots.new-plants-heldout-evaluation.v1",
+  "frozen_utc": "2026-10-02T08:20:29.291141+00:00",
+  "fit_completion_sha256": "5f5e9ba2998902d1f88972a4fd2afc480d5872731423618c7653e3b440b09828",
+  "fit_completion_utc": "2026-10-02T08:10:19.436389+00:00",
+  "fit_file_sha256": {
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\estimated_L0.json": "b24fab7798ef64660ead1f5a3ee2b14f7a3e0e2317e573357a6f6949c128c268",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\estimated_L0.obj": "9ca90c0cacea9fdab5dd7044f6113947287ed5adfcaed05f293d479c1e6ece6c",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\estimated_L1.json": "6e7957fc9a378624f92abdf4b0edbbd3391fb93c3dc87c8fe27341b3b38535da",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\estimated_L1.obj": "db5208939067de491d523b35e9316d2f90a201795d64bc2bb6a71f7bdb544186",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\estimated_L2.json": "e3111a39d98c7fb6991a377a565cc637c5bc35d9c7beed1d8a05aa5f49bd925a",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\estimated_L2.obj": "b2c70ac1dfbc4370d714f536a37a621303d7e486b449043cb371daebeb664a6a",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\execution_receipt.json": "23e2ce8f35addd8ca77d33d7edea468c435b72aa1c48198c1d7f3f7f5f659609",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\initial_L0.json": "dea44f1ccc60625ac8a9bef89230fed2aecc3ab882d5ea45f3184eb4948c78cf",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\initial_L0.obj": "a4e97d1133074aa4d0e7e68f359bc262871ec3876aa4c150c2bdf6f751bbaba5",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\POTS33\\solver_diagnostics.json": "86dac3b3e5b13f0bc1c804d2aa1f0fc43b5335993ff2213497cd19d4d17f5bf5",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\estimated_L0.json": "f5d128ceee214ab080a24e1b9694277fe509d5e521542cd72e36878370b7b56e",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\estimated_L0.obj": "d0c23d9ff53971859ed989a36d15e662f940cbb7ca536c2138382be676c76f8a",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\estimated_L1.json": "edd44222a0d9da6cbe55e9128c463aeb570ecffaf10cc004f6717ff58a151910",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\estimated_L1.obj": "0e53f8aa9a098d246d9f224bff9534f92512317e72d33cf2dee11d31d22b1a74",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\estimated_L2.json": "1714bc683d76413a8d8bf7c28d55dcff44283fe0430266cec95bbe8aafacec15",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\estimated_L2.obj": "479265221fae30f04a66a28f78c80eba1b80964b401c885e2d538512e717f2c2",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\execution_receipt.json": "5a5e54b1f89f041c29e8171b539f626226f13b14eabcdea90d24733dc762a230",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\initial_L0.json": "dea44f1ccc60625ac8a9bef89230fed2aecc3ab882d5ea45f3184eb4948c78cf",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\initial_L0.obj": "a4e97d1133074aa4d0e7e68f359bc262871ec3876aa4c150c2bdf6f751bbaba5",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p01\\symmetric24\\solver_diagnostics.json": "108c989b339539b6579d8a9091261f836e717acf060aaf0022c2f7bbb55a1ccd",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\estimated_L0.json": "ee4f13013381b17ba7c82a4ec64dfc98b2e38cc1d2ad90edee4730bdd4b3911f",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\estimated_L0.obj": "873240edb41507620402942703dc31ef49903f2d92d53c3c5a7eab24102019ed",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\estimated_L1.json": "d37f0a1f96b082946df358e19ca4f0093c1ec1f8b1e97f892199669b5e96f733",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\estimated_L1.obj": "aecea76e4aca67dc7c1117595cd09282923d5bf9ab0b7cc846fa5587789a3402",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\estimated_L2.json": "911f4e2d29a40520497565a91cd75eefdd0708346eb1cc3af37bb6c113dbc6d8",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\estimated_L2.obj": "caa2d70200353e698ecd1f99c527f235b884d0c23053ce295a7aaa73bcbd8312",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\execution_receipt.json": "561f32b2ae58e1fb4a31abc137c5da00e0249b61e46c837ecc75927a7f99aa37",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\initial_L0.json": "d9bed7e6c60f344c0a292922b4a6cbe0c7297df2ebaaeb454781979745d664c7",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\initial_L0.obj": "8c7f918da5b8af77324f1f8a589f9bb07d3066d67c9b3502b7ac4fc1e780deed",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\POTS33\\solver_diagnostics.json": "a64e4fe7f030be69f5d82a5ee642164823ea73c4f330ce604fe0fafe712120ec",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\estimated_L0.json": "f7c8851799690112c00f52fe27f9443970f947bcad427e8befaa722dfc49dcd4",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\estimated_L0.obj": "5bdaf0e270a2abbd0767c15efa16eb0ab5a65fdb7b5b589f72725c8cb5343dcf",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\estimated_L1.json": "335b16685784c0ea2a3561557db1b329733dcc030c755a7e5682929ee972fb4c",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\estimated_L1.obj": "fff0484c1d0df47902032fa65b64ae3197affe64d294adc718058cfe3afe1dee",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\estimated_L2.json": "496d57233495e06156bb5ac5063ab0b21874983b7e02961389721de8ddc9074d",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\estimated_L2.obj": "81a2d14f2f7164ba13dcfa4e92a1417438259bab8e3e81ffa0f07de44c62d00c",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\execution_receipt.json": "1e503258652e3c2666e074b61da78785ef2a6c701629af8a2d21fc67988a6272",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\initial_L0.json": "d9bed7e6c60f344c0a292922b4a6cbe0c7297df2ebaaeb454781979745d664c7",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\initial_L0.obj": "8c7f918da5b8af77324f1f8a589f9bb07d3066d67c9b3502b7ac4fc1e780deed",
+    "work\\evidence_revision_20261002_v1\\real_extension\\fits\\p02\\symmetric24\\solver_diagnostics.json": "17c619db0afb338ced325ac3c280747fc9c1201088c56dcb53c908537c6db3d4"
+  },
+  "groups": [
+    "p01",
+    "p02"
+  ],
+  "evaluation_view": "01",
+  "evaluation_ref_used_for_fitting": false,
+  "cameras": {
+    "p01": {
+      "camera_id": "01",
+      "K": [
+        [
+          1446.6005945409115,
+          0.0,
+          -240.51653860665772
+        ],
+        [
+          0.0,
+          1446.6945530849343,
+          535.3033914522898
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K_full": [
+        [
+          1446.6005945409115,
+          0.0,
+          999.4834613933423
+        ],
+        [
+          0.0,
+          1446.6945530849343,
+          775.3033914522898
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          0.9999728044568819,
+          0.0072602810738045176,
+          -0.0012956331919592352
+        ],
+        [
+          -0.007245851610588335,
+          0.9999152707372374,
+          0.010814295211182153
+        ],
+        [
+          0.0013740382367623484,
+          -0.010804613144699757,
+          0.9999406844176895
+        ]
+      ],
+      "t": [
+        2.7137855641215953,
+        0.08902181185713791,
+        0.10814305673249976
+      ],
+      "distortion": [
+        -0.06269410735736683,
+        0.12597842675945212,
+        -0.0011593356580685784,
+        0.0010044930383481493,
+        -0.09068751637967161
+      ],
+      "crop_origin": [
+        1240,
+        240
+      ],
+      "width": 480,
+      "height": 480,
+      "source": "Official multi_readme.pdf page3; K_crop subtracts origin once from K_full",
+      "unit": "unknown_checkerboard_square"
+    },
+    "p02": {
+      "camera_id": "01",
+      "K": [
+        [
+          1446.6005945409115,
+          0.0,
+          239.48346139334228
+        ],
+        [
+          0.0,
+          1446.6945530849343,
+          315.3033914522898
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "K_full": [
+        [
+          1446.6005945409115,
+          0.0,
+          999.4834613933423
+        ],
+        [
+          0.0,
+          1446.6945530849343,
+          775.3033914522898
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R": [
+        [
+          0.9999728044568819,
+          0.0072602810738045176,
+          -0.0012956331919592352
+        ],
+        [
+          -0.007245851610588335,
+          0.9999152707372374,
+          0.010814295211182153
+        ],
+        [
+          0.0013740382367623484,
+          -0.010804613144699757,
+          0.9999406844176895
+        ]
+      ],
+      "t": [
+        2.7137855641215953,
+        0.08902181185713791,
+        0.10814305673249976
+      ],
+      "distortion": [
+        -0.06269410735736683,
+        0.12597842675945212,
+        -0.0011593356580685784,
+        0.0010044930383481493,
+        -0.09068751637967161
+      ],
+      "crop_origin": [
+        760,
+        460
+      ],
+      "width": 480,
+      "height": 480,
+      "source": "Official multi_readme.pdf page3; K_crop subtracts origin once from K_full",
+      "unit": "unknown_checkerboard_square"
+    }
+  },
+  "source_readme_sha256": "b4b2b6606ab5371e71547c160f2aa4e6d8545c2fd226efae224f850be7d1bdc1",
+  "source_calibration_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702",
+  "source_evaluator_sha256": "11362435f02d8502ae9e1b0e717c557a30c63b691a45c67324b8971b0c509363",
+  "reference_rgb": [
+    255,
+    0,
+    0
+  ],
+  "reference_identity": "Author leaf04 red label selected before evaluation from known matching per-plant target; never select best IoU label",
+  "reference_limit": "Author visible instance mask may include petiole; estimated model only blade. No human blade-only or amodal ground truth. No independent3D accuracy.",
+  "crop_validation": "Camera01 crop origins transcribed from visually checked author PDF p3; current01 full-frame pixel equality not separately tested",
+  "rasterization": "Same old evaluation: distorted projection,17 samples/edge,4x raster,threshold.5; convergence check33/edge,8x",
+  "source_base": "https://limu.ait.kyushu-u.ac.jp/~agri/komatsuna/",
+  "no_parameters_changed_after_fit": true
+}

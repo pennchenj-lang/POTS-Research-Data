@@ -1,0 +1,6 @@
+﻿item,result,scope
+Contract and regression tests,86 passed,42 new checks plus 44 frozen regressions; not physical trials
+MC attempted / accepted,2000 / 1894,Fixed-count synthetic reporting-layer simulation
+MC rejected / boundary flags,106 / 61,All retained; flags may coexist with outcomes
+Replacement draws,0,No resampling until a success quota
+Real E6 completed,False,No empirical full-pipeline uncertainty experiment

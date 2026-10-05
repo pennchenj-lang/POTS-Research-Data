@@ -1,0 +1,948 @@
+{
+  "version": "v041-public-reviewer",
+  "tables": [
+    {
+      "file": "source_data/all_estimates_with_qc_flags.csv",
+      "columns": [
+        "case_id",
+        "target_id",
+        "plant_id",
+        "leaf_id",
+        "condition",
+        "data_type",
+        "target_family",
+        "method",
+        "level",
+        "quantity",
+        "estimate_model",
+        "model_unit",
+        "quantity_status",
+        "estimate_physical",
+        "physical_unit",
+        "scale_status",
+        "physical_reference_status",
+        "reference_kind",
+        "reference_model",
+        "signed_error_model",
+        "absolute_error_model",
+        "signed_percent_error",
+        "absolute_percent_error",
+        "independent_cluster_id",
+        "physical_accuracy_eligible",
+        "source_path",
+        "source_sha256",
+        "reference_sha256",
+        "failure_reason",
+        "own_L0_saved_qc_pass",
+        "paired_L0_saved_qc_pass",
+        "L2_qc_scope"
+      ],
+      "data_rows": 108,
+      "group": "main_source_tables"
+    },
+    {
+      "file": "source_data/failures_retained.csv",
+      "columns": [
+        "case_id",
+        "plant_id",
+        "method",
+        "level",
+        "quantity",
+        "stage",
+        "failure_type",
+        "reason"
+      ],
+      "data_rows": 20,
+      "group": "main_source_tables"
+    },
+    {
+      "file": "source_data/per_case_geometry_flags.csv",
+      "columns": [
+        "case_id",
+        "target_id",
+        "target_family",
+        "condition",
+        "data_type",
+        "method",
+        "own_saved_qc_pass",
+        "pair_both_saved_qc_pass",
+        "triangle_intersection_pairs",
+        "degenerate_faces_at_normalized_area_1e_minus12",
+        "nonmanifold_edges",
+        "adjacent_edge_orientation_conflicts",
+        "degenerate_pairs_not_classified",
+        "adjacent_normal_angle_max_deg",
+        "finite_check_pairs",
+        "source_mesh_path",
+        "source_mesh_sha256",
+        "anatomical_validity_validated",
+        "physical_accuracy_validated",
+        "failure_reason"
+      ],
+      "data_rows": 18,
+      "group": "main_source_tables"
+    },
+    {
+      "file": "source_data/scope_denominators.csv",
+      "columns": [
+        "scope",
+        "base_scope",
+        "subset",
+        "nominated_target_count",
+        "nominated_condition_count",
+        "retained_target_count",
+        "retained_condition_count",
+        "nominated_pair_failure_count",
+        "pair_failure_denominator",
+        "retained_pair_failure_count",
+        "excluded_paired_condition_count",
+        "excluded_target_count",
+        "excluded_case_ids",
+        "excluded_target_ids",
+        "conditions_per_retained_target",
+        "POTS33_failures_nominated",
+        "symmetric24_failures_nominated",
+        "per_method_failure_denominator",
+        "post_hoc_descriptive",
+        "independent_experimental_n"
+      ],
+      "data_rows": 12,
+      "group": "main_source_tables"
+    },
+    {
+      "file": "source_data/scope_membership_and_weights.csv",
+      "columns": [
+        "scope",
+        "case_id",
+        "target_id",
+        "included",
+        "pair_both_saved_qc_pass",
+        "excluded_both_methods",
+        "nominal_target_weight",
+        "condition_weight_within_target",
+        "combined_weight"
+      ],
+      "data_rows": 40,
+      "group": "main_source_tables"
+    },
+    {
+      "file": "source_data/summary_statistics.csv",
+      "columns": [
+        "scope",
+        "method",
+        "quantity",
+        "target_count",
+        "condition_count",
+        "signed_bias_target_equal",
+        "MAE_target_equal",
+        "RMSE_target_equal",
+        "ARE_percent_target_equal",
+        "model_unit",
+        "known_method_qc_failures_in_retained_set",
+        "retained_pair_failures",
+        "excluded_paired_conditions",
+        "CI",
+        "p_value",
+        "descriptive_only",
+        "post_hoc"
+      ],
+      "data_rows": 72,
+      "group": "main_source_tables"
+    },
+    {
+      "file": "source_data/target_contributions.csv",
+      "columns": [
+        "scope",
+        "target_id",
+        "method",
+        "quantity",
+        "condition_count",
+        "signed_bias",
+        "MAE",
+        "MSE",
+        "ARE_percent",
+        "target_weight",
+        "case_ids"
+      ],
+      "data_rows": 180,
+      "group": "main_source_tables"
+    },
+    {
+      "file": "results/estimates.csv",
+      "columns": [
+        "case_id",
+        "target_id",
+        "plant_id",
+        "leaf_id",
+        "condition",
+        "data_type",
+        "target_family",
+        "method",
+        "level",
+        "quantity",
+        "estimate_model",
+        "model_unit",
+        "quantity_status",
+        "estimate_physical",
+        "physical_unit",
+        "scale_status",
+        "physical_reference_status",
+        "reference_kind",
+        "reference_model",
+        "signed_error_model",
+        "absolute_error_model",
+        "signed_percent_error",
+        "absolute_percent_error",
+        "independent_cluster_id",
+        "physical_accuracy_eligible",
+        "source_path",
+        "source_sha256",
+        "reference_sha256",
+        "failure_reason"
+      ],
+      "data_rows": 108,
+      "group": "complete_result_records"
+    },
+    {
+      "file": "results/paired_reference_comparison.csv",
+      "columns": [
+        "case_id",
+        "target",
+        "kind",
+        "quantity",
+        "reference_value",
+        "POTS33_value",
+        "symmetric24_value",
+        "POTS33_signed_percent_error",
+        "symmetric24_signed_percent_error",
+        "POTS33_absolute_percent_error",
+        "symmetric24_absolute_percent_error",
+        "outcome"
+      ],
+      "data_rows": 18,
+      "group": "complete_result_records"
+    },
+    {
+      "file": "results/geometry_legality.csv",
+      "columns": [
+        "case_id",
+        "method",
+        "level",
+        "sha256",
+        "triangle_intersection_pairs",
+        "degenerate_faces_at_normalized_area_1e_minus12",
+        "nonmanifold_edges",
+        "adjacent_edge_orientation_conflicts",
+        "adjacent_normal_angle_max_deg",
+        "pair_checks"
+      ],
+      "data_rows": 18,
+      "group": "complete_result_records"
+    },
+    {
+      "file": "results/failures.csv",
+      "columns": [
+        "case_id",
+        "plant_id",
+        "method",
+        "level",
+        "quantity",
+        "stage",
+        "failure_type",
+        "reason"
+      ],
+      "data_rows": 20,
+      "group": "complete_result_records"
+    },
+    {
+      "file": "results/repeatability.csv",
+      "columns": [
+        "plant_id",
+        "leaf_id",
+        "acquisition_id",
+        "operator_id",
+        "repeat_id",
+        "quantity",
+        "method",
+        "value",
+        "unit",
+        "source_path",
+        "source_sha256"
+      ],
+      "data_rows": 0,
+      "group": "complete_result_records"
+    },
+    {
+      "file": "results/runtime.csv",
+      "columns": [
+        "stage",
+        "case_id",
+        "method",
+        "level",
+        "started_utc",
+        "wall_seconds",
+        "status",
+        "scope"
+      ],
+      "data_rows": 60,
+      "group": "complete_result_records"
+    },
+    {
+      "file": "results/uncertainty_components.csv",
+      "columns": [
+        "plant_id",
+        "leaf_id",
+        "method",
+        "quantity",
+        "component",
+        "standard_uncertainty",
+        "unit",
+        "status",
+        "correlation_or_covariance",
+        "evidence"
+      ],
+      "data_rows": 108,
+      "group": "complete_result_records"
+    },
+    {
+      "file": "results/historical_projection_and_hidden_metrics.csv",
+      "columns": [
+        "metric_id",
+        "manuscript_section",
+        "case",
+        "method",
+        "view",
+        "regime",
+        "metric",
+        "value",
+        "unit",
+        "source",
+        "path",
+        "key",
+        "sha256",
+        "extraction",
+        "definition",
+        "limitations"
+      ],
+      "data_rows": 17,
+      "group": "complete_result_records"
+    },
+    {
+      "file": "results/frozen_replay/all_conditions.csv",
+      "columns": [
+        "case_id",
+        "target",
+        "kind",
+        "data_type",
+        "method",
+        "level",
+        "quantity",
+        "status",
+        "model_value",
+        "reference_value",
+        "reference_kind",
+        "signed_error",
+        "absolute_error",
+        "signed_percent_error",
+        "absolute_percent_error",
+        "model_unit",
+        "physical_value",
+        "physical_unit",
+        "reason",
+        "source_path",
+        "source_sha256",
+        "reference_sha256",
+        "independent_real_accuracy_validated"
+      ],
+      "data_rows": 108,
+      "group": "frozen_replay_reports"
+    },
+    {
+      "file": "results/real/projection_metrics.csv",
+      "columns": [
+        "case_id",
+        "data_type",
+        "model",
+        "view_id",
+        "BT_raw_n",
+        "BT_raw_RMS_px",
+        "min_camera_depth",
+        "Q_raw_visible_n",
+        "Q_raw_visible_RMS_px",
+        "Q_raw_without_BT_n",
+        "Q_raw_without_BT_RMS_px",
+        "Q_dense_n",
+        "Q_dense_RMS_px",
+        "W_raw_confirmed_unique_n",
+        "W_raw_confirmed_unique_RMS_px",
+        "W_dense_n",
+        "W_dense_RMS_px"
+      ],
+      "data_rows": 12,
+      "group": "real_projection_results"
+    },
+    {
+      "file": "results/real/projection/p00/POTS33/metrics.csv",
+      "columns": [
+        "model",
+        "IoU",
+        "precision",
+        "recall",
+        "mean_bidirectional_boundary_distance_px",
+        "prediction_to_reference_boundary_px",
+        "reference_to_prediction_boundary_px",
+        "prediction_area_px",
+        "reference_area_px",
+        "intersection_px",
+        "union_px"
+      ],
+      "data_rows": 2,
+      "group": "real_projection_results"
+    },
+    {
+      "file": "results/real/projection/p01/POTS33/metrics.csv",
+      "columns": [
+        "model",
+        "IoU",
+        "precision",
+        "recall",
+        "mean_bidirectional_boundary_distance_px",
+        "prediction_to_reference_boundary_px",
+        "reference_to_prediction_boundary_px",
+        "prediction_area_px",
+        "reference_area_px",
+        "intersection_px",
+        "union_px"
+      ],
+      "data_rows": 2,
+      "group": "real_projection_results"
+    },
+    {
+      "file": "results/real/projection/p01/symmetric24/metrics.csv",
+      "columns": [
+        "model",
+        "IoU",
+        "precision",
+        "recall",
+        "mean_bidirectional_boundary_distance_px",
+        "prediction_to_reference_boundary_px",
+        "reference_to_prediction_boundary_px",
+        "prediction_area_px",
+        "reference_area_px",
+        "intersection_px",
+        "union_px"
+      ],
+      "data_rows": 2,
+      "group": "real_projection_results"
+    },
+    {
+      "file": "results/real/projection/p02/POTS33/metrics.csv",
+      "columns": [
+        "model",
+        "IoU",
+        "precision",
+        "recall",
+        "mean_bidirectional_boundary_distance_px",
+        "prediction_to_reference_boundary_px",
+        "reference_to_prediction_boundary_px",
+        "prediction_area_px",
+        "reference_area_px",
+        "intersection_px",
+        "union_px"
+      ],
+      "data_rows": 2,
+      "group": "real_projection_results"
+    },
+    {
+      "file": "results/real/projection/p02/symmetric24/metrics.csv",
+      "columns": [
+        "model",
+        "IoU",
+        "precision",
+        "recall",
+        "mean_bidirectional_boundary_distance_px",
+        "prediction_to_reference_boundary_px",
+        "reference_to_prediction_boundary_px",
+        "prediction_area_px",
+        "reference_area_px",
+        "intersection_px",
+        "union_px"
+      ],
+      "data_rows": 2,
+      "group": "real_projection_results"
+    },
+    {
+      "file": "supplement_source_data/condition_ARE.csv",
+      "columns": [
+        "case",
+        "Area_POTS",
+        "Area_Sym",
+        "Arc_POTS",
+        "Arc_Sym",
+        "Chord_POTS",
+        "Chord_Sym"
+      ],
+      "data_rows": 6,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/failure_summary.csv",
+      "columns": [
+        "type",
+        "records",
+        "unit"
+      ],
+      "data_rows": 3,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/future_design.csv",
+      "columns": [
+        "stage",
+        "design",
+        "unit",
+        "status"
+      ],
+      "data_rows": 6,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/geometry_all.csv",
+      "columns": [
+        "case",
+        "method",
+        "intersections",
+        "degenerate",
+        "nonmanifold",
+        "orientation",
+        "angle"
+      ],
+      "data_rows": 18,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/historical_index.csv",
+      "columns": [
+        "sections",
+        "content",
+        "scope"
+      ],
+      "data_rows": 12,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/real_models.csv",
+      "columns": [
+        "plant",
+        "method",
+        "scale",
+        "reference",
+        "Area",
+        "Arc",
+        "Chord"
+      ],
+      "data_rows": 6,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/runtime.csv",
+      "columns": [
+        "stage",
+        "seconds",
+        "scope"
+      ],
+      "data_rows": 2,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/software_status.csv",
+      "columns": [
+        "item",
+        "result",
+        "scope"
+      ],
+      "data_rows": 5,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/source_mapping.csv",
+      "columns": [
+        "old_section",
+        "old_title",
+        "body_blocks",
+        "new_location"
+      ],
+      "data_rows": 4,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/statistics_half_arc_section_chord_width.csv",
+      "columns": [
+        "group",
+        "subset",
+        "TC",
+        "bias",
+        "MAE",
+        "RMSE",
+        "ARE"
+      ],
+      "data_rows": 12,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/statistics_lamina_area.csv",
+      "columns": [
+        "group",
+        "subset",
+        "TC",
+        "bias",
+        "MAE",
+        "RMSE",
+        "ARE"
+      ],
+      "data_rows": 12,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/statistics_midrib_arc_length.csv",
+      "columns": [
+        "group",
+        "subset",
+        "TC",
+        "bias",
+        "MAE",
+        "RMSE",
+        "ARE"
+      ],
+      "data_rows": 12,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/statistics_scopes.csv",
+      "columns": [
+        "group",
+        "scope",
+        "all_TC",
+        "paired_TC",
+        "failure_pair",
+        "excluded"
+      ],
+      "data_rows": 6,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/synthetic_raw.csv",
+      "columns": [
+        "case",
+        "quantity",
+        "reference",
+        "POTS",
+        "symmetric",
+        "POTS_signed_pct",
+        "symmetric_signed_pct"
+      ],
+      "data_rows": 18,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/target_statistics.csv",
+      "columns": [
+        "group",
+        "n",
+        "quantity",
+        "method",
+        "bias",
+        "MAE",
+        "RMSE",
+        "ARE"
+      ],
+      "data_rows": 18,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "supplement_source_data/template_inventory.csv",
+      "columns": [
+        "file",
+        "rows",
+        "purpose"
+      ],
+      "data_rows": 9,
+      "group": "supplement_table_sources"
+    },
+    {
+      "file": "planned_records/acquisition_repeats.csv",
+      "columns": [
+        "repeat_capture_id",
+        "plant_id",
+        "leaf_id",
+        "repeat_group_id",
+        "repeat_index",
+        "operator_id",
+        "captured_at_iso8601",
+        "state_id",
+        "state_before_file_id",
+        "state_after_file_id",
+        "state_change_assessment",
+        "camera_repositioned",
+        "camera_recalibrated",
+        "scale_id",
+        "raw_file_manifest_id",
+        "environment_notes",
+        "repeatability_or_intermediate_precision",
+        "status"
+      ],
+      "data_rows": 0,
+      "group": "empty_prospective_templates"
+    },
+    {
+      "file": "planned_records/annotation_repeats.csv",
+      "columns": [
+        "annotation_record_id",
+        "plant_id",
+        "leaf_id",
+        "capture_id",
+        "state_id",
+        "view_id",
+        "operator_id",
+        "round_id",
+        "randomized_order_id",
+        "annotated_at_iso8601",
+        "blinded_to_previous_rounds",
+        "blinded_to_predictions_and_reference",
+        "raw_click_file_id",
+        "interpolation_output_file_id",
+        "semantic_schema_id",
+        "native_to_work_transform_id",
+        "unavailable_landmarks_and_reasons",
+        "review_record_id",
+        "status"
+      ],
+      "data_rows": 0,
+      "group": "empty_prospective_templates"
+    },
+    {
+      "file": "planned_records/capture_scopes.csv",
+      "columns": [
+        "plant_id",
+        "leaf_id",
+        "capture_id",
+        "captured_at_iso8601",
+        "state_id",
+        "state_evidence_id",
+        "capture_protocol",
+        "coordinate_frame_id",
+        "coordinate_unit",
+        "camera_device_ids",
+        "camera_settings_source",
+        "camera_calibration_id",
+        "raw_image_manifest_id",
+        "native_to_work_transform_id",
+        "B_T_anatomical_rule_id",
+        "leaf_selection_rule_id",
+        "split",
+        "occlusion_condition",
+        "state_before_file_id",
+        "state_after_file_id",
+        "environment_notes",
+        "operator_id",
+        "status"
+      ],
+      "data_rows": 0,
+      "group": "empty_prospective_templates"
+    },
+    {
+      "file": "planned_records/quantity_references.csv",
+      "columns": [
+        "reference_id",
+        "plant_id",
+        "leaf_id",
+        "target_capture_id",
+        "reference_capture_id",
+        "captured_at_iso8601",
+        "recorded_at_iso8601",
+        "state_id",
+        "same_state_evidence_id",
+        "coordinate_frame_id",
+        "anatomical_scope",
+        "definition_id",
+        "quantity",
+        "reference_value",
+        "reference_unit",
+        "reference_standard_uncertainty",
+        "uncertainty_basis_id",
+        "reference_device_id",
+        "method",
+        "raw_file_ids",
+        "reference_processing_code_sha256",
+        "independent_of_prediction_and_input_annotations",
+        "independent_of_scale_estimation",
+        "rigid_alignment_evidence_id",
+        "state_change_or_damage",
+        "operator_id",
+        "status"
+      ],
+      "data_rows": 0,
+      "group": "empty_prospective_templates"
+    },
+    {
+      "file": "planned_records/raw_file_manifest.csv",
+      "columns": [
+        "file_id",
+        "relative_path",
+        "sha256",
+        "bytes",
+        "media_or_table_type",
+        "plant_id",
+        "leaf_id",
+        "capture_id",
+        "state_id",
+        "acquired_at_iso8601",
+        "operator_id",
+        "source_device_id",
+        "source_license",
+        "raw_or_derived",
+        "parent_file_ids",
+        "role_train_scale_check_reference",
+        "access_partition",
+        "status"
+      ],
+      "data_rows": 0,
+      "group": "empty_prospective_templates"
+    },
+    {
+      "file": "planned_records/reference_raw_files.csv",
+      "columns": [
+        "file_id",
+        "reference_id",
+        "relative_path",
+        "sha256",
+        "bytes",
+        "device_id",
+        "file_type",
+        "raw_or_derived",
+        "acquired_at_iso8601",
+        "native_unit",
+        "frame_id",
+        "calibration_file_ids",
+        "sampling_resolution",
+        "coverage_definition",
+        "coverage_fraction_if_known",
+        "transformation_log_id",
+        "source_license",
+        "operator_id",
+        "status"
+      ],
+      "data_rows": 0,
+      "group": "empty_prospective_templates"
+    },
+    {
+      "file": "planned_records/scale_calibration_observations.csv",
+      "columns": [
+        "calibration_id",
+        "capture_scope_id",
+        "state_id",
+        "coordinate_frame_id",
+        "calibrated_at_iso8601",
+        "standard_id",
+        "standard_certificate_id",
+        "device_id",
+        "point_pair_id",
+        "position_in_work_volume",
+        "orientation",
+        "reference_length",
+        "reference_unit",
+        "reference_standard_uncertainty",
+        "reference_uncertainty_unit",
+        "observed_model_length",
+        "model_unit",
+        "source_image_ids",
+        "raw_endpoint_record_id",
+        "operator_id",
+        "scale_fit_role",
+        "status"
+      ],
+      "data_rows": 0,
+      "group": "empty_prospective_templates"
+    },
+    {
+      "file": "planned_records/scale_check_observations.csv",
+      "columns": [
+        "check_id",
+        "scale_id",
+        "capture_scope_id",
+        "state_id",
+        "coordinate_frame_id",
+        "checked_at_iso8601",
+        "independent_standard_id",
+        "standard_certificate_id",
+        "device_id",
+        "held_out_point_pair_id",
+        "position_in_work_volume",
+        "orientation",
+        "reference_length",
+        "reference_unit",
+        "estimated_length",
+        "estimated_unit",
+        "signed_residual",
+        "predeclared_tolerance",
+        "tolerance_unit",
+        "tolerance_source",
+        "independent_of_scale_fit",
+        "raw_file_ids",
+        "operator_id",
+        "status"
+      ],
+      "data_rows": 0,
+      "group": "empty_prospective_templates"
+    },
+    {
+      "file": "planned_records/uncertainty_sources.csv",
+      "columns": [
+        "uncertainty_source_id",
+        "capture_scope_id",
+        "plant_id",
+        "leaf_id",
+        "state_id",
+        "coordinate_frame_id",
+        "data_type",
+        "source_component",
+        "evidence_file_ids",
+        "distribution_family",
+        "estimated_parameters_file_id",
+        "variable_names",
+        "variable_units",
+        "covariance_matrix_file_id",
+        "correlation_basis",
+        "shared_scope",
+        "estimated_or_assumed",
+        "overlap_with_other_source_ids",
+        "excluded_components",
+        "propagation_protocol_id",
+        "status"
+      ],
+      "data_rows": 0,
+      "group": "empty_prospective_templates"
+    },
+    {
+      "file": "protocol/split_manifest.csv",
+      "columns": [
+        "case_id",
+        "target_id",
+        "plant_id",
+        "leaf_id",
+        "data_type",
+        "condition",
+        "role",
+        "reference_role",
+        "absolute_scale_status",
+        "physical_accuracy_eligible",
+        "new_independent_test",
+        "cluster_id",
+        "levels",
+        "methods"
+      ],
+      "data_rows": 9,
+      "group": "measurement_protocol"
+    }
+  ]
+}

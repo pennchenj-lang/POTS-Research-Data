@@ -1,0 +1,692 @@
+{
+  "schema": "pots.unified-leaf-measurement.v038",
+  "identity": {
+    "plant_id": "synthetic_plant",
+    "organ_id": "synthetic_leaf",
+    "coordinate_frame_id": "synthetic_frame",
+    "capture_id": "synthetic_capture"
+  },
+  "data_type": "synthetic",
+  "acquisition": {
+    "capture_id": "synthetic_capture",
+    "source": "synthetic fixture",
+    "captured_at": "2026-10-05T02:00:00+08:00",
+    "state_id": "synthetic_static_state",
+    "state_evidence_id": "synthetic_known_state"
+  },
+  "coordinates": {
+    "capture_id": "synthetic_capture",
+    "coordinate_frame_id": "synthetic_frame",
+    "domain": "model",
+    "unit": "model_unit",
+    "prior_scale_applications": []
+  },
+  "scale": {
+    "contract": {
+      "status": "reported",
+      "scope": {
+        "capture_id": "synthetic_capture",
+        "coordinate_frame_id": "synthetic_frame",
+        "state_id": "synthetic_static_state",
+        "captured_at": "2026-10-05T02:00:00+08:00"
+      },
+      "data_type": "synthetic",
+      "source": "synthetic scale fixture",
+      "application": "apply_to_model",
+      "scale_id": "synthetic_scale",
+      "evidence_id": "synthetic_scale_evidence",
+      "source_kind": "documented_calibration",
+      "model_to_meters": 0.01
+    },
+    "status": "reported",
+    "conversion_multiplier_to_m": 0.01,
+    "scale_check": {
+      "status": "not_independently_checked",
+      "reference": null,
+      "checkpoints": null
+    },
+    "evidence_authenticity_checked": false,
+    "metrological_traceability": "not_established_by_module",
+    "verification_scope": "synthetic_software_verification",
+    "geometry_validation_implied": false,
+    "conversion_multiplier_to_mm": 10.0,
+    "external_contract": {
+      "status": "reported",
+      "scope": {
+        "capture_id": "synthetic_capture",
+        "coordinate_frame_id": "synthetic_frame",
+        "state_id": "synthetic_static_state",
+        "captured_at": "2026-10-05T02:00:00+08:00"
+      },
+      "data_type": "synthetic",
+      "source": "synthetic scale fixture",
+      "kappa_mm_per_model_unit": 10.0,
+      "application": "apply_to_model",
+      "scale_id": "synthetic_scale",
+      "evidence_id": "synthetic_scale_evidence",
+      "source_kind": "documented_calibration"
+    },
+    "acquisition": {
+      "capture_id": "synthetic_capture",
+      "source": "synthetic fixture",
+      "captured_at": "2026-10-05T02:00:00+08:00",
+      "state_id": "synthetic_static_state",
+      "state_evidence_id": "synthetic_known_state"
+    },
+    "scale_status": "reported",
+    "reference_status_implied": false
+  },
+  "quantities": {
+    "area_model": {
+      "dimension": 2,
+      "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+      "definition_id": "single_lamina_side_triangle_area",
+      "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+      "reason": null,
+      "coordinate_value": 8.0,
+      "coordinate_unit": "model_unit^2",
+      "physical_value": 800.0,
+      "physical_unit": "mm^2",
+      "scale_status": "reported",
+      "physical_status": "provisional_reported_scale",
+      "value_state": "measurement_output",
+      "validity": "available_coordinate_quantity",
+      "physical_reason": null,
+      "conversion": "kappa^dimension times unscaled model quantity"
+    },
+    "midrib_length_model": {
+      "dimension": 1,
+      "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+      "definition_id": "B_to_T_3D_polyline_arc",
+      "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+      "reason": null,
+      "coordinate_value": 4.0,
+      "coordinate_unit": "model_unit",
+      "physical_value": 40.0,
+      "physical_unit": "mm",
+      "scale_status": "reported",
+      "physical_status": "provisional_reported_scale",
+      "value_state": "measurement_output",
+      "validity": "available_coordinate_quantity",
+      "physical_reason": null,
+      "conversion": "kappa^dimension times unscaled model quantity"
+    },
+    "section_chord_model": {
+      "dimension": 1,
+      "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+      "definition_id": "half_arc_normal_plane_boundary_chord",
+      "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+      "details": {
+        "midrib_arc_fraction": 0.5,
+        "plane_point_model": [
+          2.0,
+          0.0,
+          0.0
+        ],
+        "plane_normal_model": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+        "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+        "unique_boundary_intersection_count": 2,
+        "boundary_intersections_model": [
+          [
+            2.0,
+            -1.0,
+            0.0
+          ],
+          [
+            2.0,
+            1.0,
+            0.0
+          ]
+        ]
+      },
+      "reason": null,
+      "coordinate_value": 2.0,
+      "coordinate_unit": "model_unit",
+      "physical_value": 20.0,
+      "physical_unit": "mm",
+      "scale_status": "reported",
+      "physical_status": "provisional_reported_scale",
+      "value_state": "measurement_output",
+      "validity": "available_coordinate_quantity",
+      "physical_reason": null,
+      "conversion": "kappa^dimension times unscaled model quantity"
+    }
+  },
+  "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+  "observation_support": {
+    "status": "synthetic_exact_fixture",
+    "inferred_surface_fraction": 0.0,
+    "is_measurement_uncertainty": false
+  },
+  "quality_diagnostics": {
+    "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+    "source_face_count": 4,
+    "included_face_count": 4,
+    "excluded_face_count": 0,
+    "max_adjacent_normal_angle_deg": 0.0,
+    "severe_fold_warning_threshold_deg": 85.0,
+    "severe_fold_warning": false,
+    "self_intersection_check": "not_performed_no_certification",
+    "surface_grouping_source": "caller_declaration_only",
+    "status": "computed_with_limitations",
+    "width_status": "computed_model_quantity",
+    "scope": "geometry_only_diagnostics; current measurement availability is in validity"
+  },
+  "geometry": {
+    "schema": "pots.measurement-geometry.v038",
+    "identity": {
+      "plant_id": "synthetic_plant",
+      "organ_id": "synthetic_leaf",
+      "coordinate_frame_id": "synthetic_frame"
+    },
+    "data_type": "synthetic",
+    "quantities": {
+      "area_model": {
+        "status": "computed_model_quantity",
+        "definition": "Sum of one selected lamina-side triangle areas; excludes petiole, opposite side and sidewalls.",
+        "model_value": 8.0,
+        "model_unit": "model_unit^2",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null,
+        "value": 8.0,
+        "dimension": 2,
+        "definition_id": "single_lamina_side_triangle_area",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "value_state": "coordinate_quantity"
+      },
+      "midrib_length_model": {
+        "status": "computed_model_quantity",
+        "definition": "3D piecewise-linear midrib arc length from B to T, not endpoint chord.",
+        "model_value": 4.0,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null,
+        "value": 4.0,
+        "dimension": 1,
+        "definition_id": "B_to_T_3D_polyline_arc",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "value_state": "coordinate_quantity"
+      },
+      "section_chord_model": {
+        "status": "computed_model_quantity",
+        "definition": "Leaf-margin chord in the plane normal to the prescribed tangent at 50% B-to-T arc length.",
+        "model_value": 2.0,
+        "model_unit": "model_unit",
+        "physical_value": null,
+        "physical_unit": null,
+        "physical_status": "unavailable_unknown_scale",
+        "uncertainty": {
+          "status": "not_estimated",
+          "standard_uncertainty": null,
+          "unit": null,
+          "note": "No propagation or independent repeatability study supplied; null is not zero."
+        },
+        "independent_accuracy_validated": false,
+        "reason": null,
+        "details": {
+          "midrib_arc_fraction": 0.5,
+          "plane_point_model": [
+            2.0,
+            0.0,
+            0.0
+          ],
+          "plane_normal_model": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tangent_rule": "unit_tangent_of_segment_containing_half_arc",
+          "intersection_rule": "exactly_two_unique_boundary_intersections; never take maximum",
+          "unique_boundary_intersection_count": 2,
+          "boundary_intersections_model": [
+            [
+              2.0,
+              -1.0,
+              0.0
+            ],
+            [
+              2.0,
+              1.0,
+              0.0
+            ]
+          ]
+        },
+        "value": 2.0,
+        "dimension": 1,
+        "definition_id": "half_arc_normal_plane_boundary_chord",
+        "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+        "value_state": "coordinate_quantity"
+      }
+    },
+    "quality_diagnostics": {
+      "selected_surface": "one_lamina_side_excluding_opposite_side_sidewalls_petiole",
+      "source_face_count": 4,
+      "included_face_count": 4,
+      "excluded_face_count": 0,
+      "max_adjacent_normal_angle_deg": 0.0,
+      "severe_fold_warning_threshold_deg": 85.0,
+      "severe_fold_warning": false,
+      "self_intersection_check": "not_performed_no_certification",
+      "surface_grouping_source": "caller_declaration_only",
+      "status": "computed_with_limitations",
+      "width_status": "computed_model_quantity",
+      "physical_scale_available": false,
+      "physical_scale_independently_checked": false,
+      "independent_3d_accuracy_available": false,
+      "uncertainty_available": false,
+      "height_available": false
+    },
+    "observation_support": {
+      "status": "synthetic_exact_fixture",
+      "inferred_surface_fraction": 0.0,
+      "is_measurement_uncertainty": false
+    },
+    "provenance": {
+      "source_files": [
+        "synthetic://rectangle-fixture"
+      ]
+    },
+    "definition_version": "pots-v2-single-lamina-bt-polyline-halfarc-bisector-v1",
+    "half_arc_node_rule": "normalize(sum of incoming and outgoing UNIT tangents); reject norm <= 1e-10. Frozen node proximity tolerance: arc_length*1e-12.",
+    "section_rule": "exactly two unique boundary intersections; coplanar boundary edge/cusp/missing/multiple intersections yield null width and reason",
+    "self_intersection_certified": false,
+    "fitting_performed": false,
+    "runtime_seconds": 0.006517300033010542,
+    "audit_scope": "raw geometry-only dependency output; legacy physical/model-unit metadata is not the final measurement status",
+    "actual_input_coordinate_domain": "model",
+    "actual_input_coordinate_unit": "model_unit",
+    "legacy_model_unit_label_is_generic_coordinate_label": true
+  },
+  "geometry_runtime_seconds": 0.006517300033010542,
+  "physical_accuracy_validated": false,
+  "real_E6_completed": false,
+  "provenance": {
+    "source_files": [
+      "synthetic://rectangle-fixture"
+    ]
+  },
+  "uncertainty": {
+    "status": "provided_components_only",
+    "input_order": [
+      "area_model",
+      "midrib_length_model",
+      "section_chord_model",
+      "kappa"
+    ],
+    "output_order": [
+      "area",
+      "midrib_length",
+      "section_chord"
+    ],
+    "outputs": {
+      "area_model": {
+        "physical_unit": "mm^2",
+        "provided_inputs": [
+          "area_model",
+          "kappa"
+        ],
+        "missing_inputs": [],
+        "variance_provided_components": 25.067600000000017,
+        "standard_uncertainty_provided_components": 5.006755436407896,
+        "total_standard_uncertainty": null,
+        "status": "provided_component_contribution",
+        "jacobian_in_covariance_order": [
+          100.0,
+          0.0,
+          0.0,
+          160.0
+        ]
+      },
+      "midrib_length_model": {
+        "physical_unit": "mm",
+        "provided_inputs": [
+          "midrib_length_model",
+          "kappa"
+        ],
+        "missing_inputs": [],
+        "variance_provided_components": 0.04003600000000004,
+        "standard_uncertainty_provided_components": 0.20008997975910747,
+        "total_standard_uncertainty": null,
+        "status": "provided_component_contribution",
+        "jacobian_in_covariance_order": [
+          0.0,
+          10.0,
+          0.0,
+          4.0
+        ]
+      },
+      "section_chord_model": {
+        "physical_unit": "mm",
+        "provided_inputs": [
+          "section_chord_model",
+          "kappa"
+        ],
+        "missing_inputs": [],
+        "variance_provided_components": 0.010049,
+        "standard_uncertainty_provided_components": 0.10024470060806208,
+        "total_standard_uncertainty": null,
+        "status": "provided_component_contribution",
+        "jacobian_in_covariance_order": [
+          0.0,
+          0.0,
+          10.0,
+          2.0
+        ]
+      }
+    },
+    "joint_output_covariance_provided_components": [
+      [
+        25.067600000000017,
+        -0.0015600000000000566,
+        0.0018200000000000247
+      ],
+      [
+        -0.0015600000000000566,
+        0.04003600000000004,
+        -4.200000000000601e-05
+      ],
+      [
+        0.0018200000000000247,
+        -4.200000000000601e-05,
+        0.010049
+      ]
+    ],
+    "total_uncertainty": null,
+    "coverage_interval": null,
+    "confidence_interval_95": null,
+    "scope": "Local first-order supplied-component propagation only; unknown components and cross terms are not zero. This is not a guaranteed lower bound on total uncertainty.",
+    "not_real_E6_validation": true,
+    "model_missing_shape_bias_assessed": false,
+    "covariance_input_variables": [
+      "area_model",
+      "midrib_length_model",
+      "section_chord_model",
+      "kappa"
+    ],
+    "supplied_covariance": [
+      [
+        0.0025010000000000006,
+        -1e-06,
+        5e-07,
+        1e-06
+      ],
+      [
+        -1e-06,
+        0.00040100000000000004,
+        -5e-07,
+        -1e-06
+      ],
+      [
+        5e-07,
+        -5e-07,
+        0.00010025000000000001,
+        5e-07
+      ],
+      [
+        1e-06,
+        -1e-06,
+        5e-07,
+        1e-06
+      ]
+    ],
+    "propagation_covariance": [
+      [
+        0.002501000000000002,
+        -1.0000000000000192e-06,
+        5.000000000000198e-07,
+        9.99999999999998e-07
+      ],
+      [
+        -1.0000000000000192e-06,
+        0.0004010000000000004,
+        -5.000000000000388e-07,
+        -1.0000000000000116e-06
+      ],
+      [
+        5.000000000000198e-07,
+        -5.000000000000388e-07,
+        0.00010025000000000001,
+        4.999999999999993e-07
+      ],
+      [
+        9.99999999999998e-07,
+        -1.0000000000000116e-06,
+        4.999999999999993e-07,
+        1.0000000000000006e-06
+      ]
+    ],
+    "covariance_checks": {
+      "method": "diagonal-normalized correlation eigendecomposition; zero variance rows checked exactly; Gram-factor propagation",
+      "minimum_normalized_eigenvalue": 0.9281078940475738,
+      "PSD_roundoff_tolerance": 1e-12,
+      "singular_covariance_allowed": true,
+      "normalized_negative_roundoff_eigenvalues_clipped": false,
+      "maximum_absolute_matrix_change_from_factorization": 1.3010426069826053e-18
+    },
+    "source": {
+      "plant_id": "synthetic_plant",
+      "organ_id": "synthetic_leaf",
+      "coordinate_frame_id": "synthetic_frame",
+      "capture_id": "synthetic_capture",
+      "data_type": "synthetic",
+      "scope_level": "organ",
+      "source": "synthetic covariance",
+      "source_kind": "synthetic_fixture",
+      "evidence_id": "synthetic_covariance",
+      "assumptions": "All supplied matrix entries including cross terms are explicit synthetic assumptions; no real covariance inferred.",
+      "variables": [
+        "area_model",
+        "midrib_length_model",
+        "section_chord_model",
+        "kappa"
+      ],
+      "variable_units": {
+        "area_model": "model_unit^2",
+        "midrib_length_model": "model_unit",
+        "section_chord_model": "model_unit",
+        "kappa": "mm/model_unit"
+      },
+      "matrix": [
+        [
+          0.0025010000000000006,
+          -1e-06,
+          5e-07,
+          1e-06
+        ],
+        [
+          -1e-06,
+          0.00040100000000000004,
+          -5e-07,
+          -1e-06
+        ],
+        [
+          5e-07,
+          -5e-07,
+          0.00010025000000000001,
+          5e-07
+        ],
+        [
+          1e-06,
+          -1e-06,
+          5e-07,
+          1e-06
+        ]
+      ]
+    },
+    "declared_3_by_4_jacobian": [
+      [
+        100.0,
+        0.0,
+        0.0,
+        160.0
+      ],
+      [
+        0.0,
+        10.0,
+        0.0,
+        4.0
+      ],
+      [
+        0.0,
+        0.0,
+        10.0,
+        2.0
+      ]
+    ]
+  },
+  "reference": {
+    "reference_status": "eligible",
+    "pairs": {
+      "area_model": {
+        "status": "eligible_same_state_quantity_pair",
+        "prediction": 800.0,
+        "reference": 800.0,
+        "difference": 0.0,
+        "unit": "mm^2",
+        "reasons": [],
+        "reference_entry": {
+          "value": 800.0,
+          "unit": "mm^2",
+          "definition_id": "single_lamina_side_triangle_area",
+          "anatomical_scope": "single_lamina_side_excluding_petiole",
+          "source_role": "synthetic_fixture"
+        },
+        "reference_uncertainty": null,
+        "difference_uncertainty": null
+      },
+      "midrib_length_model": {
+        "status": "eligible_same_state_quantity_pair",
+        "prediction": 40.0,
+        "reference": 40.0,
+        "difference": 0.0,
+        "unit": "mm",
+        "reasons": [],
+        "reference_entry": {
+          "value": 40.0,
+          "unit": "mm",
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "anatomical_scope": "same_leaf_B_T_original_posture",
+          "source_role": "synthetic_fixture"
+        },
+        "reference_uncertainty": null,
+        "difference_uncertainty": null
+      },
+      "section_chord_model": {
+        "status": "eligible_same_state_quantity_pair",
+        "prediction": 20.0,
+        "reference": 20.0,
+        "difference": 0.0,
+        "unit": "mm",
+        "reasons": [],
+        "reference_entry": {
+          "value": 20.0,
+          "unit": "mm",
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "anatomical_scope": "same_leaf_B_T_original_posture",
+          "source_role": "synthetic_fixture"
+        },
+        "reference_uncertainty": null,
+        "difference_uncertainty": null
+      }
+    },
+    "source_record": {
+      "plant_id": "synthetic_plant",
+      "organ_id": "synthetic_leaf",
+      "coordinate_frame_id": "synthetic_frame",
+      "target_capture_id": "synthetic_capture",
+      "data_type": "synthetic",
+      "state_id": "synthetic_static_state",
+      "captured_at": "2026-10-05T02:00:00+08:00",
+      "recorded_at": "2026-10-05T02:10:00+08:00",
+      "reference_id": "synthetic_independent_ref",
+      "source": "synthetic exact reference",
+      "evidence_id": "synthetic_reference_evidence",
+      "method": "analytic rectangle",
+      "same_state_evidence_id": "synthetic_state_pair",
+      "anatomical_scope_evidence_id": "synthetic_same_scope",
+      "independent_of_prediction_and_input_annotations": true,
+      "independent_of_scale_estimation": true,
+      "quantities": {
+        "area_model": {
+          "value": 800.0,
+          "unit": "mm^2",
+          "definition_id": "single_lamina_side_triangle_area",
+          "anatomical_scope": "single_lamina_side_excluding_petiole",
+          "source_role": "synthetic_fixture"
+        },
+        "midrib_length_model": {
+          "value": 40.0,
+          "unit": "mm",
+          "definition_id": "B_to_T_3D_polyline_arc",
+          "anatomical_scope": "same_leaf_B_T_original_posture",
+          "source_role": "synthetic_fixture"
+        },
+        "section_chord_model": {
+          "value": 20.0,
+          "unit": "mm",
+          "definition_id": "half_arc_normal_plane_boundary_chord",
+          "anatomical_scope": "same_leaf_B_T_original_posture",
+          "source_role": "synthetic_fixture"
+        }
+      }
+    },
+    "scope_note": "Pair eligibility is not demonstrated accuracy; scalar quantities use declared definitions. No registration, rescaling or reference fitting.",
+    "evidence_authenticity_checked": false,
+    "scale_status_changed": false
+  },
+  "difference_uncertainty": {
+    "difference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "output_order": [
+      "area",
+      "midrib_length",
+      "section_chord"
+    ],
+    "units": [
+      "mm^2",
+      "mm",
+      "mm"
+    ],
+    "covariance": null,
+    "standard_uncertainty": null,
+    "total_uncertainty": null,
+    "confidence_interval_95": null,
+    "status": "missing_joint_covariance",
+    "scope": "Only supplied joint prediction/reference uncertainty; reference error is not presumed zero."
+  },
+  "validity": {
+    "geometry_report_available": true,
+    "all_three_coordinate_quantities_available": true,
+    "physical_scale_available": true,
+    "eligible_reference_quantity_count": 3,
+    "measurement_accuracy_claimed": false
+  },
+  "runtime_seconds": 0.007185299997217953,
+  "input_mode": "direct_frozen_geometry"
+}

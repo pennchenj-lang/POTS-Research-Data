@@ -1,0 +1,4520 @@
+{
+  "schema": "pots-gs.real-organ-human-review.v3",
+  "data_type": "real",
+  "reviewer": "Chen JianPeng",
+  "exported_utc": "2026-09-28T13:09:22.703Z",
+  "split_policy": "Only listed training views are loaded; evaluation images are neither embedded nor read.",
+  "review_semantics": "Leaf review confirms visible B-to-T path placement, not Q physical matching. Separate midrib correspondence confirmation is optional and still requires downstream geometric checks. Outline reviews certify view-local visible boundary strokes, never cross-view W correspondences or unseen anatomical boundaries.",
+  "point_semantics": {
+    "B": "visible anatomical blade base",
+    "T": "visible anatomical blade tip at distal end of its midrib",
+    "Q1_Q3": "ordered visible B-to-T midrib/path samples; no fixed UV and no automatic cross-view physical point correspondence",
+    "S1_S3": "same identifiable physical stem surface features across views, not hidden stem centerline",
+    "A": "same identifiable physical point in the visible petiole-stem attachment region; not latent nominal J",
+    "W": "arbitrarily many ordered human-clicked visible leaf-boundary points; separate strokes across gaps; no automatic interpolation, closure or cross-view matching"
+  },
+  "path_semantics": {
+    "order": [
+      "B",
+      "Q1",
+      "Q2",
+      "Q3",
+      "T"
+    ],
+    "connect_only_adjacent_visible_points": true,
+    "automatic_triangulation": false,
+    "fixed_surface_uv": false,
+    "units": "pixels per image until independently calibrated and reconstructed"
+  },
+  "outline_semantics": {
+    "automatic_triangulation": false,
+    "automatic_gap_bridging": false,
+    "automatic_closure": false,
+    "point_limit": null,
+    "implicit_smoothing": false,
+    "units": "native image pixels; closed polygon area is px^2, not physical leaf area"
+  },
+  "groups": [
+    {
+      "candidate_id": "komatsuna_p00_d009_t00_leaf04",
+      "plant_id": "plant00",
+      "leaf_part_id": "plant00:leaf_04",
+      "stem_part_id": "",
+      "same_plant_confirmed": true,
+      "same_leaf_confirmed": true,
+      "same_stem_confirmed": true,
+      "midrib_correspondence_confirmed": false,
+      "note": "",
+      "views": {
+        "00": {
+          "image_size": {
+            "width": 480,
+            "height": 480
+          },
+          "identity_reviewed": true,
+          "points": {
+            "B": {
+              "status": "visible",
+              "xy": [
+                199.14,
+                205.48
+              ],
+              "source": "human_click",
+              "legacy_status": "visible",
+              "viewport_transform": {
+                "legacy_import": true,
+                "native_width": 480,
+                "native_height": 480,
+                "old_transform_not_recorded": true,
+                "coordinates_preserved_without_correction": true
+              },
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "visible",
+              "xy": [
+                93.99999968210857,
+                120.125
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 282.25,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "visible",
+              "xy": [
+                184.8333330154419,
+                190.125
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 282.25,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "visible",
+              "xy": [
+                149.8333330154419,
+                160.125
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 282.25,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "visible",
+              "xy": [
+                121.49999968210857,
+                140.125
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 282.25,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "visible",
+              "xy": [
+                246.49999968210855,
+                238.45833333333334
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 182.25,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "visible",
+              "xy": [
+                226.49999968210855,
+                224.29166666666666
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 182.25,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "visible",
+              "xy": [
+                214.8333330154419,
+                215.125
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 182.25,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "visible",
+              "xy": [
+                264.8333330154419,
+                254.29166666666666
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 182.25,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "partial",
+            "strokes": [
+              {
+                "id": "w-stroke-1",
+                "points": [
+                  {
+                    "xy": [
+                      212.3333330154419,
+                      186.79166666666666
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      218.16666634877524,
+                      169.29166666666666
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      218.16666634877524,
+                      143.45833333333334
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      201.49999968210855,
+                      122.625
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      181.49999968210855,
+                      107.625
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      162.3333330154419,
+                      95.125
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      147.3333330154419,
+                      81.79166666666667
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      123.16666634877522,
+                      87.625
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      104.8333330154419,
+                      96.79166666666667
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      92.3333330154419,
+                      114.29166666666667
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      82.3333330154419,
+                      138.45833333333334
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      70.66666634877522,
+                      155.125
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      71.49999968210857,
+                      176.79166666666666
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      86.49999968210857,
+                      195.95833333333334
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      114.8333330154419,
+                      207.625
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      137.3333330154419,
+                      217.625
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      161.49999968210855,
+                      224.29166666666666
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      183.99999968210855,
+                      207.625
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      200.66666634877524,
+                      190.95833333333334
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 182.25,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  }
+                ],
+                "closed": false
+              }
+            ],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 2
+          },
+          "legacy_q_reference": {
+            "Q1": {
+              "status": "visible",
+              "xy": [
+                172.52,
+                185.13
+              ],
+              "source": "human_click",
+              "legacy_status": "visible",
+              "viewport_transform": {
+                "legacy_import": true,
+                "native_width": 480,
+                "native_height": 480,
+                "old_transform_not_recorded": true,
+                "coordinates_preserved_without_correction": true
+              }
+            },
+            "Q2": {
+              "status": "visible",
+              "xy": [
+                149.04,
+                166.34
+              ],
+              "source": "human_click",
+              "legacy_status": "visible",
+              "viewport_transform": {
+                "legacy_import": true,
+                "native_width": 480,
+                "native_height": 480,
+                "old_transform_not_recorded": true,
+                "coordinates_preserved_without_correction": true
+              }
+            },
+            "Q3": {
+              "status": "visible",
+              "xy": [
+                123.99,
+                139.73
+              ],
+              "source": "human_click",
+              "legacy_status": "visible",
+              "viewport_transform": {
+                "legacy_import": true,
+                "native_width": 480,
+                "native_height": 480,
+                "old_transform_not_recorded": true,
+                "coordinates_preserved_without_correction": true
+              }
+            }
+          },
+          "review_records": {
+            "leaf": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "outline": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            }
+          },
+          "legacy_landmarks_reviewed": false
+        },
+        "02": {
+          "image_size": {
+            "width": 480,
+            "height": 480
+          },
+          "identity_reviewed": true,
+          "points": {
+            "B": {
+              "status": "visible",
+              "xy": [
+                190.37,
+                219.57
+              ],
+              "source": "human_click",
+              "legacy_status": "visible",
+              "viewport_transform": {
+                "legacy_import": true,
+                "native_width": 480,
+                "native_height": 480,
+                "old_transform_not_recorded": true,
+                "coordinates_preserved_without_correction": true
+              },
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "visible",
+              "xy": [
+                72.95,
+                136.59
+              ],
+              "source": "human_click",
+              "legacy_status": "visible",
+              "viewport_transform": {
+                "legacy_import": true,
+                "native_width": 480,
+                "native_height": 480,
+                "old_transform_not_recorded": true,
+                "coordinates_preserved_without_correction": true
+              },
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "visible",
+              "xy": [
+                171.49999968210855,
+                200.33333333333334
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 261,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "visible",
+              "xy": [
+                140.66666634877524,
+                172
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 261,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "visible",
+              "xy": [
+                104.8333330154419,
+                152
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 261,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "visible",
+              "xy": [
+                211.49999968210855,
+                248.66666666666666
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 161,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "visible",
+              "xy": [
+                200.66666634877524,
+                235.33333333333334
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 161,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "visible",
+              "xy": [
+                193.99999968210855,
+                228.66666666666666
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 161,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "visible",
+              "xy": [
+                223.99999968210855,
+                263.6666666666667
+              ],
+              "source": "human_click",
+              "viewport_transform": {
+                "native_width": 480,
+                "native_height": 480,
+                "content_rect": {
+                  "left": 25.600000381469727,
+                  "top": 161,
+                  "width": 576,
+                  "height": 576
+                },
+                "native_per_css_pixel": [
+                  0.8333333333333334,
+                  0.8333333333333334
+                ],
+                "canvas_border_css_px": 0,
+                "canvas_padding_css_px": 0,
+                "pixel_center_convention": "opencv_integer_centers",
+                "pixel_origin": "center of top-left pixel is (0,0)",
+                "pixel_axes": "x-right,y-down",
+                "canvas_edge_to_center_offset": [
+                  -0.5,
+                  -0.5
+                ],
+                "valid_center_range_inclusive": [
+                  0,
+                  0,
+                  479,
+                  479
+                ],
+                "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                "display_zoom": 1.2
+              },
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "partial",
+            "strokes": [
+              {
+                "id": "w-stroke-1",
+                "points": [
+                  {
+                    "xy": [
+                      191.49999968210855,
+                      210.33333333333334
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      206.49999968210855,
+                      195.33333333333334
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      208.16666634877524,
+                      172.83333333333334
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      204.8333330154419,
+                      158.66666666666666
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      190.66666634877524,
+                      141.16666666666666
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      173.99999968210855,
+                      126.16666666666667
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      151.49999968210855,
+                      110.33333333333333
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      125.66666634877522,
+                      102.83333333333333
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      108.16666634877522,
+                      108.66666666666667
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      83.16666634877522,
+                      116.16666666666667
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      71.49999968210857,
+                      125.33333333333333
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      62.333333015441895,
+                      147
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      59.833333015441895,
+                      162
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      55.66666634877523,
+                      172.83333333333334
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      58.16666634877523,
+                      192
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      74.8333330154419,
+                      212
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      94.8333330154419,
+                      222
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      115.66666634877522,
+                      224.5
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      140.66666634877524,
+                      233.66666666666666
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      158.16666634877524,
+                      238.66666666666666
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      173.16666634877524,
+                      227
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  },
+                  {
+                    "xy": [
+                      181.49999968210855,
+                      220.33333333333334
+                    ],
+                    "source": "human_click",
+                    "viewport_transform": {
+                      "native_width": 480,
+                      "native_height": 480,
+                      "content_rect": {
+                        "left": 25.600000381469727,
+                        "top": 161,
+                        "width": 576,
+                        "height": 576
+                      },
+                      "native_per_css_pixel": [
+                        0.8333333333333334,
+                        0.8333333333333334
+                      ],
+                      "canvas_border_css_px": 0,
+                      "canvas_padding_css_px": 0,
+                      "pixel_center_convention": "opencv_integer_centers",
+                      "pixel_origin": "center of top-left pixel is (0,0)",
+                      "pixel_axes": "x-right,y-down",
+                      "canvas_edge_to_center_offset": [
+                        -0.5,
+                        -0.5
+                      ],
+                      "valid_center_range_inclusive": [
+                        0,
+                        0,
+                        479,
+                        479
+                      ],
+                      "mapping": "native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5",
+                      "display_zoom": 1.2
+                    }
+                  }
+                ],
+                "closed": false
+              }
+            ],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 2
+          },
+          "legacy_q_reference": {
+            "Q3": {
+              "status": "visible",
+              "xy": [
+                104.43,
+                152.08
+              ],
+              "source": "human_click",
+              "legacy_status": "visible",
+              "viewport_transform": {
+                "legacy_import": true,
+                "native_width": 480,
+                "native_height": 480,
+                "old_transform_not_recorded": true,
+                "coordinates_preserved_without_correction": true
+              }
+            },
+            "Q2": {
+              "status": "visible",
+              "xy": [
+                137.93,
+                175
+              ],
+              "source": "human_click",
+              "legacy_status": "visible",
+              "viewport_transform": {
+                "legacy_import": true,
+                "native_width": 480,
+                "native_height": 480,
+                "old_transform_not_recorded": true,
+                "coordinates_preserved_without_correction": true
+              }
+            },
+            "Q1": {
+              "status": "visible",
+              "xy": [
+                162.62,
+                196.16
+              ],
+              "source": "human_click",
+              "legacy_status": "visible",
+              "viewport_transform": {
+                "legacy_import": true,
+                "native_width": 480,
+                "native_height": 480,
+                "old_transform_not_recorded": true,
+                "coordinates_preserved_without_correction": true
+              }
+            }
+          },
+          "review_records": {
+            "leaf": {
+              "reviewed": true,
+              "snapshot": "{\"candidate_id\":\"komatsuna_p00_d009_t00_leaf04\",\"leaf_part_id\":\"plant00:leaf_04\",\"midrib_correspondence_confirmed\":false,\"note\":\"\",\"paired_views\":{\"00\":{\"identity_reviewed\":true,\"image_size\":{\"height\":480,\"width\":480},\"points\":{\"B\":{\"legacy_status\":\"visible\",\"role\":\"anatomical_blade_base\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"coordinates_preserved_without_correction\":true,\"legacy_import\":true,\"native_height\":480,\"native_width\":480,\"old_transform_not_recorded\":true},\"xy\":[199.14,205.48]},\"Q1\":{\"role\":\"midrib_path_sample\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":282.25,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[184.8333330154419,190.125]},\"Q2\":{\"role\":\"midrib_path_sample\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":282.25,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[149.8333330154419,160.125]},\"Q3\":{\"role\":\"midrib_path_sample\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":282.25,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[121.49999968210857,140.125]},\"T\":{\"role\":\"anatomical_blade_tip\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":282.25,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[93.99999968210857,120.125]}}},\"02\":{\"identity_reviewed\":true,\"image_size\":{\"height\":480,\"width\":480},\"points\":{\"B\":{\"legacy_status\":\"visible\",\"role\":\"anatomical_blade_base\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"coordinates_preserved_without_correction\":true,\"legacy_import\":true,\"native_height\":480,\"native_width\":480,\"old_transform_not_recorded\":true},\"xy\":[190.37,219.57]},\"Q1\":{\"role\":\"midrib_path_sample\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":261,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[171.49999968210855,200.33333333333334]},\"Q2\":{\"role\":\"midrib_path_sample\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":261,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[140.66666634877524,172]},\"Q3\":{\"role\":\"midrib_path_sample\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":261,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[104.8333330154419,152]},\"T\":{\"legacy_status\":\"visible\",\"role\":\"anatomical_blade_tip\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"coordinates_preserved_without_correction\":true,\"legacy_import\":true,\"native_height\":480,\"native_width\":480,\"old_transform_not_recorded\":true},\"xy\":[72.95,136.59]}}}},\"review_view\":\"02\",\"same_leaf_confirmed\":true,\"same_plant_confirmed\":true,\"same_stem_confirmed\":true,\"stem_part_id\":\"\"}",
+              "reviewed_digest_sha256": "474aca3e6a55613e677dc2fd2e9033b2d5fda26b4054d2d23b09e162b4e6c3dd"
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": true,
+              "snapshot": "{\"candidate_id\":\"komatsuna_p00_d009_t00_leaf04\",\"leaf_part_id\":\"plant00:leaf_04\",\"midrib_correspondence_confirmed\":null,\"note\":\"\",\"paired_views\":{\"00\":{\"identity_reviewed\":true,\"image_size\":{\"height\":480,\"width\":480},\"points\":{\"A\":{\"role\":\"visible_petiole_stem_attachment\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":182.25,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[264.8333330154419,254.29166666666666]}}},\"02\":{\"identity_reviewed\":true,\"image_size\":{\"height\":480,\"width\":480},\"points\":{\"A\":{\"role\":\"visible_petiole_stem_attachment\",\"source\":\"human_click\",\"status\":\"visible\",\"surface_uv\":null,\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[223.99999968210855,263.6666666666667]}}}},\"review_view\":\"02\",\"same_leaf_confirmed\":true,\"same_plant_confirmed\":true,\"same_stem_confirmed\":true,\"stem_part_id\":\"\"}",
+              "reviewed_digest_sha256": "0b44bb6ab6af83f2e8ee256ac1dfde1fadcc0e2c6cf772d51d992716cb99c976"
+            },
+            "outline": {
+              "reviewed": true,
+              "snapshot": "{\"candidate_id\":\"komatsuna_p00_d009_t00_leaf04\",\"leaf_part_id\":\"plant00:leaf_04\",\"midrib_correspondence_confirmed\":null,\"note\":\"\",\"paired_views\":{\"02\":{\"identity_reviewed\":true,\"image_size\":{\"height\":480,\"width\":480},\"outline\":{\"cross_view_correspondence\":false,\"next_stroke_id\":2,\"role\":\"visible_leaf_boundary\",\"status\":\"partial\",\"strokes\":[{\"closed\":false,\"id\":\"w-stroke-1\",\"points\":[{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[191.49999968210855,210.33333333333334]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[206.49999968210855,195.33333333333334]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[208.16666634877524,172.83333333333334]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[204.8333330154419,158.66666666666666]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[190.66666634877524,141.16666666666666]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[173.99999968210855,126.16666666666667]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[151.49999968210855,110.33333333333333]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[125.66666634877522,102.83333333333333]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[108.16666634877522,108.66666666666667]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[83.16666634877522,116.16666666666667]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[71.49999968210857,125.33333333333333]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[62.333333015441895,147]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[59.833333015441895,162]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[55.66666634877523,172.83333333333334]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[58.16666634877523,192]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[74.8333330154419,212]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[94.8333330154419,222]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[115.66666634877522,224.5]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[140.66666634877524,233.66666666666666]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[158.16666634877524,238.66666666666666]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[173.16666634877524,227]},{\"source\":\"human_click\",\"viewport_transform\":{\"canvas_border_css_px\":0,\"canvas_edge_to_center_offset\":[-0.5,-0.5],\"canvas_padding_css_px\":0,\"content_rect\":{\"height\":576,\"left\":25.600000381469727,\"top\":161,\"width\":576},\"display_zoom\":1.2,\"mapping\":\"native_center = (client - content_rect_origin) * native_size/content_rect_size - 0.5; inverse_canvas_edge = native_center + 0.5\",\"native_height\":480,\"native_per_css_pixel\":[0.8333333333333334,0.8333333333333334],\"native_width\":480,\"pixel_axes\":\"x-right,y-down\",\"pixel_center_convention\":\"opencv_integer_centers\",\"pixel_origin\":\"center of top-left pixel is (0,0)\",\"valid_center_range_inclusive\":[0,0,479,479]},\"xy\":[181.49999968210855,220.33333333333334]}]}]}}},\"review_view\":\"02\",\"same_leaf_confirmed\":true,\"same_plant_confirmed\":true,\"same_stem_confirmed\":true,\"stem_part_id\":\"\"}",
+              "reviewed_digest_sha256": "bc531510fac8faf4780f81aba4cd44b2d972f207100feb2a0a266b45b12e7a6d"
+            }
+          },
+          "legacy_landmarks_reviewed": false
+        }
+      },
+      "import_provenance": {
+        "schema": "pots-gs.komatsuna-human-review.v1",
+        "original_document": {
+          "schema": "pots-gs.komatsuna-human-review.v1",
+          "candidate_id": "komatsuna_p00_d009_t00_leaf04",
+          "data_type": "real",
+          "coordinate_domain": "original distorted crop, native480",
+          "train_views": [
+            "00",
+            "02"
+          ],
+          "evaluation_views": [
+            "01"
+          ],
+          "evaluation_used": false,
+          "reviewer": "Chen JianPeng",
+          "same_leaf_confirmed": true,
+          "note": "",
+          "views": {
+            "00": {
+              "points": {
+                "B": {
+                  "status": "visible",
+                  "xy": [
+                    199.14,
+                    205.48
+                  ],
+                  "source": "human_click"
+                },
+                "T": {
+                  "status": "visible",
+                  "xy": [
+                    91.12,
+                    127.2
+                  ],
+                  "source": "human_click"
+                },
+                "Q1": {
+                  "status": "visible",
+                  "xy": [
+                    172.52,
+                    185.13
+                  ],
+                  "source": "human_click"
+                },
+                "Q2": {
+                  "status": "visible",
+                  "xy": [
+                    149.04,
+                    166.34
+                  ],
+                  "source": "human_click"
+                },
+                "Q3": {
+                  "status": "visible",
+                  "xy": [
+                    123.99,
+                    139.73
+                  ],
+                  "source": "human_click"
+                }
+              },
+              "identity_reviewed": true,
+              "landmarks_reviewed": false
+            },
+            "02": {
+              "points": {
+                "T": {
+                  "status": "visible",
+                  "xy": [
+                    72.95,
+                    136.59
+                  ],
+                  "source": "human_click"
+                },
+                "B": {
+                  "status": "visible",
+                  "xy": [
+                    190.37,
+                    219.57
+                  ],
+                  "source": "human_click"
+                },
+                "Q3": {
+                  "status": "visible",
+                  "xy": [
+                    104.43,
+                    152.08
+                  ],
+                  "source": "human_click"
+                },
+                "Q2": {
+                  "status": "visible",
+                  "xy": [
+                    137.93,
+                    175
+                  ],
+                  "source": "human_click"
+                },
+                "Q1": {
+                  "status": "visible",
+                  "xy": [
+                    162.62,
+                    196.16
+                  ],
+                  "source": "human_click"
+                }
+              },
+              "identity_reviewed": true,
+              "landmarks_reviewed": false
+            }
+          },
+          "source_sha256": {
+            "candidate_p00_d009_t00\\rgb_00_00_009_00.png": "53ff7013172f2bc58a29da67539f9d92e76ac7af9c73ff4ba3a05e71e98dea8d",
+            "candidate_p00_d009_t00\\label_00_00_009_00.png": "198ca282940383f67fa671e4cdc94079fa1f9f851bbb0c208c9a108232a9e671",
+            "candidate_p00_d009_t00\\rgb_02_00_009_00.png": "bec5b40593e95a7c599b903edd42cd03558ba3ea86488ff117ef818dc0082b20",
+            "candidate_p00_d009_t00\\label_02_00_009_00.png": "b6ae119851a5643e6c7c21427cc03c033a8bb58466df3f0a2391e36a1c0e8f77"
+          },
+          "exported_utc": "2026-09-28T07:52:10.787Z",
+          "real_gate_passed": false
+        },
+        "policy": "Original document preserved. B/T unchanged; legacy Q stored only as reference until explicit path adoption. No legacy review certifies new semantics."
+      },
+      "annotation_focus": "leaf",
+      "coordinate_domain": "original distorted crop, native480",
+      "train_views": [
+        "00",
+        "02"
+      ],
+      "evaluation_views": [
+        "01"
+      ],
+      "evaluation_used": false,
+      "source_sha256": {
+        "work/shape_guard_20260927_v1/real_pilot/candidate_p00_d009_t00/rgb_00_00_009_00.png": "53ff7013172f2bc58a29da67539f9d92e76ac7af9c73ff4ba3a05e71e98dea8d",
+        "work/shape_guard_20260927_v1/real_pilot/candidate_p00_d009_t00/label_00_00_009_00.png": "198ca282940383f67fa671e4cdc94079fa1f9f851bbb0c208c9a108232a9e671",
+        "work/shape_guard_20260927_v1/real_pilot/candidate_p00_d009_t00/rgb_02_00_009_00.png": "bec5b40593e95a7c599b903edd42cd03558ba3ea86488ff117ef818dc0082b20",
+        "work/shape_guard_20260927_v1/real_pilot/candidate_p00_d009_t00/label_02_00_009_00.png": "b6ae119851a5643e6c7c21427cc03c033a8bb58466df3f0a2391e36a1c0e8f77"
+      },
+      "data_contract": {
+        "source_manifest_path": "provenance/real/p00_candidate_manifest.json",
+        "source_manifest_sha256": "d31e7465357784e00c5653b9c0aafecd0e3001d5b81cfe656241672ed03f385f",
+        "coordinate_domain": "original distorted crop, native480",
+        "annotation_coordinate_policy": "New clicks use OpenCV integer pixel centers (canvas edge coordinates minus 0.5); legacy imported coordinates are preserved exactly with unknown old transform. Never silently shift legacy observations.",
+        "views": {
+          "00": {
+            "native_width": 480,
+            "native_height": 480,
+            "camera": {
+              "camera_id": "00",
+              "width": 480,
+              "height": 480,
+              "K": [
+                [
+                  1447.1628464763269,
+                  0,
+                  1006.3360374616379
+                ],
+                [
+                  0,
+                  1447.5154426605611,
+                  586.9397572943669
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion": [
+                -0.06168626192123971,
+                0.13376213699133815,
+                0.0005512253582032307,
+                0.0001302007328168146,
+                -0.07217700516597145
+              ],
+              "R": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "t": [
+                0,
+                0,
+                0
+              ],
+              "crop_origin": [
+                30,
+                210
+              ],
+              "coordinate_convention": "Xcam=R Xworld+t; world=cam00",
+              "image_domain": "original distorted crop; undistort observations before triangulation",
+              "source_path": "inputs/real/cameras/calibration_result.json",
+              "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+            },
+            "crop_origin": null,
+            "native_to_camera": null
+          },
+          "02": {
+            "native_width": 480,
+            "native_height": 480,
+            "camera": {
+              "camera_id": "02",
+              "width": 480,
+              "height": 480,
+              "K": [
+                [
+                  1453.4040764517556,
+                  0,
+                  377.84039289817736
+                ],
+                [
+                  0,
+                  1453.5452600273463,
+                  575.0058773991259
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion": [
+                -0.061210683781492824,
+                0.12799756131274442,
+                -0.00024925880578291644,
+                0.000887298472219975,
+                -0.06596303866314683
+              ],
+              "R": [
+                [
+                  0.9994389216223825,
+                  0.031550832370706126,
+                  0.011242193869749775
+                ],
+                [
+                  -0.03163458946951748,
+                  0.9994724617475039,
+                  0.00735193562808471
+                ],
+                [
+                  -0.011004303493839603,
+                  -0.007703452803776387,
+                  0.999909776989662
+                ]
+              ],
+              "t": [
+                5.626379688547068,
+                -0.15777655844311966,
+                0.21642242211293486
+              ],
+              "crop_origin": [
+                640,
+                220
+              ],
+              "coordinate_convention": "Xcam=R Xworld+t; world=cam00",
+              "image_domain": "original distorted crop; undistort observations before triangulation",
+              "source_path": "inputs/real/cameras/calibration_result.json",
+              "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+            },
+            "crop_origin": null,
+            "native_to_camera": null
+          }
+        }
+      },
+      "source_manifest_metadata": {
+        "plant_id": "plant00",
+        "time_id": "day009 time00",
+        "leaf_id": 4
+      },
+      "human_review_only": true,
+      "geometry_validation_performed_by_page": false,
+      "real_gate_passed": false
+    },
+    {
+      "candidate_id": "komatsuna_p01_d009_t00_leaf04",
+      "plant_id": "01",
+      "leaf_part_id": "01:leaf_04",
+      "stem_part_id": "",
+      "same_plant_confirmed": false,
+      "same_leaf_confirmed": false,
+      "same_stem_confirmed": false,
+      "midrib_correspondence_confirmed": false,
+      "note": "",
+      "views": {
+        "00": {
+          "image_size": {
+            "width": 480,
+            "height": 480
+          },
+          "identity_reviewed": false,
+          "points": {
+            "B": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "unknown",
+            "strokes": [],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 1
+          },
+          "legacy_q_reference": {},
+          "review_records": {
+            "leaf": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "outline": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            }
+          },
+          "legacy_landmarks_reviewed": null
+        },
+        "02": {
+          "image_size": {
+            "width": 480,
+            "height": 480
+          },
+          "identity_reviewed": false,
+          "points": {
+            "B": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "unknown",
+            "strokes": [],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 1
+          },
+          "legacy_q_reference": {},
+          "review_records": {
+            "leaf": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "outline": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            }
+          },
+          "legacy_landmarks_reviewed": null
+        }
+      },
+      "annotation_focus": "leaf",
+      "coordinate_domain": "original distorted crop, native480",
+      "train_views": [
+        "00",
+        "02"
+      ],
+      "evaluation_views": [
+        "01"
+      ],
+      "evaluation_used": false,
+      "source_sha256": {
+        "work/real_review_20260928_v1/additional_candidates/plant01_day009_time00/rgb_00_01_009_00.png": "ad4df07548c1fb46a26cf5db5f9859edd2636a9b75dbc44b1ca4b7cb685fe9f5",
+        "work/real_review_20260928_v1/additional_candidates/plant01_day009_time00/label_00_01_009_00.png": "0f5493f8dc17d6626fa3a76f0b2bc2bab49371ce530a82d6004b9ece42907e75",
+        "work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+        "work/real_review_20260928_v1/additional_candidates/plant01_day009_time00/rgb_02_01_009_00.png": "66d106536ec1daccf221d4fe514e42d7b826da8541849ceb8f79177a84e1dd46",
+        "work/real_review_20260928_v1/additional_candidates/plant01_day009_time00/label_02_01_009_00.png": "98e8da95e6ce97ab51e849d9331bebc31352fccfef583b01ed1676d82f8363dd",
+        "work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa"
+      },
+      "data_contract": {
+        "source_manifest_path": "provenance/real/p01_p02_p03_candidate_manifest.json",
+        "source_manifest_sha256": "0497cc03fecfacc48d30c1caa0f4244875eb719b125c12137906b19fcfbed32f",
+        "coordinate_domain": "original distorted crop, native480",
+        "annotation_coordinate_policy": "New clicks use OpenCV integer pixel centers (canvas edge coordinates minus 0.5); legacy imported coordinates are preserved exactly with unknown old transform. Never silently shift legacy observations.",
+        "views": {
+          "00": {
+            "native_width": 480,
+            "native_height": 480,
+            "camera": {
+              "view_id": "00",
+              "K": [
+                [
+                  1447.1628464763269,
+                  0,
+                  46.33603746163794
+                ],
+                [
+                  0,
+                  1447.5154426605611,
+                  556.9397572943669
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "K_full": [
+                [
+                  1447.1628464763269,
+                  0,
+                  1036.336037461638
+                ],
+                [
+                  0,
+                  1447.5154426605611,
+                  796.9397572943669
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion": [
+                -0.06168626192123971,
+                0.13376213699133815,
+                0.0005512253582032307,
+                0.0001302007328168146,
+                -0.07217700516597145
+              ],
+              "R": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "t": [
+                0,
+                0,
+                0
+              ],
+              "width": 480,
+              "height": 480,
+              "crop_origin": [
+                990,
+                240
+              ],
+              "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+              "scale": "unknown-size checker-square units; no centimetre claim",
+              "source_path": "inputs/real/cameras/calibration_result.json",
+              "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+            },
+            "crop_origin": [
+              990,
+              240
+            ],
+            "native_to_camera": null
+          },
+          "02": {
+            "native_width": 480,
+            "native_height": 480,
+            "camera": {
+              "view_id": "02",
+              "K": [
+                [
+                  1453.4040764517556,
+                  0,
+                  -550.1596071018226
+                ],
+                [
+                  0,
+                  1453.5452600273463,
+                  575.0058773991259
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "K_full": [
+                [
+                  1453.4040764517556,
+                  0,
+                  1017.8403928981774
+                ],
+                [
+                  0,
+                  1453.5452600273463,
+                  795.0058773991259
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion": [
+                -0.061210683781492824,
+                0.12799756131274442,
+                -0.00024925880578291644,
+                0.000887298472219975,
+                -0.06596303866314683
+              ],
+              "R": [
+                [
+                  0.9994389216223825,
+                  0.031550832370706126,
+                  0.011242193869749775
+                ],
+                [
+                  -0.03163458946951748,
+                  0.9994724617475039,
+                  0.00735193562808471
+                ],
+                [
+                  -0.011004303493839603,
+                  -0.007703452803776387,
+                  0.999909776989662
+                ]
+              ],
+              "t": [
+                5.626379688547068,
+                -0.15777655844311966,
+                0.21642242211293486
+              ],
+              "width": 480,
+              "height": 480,
+              "crop_origin": [
+                1568,
+                220
+              ],
+              "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+              "scale": "unknown-size checker-square units; no centimetre claim",
+              "source_path": "inputs/real/cameras/calibration_result.json",
+              "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+            },
+            "crop_origin": [
+              1568,
+              220
+            ],
+            "native_to_camera": null
+          }
+        }
+      },
+      "source_manifest_metadata": {
+        "plant_id": "01",
+        "time_id": "00",
+        "leaf_id": "04"
+      },
+      "human_review_only": true,
+      "geometry_validation_performed_by_page": false,
+      "real_gate_passed": false
+    },
+    {
+      "candidate_id": "komatsuna_p02_d009_t00_leaf04",
+      "plant_id": "02",
+      "leaf_part_id": "02:leaf_04",
+      "stem_part_id": "",
+      "same_plant_confirmed": false,
+      "same_leaf_confirmed": false,
+      "same_stem_confirmed": false,
+      "midrib_correspondence_confirmed": false,
+      "note": "",
+      "views": {
+        "00": {
+          "image_size": {
+            "width": 480,
+            "height": 480
+          },
+          "identity_reviewed": false,
+          "points": {
+            "B": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "unknown",
+            "strokes": [],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 1
+          },
+          "legacy_q_reference": {},
+          "review_records": {
+            "leaf": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "outline": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            }
+          },
+          "legacy_landmarks_reviewed": null
+        },
+        "02": {
+          "image_size": {
+            "width": 480,
+            "height": 480
+          },
+          "identity_reviewed": false,
+          "points": {
+            "B": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "unknown",
+            "strokes": [],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 1
+          },
+          "legacy_q_reference": {},
+          "review_records": {
+            "leaf": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "outline": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            }
+          },
+          "legacy_landmarks_reviewed": null
+        }
+      },
+      "annotation_focus": "leaf",
+      "coordinate_domain": "original distorted crop, native480",
+      "train_views": [
+        "00",
+        "02"
+      ],
+      "evaluation_views": [
+        "01"
+      ],
+      "evaluation_used": false,
+      "source_sha256": {
+        "work/real_review_20260928_v1/additional_candidates/plant02_day009_time00/rgb_00_02_009_00.png": "696386b63983d0cd21cecbbeb20fc11969dc6bdaecd4f950fc9dcd7e113108f9",
+        "work/real_review_20260928_v1/additional_candidates/plant02_day009_time00/label_00_02_009_00.png": "c7e50ddbb423ceaed3907aae0bf662f9c565b25dba3c0a9f1e7ae15424a1c075",
+        "work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+        "work/real_review_20260928_v1/additional_candidates/plant02_day009_time00/rgb_02_02_009_00.png": "4e99336cd522a517da5371932bc54017ffc3da001e884ee9ec0b340f4636ab54",
+        "work/real_review_20260928_v1/additional_candidates/plant02_day009_time00/label_02_02_009_00.png": "b664840831723525d519b0078092e94c1e08ecadd030a4542d7733a8ef441602",
+        "work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa"
+      },
+      "data_contract": {
+        "source_manifest_path": "provenance/real/p01_p02_p03_candidate_manifest.json",
+        "source_manifest_sha256": "0497cc03fecfacc48d30c1caa0f4244875eb719b125c12137906b19fcfbed32f",
+        "coordinate_domain": "original distorted crop, native480",
+        "annotation_coordinate_policy": "New clicks use OpenCV integer pixel centers (canvas edge coordinates minus 0.5); legacy imported coordinates are preserved exactly with unknown old transform. Never silently shift legacy observations.",
+        "views": {
+          "00": {
+            "native_width": 480,
+            "native_height": 480,
+            "camera": {
+              "view_id": "00",
+              "K": [
+                [
+                  1447.1628464763269,
+                  0,
+                  526.3360374616379
+                ],
+                [
+                  0,
+                  1447.5154426605611,
+                  336.9397572943669
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "K_full": [
+                [
+                  1447.1628464763269,
+                  0,
+                  1036.336037461638
+                ],
+                [
+                  0,
+                  1447.5154426605611,
+                  796.9397572943669
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion": [
+                -0.06168626192123971,
+                0.13376213699133815,
+                0.0005512253582032307,
+                0.0001302007328168146,
+                -0.07217700516597145
+              ],
+              "R": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "t": [
+                0,
+                0,
+                0
+              ],
+              "width": 480,
+              "height": 480,
+              "crop_origin": [
+                510,
+                460
+              ],
+              "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+              "scale": "unknown-size checker-square units; no centimetre claim",
+              "source_path": "inputs/real/cameras/calibration_result.json",
+              "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+            },
+            "crop_origin": [
+              510,
+              460
+            ],
+            "native_to_camera": null
+          },
+          "02": {
+            "native_width": 480,
+            "native_height": 480,
+            "camera": {
+              "view_id": "02",
+              "K": [
+                [
+                  1453.4040764517556,
+                  0,
+                  -92.15960710182264
+                ],
+                [
+                  0,
+                  1453.5452600273463,
+                  335.0058773991259
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "K_full": [
+                [
+                  1453.4040764517556,
+                  0,
+                  1017.8403928981774
+                ],
+                [
+                  0,
+                  1453.5452600273463,
+                  795.0058773991259
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion": [
+                -0.061210683781492824,
+                0.12799756131274442,
+                -0.00024925880578291644,
+                0.000887298472219975,
+                -0.06596303866314683
+              ],
+              "R": [
+                [
+                  0.9994389216223825,
+                  0.031550832370706126,
+                  0.011242193869749775
+                ],
+                [
+                  -0.03163458946951748,
+                  0.9994724617475039,
+                  0.00735193562808471
+                ],
+                [
+                  -0.011004303493839603,
+                  -0.007703452803776387,
+                  0.999909776989662
+                ]
+              ],
+              "t": [
+                5.626379688547068,
+                -0.15777655844311966,
+                0.21642242211293486
+              ],
+              "width": 480,
+              "height": 480,
+              "crop_origin": [
+                1110,
+                460
+              ],
+              "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+              "scale": "unknown-size checker-square units; no centimetre claim",
+              "source_path": "inputs/real/cameras/calibration_result.json",
+              "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+            },
+            "crop_origin": [
+              1110,
+              460
+            ],
+            "native_to_camera": null
+          }
+        }
+      },
+      "source_manifest_metadata": {
+        "plant_id": "02",
+        "time_id": "00",
+        "leaf_id": "04"
+      },
+      "human_review_only": true,
+      "geometry_validation_performed_by_page": false,
+      "real_gate_passed": false
+    },
+    {
+      "candidate_id": "komatsuna_p03_d009_t00_leaf04",
+      "plant_id": "03",
+      "leaf_part_id": "03:leaf_04",
+      "stem_part_id": "",
+      "same_plant_confirmed": false,
+      "same_leaf_confirmed": false,
+      "same_stem_confirmed": false,
+      "midrib_correspondence_confirmed": false,
+      "note": "",
+      "views": {
+        "00": {
+          "image_size": {
+            "width": 480,
+            "height": 480
+          },
+          "identity_reviewed": false,
+          "points": {
+            "B": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "unknown",
+            "strokes": [],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 1
+          },
+          "legacy_q_reference": {},
+          "review_records": {
+            "leaf": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "outline": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            }
+          },
+          "legacy_landmarks_reviewed": null
+        },
+        "02": {
+          "image_size": {
+            "width": 480,
+            "height": 480
+          },
+          "identity_reviewed": false,
+          "points": {
+            "B": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "unknown",
+            "strokes": [],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 1
+          },
+          "legacy_q_reference": {},
+          "review_records": {
+            "leaf": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "outline": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            }
+          },
+          "legacy_landmarks_reviewed": null
+        }
+      },
+      "annotation_focus": "leaf",
+      "coordinate_domain": "original distorted crop, native480",
+      "train_views": [
+        "00",
+        "02"
+      ],
+      "evaluation_views": [
+        "01"
+      ],
+      "evaluation_used": false,
+      "source_sha256": {
+        "work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/rgb_00_03_009_00.png": "f055f08d241268595ec71b66a1dc706b08d2f335e1ff5eb1db4d6ba753c1ba5a",
+        "work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/label_00_03_009_00.png": "9684cc18004f8b5dc1413f66ffc4fb25a68d3ff15da2e6a9236f5b473bfdb5db",
+        "work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_00_009_00.png": "4a1aede96bdfc9ac575121f72c9987a88525f304465c5e089191ffb7bdae22a3",
+        "work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/rgb_02_03_009_00.png": "d97dcffe7352c945eb65bafce7c938364ba37273feb7623a1c63d44963b66354",
+        "work/real_review_20260928_v1/additional_candidates/plant03_day009_time00/label_02_03_009_00.png": "f6a771f2c95fd9146d68cee0f19a1cc8df0a8fe500d021c04d485602ffe1473e",
+        "work/shape_guard_20260927_v1/real_pilot/training_originals/rgb_02_009_00.png": "feb1f0a257ab0f636789fd5d651118c897c0e840734cd19b64404a28a7ff1ffa"
+      },
+      "data_contract": {
+        "source_manifest_path": "provenance/real/p01_p02_p03_candidate_manifest.json",
+        "source_manifest_sha256": "0497cc03fecfacc48d30c1caa0f4244875eb719b125c12137906b19fcfbed32f",
+        "coordinate_domain": "original distorted crop, native480",
+        "annotation_coordinate_policy": "New clicks use OpenCV integer pixel centers (canvas edge coordinates minus 0.5); legacy imported coordinates are preserved exactly with unknown old transform. Never silently shift legacy observations.",
+        "views": {
+          "00": {
+            "native_width": 480,
+            "native_height": 480,
+            "camera": {
+              "view_id": "00",
+              "K": [
+                [
+                  1447.1628464763269,
+                  0,
+                  76.33603746163794
+                ],
+                [
+                  0,
+                  1447.5154426605611,
+                  86.93975729436693
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "K_full": [
+                [
+                  1447.1628464763269,
+                  0,
+                  1036.336037461638
+                ],
+                [
+                  0,
+                  1447.5154426605611,
+                  796.9397572943669
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion": [
+                -0.06168626192123971,
+                0.13376213699133815,
+                0.0005512253582032307,
+                0.0001302007328168146,
+                -0.07217700516597145
+              ],
+              "R": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "t": [
+                0,
+                0,
+                0
+              ],
+              "width": 480,
+              "height": 480,
+              "crop_origin": [
+                960,
+                710
+              ],
+              "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+              "scale": "unknown-size checker-square units; no centimetre claim",
+              "source_path": "inputs/real/cameras/calibration_result.json",
+              "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+            },
+            "crop_origin": [
+              960,
+              710
+            ],
+            "native_to_camera": null
+          },
+          "02": {
+            "native_width": 480,
+            "native_height": 480,
+            "camera": {
+              "view_id": "02",
+              "K": [
+                [
+                  1453.4040764517556,
+                  0,
+                  -522.1596071018226
+                ],
+                [
+                  0,
+                  1453.5452600273463,
+                  85.0058773991259
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "K_full": [
+                [
+                  1453.4040764517556,
+                  0,
+                  1017.8403928981774
+                ],
+                [
+                  0,
+                  1453.5452600273463,
+                  795.0058773991259
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion": [
+                -0.061210683781492824,
+                0.12799756131274442,
+                -0.00024925880578291644,
+                0.000887298472219975,
+                -0.06596303866314683
+              ],
+              "R": [
+                [
+                  0.9994389216223825,
+                  0.031550832370706126,
+                  0.011242193869749775
+                ],
+                [
+                  -0.03163458946951748,
+                  0.9994724617475039,
+                  0.00735193562808471
+                ],
+                [
+                  -0.011004303493839603,
+                  -0.007703452803776387,
+                  0.999909776989662
+                ]
+              ],
+              "t": [
+                5.626379688547068,
+                -0.15777655844311966,
+                0.21642242211293486
+              ],
+              "width": 480,
+              "height": 480,
+              "crop_origin": [
+                1540,
+                710
+              ],
+              "projection": "world_camera00 -> camera; K_crop=translation(-crop_origin)@K_full; distortion unchanged",
+              "scale": "unknown-size checker-square units; no centimetre claim",
+              "source_path": "inputs/real/cameras/calibration_result.json",
+              "source_sha256": "7c75390bc20f716c072f4e556eaa482c1337b63d15440d572a95272228756702"
+            },
+            "crop_origin": [
+              1540,
+              710
+            ],
+            "native_to_camera": null
+          }
+        }
+      },
+      "source_manifest_metadata": {
+        "plant_id": "03",
+        "time_id": "00",
+        "leaf_id": "04"
+      },
+      "human_review_only": true,
+      "geometry_validation_performed_by_page": false,
+      "real_gate_passed": false
+    },
+    {
+      "candidate_id": "scnerf_plant1_gt_tall_right_stem_01_05",
+      "plant_id": "scnerf_plant1_gt",
+      "leaf_part_id": "",
+      "stem_part_id": "",
+      "same_plant_confirmed": false,
+      "same_leaf_confirmed": false,
+      "same_stem_confirmed": false,
+      "midrib_correspondence_confirmed": false,
+      "note": "",
+      "views": {
+        "sc001": {
+          "image_size": {
+            "width": 2160,
+            "height": 3840
+          },
+          "identity_reviewed": false,
+          "points": {
+            "B": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "unknown",
+            "strokes": [],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 1
+          },
+          "legacy_q_reference": {},
+          "review_records": {
+            "leaf": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "outline": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            }
+          },
+          "legacy_landmarks_reviewed": null
+        },
+        "sc005": {
+          "image_size": {
+            "width": 2160,
+            "height": 3840
+          },
+          "identity_reviewed": false,
+          "points": {
+            "B": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_base",
+              "surface_uv": null
+            },
+            "T": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "anatomical_blade_tip",
+              "surface_uv": null
+            },
+            "Q1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "Q3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "midrib_path_sample",
+              "surface_uv": null
+            },
+            "S1": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S2": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "S3": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "stem_surface_material_feature",
+              "surface_uv": null
+            },
+            "A": {
+              "status": "unknown",
+              "xy": null,
+              "source": null,
+              "viewport_transform": null,
+              "role": "visible_petiole_stem_attachment",
+              "surface_uv": null
+            }
+          },
+          "outline": {
+            "status": "unknown",
+            "strokes": [],
+            "role": "visible_leaf_boundary",
+            "cross_view_correspondence": false,
+            "next_stroke_id": 1
+          },
+          "legacy_q_reference": {},
+          "review_records": {
+            "leaf": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "stem": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "attachment": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            },
+            "outline": {
+              "reviewed": false,
+              "snapshot": null,
+              "reviewed_digest_sha256": null
+            }
+          },
+          "legacy_landmarks_reviewed": null
+        }
+      },
+      "annotation_focus": "stem",
+      "coordinate_domain": "original distorted full native image, 2160x3840",
+      "train_views": [
+        "sc001",
+        "sc005"
+      ],
+      "evaluation_views": [
+        "sc009",
+        "sc021"
+      ],
+      "evaluation_used": false,
+      "source_sha256": {
+        "work/real_candidate_20260926_v1/source_images/frame_00001.jpg": "fb1e0d9e2141f87f5038e51c02e181402e28855b90b03f05e82db80a50147357",
+        "work/real_candidate_20260926_v1/source_images/frame_00005.jpg": "b25f4600139907a63ce9f6ec9434b505a94c01f5fd15883dd1c2cd7b2315fefa"
+      },
+      "data_contract": {
+        "source_manifest_path": "source_archive/POTS-GS/work/real_review_20260928_v1/stem_candidate/manifest_DRAFT.json",
+        "source_manifest_sha256": "89abf6c054c346c8130669da6f8c7ad732cece5a9375ac4493de51282de08a80",
+        "coordinate_domain": "original distorted full native image, 2160x3840",
+        "annotation_coordinate_policy": "New clicks use OpenCV integer pixel centers (canvas edge coordinates minus 0.5); legacy imported coordinates are preserved exactly with unknown old transform. Never silently shift legacy observations.",
+        "views": {
+          "sc001": {
+            "native_width": 2160,
+            "native_height": 3840,
+            "camera": {
+              "view_id": "sc001",
+              "width": 2160,
+              "height": 3840,
+              "R": [
+                [
+                  -0.6926090866146037,
+                  0.7083430672693838,
+                  0.13617177457272894
+                ],
+                [
+                  0.12050027610965361,
+                  0.2997547922909256,
+                  -0.9463755850380552
+                ],
+                [
+                  -0.7111767266976489,
+                  -0.6390595931132134,
+                  -0.2929684280832878
+                ]
+              ],
+              "t": [
+                -1.0159061974681467,
+                -0.6858887015811914,
+                3.1081853093807936
+              ],
+              "source_colmap_image_id": 1,
+              "K": [
+                [
+                  3223.383030373207,
+                  0,
+                  1080
+                ],
+                [
+                  0,
+                  3181.9384305334406,
+                  1920
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion_model": "OPENCV",
+              "distortion_coefficients": [
+                0.05062539449161413,
+                -0.06314250740182714,
+                -0.00020736626090861365,
+                -0.0006011330067799371
+              ],
+              "source_path": "source_archive/POTS-GS/work/real_candidate_20260926_v1/cameras_distorted.json",
+              "source_sha256": "7457d71a7beee5c71568b8c5c903ecc6482de38c8a8245b68d845d30dc43ee5f"
+            },
+            "crop_origin": null,
+            "native_to_camera": {
+              "homography": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "scale_xy": [
+                1,
+                1
+              ],
+              "offset_xy": [
+                0,
+                0
+              ]
+            }
+          },
+          "sc005": {
+            "native_width": 2160,
+            "native_height": 3840,
+            "camera": {
+              "view_id": "sc005",
+              "width": 2160,
+              "height": 3840,
+              "R": [
+                [
+                  -0.5727081197714816,
+                  0.805565047494975,
+                  0.15188931431220873
+                ],
+                [
+                  0.12971186342803503,
+                  0.2720024528674177,
+                  -0.9535142883670571
+                ],
+                [
+                  -0.8094320490528166,
+                  -0.5263835292716964,
+                  -0.26026935677799656
+                ]
+              ],
+              "t": [
+                -0.8371516010393298,
+                -0.5792625111242251,
+                3.250636963165895
+              ],
+              "source_colmap_image_id": 5,
+              "K": [
+                [
+                  3223.383030373207,
+                  0,
+                  1080
+                ],
+                [
+                  0,
+                  3181.9384305334406,
+                  1920
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "distortion_model": "OPENCV",
+              "distortion_coefficients": [
+                0.05062539449161413,
+                -0.06314250740182714,
+                -0.00020736626090861365,
+                -0.0006011330067799371
+              ],
+              "source_path": "source_archive/POTS-GS/work/real_candidate_20260926_v1/cameras_distorted.json",
+              "source_sha256": "7457d71a7beee5c71568b8c5c903ecc6482de38c8a8245b68d845d30dc43ee5f"
+            },
+            "crop_origin": null,
+            "native_to_camera": {
+              "homography": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "scale_xy": [
+                1,
+                1
+              ],
+              "offset_xy": [
+                0,
+                0
+              ]
+            }
+          }
+        }
+      },
+      "source_manifest_metadata": {
+        "plant_id": "scnerf_plant1_gt",
+        "time_id": "scnerf_plant1_gt_published_sequence",
+        "leaf_id": null
+      },
+      "human_review_only": true,
+      "geometry_validation_performed_by_page": false,
+      "real_gate_passed": false
+    }
+  ],
+  "real_gate_passed": false
+}

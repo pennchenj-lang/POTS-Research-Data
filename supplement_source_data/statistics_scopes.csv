@@ -1,0 +1,7 @@
+﻿group,scope,all_TC,paired_TC,failure_pair,excluded
+1,All conditions; all targets,4/6,4/5,1/6,D
+2,All conditions; finite targets,2/4,2/3,1/4,D
+3,All conditions; analytic targets,2/2,2/2,0/2,None
+4,Common gap; all targets,4/4,3/3,1/4,D
+5,Common gap; finite targets,2/2,1/1,1/2,D
+6,Common gap; analytic targets,2/2,2/2,0/2,None

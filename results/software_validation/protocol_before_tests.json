@@ -1,0 +1,122 @@
+{
+  "frozen_before_tests_utc": "2026-10-05T04:32:45.768847+00:00",
+  "run_id": "03",
+  "data_type": "synthetic",
+  "role": "finite_software_contract_verification_not_E1_E2_E5_E6",
+  "source_request": "research_revision_request_v0.37 M03/M05",
+  "geometry_baseline": "exact measurement_reporting_v2; no solver or parameter change",
+  "quantity_order": [
+    "area_model",
+    "midrib_length_model",
+    "section_chord_model"
+  ],
+  "physical_output_units": [
+    "mm^2",
+    "mm",
+    "mm"
+  ],
+  "uncertainty_input_order": [
+    "area_model",
+    "midrib_length_model",
+    "section_chord_model",
+    "kappa"
+  ],
+  "tests": [
+    "analytic rectangle",
+    "rigid transform",
+    "geometric/physical square scale",
+    "mm/cm/m units",
+    "unknown/null preservation",
+    "time/frame/state binding",
+    "half-arc unit-tangent bisector including unequal adjacent segment lengths",
+    "reversing cusp/coplananr/multiple intersection refusal",
+    "one-sided area",
+    "11/33/113 vertices and 12/48/192 faces pure midpoint invariance",
+    "complete correlated 3x4 Jacobian finite difference",
+    "singular/PSD covariance and partial missing",
+    "prediction-reference correlation",
+    "conditional fixed-attempt MC rejection and quantile stability",
+    "audited v037 scale contract regression"
+  ],
+  "frozen_tolerances": {
+    "quantity_invariance_rtol": 1e-11,
+    "quantity_invariance_atol": 1e-11,
+    "pure_subdivision_rtol_atol": 1e-12,
+    "finite_difference_step": 1e-05,
+    "finite_difference_J_rtol": 1e-09,
+    "finite_difference_J_atol": 1e-08,
+    "normalized_PSD_negative_roundoff_tolerance": 1e-12,
+    "width_baseline_tolerance": "diameter*1e-9; halfarc node proximity total_arc*1e-12; reverse unit-tangent sum norm <=1e-10 rejected"
+  },
+  "MC_example": {
+    "role": "reporting_map_software_test_only",
+    "attempt_checkpoints": [
+      1000,
+      2000
+    ],
+    "seed": 173,
+    "quantile_levels": [
+      0.025,
+      0.5,
+      0.975
+    ],
+    "absolute_tolerances": [
+      1.0,
+      0.1,
+      0.1
+    ],
+    "minimum_valid_draws": 100,
+    "retry_on_failure": false,
+    "boundary_samples_retained": true,
+    "probability_model": "arbitrary stated joint synthetic Gaussian; not empirical real input model"
+  },
+  "no_real_measurement_created": true,
+  "no_real_scale_promotion": true,
+  "no_real_total_uncertainty_or_95CI": true,
+  "baseline_dependencies": {
+    "measurement_reporting_v2.py": {
+      "source_path": "source_archive/POTS-GS/work/measurement_revision_20261003_v1/measurement_core/measurement_reporting_v2.py",
+      "source_sha256": "4fb01b1c1e4d525b65282e8eb9724cb210706a67870181f5c1da77ff6d2eda7e",
+      "copy_path": "source_archive/previous_revision/code/measurement/vendor/measurement_reporting_v2.py",
+      "copy_sha256": "4fb01b1c1e4d525b65282e8eb9724cb210706a67870181f5c1da77ff6d2eda7e"
+    },
+    "scale_contract_v037.py": {
+      "source_path": "source_archive/POTS-GS/work/measurement_validation_20261005_v1/scale_contract/scale_contract.py",
+      "source_sha256": "5b48b34d1ff93c258e9c3bc13409763fc799c708af59cdcc8a1bee05eeccbf7d",
+      "copy_path": "source_archive/previous_revision/code/measurement/vendor/scale_contract_v037.py",
+      "copy_sha256": "5b48b34d1ff93c258e9c3bc13409763fc799c708af59cdcc8a1bee05eeccbf7d"
+    },
+    "test_scale_contract_v037.py": {
+      "source_path": "source_archive/POTS-GS/work/measurement_validation_20261005_v1/scale_contract/test_scale_contract.py",
+      "source_sha256": "aed0fa5ffd4ea0c5cf864526fc2add70028bb1daed0826e15afa682aa14b19c4",
+      "copy_path": "source_archive/previous_revision/code/measurement/vendor/test_scale_contract_v037.py",
+      "copy_sha256": "aed0fa5ffd4ea0c5cf864526fc2add70028bb1daed0826e15afa682aa14b19c4"
+    }
+  },
+  "F01_regression": "Current physical status follows actual conversion: reported/verified/unknown/missing quantity; physical coordinate units never inherit legacy model_unit. Geometry-only QC stays in explicit audit scope; validity is authoritative for current scale availability.",
+  "python": "source_archive/POTS-GS/.venv-batch50/Scripts/python.exe",
+  "python_version": "3.12.2",
+  "numpy_version": "2.5.3",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "code_sha256_before": {
+    "code\\measurement\\__init__.py": "4e25208d472ade99fb8df742094fbe7c28db5bf1a4c6c5408c5b97604af5d808",
+    "code\\measurement\\__main__.py": "8c3094b650db98104ce538b2c7b0ec7bdd8476fdbe54a26dfc18af6856925a3f",
+    "code\\measurement\\api.py": "44c968ac08a6308f8980d38f72534fc7ab2bac88c9e18e3cb3216f51f2adf78f",
+    "code\\measurement\\measurement_geometry.py": "28f6377bd1979069238ec9ac12298ff5cd63fe1241491d65a873930918dc1cb2",
+    "code\\measurement\\reference_adapter.py": "706e5cc13e83ce50f05d19c1337e62d25183cbb4af7d40cdf95e3ee1e0119975",
+    "code\\measurement\\scale_registry.py": "7cc2c19b94555084ef699f64c30e7ad8c5c9a62b0ded9ff6cb525616832348b3",
+    "code\\measurement\\uncertainty_engine.py": "b4ccc2f074192fdf52b98cc1f3616bb05e081a0a647a6c520fc312a8249674cd",
+    "code\\measurement\\vendor\\__init__.py": "94a42db282aa735939402cf5ab6fb54c04973752dc983e87746f10b22692f8c8",
+    "code\\measurement\\vendor\\measurement_reporting_v2.py": "4fb01b1c1e4d525b65282e8eb9724cb210706a67870181f5c1da77ff6d2eda7e",
+    "code\\measurement\\vendor\\scale_contract_v037.py": "5b48b34d1ff93c258e9c3bc13409763fc799c708af59cdcc8a1bee05eeccbf7d",
+    "code\\measurement\\vendor\\test_scale_contract_v037.py": "aed0fa5ffd4ea0c5cf864526fc2add70028bb1daed0826e15afa682aa14b19c4",
+    "code\\tests\\measurement_fixtures.py": "a00697aecc934036bc227910cd83178707a1ea36e081275e8378473203d8aed0",
+    "code\\tests\\run_measurement_contract.py": "d6bd043bbb00647786896d9d97c79e8a48694d50b33850b756043c93a8490bae",
+    "code\\tests\\test_measurement_v038.py": "0f3a60d55c9e0af16cabbc5b9c2b4b3419db1ff492dfa62ea2110dfd17d266ba"
+  }
+}

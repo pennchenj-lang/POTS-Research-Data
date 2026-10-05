@@ -1,0 +1,61 @@
+﻿stage,case_id,method,level,started_utc,wall_seconds,status,scope
+quantity_reference,curved_complementary,reference,,2026-10-05T03:58:06.235360+00:00,0.00904509995598346,computed,measurement only; no original optimizer runtime
+quantity_model,curved_complementary,POTS33,0,2026-10-05T03:58:06.244329+00:00,0.0017154000233858824,computed,measurement only; no original optimizer runtime
+quantity_model,curved_complementary,POTS33,2,2026-10-05T03:58:06.245327+00:00,0.0061304999981075525,computed,measurement only; no original optimizer runtime
+quantity_model,curved_complementary,symmetric24,0,2026-10-05T03:58:06.256007+00:00,0.0013104999670758843,computed,measurement only; no original optimizer runtime
+quantity_model,curved_complementary,symmetric24,2,2026-10-05T03:58:06.257003+00:00,0.005925400066189468,computed,measurement only; no original optimizer runtime
+quantity_model,curved_common_gap,POTS33,0,2026-10-05T03:58:06.267488+00:00,0.0015971999382600188,computed,measurement only; no original optimizer runtime
+quantity_model,curved_common_gap,POTS33,2,2026-10-05T03:58:06.269481+00:00,0.006692999973893166,computed,measurement only; no original optimizer runtime
+quantity_model,curved_common_gap,symmetric24,0,2026-10-05T03:58:06.280768+00:00,0.0013800999149680138,computed,measurement only; no original optimizer runtime
+quantity_model,curved_common_gap,symmetric24,2,2026-10-05T03:58:06.281752+00:00,0.00583320006262511,computed,measurement only; no original optimizer runtime
+quantity_reference,twisted_complementary,reference,,2026-10-05T03:58:06.292760+00:00,0.0012029000790789723,computed,measurement only; no original optimizer runtime
+quantity_model,twisted_complementary,POTS33,0,2026-10-05T03:58:06.293710+00:00,0.0012623999500647187,computed,measurement only; no original optimizer runtime
+quantity_model,twisted_complementary,POTS33,2,2026-10-05T03:58:06.294696+00:00,0.005848299944773316,computed,measurement only; no original optimizer runtime
+quantity_model,twisted_complementary,symmetric24,0,2026-10-05T03:58:06.305640+00:00,0.002459999988786876,computed,measurement only; no original optimizer runtime
+quantity_model,twisted_complementary,symmetric24,2,2026-10-05T03:58:06.307647+00:00,0.005764300003647804,computed,measurement only; no original optimizer runtime
+quantity_model,twisted_common_gap,POTS33,0,2026-10-05T03:58:06.317611+00:00,0.0014929999597370625,computed,measurement only; no original optimizer runtime
+quantity_model,twisted_common_gap,POTS33,2,2026-10-05T03:58:06.319616+00:00,0.007650500047020614,computed,measurement only; no original optimizer runtime
+quantity_model,twisted_common_gap,symmetric24,0,2026-10-05T03:58:06.331574+00:00,0.0014057999942451715,computed,measurement only; no original optimizer runtime
+quantity_model,twisted_common_gap,symmetric24,2,2026-10-05T03:58:06.332562+00:00,0.006055800011381507,computed,measurement only; no original optimizer runtime
+quantity_reference,smooth_wave_common_gap,reference,,2026-10-05T03:58:06.343533+00:00,0.0774039999814704,computed,measurement only; no original optimizer runtime
+quantity_model,smooth_wave_common_gap,POTS33,0,2026-10-05T03:58:06.421416+00:00,0.001363299903459847,computed,measurement only; no original optimizer runtime
+quantity_model,smooth_wave_common_gap,POTS33,2,2026-10-05T03:58:06.422422+00:00,0.02506720006931573,computed,measurement only; no original optimizer runtime
+quantity_model,smooth_wave_common_gap,symmetric24,0,2026-10-05T03:58:06.453337+00:00,0.0019893000135198236,computed,measurement only; no original optimizer runtime
+quantity_model,smooth_wave_common_gap,symmetric24,2,2026-10-05T03:58:06.456265+00:00,0.012715999968349934,computed,measurement only; no original optimizer runtime
+quantity_reference,smooth_twist_common_gap,reference,,2026-10-05T03:58:06.479886+00:00,0.08209909999277443,computed,measurement only; no original optimizer runtime
+quantity_model,smooth_twist_common_gap,POTS33,0,2026-10-05T03:58:06.561686+00:00,0.0013164000120013952,computed,measurement only; no original optimizer runtime
+quantity_model,smooth_twist_common_gap,POTS33,2,2026-10-05T03:58:06.562693+00:00,0.005653399974107742,computed,measurement only; no original optimizer runtime
+quantity_model,smooth_twist_common_gap,symmetric24,0,2026-10-05T03:58:06.573204+00:00,0.001332600018940866,computed,measurement only; no original optimizer runtime
+quantity_model,smooth_twist_common_gap,symmetric24,2,2026-10-05T03:58:06.574196+00:00,0.005204999935813248,computed,measurement only; no original optimizer runtime
+quantity_model,real_known_pilot,POTS33,0,2026-10-05T03:58:06.584315+00:00,0.0015835999511182308,computed,measurement only; no original optimizer runtime
+quantity_model,real_known_pilot,POTS33,2,2026-10-05T03:58:06.585300+00:00,0.006195300025865436,computed,measurement only; no original optimizer runtime
+quantity_model,real_known_pilot,symmetric24,0,2026-10-05T03:58:06.595298+00:00,0.0014939999673515558,computed,measurement only; no original optimizer runtime
+quantity_model,real_known_pilot,symmetric24,2,2026-10-05T03:58:06.597297+00:00,0.005719500011764467,computed,measurement only; no original optimizer runtime
+quantity_model,real_p01,POTS33,0,2026-10-05T03:58:06.607427+00:00,0.00142990006133914,computed,measurement only; no original optimizer runtime
+quantity_model,real_p01,POTS33,2,2026-10-05T03:58:06.608423+00:00,0.006016500061377883,computed,measurement only; no original optimizer runtime
+quantity_model,real_p01,symmetric24,0,2026-10-05T03:58:06.619031+00:00,0.0015689999563619494,computed,measurement only; no original optimizer runtime
+quantity_model,real_p01,symmetric24,2,2026-10-05T03:58:06.619999+00:00,0.006591600016690791,computed,measurement only; no original optimizer runtime
+quantity_model,real_p02,POTS33,0,2026-10-05T03:58:06.630996+00:00,0.0018415999365970492,computed,measurement only; no original optimizer runtime
+quantity_model,real_p02,POTS33,2,2026-10-05T03:58:06.632956+00:00,0.006272200029343367,computed,measurement only; no original optimizer runtime
+quantity_model,real_p02,symmetric24,0,2026-10-05T03:58:06.644481+00:00,0.0017761000199243426,computed,measurement only; no original optimizer runtime
+quantity_model,real_p02,symmetric24,2,2026-10-05T03:58:06.645477+00:00,0.0069324999349191785,computed,measurement only; no original optimizer runtime
+geometry_L0,curved_complementary,POTS33,0,2026-10-05T03:58:06.701438+00:00,0.006099499994888902,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,curved_complementary,symmetric24,0,2026-10-05T03:58:06.708415+00:00,0.007076899986714125,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,curved_common_gap,POTS33,0,2026-10-05T03:58:06.716751+00:00,0.006070600007660687,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,curved_common_gap,symmetric24,0,2026-10-05T03:58:06.722733+00:00,0.007774599944241345,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,twisted_complementary,POTS33,0,2026-10-05T03:58:06.731702+00:00,0.006514300010167062,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,twisted_complementary,symmetric24,0,2026-10-05T03:58:06.738679+00:00,0.007187600014731288,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,twisted_common_gap,POTS33,0,2026-10-05T03:58:06.746660+00:00,0.006371899973601103,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,twisted_common_gap,symmetric24,0,2026-10-05T03:58:06.754530+00:00,0.007535499986261129,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,smooth_wave_common_gap,POTS33,0,2026-10-05T03:58:06.763011+00:00,0.007959499955177307,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,smooth_wave_common_gap,symmetric24,0,2026-10-05T03:58:06.771260+00:00,0.0074486000230535865,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,smooth_twist_common_gap,POTS33,0,2026-10-05T03:58:06.780230+00:00,0.007661600015126169,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,smooth_twist_common_gap,symmetric24,0,2026-10-05T03:58:06.788203+00:00,0.00903620000462979,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,real_known_pilot,POTS33,0,2026-10-05T03:58:06.798170+00:00,0.0112927999580279,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,real_known_pilot,symmetric24,0,2026-10-05T03:58:06.810824+00:00,0.008460600045509636,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,real_p01,POTS33,0,2026-10-05T03:58:06.820258+00:00,0.006968999980017543,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,real_p01,symmetric24,0,2026-10-05T03:58:06.828242+00:00,0.007962599978782237,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,real_p02,POTS33,0,2026-10-05T03:58:06.837202+00:00,0.006932400050573051,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+geometry_L0,real_p02,symmetric24,0,2026-10-05T03:58:06.844187+00:00,0.010670199990272522,computed,66 floating-point triangle-pair checks; L2 inherited only if exact midpoint replay
+replay_original_module_total,all,both,0;2,2026-10-05T03:58:05.939045+00:00,0.4749434000113979,computed,"Includes source hash checks, quantity calls, subdivision replay, and file I/O; contains quantity rows above, do not sum nested timings."
+complete_replay_and_audit,all,both,0;2,2026-10-05T03:58:05.939045+00:00,1.0907177000772208,computed,"End-to-end run phase through evidence postcheck; excludes preparation, software interface tests and original optimizations; nested timings are not additive."

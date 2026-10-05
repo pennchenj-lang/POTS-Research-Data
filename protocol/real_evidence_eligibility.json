@@ -1,0 +1,49 @@
+{
+  "real_plants": [
+    "p00",
+    "p01",
+    "p02"
+  ],
+  "leaf_per_plant": 1,
+  "real_frozen_leaf_count": 3,
+  "real_method_output_count": 6,
+  "physical_accuracy_eligible_leaf_count": 0,
+  "repeat_annotation_groups": 0,
+  "repeat_acquisition_groups": 0,
+  "scale_status": "unknown",
+  "model_to_meters": null,
+  "independent_leaf_quantity_reference": null,
+  "original_camera_unit": "unknown_checkerboard_square",
+  "reference_layer": "none_for_this_same_leaf_same_state",
+  "reviewed_source_paths": [
+    "provenance/real/scale_binding_audit.json",
+    "source_archive/POTS-GS/work/metric_chain_20261004_v1/reference_audit/local_reference_matrix.json",
+    "source_archive/POTS-GS/work/metric_chain_20261004_v1/reference_audit/plantai_reference_semantics.json",
+    "source_archive/POTS-GS/work/ruler_audit_20261004_v1/实拍尺具提取与尺度计算.md",
+    "inputs/real/annotations/p00_review_with_confirmation.json",
+    "source_archive/POTS-GS/work/same_leaf_real_20261001_v1/received_review.json",
+    "provenance/real/p00_input_audit.json",
+    "provenance/real/source_manifest_received.json",
+    "provenance/real/protocol_before_new_real_fit.json",
+    "provenance/real/prepared_inputs_frozen_before_fit.json",
+    "provenance/real/evaluation_protocol_before_fetch.json",
+    "inputs/real/annotations/p01_p02_p03_review_export.json",
+    "inputs/real/annotations/p00_original_review.json",
+    "inputs/real/cameras/calibration_result.json",
+    "inputs/real/cameras/calibration_protocol.json",
+    "source_archive/POTS-GS/work/shape_guard_20260927_v1/real_pilot/calibrate_v3.py"
+  ],
+  "inadmissible_substitutions": [
+    "Same-photo ruler-axis ticks do not define a static 3D plant scale",
+    "Other-dataset depth/scan values cannot be assigned to these same leaves",
+    "New annotation exports or subdivision levels are not independent operators or captures",
+    "Projected masks or train-view residuals are not independent physical quantity references"
+  ],
+  "historical_exclusion": {
+    "plant_id": "p03",
+    "stage": "before_fitting",
+    "reason": "unusable review/missing T; not a new replay algorithm failure"
+  },
+  "bounded_search": "source_archive/manuscript_archive/audit/bounded_evidence_search.json",
+  "new_admitted_reference_count": 0
+}
